@@ -4,17 +4,7 @@ import path from "node:path";
 import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
-import {
-  Coffee,
-  ExternalLink,
-  Factory,
-  HeartHandshake,
-  Info,
-  MapPinPlus,
-  ScanLine,
-  Smartphone,
-  Wallet,
-} from "lucide-react";
+import { Coffee, ExternalLink, Factory, HeartHandshake, MapPinPlus, ScanLine, Smartphone, Wallet } from "lucide-react";
 import { donations, site } from "@/config/site";
 import { getPublishedRecords } from "@/data-access/catalog";
 import { getRegion } from "@/domain/territory";
