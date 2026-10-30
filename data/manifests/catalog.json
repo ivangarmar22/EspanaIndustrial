@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-25T16:27:59.467Z",
+  "records": 178,
+  "published": 178,
+  "catalogSha256": "1e8cdef8243f6ca229ccd9474a214f3ec8d74ea3f646782d574017bebcf06426",
+  "sources": {
+    "ministerio-cultura": {
+      "retrievedAt": "2026-10-25T16:20:52.535Z",
+      "contentHash": "31c5c3f9b3f6d3d16a8a60cd416bdb4a91838c14c2ea9573364c69e87eaa9199"
+    },
+    "cartociudad": {
+      "retrievedAt": "2026-10-25T12:18:33.611Z",
+      "contentHash": "b8c3d94c233d903664f46da34ed76ff635d926f60d3ff5598847db7b8df22b84"
+    },
+    "wikidata": {
+      "retrievedAt": "2026-10-25T16:24:49.645Z",
+      "contentHash": "3425a2447380d4f2962fba3b19aaf8dc2b5e62e5df838afd662ca7f2434ee969"
+    },
+    "wikimedia-commons": {
+      "retrievedAt": "2026-10-25T16:24:53.236Z",
+      "contentHash": "ff2cc06d74578950e4b5e8602d5ce8f6ff4465d0fdb0abc777e6e75423b8d56b"
+    }
+  }
+}

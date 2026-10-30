@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>IPCE-Patrimonio Industrial Espana</name>
+    <description/>
+    
+    <Folder><name>Andalucia, Extremadura</name><Placemark>
+        <name>An-01/
+FÁBRICA ARTILLERÍA      
+Real Fábrica de Artillería de Sevilla
+Avda de Eduardo Dato 18, Sevilla
+</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZigV6BJmvAmSzz7PXXjQv5y5MTMxv1TlZsryAZBXk30IWHNelOAf6vkfoCRySQKIFh-hnDsT8bxHBrfbCdSW183aJ1OdcEnos4Ts2zsuN6ufIf0L9vqhbCxQJPFgTJnDw7k26CjVpe4bpgT6L6qZ9lMnGvqiwHttQwqLTGQIAJHGfjFSBfNyIpcf8v7Px-T0UAm4lOT0hMFHw?fife=s16383" height="200" width="auto" /><br><br>Fábrica de  Armas , 1720-1916<br>.........................................................................................<br>La Fábrica de Bronces de Sevilla se funda en 1565 como taller de armas por la familia Morel. En 1634 pasa a ser propiedad de la Real Hacienda. En 1782 durante el reinado de Carlos III, el arquitecto Vicente San Martín, entre otros, la configuran como un conjunto monumental, convirtiéndose en la fábrica principal de municiones para la coloniza-ción española de América. Durante los siglos XVIII y XIX fue una de las principales fábricas de Europa. <br>Configuración: estructura de cuarteles tipo militar con patios. Calle urbana interior. Crujías perime-trales de bóvedas vaídas con óculos centrales en piedra. Nave central con lucernarios de torretas de ventilación. Naves del patio cubierto.<br>FICHA:<br>https://drive.google.com/file/d/1eDDWBIh2OReKiJLTbVB15Uiil4WJVBRA/view?usp=sharing<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhg5cXMJ51vKjWNVySbNbltOb3CIm8nyUlctctif-Xd3wSSIQwX0ctIARb3PBT5ow0Fw8Mpsks9eoiKJ5cGJdB2W9eHFWB7fdDplhPZ1nO_PxrwLLDe2rDM6gcIusje1eSin5trvkT_Ozse1Fw5AsD9kTRBPEiNajN5vFpfhsVIc53ePd3ac-vRDMWXJFEA7NFrs0ZYjNRD-w?fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjgseKajaP3kmYkseQg2y4BCvHBvxIsRlg7I89uwbDiDB-NQjm4dgolMoIteJ537eMXDNJ2zF9ha0dzZ36vpomJ9QoCrAV7e8tn7opnYYPqo_vrtiZFOSqdmu8HXOSAFbK6YfLzj8stlfDZnKGyxt4HNm2BL0DkUPmeMooB6eD0Fgv_hk-i8ewsoB0xdXUGKsVjTf2Cv4NqyA?fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhPVT-FI4zxVwHCrvH9830-NgAS4m8YUqc1eKkGrUjPCi9bOPQUYKO3NPIsaZu3rewTJXxy3aD8bZs_69iPKuIgw6MZ04nU5Fvty0D4vBqeBzZaVjgRJJOxnutfy1t8m6qub8_8jTgGIzeHw4dXo3EjcjtFrqaeh2mxIGW-oh-s5EFoTuc3vdKvjysT5OHA4KkR7eV6RBFnhA?fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1565-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZigV6BJmvAmSzz7PXXjQv5y5MTMxv1TlZsryAZBXk30IWHNelOAf6vkfoCRySQKIFh-hnDsT8bxHBrfbCdSW183aJ1OdcEnos4Ts2zsuN6ufIf0L9vqhbCxQJPFgTJnDw7k26CjVpe4bpgT6L6qZ9lMnGvqiwHttQwqLTGQIAJHGfjFSBfNyIpcf8v7Px-T0UAm4lOT0hMFHw?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhg5cXMJ51vKjWNVySbNbltOb3CIm8nyUlctctif-Xd3wSSIQwX0ctIARb3PBT5ow0Fw8Mpsks9eoiKJ5cGJdB2W9eHFWB7fdDplhPZ1nO_PxrwLLDe2rDM6gcIusje1eSin5trvkT_Ozse1Fw5AsD9kTRBPEiNajN5vFpfhsVIc53ePd3ac-vRDMWXJFEA7NFrs0ZYjNRD-w?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjgseKajaP3kmYkseQg2y4BCvHBvxIsRlg7I89uwbDiDB-NQjm4dgolMoIteJ537eMXDNJ2zF9ha0dzZ36vpomJ9QoCrAV7e8tn7opnYYPqo_vrtiZFOSqdmu8HXOSAFbK6YfLzj8stlfDZnKGyxt4HNm2BL0DkUPmeMooB6eD0Fgv_hk-i8ewsoB0xdXUGKsVjTf2Cv4NqyA?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhPVT-FI4zxVwHCrvH9830-NgAS4m8YUqc1eKkGrUjPCi9bOPQUYKO3NPIsaZu3rewTJXxy3aD8bZs_69iPKuIgw6MZ04nU5Fvty0D4vBqeBzZaVjgRJJOxnutfy1t8m6qub8_8jTgGIzeHw4dXo3EjcjtFrqaeh2mxIGW-oh-s5EFoTuc3vdKvjysT5OHA4KkR7eV6RBFnhA?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -5.9815,37.383968,0
+          </coordinates>
+        </Point>
+      </Placemark></Folder><Folder><name>Castilla y Leon/ La Rioja</name><Placemark>
+        <name>CyL-18/A 
+FFCC F DE S ESTEBAN-FREGENEDA Línea férrea Fuente de san Esteban-La Fregeneda: Estación de tren de La Fregeneda-Valdenoguera
+</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgW5LpWOfZ-tpZTuQJdxqhv5jfbzDYBCz0Jis_S3rNrVKlUQbRZ0dWgCTWaRvi5pgFEhDO7Fe9WQlZNqmNFPqSQPVJeWCO7MYBz8bBN0If91PcbSJKE0pmzXknA02ymsNie2M0EmYS3PkePJE4kLu8KrDLCAipeWW2j-VimmarBZTUKhFRijCS05weyg5i9vL6BmEKEwoDeug?fife=s16383" height="200" width="auto" /><br><br>Linea de FFCC (tramo español:  BIC),  1883-1887<br>(Estacion de La Fregeneda-Valdenoguera)<br>.........................................................................................<br>En 1883 se prolonga la línea del Duero hasta Barca de Alba en la frontera portuguesa y ya en España se realiza el tramo hasta la Fregeneda. Tramo protegido: La Fuente de San Esteban- La Fregeneda, unos 65 kilómetros de la antigua línea férrea con estaciones en La Fuente de San Esteban (o Boadilla) y en La Fregeneda.<br>FICHA:<br>https://drive.google.com/file/d/15gXN54l-dcT56nV3dBojaHx01f3y2k4f/view?usp=sharing<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjB4Vsh5Pp3ugjmMPK6nmTQaeX_yiATfttFrpz9m6XaZMZ4EGVwQP1YjA7KoTRZYjciny5sY2hxdXlpo4tr7b_5u3T3hHCEss-anGKOy1x6tVCrB76PFNeWvPT5vjiT7jD7Dl5dPFh0kPsEAKKTDK1dxfwODxfagmjgGCr7s_X3zO_tUb6ShH1zEV4sC1AyHQ4b0AangJhSzA?fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhhuxNmzjov9a45y2nnAelaRXa8AKjAt-9afWBXV92HGWGYWzdXXEOtj0aEmQJPgI4kFL9nmnk6YlY4yA9Tcy0aO2cs0Qs6TArw7WiOkMR7CKrin6j8bnqmYRoqAok3f0wY8h73aATrMxjndapoktD31vYOc0j32Hsvzfn6lxVmctouxO5vKTq-5k5cTk-554-2Wt0bYLF-Fg?fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1717-C2185B</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgW5LpWOfZ-tpZTuQJdxqhv5jfbzDYBCz0Jis_S3rNrVKlUQbRZ0dWgCTWaRvi5pgFEhDO7Fe9WQlZNqmNFPqSQPVJeWCO7MYBz8bBN0If91PcbSJKE0pmzXknA02ymsNie2M0EmYS3PkePJE4kLu8KrDLCAipeWW2j-VimmarBZTUKhFRijCS05weyg5i9vL6BmEKEwoDeug?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjB4Vsh5Pp3ugjmMPK6nmTQaeX_yiATfttFrpz9m6XaZMZ4EGVwQP1YjA7KoTRZYjciny5sY2hxdXlpo4tr7b_5u3T3hHCEss-anGKOy1x6tVCrB76PFNeWvPT5vjiT7jD7Dl5dPFh0kPsEAKKTDK1dxfwODxfagmjgGCr7s_X3zO_tUb6ShH1zEV4sC1AyHQ4b0AangJhSzA?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhhuxNmzjov9a45y2nnAelaRXa8AKjAt-9afWBXV92HGWGYWzdXXEOtj0aEmQJPgI4kFL9nmnk6YlY4yA9Tcy0aO2cs0Qs6TArw7WiOkMR7CKrin6j8bnqmYRoqAok3f0wY8h73aATrMxjndapoktD31vYOc0j32Hsvzfn6lxVmctouxO5vKTq-5k5cTk-554-2Wt0bYLF-Fg?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -6.8371962,40.9891898,0
+          </coordinates>
+        </Point>
+      </Placemark></Folder><Folder><name>Cataluña, Aragón</name><Placemark>
+        <name>CAT-05-A/
+FÁBRICA SEDÓ                   
+(Hoy: Museu de la Colònia Sedó)
+C/ Continuas s/n, Esparraguera, BCN
+
+</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjj1y_M2kRhZ3j5niZbNOA2az_kUJwEvZ2wrraSnf0y5QanMUtdXHxAcUEWrbWwOhBiqS467fS_1Zh1PGamPmVsW1_Xaw2GcjlmdhYC5s6aH0XDYcJX8I5e-R-46IGus56zIdifiZp5Hg9BmNb_ViE7XR2IGI3ZMv9tcJNbV-S1WqhMDleB2rRnfgdKZkLdvbO4n9r71-Ff6g?fife=s16383" height="200" width="auto" /><br><br>Fabrica (aqui) y Colonia de obreros (ref.CAT-05B), 1846 y posteriores<br>.........................................................................................<br>La Colonia Sedó se creó junto a una fábrica<br>de tejidos de lana, en Esparraguera, Barcelona,<br>por Miguel Puig Catasús. La colonia fue iniciada por el hijo del fundador de la fábrica en 1863 y terminada por su sustituto Antonio Sedó, que dio nombre al complejo. El conjunto está formado por la fábrica textil construida en 1846, varias chimeneas, una de ellas helicoidal y un acueducto de 4 km con un desnivel de 40 m.<br>FICHA:<br>https://drive.google.com/file/d/1WrMupKtRTIvFw3XAzRcGLyrZUZDCa9eh/view?usp=sharing<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZh1CHsQHmogWHl5KIcyuCsZQsAvaI9d5s2Ey4Br4g4a7uVY9ahVcGpjXDN2qqhT4ROr-rNjFlHaOmb0llZuiM5BqmE4Eu2wRpUFY4QsTnTuVY-Zw3j6QZEfjoQCYxF1GG3FrXBLnvYRlosxN1I4v7iP_9067Vw4b9pGf77d24RXdcHCADq6KBahfYx1evlLeImZkt8qIQrKeQ?fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1565-E65100</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjj1y_M2kRhZ3j5niZbNOA2az_kUJwEvZ2wrraSnf0y5QanMUtdXHxAcUEWrbWwOhBiqS467fS_1Zh1PGamPmVsW1_Xaw2GcjlmdhYC5s6aH0XDYcJX8I5e-R-46IGus56zIdifiZp5Hg9BmNb_ViE7XR2IGI3ZMv9tcJNbV-S1WqhMDleB2rRnfgdKZkLdvbO4n9r71-Ff6g?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZh1CHsQHmogWHl5KIcyuCsZQsAvaI9d5s2Ey4Br4g4a7uVY9ahVcGpjXDN2qqhT4ROr-rNjFlHaOmb0llZuiM5BqmE4Eu2wRpUFY4QsTnTuVY-Zw3j6QZEfjoQCYxF1GG3FrXBLnvYRlosxN1I4v7iP_9067Vw4b9pGf77d24RXdcHCADq6KBahfYx1evlLeImZkt8qIQrKeQ?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.8721766,41.5484476,0
+          </coordinates>
+        </Point>
+      </Placemark><Placemark>
+        <name>CAT-05-B/
+COLONIA SEDÓ:                   
+Pza. Sta. Eulalia 1, Esparraguerra, Barcelona</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjr9aBQJo2xnhgSgokaz84zk4BeyHzj6j_KK_fiQHwQQTpD7SNAvLR0N-gNWIJhQceqxnnBnJNIu-ardIGG0-NwGt7nxqA8OfzpxD7XcbAjG_EkqBfV_OW8f6kNQdmtJBt9n0m2Be9VxdqV-nBi3yjE15hmvR3U_rYuiwgtBFfEMXMnkX7eR0aYaX-5x-kWUcJjTE8QwBkX4g?fife=s16383" height="200" width="auto" /><br><br>Colonia de obreros (aqui) y Fábrica (ref CAT-05A), 1846 y posteriores<br>.........................................................................................<br>La Colonia Sedó se creó junto a una fábrica<br>de tejidos de lana, en Esparraguera, Barcelona,<br>por Miguel Puig Catasús. La colonia fue iniciada por el hijo del fundador de la fábrica en 1863 y terminada por su sustituto Antonio Sedó, que dio nombre al complejo. La colonia  está distribuida en 7 calles paralelas, con viviendas de planta baja y dos pisos para los obreros, una iglesia,<br>escuelas, un dispensario y casino.<br>FICHA:<br>https://drive.google.com/file/d/1WrMupKtRTIvFw3XAzRcGLyrZUZDCa9eh/view?usp=sharing<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgYIC0j1Zl5NkY82vQ-e4-fGz9qhkFo8wC0gDM-kRFqCLmYD5XxQ3AGuZNF-of9BcFcDbLK3WXF_2R08OzjDOwGZT-ItRC7NyYicokQvL2fObKv39sUlyNzfOVBgvUXUyvIeSgLO-z4FLahUJeAa7jqUou_L5CXeFmepFxTuYs_i8KUuf5VJoSpffy7lB2T_eFRrAgkVFsdHA?fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1566-E65100</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjr9aBQJo2xnhgSgokaz84zk4BeyHzj6j_KK_fiQHwQQTpD7SNAvLR0N-gNWIJhQceqxnnBnJNIu-ardIGG0-NwGt7nxqA8OfzpxD7XcbAjG_EkqBfV_OW8f6kNQdmtJBt9n0m2Be9VxdqV-nBi3yjE15hmvR3U_rYuiwgtBFfEMXMnkX7eR0aYaX-5x-kWUcJjTE8QwBkX4g?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgYIC0j1Zl5NkY82vQ-e4-fGz9qhkFo8wC0gDM-kRFqCLmYD5XxQ3AGuZNF-of9BcFcDbLK3WXF_2R08OzjDOwGZT-ItRC7NyYicokQvL2fObKv39sUlyNzfOVBgvUXUyvIeSgLO-z4FLahUJeAa7jqUou_L5CXeFmepFxTuYs_i8KUuf5VJoSpffy7lB2T_eFRrAgkVFsdHA?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.872205,41.550676,0
+          </coordinates>
+        </Point>
+      </Placemark></Folder><Folder><name>Pais Vasco, Navarra</name><Placemark>
+        <name>PV_07/
+ESTACION LA CONCORDIA.  Estación de ffcc La Concordia, Bilbao (Vizcaya)
+</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiIfUYYjglaqLumEi_GVF0d4-QxdsIkErIokTd0aOkFdzvxmdVVdZaPhUsmYPT5MhurC2S6hBoOd49HIaXWXzkuSTJvswIefTfxfLJ5dy30n7m5n7IyXVIyKBPW6-wY1Pp4npgvmWQiaMCzwtl84xDOwmse5ix3Bj6k8XDLTswp-FXbxE7Z2qxuvFvjmb2cBwMZKMcqUpMCpA?fife=s16383" height="200" width="auto" /><br><br>Estacion de Ferrocarril La Concordia, 1898-actual<br>...........................................................................................<br>Consta de un edificio de dos alturas con depen-dencias propias del servicio de atención a los viajeros, y en planta superior las vías, con dos andenes. Disponía de un puente giratorio. Un pabellón interior y otro edificio cierra la estación, con las oficinas y las dependencias de servicio.<br>FICHA:<br>https://drive.google.com/drive/folders/1O_8SBsFX68oO8uLUTX2P9GNmdOogzwtT?usp=sharing<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhbkHKDtydqEg3ABxJOYRi8gKrq7F8j5u3RhISnSoy_ISqVlnv40QnQLESRmoGU4hHRTxfiHLr-OjkdR4lbnpdcxveSSHLRnc99iJHSNF3YalFkMWrIkjs7in0I2Hr1LMPVPrnYWavIiKEW7jiYs1Q9ukFkN1GdcqoYAaC-t0dQDrGWPJfjmUFW68_UKcGP0oYmjNBOaXoMJA?fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjqu0ynI1l4Ln73gjbVXfgWp9ilSSQfo62C5CTmnAsYDbH9aSRXZpVBlWp-FFfiCqaKLZDO_u8K1c2bs2SJabXdoFBKauoNLqGhQOaVyN2CJIcKOizPLAKQAQf-wb_Ro7jVBpu9QV_aqk6usL0AiHngfs_Slz_U3RmOe7qhpE838w4z68D7eEfvV_oT9lCQiQjt-t2ZOBhR8A?fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgz8usWCXxzxGRvSqyRgr8LE7fCUYk_VFl3wKG3fIZI7PTvJFs3B9fpavfSRrNlhWf5h94eclh2mLZchNrQpr8T-vRS2wTKlxv__HoIIIDqLaIpZqaKpJ_t8ihmGfxGibsFFh574H5oBhRnzQrbriZGGSIOoAeWVNWfifPgWDBX9zjxGPlXwERhjHPj3Pj0-yXAu07hPFxkOA?fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhtJlu_bd1ay6Xh-PGNi4pfhVOaQ-vte9O49SSs6FrXg-YZ5cx0T7xAHTT6HSG2ZRBkv67TQbQiFgLh7_28JnFBLsmD2vjWPGyunS_DNL7Y-LMCWBw_jIieJuQqvXodM2Z8zStJQgBADou-ikY2Pj7KiotcbT0WaSQxvGw-CSDYNG1lrfSCE-CSdDWzswD5OiNQB-EHPv695A?fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1717-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiIfUYYjglaqLumEi_GVF0d4-QxdsIkErIokTd0aOkFdzvxmdVVdZaPhUsmYPT5MhurC2S6hBoOd49HIaXWXzkuSTJvswIefTfxfLJ5dy30n7m5n7IyXVIyKBPW6-wY1Pp4npgvmWQiaMCzwtl84xDOwmse5ix3Bj6k8XDLTswp-FXbxE7Z2qxuvFvjmb2cBwMZKMcqUpMCpA?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhbkHKDtydqEg3ABxJOYRi8gKrq7F8j5u3RhISnSoy_ISqVlnv40QnQLESRmoGU4hHRTxfiHLr-OjkdR4lbnpdcxveSSHLRnc99iJHSNF3YalFkMWrIkjs7in0I2Hr1LMPVPrnYWavIiKEW7jiYs1Q9ukFkN1GdcqoYAaC-t0dQDrGWPJfjmUFW68_UKcGP0oYmjNBOaXoMJA?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjqu0ynI1l4Ln73gjbVXfgWp9ilSSQfo62C5CTmnAsYDbH9aSRXZpVBlWp-FFfiCqaKLZDO_u8K1c2bs2SJabXdoFBKauoNLqGhQOaVyN2CJIcKOizPLAKQAQf-wb_Ro7jVBpu9QV_aqk6usL0AiHngfs_Slz_U3RmOe7qhpE838w4z68D7eEfvV_oT9lCQiQjt-t2ZOBhR8A?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZgz8usWCXxzxGRvSqyRgr8LE7fCUYk_VFl3wKG3fIZI7PTvJFs3B9fpavfSRrNlhWf5h94eclh2mLZchNrQpr8T-vRS2wTKlxv__HoIIIDqLaIpZqaKpJ_t8ihmGfxGibsFFh574H5oBhRnzQrbriZGGSIOoAeWVNWfifPgWDBX9zjxGPlXwERhjHPj3Pj0-yXAu07hPFxkOA?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhtJlu_bd1ay6Xh-PGNi4pfhVOaQ-vte9O49SSs6FrXg-YZ5cx0T7xAHTT6HSG2ZRBkv67TQbQiFgLh7_28JnFBLsmD2vjWPGyunS_DNL7Y-LMCWBw_jIieJuQqvXodM2Z8zStJQgBADou-ikY2Pj7KiotcbT0WaSQxvGw-CSDYNG1lrfSCE-CSdDWzswD5OiNQB-EHPv695A?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.9265165,43.2600484,0
+          </coordinates>
+        </Point>
+      </Placemark></Folder><Folder><name>LEYENDA</name><Placemark><name>Fábrica</name><styleUrl>#icon-1565-000000-nodesc</styleUrl><Point><coordinates>-3,40,0</coordinates></Point></Placemark></Folder></Document></kml>

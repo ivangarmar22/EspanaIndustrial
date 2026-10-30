@@ -1,0 +1,6378 @@
+{
+  "sourceId": "wikidata",
+  "retrievedAt": "2026-10-25T16:24:49.645Z",
+  "contentHash": "3425a2447380d4f2962fba3b19aaf8dc2b5e62e5df838afd662ca7f2434ee969",
+  "data": {
+    "AN-01": {
+      "queriedPoint": "37.383968,-5.981500",
+      "decision": "auto",
+      "qid": "Q12201032",
+      "candidates": [
+        {
+          "qid": "Q12201032",
+          "label": "Real Fábrica de Artillería de Sevilla",
+          "distanceM": 43,
+          "similarity": 1
+        },
+        {
+          "qid": "Q97642538",
+          "label": "Naves Industriales de la Real Fábrica de Artillería",
+          "distanceM": 56,
+          "similarity": 0.47
+        }
+      ],
+      "entity": {
+        "qid": "Q12201032",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Real Fábrica de Artillería de Sevilla",
+        "description": "bien de interés cultural",
+        "point": {
+          "lat": 37.38366454,
+          "lon": -5.981798572
+        },
+        "inception": {
+          "time": "+1796-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0008189",
+        "iaph": "i19287",
+        "image": "Fábrica de artillería 2024An773.jpg",
+        "eswiki": "Real Fábrica de Artillería de Sevilla"
+      }
+    },
+    "AN-02": {
+      "queriedPoint": "36.720706,-4.380961",
+      "decision": "auto",
+      "qid": "Q5709684",
+      "candidates": [
+        {
+          "qid": "Q5709684",
+          "label": "Astilleros Nereo",
+          "distanceM": 198,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q5709684",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Astilleros Nereo",
+        "description": "astillero de embarcaciones tradicionales en Málaga, España",
+        "point": {
+          "lat": 36.72088,
+          "lon": -4.37875
+        },
+        "inception": {
+          "time": "+1961-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Astilleros Nereo.jpg",
+        "eswiki": "Astilleros Nereo"
+      }
+    },
+    "AN-03": {
+      "queriedPoint": "38.217294,-3.692227",
+      "decision": "none",
+      "candidates": []
+    },
+    "AN-04": {
+      "queriedPoint": "37.692311,-6.596019",
+      "decision": "auto",
+      "qid": "Q107487430",
+      "candidates": [
+        {
+          "qid": "Q107487430",
+          "label": "Paisaje minero de Riotinto",
+          "distanceM": 116,
+          "similarity": 1
+        },
+        {
+          "qid": "Q108690842",
+          "label": "Parque Minero de Riotinto",
+          "distanceM": 144,
+          "similarity": 0.62
+        },
+        {
+          "qid": "Q923830",
+          "label": "Minas de Riotinto",
+          "distanceM": 319,
+          "similarity": 0.5
+        },
+        {
+          "qid": "Q1143168",
+          "label": "Cuenca Minera",
+          "distanceM": 944,
+          "similarity": 0.5
+        },
+        {
+          "qid": "Q97628315",
+          "label": "Museo Minero de Riotinto",
+          "distanceM": 111,
+          "similarity": 0.48
+        }
+      ],
+      "entity": {
+        "qid": "Q107487430",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Paisaje minero de Riotinto",
+        "description": "Paisaje cultural de la provincia de Huelva, España",
+        "point": {
+          "lat": 37.693319749,
+          "lon": -6.596345649
+        },
+        "image": "IAPH 70 0034793.tif"
+      }
+    },
+    "AN-05": {
+      "queriedPoint": "36.680518,-6.142782",
+      "decision": "auto",
+      "qid": "Q97616470",
+      "candidates": [
+        {
+          "qid": "Q97616470",
+          "label": "Bodegas Tío Pepe",
+          "distanceM": 31,
+          "similarity": 1
+        },
+        {
+          "qid": "Q97620130",
+          "label": "Jardines de las Bodegas González Byass",
+          "distanceM": 129,
+          "similarity": 0.67
+        },
+        {
+          "qid": "Q131190962",
+          "label": "Gran Bodega Tío Pepe",
+          "distanceM": 56,
+          "similarity": 0.52
+        }
+      ],
+      "entity": {
+        "qid": "Q97616470",
+        "heritageStatus": [
+          "Q98019286"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Bodegas Tío Pepe",
+        "description": "bodega subterránea, patrimonio histórico de Andalucía de importancia arquitectónica en Jerez de la Frontera, España",
+        "point": {
+          "lat": 36.68029926,
+          "lon": -6.142569127
+        },
+        "iaph": "i1332",
+        "image": "Bodegas Tío Pepe IMG 20230214 175224.jpg"
+      }
+    },
+    "AN-06": {
+      "queriedPoint": "37.192839,-3.642886",
+      "decision": "auto",
+      "qid": "Q77600426",
+      "candidates": [
+        {
+          "qid": "Q77600426",
+          "label": "Azucarera de San Isidro",
+          "distanceM": 64,
+          "similarity": 0.7
+        }
+      ],
+      "entity": {
+        "qid": "Q77600426",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Azucarera de San Isidro",
+        "description": "patrimonio histórico de Andalucía de importancia arquitectónica en Granada, España",
+        "point": {
+          "lat": 37.19277,
+          "lon": -3.64217
+        },
+        "inception": {
+          "time": "+1901-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "iaph": "i21770",
+        "image": "Azucarera de San Isidro e Ingenio de San Juan torre.jpg",
+        "eswiki": "Azucarera de San Isidro"
+      }
+    },
+    "AN-07": {
+      "queriedPoint": "36.831993,-2.463483",
+      "decision": "auto",
+      "qid": "Q8254482",
+      "candidates": [
+        {
+          "qid": "Q8254482",
+          "label": "Cargadero de mineral El Alquife",
+          "distanceM": 20,
+          "similarity": 1
+        },
+        {
+          "qid": "Q5738249",
+          "label": "Cable Francés",
+          "distanceM": 491,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q8254482",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Cargadero de mineral El Alquife",
+        "description": "cargadero de mineral en Almería",
+        "point": {
+          "lat": 36.8321531347724,
+          "lon": -2.46337497704109
+        },
+        "inception": {
+          "time": "+1902-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0010222",
+        "iaph": "i2036",
+        "image": "20220813 Cable Inglés de Almería.jpg",
+        "eswiki": "Cable Inglés"
+      }
+    },
+    "AN-08": {
+      "queriedPoint": "37.904224,-4.730086",
+      "decision": "auto",
+      "qid": "Q17629725",
+      "candidates": [
+        {
+          "qid": "Q17629725",
+          "label": "Fábrica de cervezas El Águila",
+          "distanceM": 164,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q17629725",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Fábrica de cervezas El Águila",
+        "description": "fábrica, patrimonio histórico de Andalucía de importancia arquitectónica en Córdoba, España",
+        "point": {
+          "lat": 37.9033598805745,
+          "lon": -4.72857223738067
+        },
+        "inception": {
+          "time": "+1961-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "iaph": "i23477",
+        "eswiki": "Fábrica de cervezas El Águila (Córdoba)"
+      }
+    },
+    "AN-09": {
+      "queriedPoint": "36.746602,-3.529553",
+      "decision": "auto",
+      "qid": "Q97605429",
+      "candidates": [
+        {
+          "qid": "Q97605429",
+          "label": "Fábrica Azucarera Nuestra Señora del Pilar",
+          "distanceM": 51,
+          "similarity": 0.87
+        },
+        {
+          "qid": "Q97604587",
+          "label": "Fábrica Nuestra Señora de la Cabeza",
+          "distanceM": 1083,
+          "similarity": 0.5
+        }
+      ],
+      "entity": {
+        "qid": "Q97605429",
+        "heritageStatus": [
+          "Q98019286"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Fábrica Azucarera Nuestra Señora del Pilar",
+        "description": "edificio industrial, patrimonio histórico de Andalucía de importancia arquitectónica y etnológica en Motril, España",
+        "point": {
+          "lat": 36.7468079069,
+          "lon": -3.52904327932
+        },
+        "inception": {
+          "time": "+1882-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "iaph": "i48",
+        "image": "Motril - Espacio cultural Almacén del Azúcar (antigua Azucarera N. S. del Pilar) 5.jpg",
+        "eswiki": "Fábrica Azucarera Nuestra Señora del Pilar"
+      }
+    },
+    "AN-10": {
+      "queriedPoint": "36.521438,-4.954986",
+      "decision": "auto",
+      "qid": "Q8196768",
+      "candidates": [
+        {
+          "qid": "Q8196768",
+          "label": "Altos hornos de Marbella",
+          "distanceM": 31,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q8196768",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Altos hornos de Marbella",
+        "description": "siderurgia española del siglo xix",
+        "point": {
+          "lat": 36.521239,
+          "lon": -4.955228
+        },
+        "inception": {
+          "time": "+1828-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "iaph": "i187515",
+        "eswiki": "Altos hornos de Marbella"
+      }
+    },
+    "AN-11": {
+      "queriedPoint": "36.609999,-5.170566",
+      "decision": "auto",
+      "qid": "Q6101919",
+      "candidates": [
+        {
+          "qid": "Q6101919",
+          "label": "Real Fábrica de Hojalata de Júzcar",
+          "distanceM": 1,
+          "similarity": 1
+        },
+        {
+          "qid": "Q126206186",
+          "label": "Infraestructura hidráulica de la  Real Fábrica De Hojalata",
+          "distanceM": 31,
+          "similarity": 0.39
+        },
+        {
+          "qid": "Q23984956",
+          "label": "Júzcar",
+          "distanceM": 1605,
+          "similarity": 0.35
+        },
+        {
+          "qid": "Q911202",
+          "label": "Júzcar",
+          "distanceM": 1708,
+          "similarity": 0.35
+        },
+        {
+          "qid": "Q23984956",
+          "label": "Júzcar",
+          "distanceM": 1732,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q6101919",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Real Fábrica de Hojalata de Júzcar",
+        "description": "fábrica en Júzcar, España",
+        "point": {
+          "lat": 36.60999,
+          "lon": -5.17056
+        },
+        "inception": {
+          "time": "+1731-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "iaph": "i187481",
+        "eswiki": "Real Fábrica de Hojalata de San Miguel"
+      }
+    },
+    "AN-12": {
+      "queriedPoint": "36.468923,-6.182384",
+      "decision": "candidate",
+      "qid": "Q131922383",
+      "candidates": [
+        {
+          "qid": "Q131922383",
+          "label": "Parque de bomberos de Puerto Real",
+          "distanceM": 740,
+          "similarity": 0.42
+        }
+      ],
+      "entity": {
+        "qid": "Q131922383",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Parque de bomberos de Puerto Real",
+        "description": "parque de bomberos en Puerto Real, España",
+        "point": {
+          "lat": 36.46988888888889,
+          "lon": -6.174194444444445
+        },
+        "image": "Puerto-Real P1500851.jpg"
+      }
+    },
+    "AN-13": {
+      "queriedPoint": "38.294179,-5.271218",
+      "decision": "auto",
+      "qid": "Q98060685",
+      "candidates": [
+        {
+          "qid": "Q98060685",
+          "label": "Cerco Industrial",
+          "distanceM": 331,
+          "similarity": 0.63
+        },
+        {
+          "qid": "Q98060890",
+          "label": "Estación de Peñarroya",
+          "distanceM": 371,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q98060685",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Cerco Industrial",
+        "description": "mina, patrimonio histórico de Andalucía en Peñarroya-Pueblonuevo, España",
+        "point": {
+          "lat": 38.29708218186521,
+          "lon": -5.270384471968391
+        },
+        "inception": {
+          "time": "+1881-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "iaph": "i190305",
+        "image": "La fundición de Peñarroya Pueblonuevo y la estación de la vía estrecha (25495283624).jpg",
+        "eswiki": "Cerco Industrial (Peñarroya-Pueblonuevo)"
+      }
+    },
+    "AN-14": {
+      "queriedPoint": "38.224648,-3.974948",
+      "decision": "none",
+      "candidates": []
+    },
+    "AN-15": {
+      "queriedPoint": "36.706641,-4.495720",
+      "decision": "auto",
+      "qid": "Q5918613",
+      "candidates": [
+        {
+          "qid": "Q5918613",
+          "label": "Industrias Textiles del Guadalhorce",
+          "distanceM": 0,
+          "similarity": 1
+        },
+        {
+          "qid": "Q959331",
+          "label": "apeadero de Guadalhorce",
+          "distanceM": 1944,
+          "similarity": 0.38
+        }
+      ],
+      "entity": {
+        "qid": "Q5918613",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Industrias Textiles del Guadalhorce",
+        "description": "complejo industrial y logístico en Málaga",
+        "point": {
+          "lat": 36.706641,
+          "lon": -4.49572
+        },
+        "inception": {
+          "time": "+1959-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Site of Intelhorce.jpg",
+        "eswiki": "Intelhorce"
+      }
+    },
+    "AN-16": {
+      "queriedPoint": "37.399589,-5.979671",
+      "decision": "auto",
+      "qid": "Q97648424",
+      "candidates": [
+        {
+          "qid": "Q97648424",
+          "label": "Fábrica de vidrio La Trinidad",
+          "distanceM": 20,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q97648424",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Fábrica de vidrio La Trinidad",
+        "description": "fábrica, patrimonio histórico de Andalucía de importancia arquitectónica y etnológica en Sevilla, España",
+        "point": {
+          "lat": 37.3997217307092,
+          "lon": -5.97952267478722
+        },
+        "inception": {
+          "time": "+1902-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "iaph": "i8145",
+        "image": "Fabrica de Vidrio La Trinidad de Sevilla, fachada principal.jpg"
+      }
+    },
+    "AN-17": {
+      "queriedPoint": "37.582924,-3.302901",
+      "decision": "auto",
+      "qid": "Q5637104",
+      "candidates": [
+        {
+          "qid": "Q5637104",
+          "label": "Puente del Hacho",
+          "distanceM": 191,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q5637104",
+        "heritageStatus": [
+          "Q23712",
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Puente del Hacho",
+        "description": "puente metálico de ferrocarril patrimonio histórico de Andalucía, España",
+        "point": {
+          "lat": 37.5846352386451,
+          "lon": -3.30310461258638
+        },
+        "inception": {
+          "time": "+1898-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "iaph": "i155",
+        "image": "Puente del Hacho.jpg",
+        "eswiki": "Puente del Hacho"
+      }
+    },
+    "AR-01": {
+      "queriedPoint": "41.654033,-0.893697",
+      "decision": "auto",
+      "qid": "Q5714362",
+      "candidates": [
+        {
+          "qid": "Q5714362",
+          "label": "Fundición Averly",
+          "distanceM": 46,
+          "similarity": 1
+        },
+        {
+          "qid": "Q52388058",
+          "label": "Paseo María Agustín",
+          "distanceM": 155,
+          "similarity": 0.4
+        }
+      ],
+      "entity": {
+        "qid": "Q5714362",
+        "heritageStatus": [
+          "Q69873044",
+          "Q26934132"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Fundición Averly",
+        "description": "fundición en Aragón, España",
+        "point": {
+          "lat": 41.65445,
+          "lon": -0.89373
+        },
+        "inception": {
+          "time": "+1880-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Fundicion Averly Zaragoza 2.jpg",
+        "eswiki": "Averly"
+      }
+    },
+    "AR-02": {
+      "queriedPoint": "41.637500,-0.881667",
+      "decision": "auto",
+      "qid": "Q54860819",
+      "candidates": [
+        {
+          "qid": "Q54860819",
+          "label": "Fábrica de Cervezas La Zaragozana",
+          "distanceM": 4,
+          "similarity": 1
+        },
+        {
+          "qid": "Q115628308",
+          "label": "Zaragoza",
+          "distanceM": 458,
+          "similarity": 0.67
+        },
+        {
+          "qid": "Q54908687",
+          "label": "Museo de la cerveza La Zaragozana",
+          "distanceM": 4,
+          "similarity": 0.43
+        },
+        {
+          "qid": "Q134840207",
+          "label": "Duende de Zaragoza",
+          "distanceM": 522,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q54860819",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Fábrica de Cervezas La Zaragozana",
+        "description": "edificio industrial en Zaragoza",
+        "point": {
+          "lat": 41.637518,
+          "lon": -0.881709
+        },
+        "inception": {
+          "time": "+1936-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "AR-03": {
+      "queriedPoint": "41.319415,-0.358680",
+      "decision": "auto",
+      "qid": "Q20014755",
+      "candidates": [
+        {
+          "qid": "Q20014755",
+          "label": "Electro Metalúrgica del Ebro",
+          "distanceM": 105,
+          "similarity": 1
+        },
+        {
+          "qid": "Q20014755",
+          "label": "Electro Metalúrgica del Ebro",
+          "distanceM": 551,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q20014755",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Electro Metalúrgica del Ebro",
+        "description": "empresa de España",
+        "point": {
+          "lat": 41.319657,
+          "lon": -0.357467
+        },
+        "inception": {
+          "time": "+1907-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Oficinas de la central hidroeléctrica, Sástago, Zaragoza, España, 2015-12-23, DD 44.jpg",
+        "eswiki": "Electro Metalúrgica del Ebro"
+      }
+    },
+    "AR-04": {
+      "queriedPoint": "42.478173,0.436796",
+      "decision": "auto",
+      "qid": "Q126097013",
+      "candidates": [
+        {
+          "qid": "Q126097013",
+          "label": "Central Hidroeléctrica El Run",
+          "distanceM": 0,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126097013",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Central Hidroeléctrica El Run",
+        "description": "central hidroeléctrica en Huesca, España",
+        "point": {
+          "lat": 42.478173,
+          "lon": 0.436796
+        },
+        "inception": {
+          "time": "+1914-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "AR-05": {
+      "queriedPoint": "41.763649,-0.818009",
+      "decision": "auto",
+      "qid": "Q126096231",
+      "candidates": [
+        {
+          "qid": "Q126096231",
+          "label": "Fábrica de Harinas Polo",
+          "distanceM": 50,
+          "similarity": 1
+        },
+        {
+          "qid": "Q24019787",
+          "label": "Villanueva de Gállego",
+          "distanceM": 587,
+          "similarity": 0.37
+        },
+        {
+          "qid": "Q24019787",
+          "label": "Villanueva de Gállego",
+          "distanceM": 764,
+          "similarity": 0.37
+        },
+        {
+          "qid": "Q1639259",
+          "label": "Villanueva de Gállego",
+          "distanceM": 866,
+          "similarity": 0.37
+        }
+      ],
+      "entity": {
+        "qid": "Q126096231",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Fábrica de Harinas Polo",
+        "description": "fábrica en Aragón, España",
+        "point": {
+          "lat": 41.764045,
+          "lon": -0.817733
+        },
+        "inception": {
+          "time": "+1920-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "AR-06": {
+      "queriedPoint": "41.476501,-1.488553",
+      "decision": "auto",
+      "qid": "Q126131409",
+      "candidates": [
+        {
+          "qid": "Q126131409",
+          "label": "Fábrica de cementos Portland",
+          "distanceM": 188,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126131409",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Fábrica de cementos Portland",
+        "description": "fábrica en Zaragoza, España",
+        "point": {
+          "lat": 41.476501,
+          "lon": -1.48855264
+        },
+        "inception": {
+          "time": "+1932-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Cementera de Morata de Jalón, Zaragoza, España, 2015-01-05, DD 08.JPG"
+      }
+    },
+    "AR-07": {
+      "queriedPoint": "41.639488,-0.864968",
+      "decision": "auto",
+      "qid": "Q126126659",
+      "candidates": [
+        {
+          "qid": "Q126126659",
+          "label": "Fábrica de Material Eléctrico Giesa",
+          "distanceM": 20,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126126659",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Fábrica de Material Eléctrico Giesa",
+        "description": "fábrica en Zaragoza, España",
+        "point": {
+          "lat": 41.639665,
+          "lon": -0.865021
+        },
+        "inception": {
+          "time": "+1914-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "AR-08": {
+      "queriedPoint": "41.027457,-0.558995",
+      "decision": "auto",
+      "qid": "Q126131609",
+      "candidates": [
+        {
+          "qid": "Q126131609",
+          "label": "Paisaje minero de Val de Ariño",
+          "distanceM": 0,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126131609",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Paisaje minero de Val de Ariño",
+        "description": "mina en Teruel, España",
+        "point": {
+          "lat": 41.027457,
+          "lon": -0.558995
+        },
+        "inception": {
+          "time": "+1916-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "AR-09": {
+      "queriedPoint": "41.657346,-0.909447",
+      "decision": "auto",
+      "qid": "Q801660",
+      "candidates": [
+        {
+          "qid": "Q801660",
+          "label": "estación de Zaragoza-Delicias",
+          "distanceM": 206,
+          "similarity": 0.79
+        },
+        {
+          "qid": "Q55368265",
+          "label": "Estación Central de Autobuses de Zaragoza",
+          "distanceM": 267,
+          "similarity": 0.46
+        },
+        {
+          "qid": "Q50286261",
+          "label": "Estación de Delicias-Caminreal",
+          "distanceM": 11,
+          "similarity": 0.4
+        }
+      ],
+      "entity": {
+        "qid": "Q801660",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "estación de Zaragoza-Delicias",
+        "description": "estación de tren y de autobuses en Zaragoza",
+        "point": {
+          "lat": 41.658661,
+          "lon": -0.9112
+        },
+        "image": "Tren Zaragoza.JPG",
+        "eswiki": "Estación de Zaragoza-Delicias"
+      }
+    },
+    "AR-10": {
+      "queriedPoint": "41.345766,-1.637339",
+      "decision": "auto",
+      "qid": "Q5715157",
+      "candidates": [
+        {
+          "qid": "Q5715157",
+          "label": "Fábrica de Azúcar Labradora",
+          "distanceM": 3,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q5715157",
+        "heritageStatus": [
+          "Q26934132"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Fábrica de Azúcar Labradora",
+        "description": "edificio industrial en Calatayud",
+        "point": {
+          "lat": 41.345745,
+          "lon": -1.637353
+        },
+        "inception": {
+          "time": "+1899-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Antigua azucarera labradora, Calatayud, España, 2016-06-21, DD 09.jpg",
+        "eswiki": "Azucarera Labradora (Calatayud)"
+      }
+    },
+    "AR-11": {
+      "queriedPoint": "42.738543,-0.520611",
+      "decision": "candidate",
+      "qid": "Q56371783",
+      "candidates": [
+        {
+          "qid": "Q56371783",
+          "label": "Central y Contrapresa IP de Canfranc",
+          "distanceM": 641,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q56371783",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Central y Contrapresa IP de Canfranc",
+        "description": "central hidroeléctrica en Aragón, España",
+        "point": {
+          "lat": 42.743361111111,
+          "lon": -0.51630555555556
+        },
+        "inception": {
+          "time": "+1945-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "AR-12": {
+      "queriedPoint": "40.347764,-1.117144",
+      "decision": "auto",
+      "qid": "Q126125519",
+      "candidates": [
+        {
+          "qid": "Q126125519",
+          "label": "Chimenea de la Resinera El Carmen",
+          "distanceM": 0,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126125519",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Chimenea de la Resinera El Carmen",
+        "description": "chimenea en Teruel, España",
+        "point": {
+          "lat": 40.347764,
+          "lon": -1.117144
+        },
+        "inception": {
+          "time": "+1902-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "AR-13": {
+      "queriedPoint": "42.751387,-0.514204",
+      "decision": "auto",
+      "qid": "Q800612",
+      "candidates": [
+        {
+          "qid": "Q800612",
+          "label": "Estación Internacional de Canfranc",
+          "distanceM": 3,
+          "similarity": 1
+        },
+        {
+          "qid": "Q13049756",
+          "label": "Canfranc-Estación",
+          "distanceM": 145,
+          "similarity": 0.8
+        },
+        {
+          "qid": "Q13049756",
+          "label": "Canfranc-Estación",
+          "distanceM": 205,
+          "similarity": 0.8
+        },
+        {
+          "qid": "Q95675533",
+          "label": "Embalse de Canfranc",
+          "distanceM": 1315,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q800612",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Estación Internacional de Canfranc",
+        "description": "estación de ferrocarril en Huesca, cerca de la frontera con Francia",
+        "point": {
+          "lat": 42.75138888888889,
+          "lon": -0.5141666666666667
+        },
+        "bic": "RI-51-0007294",
+        "image": "Vista general de la façana de l'Estació Internacional de Canfranc 01.JPG",
+        "eswiki": "Estación Internacional de Canfranc"
+      }
+    },
+    "AR-14": {
+      "queriedPoint": "40.850995,-1.337513",
+      "decision": "candidate",
+      "qid": "Q5845923",
+      "candidates": [
+        {
+          "qid": "Q5845923",
+          "label": "estación de Caminreal-Fuentes Claras",
+          "distanceM": 23,
+          "similarity": 0.56
+        },
+        {
+          "qid": "Q24015156",
+          "label": "Caminreal",
+          "distanceM": 1758,
+          "similarity": 0.45
+        },
+        {
+          "qid": "Q24015156",
+          "label": "Caminreal",
+          "distanceM": 1770,
+          "similarity": 0.45
+        },
+        {
+          "qid": "Q1653275",
+          "label": "Caminreal",
+          "distanceM": 1968,
+          "similarity": 0.45
+        }
+      ],
+      "entity": {
+        "qid": "Q5845923",
+        "heritageStatus": [
+          "Q26934132"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "estación de Caminreal-Fuentes Claras",
+        "description": "estación en Teruel, España",
+        "point": {
+          "lat": 40.8512,
+          "lon": -1.3375
+        },
+        "inception": {
+          "time": "+1933-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Estacion Caminreal - Roberto Abizanda.jpg",
+        "eswiki": "Estación de Caminreal-Fuentes Claras"
+      }
+    },
+    "AR-15": {
+      "queriedPoint": "41.817420,-0.170714",
+      "decision": "auto",
+      "qid": "Q126094951",
+      "candidates": [
+        {
+          "qid": "Q126094951",
+          "label": "Harinera de Monegros",
+          "distanceM": 0,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126094951",
+        "heritageStatus": [
+          "Q26934132"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Harinera de Monegros",
+        "description": "fábrica en Huesca, España",
+        "point": {
+          "lat": 41.81742,
+          "lon": -0.170714
+        },
+        "inception": {
+          "time": "+1940-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "AR-16": {
+      "queriedPoint": "42.398639,-0.501093",
+      "decision": "auto",
+      "qid": "Q126132089",
+      "candidates": [
+        {
+          "qid": "Q126132089",
+          "label": "Harinera La Dolores",
+          "distanceM": 0,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126132089",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Harinera La Dolores",
+        "description": "fábrica en Huesca, España",
+        "point": {
+          "lat": 42.398639,
+          "lon": -0.501093
+        },
+        "inception": {
+          "time": "+1894-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "WLM14ES - 18082011 131814 PIR SEL 1169 - .jpg"
+      }
+    },
+    "AR-17": {
+      "queriedPoint": "41.189555,-1.511001",
+      "decision": "auto",
+      "qid": "Q126126476",
+      "candidates": [
+        {
+          "qid": "Q126126476",
+          "label": "Molinos de la Real Fábrica de Pólvora de Villafeliche",
+          "distanceM": 10,
+          "similarity": 1
+        },
+        {
+          "qid": "Q104184275",
+          "label": "Reales Fábricas de Pólvora de Villafeliche",
+          "distanceM": 784,
+          "similarity": 0.58
+        }
+      ],
+      "entity": {
+        "qid": "Q126126476",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Molinos de la Real Fábrica de Pólvora de Villafeliche",
+        "description": "molinos en Villafeliche, España",
+        "point": {
+          "lat": 41.189639,
+          "lon": -1.511045
+        },
+        "bic": "RI-54-0000220"
+      }
+    },
+    "AR-18": {
+      "queriedPoint": "40.715350,-1.524448",
+      "decision": "auto",
+      "qid": "Q126131779",
+      "candidates": [
+        {
+          "qid": "Q126131779",
+          "label": "Paisaje Minero de Sierra Menera",
+          "distanceM": 0,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126131779",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Paisaje Minero de Sierra Menera",
+        "description": "mina en Guadalajara, España",
+        "point": {
+          "lat": 40.71535,
+          "lon": -1.524448
+        },
+        "inception": {
+          "time": "+1906-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "AR-19": {
+      "queriedPoint": "42.465767,0.001822",
+      "decision": "auto",
+      "qid": "Q126125454",
+      "candidates": [
+        {
+          "qid": "Q126125454",
+          "label": "Puente Colgante de Jánovas",
+          "distanceM": 15,
+          "similarity": 1
+        },
+        {
+          "qid": "Q9016893",
+          "label": "Jánovas",
+          "distanceM": 412,
+          "similarity": 0.44
+        },
+        {
+          "qid": "Q102249216",
+          "label": "Embalse de Jánovas",
+          "distanceM": 8,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q126125454",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Puente Colgante de Jánovas",
+        "description": "puente en Huesca, España",
+        "point": {
+          "lat": 42.465902,
+          "lon": 0.001843
+        },
+        "inception": {
+          "time": "+1881-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Janovas - panoramio.jpg"
+      }
+    },
+    "AS-00": {
+      "queriedPoint": "43.365376,-5.837711",
+      "decision": "candidate",
+      "qid": "Q57497405",
+      "candidates": [
+        {
+          "qid": "Q57497405",
+          "label": "Fábrica de Armas de La Vega",
+          "distanceM": 31,
+          "similarity": 0.56
+        },
+        {
+          "qid": "Q5872075",
+          "label": "Fábrica de gas de Oviedo",
+          "distanceM": 341,
+          "similarity": 0.39
+        }
+      ],
+      "entity": {
+        "qid": "Q57497405",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Fábrica de Armas de La Vega",
+        "description": "antigua fábrica de Oviedo",
+        "point": {
+          "lat": 43.365649,
+          "lon": -5.837636
+        },
+        "inception": {
+          "time": "+1856-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Fábrica de Armas de la Vega.JPG",
+        "eswiki": "Fábrica de armas de La Vega"
+      }
+    },
+    "AS-01": {
+      "queriedPoint": "43.345591,-5.973254",
+      "decision": "auto",
+      "qid": "Q5872066",
+      "candidates": [
+        {
+          "qid": "Q5872066",
+          "label": "Fábrica de armas de Trubia",
+          "distanceM": 123,
+          "similarity": 0.72
+        },
+        {
+          "qid": "Q135448650",
+          "label": "estación de Trubia (fábrica de armas)",
+          "distanceM": 194,
+          "similarity": 0.48
+        },
+        {
+          "qid": "Q54809153",
+          "label": "Trubia",
+          "distanceM": 264,
+          "similarity": 0.43
+        },
+        {
+          "qid": "Q624765",
+          "label": "Trubia",
+          "distanceM": 1206,
+          "similarity": 0.43
+        }
+      ],
+      "entity": {
+        "qid": "Q5872066",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Fábrica de armas de Trubia",
+        "description": "fabrica española dedicada a la producción en el sector de la defensa",
+        "point": {
+          "lat": 43.34488333,
+          "lon": -5.97441667
+        },
+        "inception": {
+          "time": "+1794-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Fabrica de Truvia.jpg",
+        "eswiki": "Fábrica de armas de Trubia"
+      }
+    },
+    "AS-02": {
+      "queriedPoint": "43.577475,-5.975591",
+      "decision": "candidate",
+      "qid": "Q6388610",
+      "candidates": [
+        {
+          "qid": "Q6388610",
+          "label": "Arnao",
+          "distanceM": 213,
+          "similarity": 0.42
+        }
+      ],
+      "entity": {
+        "qid": "Q6388610",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Arnao",
+        "description": "lugar de la parroquia de Laspra, concejo de Castrillón, Asturias, España",
+        "point": {
+          "lat": 43.57583333,
+          "lon": -5.97694444
+        },
+        "eswiki": "Arnao"
+      }
+    },
+    "AS-03": {
+      "queriedPoint": "43.541125,-5.672647",
+      "decision": "auto",
+      "qid": "Q5560428",
+      "candidates": [
+        {
+          "qid": "Q5560428",
+          "label": "estación de Gijón",
+          "distanceM": 447,
+          "similarity": 1
+        },
+        {
+          "qid": "Q113118042",
+          "label": "Estación del Norte",
+          "distanceM": 6,
+          "similarity": 0.75
+        },
+        {
+          "qid": "Q97177210",
+          "label": "Estación de autobuses de Gijón",
+          "distanceM": 514,
+          "similarity": 0.52
+        },
+        {
+          "qid": "Q978738",
+          "label": "Estación de El Humedal",
+          "distanceM": 464,
+          "similarity": 0.41
+        }
+      ],
+      "entity": {
+        "qid": "Q5560428",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "estación de Gijón",
+        "description": "estación principal de ferrocarril en Gijón, España",
+        "point": {
+          "lat": 43.53775,
+          "lon": -5.675666666666666
+        },
+        "image": "Estacion-Gijon-Sanz-Crespo-150913.jpg",
+        "eswiki": "Estación de Gijón"
+      }
+    },
+    "AS-04": {
+      "queriedPoint": "43.492937,-5.424036",
+      "decision": "auto",
+      "qid": "Q125925948",
+      "candidates": [
+        {
+          "qid": "Q125925948",
+          "label": "Fábrica de Sidra El Gaitero",
+          "distanceM": 94,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q125925948",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Fábrica de Sidra El Gaitero",
+        "description": "fábrica y museo en Asturias",
+        "point": {
+          "lat": 43.493781,
+          "lon": -5.423937
+        },
+        "inception": {
+          "time": "+1896-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Fábrica de Sidra El Gaitero.jpg"
+      }
+    },
+    "AS-05": {
+      "queriedPoint": "43.213942,-5.717926",
+      "decision": "auto",
+      "qid": "Q126193995",
+      "candidates": [
+        {
+          "qid": "Q126193995",
+          "label": "Paisaje minero del Valle del Turón",
+          "distanceM": 27,
+          "similarity": 0.82
+        }
+      ],
+      "entity": {
+        "qid": "Q126193995",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Paisaje minero del Valle del Turón",
+        "description": "conjunto de minas en Mieres, España",
+        "point": {
+          "lat": 43.213853,
+          "lon": -5.718239
+        },
+        "inception": {
+          "time": "+1867-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "AS-06": {
+      "queriedPoint": "43.280819,-5.622041",
+      "decision": "auto",
+      "qid": "Q6083826",
+      "candidates": [
+        {
+          "qid": "Q6083826",
+          "label": "Pozo Sotón",
+          "distanceM": 100,
+          "similarity": 1
+        },
+        {
+          "qid": "Q818368",
+          "label": "San Martín del Rey Aurelio",
+          "distanceM": 929,
+          "similarity": 0.58
+        },
+        {
+          "qid": "Q125553710",
+          "label": "El Sotón",
+          "distanceM": 43,
+          "similarity": 0.42
+        },
+        {
+          "qid": "Q18224898",
+          "label": "estación de tren de San Martín (San Martín del Rey Aurelio)",
+          "distanceM": 610,
+          "similarity": 0.4
+        },
+        {
+          "qid": "Q24939797",
+          "label": "Museo de la Memoria de San Martín del Rey Aurelio",
+          "distanceM": 72,
+          "similarity": 0.38
+        }
+      ],
+      "entity": {
+        "qid": "Q6083826",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Pozo Sotón",
+        "description": "explotación de carbón en España",
+        "point": {
+          "lat": 43.280556,
+          "lon": -5.620856
+        },
+        "inception": {
+          "time": "+1917-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Pozo Sotón.jpg",
+        "eswiki": "Pozo Sotón"
+      }
+    },
+    "AS-07": {
+      "queriedPoint": "43.236111,-6.847778",
+      "decision": "candidate",
+      "qid": "Q659299",
+      "candidates": [
+        {
+          "qid": "Q659299",
+          "label": "embalse de Salime",
+          "distanceM": 0,
+          "similarity": 1
+        },
+        {
+          "qid": "Q46481097",
+          "label": "Salto y central hidroeléctrica de Grandas de Salime",
+          "distanceM": 193,
+          "similarity": 1
+        },
+        {
+          "qid": "Q125925973",
+          "label": "Salto y Central hidroeléctrica de Grandas de Salime",
+          "distanceM": 207,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q659299",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "embalse de Salime",
+        "description": "embalse sobre el cauce del río Navia, España",
+        "point": {
+          "lat": 43.236111111111,
+          "lon": -6.8477777777778
+        },
+        "inception": {
+          "time": "+1954-01-01T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Embalse de Salime.jpg",
+        "eswiki": "Embalse de Salime"
+      },
+      "acceptedEntity": {
+        "qid": "Q46481097",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Salto y central hidroeléctrica de Grandas de Salime",
+        "description": "central hidroeléctrica en Asturias, España",
+        "point": {
+          "lat": 43.237083333333,
+          "lon": -6.8458055555556
+        },
+        "inception": {
+          "time": "+1953-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Alto de Grandas de Salime.jpg"
+      }
+    },
+    "AS-08": {
+      "queriedPoint": "43.555780,-5.898471",
+      "decision": "auto",
+      "qid": "Q126132569",
+      "candidates": [
+        {
+          "qid": "Q126132569",
+          "label": "Conjunto industrial de Ensidesa",
+          "distanceM": 0,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126132569",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Conjunto industrial de Ensidesa",
+        "description": "fábrica en Avilés, España",
+        "point": {
+          "lat": 43.5557804,
+          "lon": -5.8984714
+        },
+        "inception": {
+          "time": "+1957-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Conjunto industrial de Ensidesa.jpg"
+      }
+    },
+    "AS-09": {
+      "queriedPoint": "43.362756,-5.841277",
+      "decision": "auto",
+      "qid": "Q5872075",
+      "candidates": [
+        {
+          "qid": "Q5872075",
+          "label": "Fábrica de gas de Oviedo",
+          "distanceM": 78,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q5872075",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Fábrica de gas de Oviedo",
+        "description": "edificio en Asturias (España)",
+        "point": {
+          "lat": 43.363,
+          "lon": -5.840375
+        },
+        "inception": {
+          "time": "+1857-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Calle Paraiso - Fábrica de Gas de Oviedo.jpg",
+        "eswiki": "Fábrica de gas de Oviedo"
+      }
+    },
+    "AS-10": {
+      "queriedPoint": "43.261281,-5.673602",
+      "decision": "auto",
+      "qid": "Q126133477",
+      "candidates": [
+        {
+          "qid": "Q126133477",
+          "label": "Pozo San Luis",
+          "distanceM": 86,
+          "similarity": 1
+        },
+        {
+          "qid": "Q116180278",
+          "label": "castillete del pozo San Luis",
+          "distanceM": 26,
+          "similarity": 0.5
+        }
+      ],
+      "entity": {
+        "qid": "Q126133477",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Pozo San Luis",
+        "description": "conjunto minero en Langreo, España",
+        "point": {
+          "lat": 43.262052,
+          "lon": -5.673569
+        },
+        "inception": {
+          "time": "+1925-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Pozu San Luis (06).jpg"
+      }
+    },
+    "CA-01": {
+      "queriedPoint": "28.027845,-15.399139",
+      "decision": "auto",
+      "qid": "Q126149684",
+      "candidates": [
+        {
+          "qid": "Q126149684",
+          "label": "Noria de Jinámar",
+          "distanceM": 14,
+          "similarity": 1
+        },
+        {
+          "qid": "Q128508227",
+          "label": "Jinámar",
+          "distanceM": 546,
+          "similarity": 0.47
+        },
+        {
+          "qid": "Q5931255",
+          "label": "Jinámar",
+          "distanceM": 849,
+          "similarity": 0.47
+        },
+        {
+          "qid": "Q28120986",
+          "label": "Playa de Jinámar",
+          "distanceM": 587,
+          "similarity": 0.4
+        },
+        {
+          "qid": "Q23984909",
+          "label": "Punta Jinámar",
+          "distanceM": 1092,
+          "similarity": 0.4
+        }
+      ],
+      "entity": {
+        "qid": "Q126149684",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Noria de Jinámar",
+        "description": "instalación hidráulica en Telde, España",
+        "point": {
+          "lat": 28.027821,
+          "lon": -15.399279
+        },
+        "inception": {
+          "time": "+1850-00-00T00:00:00Z",
+          "precision": 8
+        }
+      }
+    },
+    "CA-02": {
+      "queriedPoint": "28.001317,-15.420823",
+      "decision": "auto",
+      "qid": "Q126150171",
+      "candidates": [
+        {
+          "qid": "Q126150171",
+          "label": "Azucarera de San Juan",
+          "distanceM": 0,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126150171",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Azucarera de San Juan",
+        "description": "fábrica en Telde, España",
+        "point": {
+          "lat": 28.001317,
+          "lon": -15.420823
+        },
+        "inception": {
+          "time": "+1883-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "CA-03": {
+      "queriedPoint": "28.457335,-16.256165",
+      "decision": "auto",
+      "qid": "Q98890563",
+      "candidates": [
+        {
+          "qid": "Q98890563",
+          "label": "Espacio Cultural El Tanque",
+          "distanceM": 3,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q98890563",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Espacio Cultural El Tanque",
+        "description": "bien de interés cultural",
+        "point": {
+          "lat": 28.457361111111112,
+          "lon": -16.256166666666665
+        },
+        "inception": {
+          "time": "+1949-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "CAT-01": {
+      "queriedPoint": "41.528678,1.684101",
+      "decision": "auto",
+      "qid": "Q125157218",
+      "candidates": [
+        {
+          "qid": "Q125157218",
+          "label": "Molino de papel de la Vila de la Costa",
+          "distanceM": 9,
+          "similarity": 1
+        },
+        {
+          "qid": "Q942216",
+          "label": "Museo del Molino Papelero de Capellades",
+          "distanceM": 9,
+          "similarity": 0.46
+        }
+      ],
+      "entity": {
+        "qid": "Q125157218",
+        "heritageStatus": [
+          "Q1019352"
+        ],
+        "retrievedAt": "2026-10-25T16:24:46.334Z",
+        "label": "Molino de papel de la Vila de la Costa",
+        "description": "molino situado en Capellades, España",
+        "point": {
+          "lat": 41.52861111111111,
+          "lon": 1.6841666666666666
+        },
+        "inception": {
+          "time": "+1634-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "ipac": "4408",
+        "image": "Bassa de Capellades 1.jpg"
+      }
+    },
+    "CAT-02": {
+      "queriedPoint": "41.959606,2.635202",
+      "decision": "auto",
+      "qid": "Q126183288",
+      "candidates": [
+        {
+          "qid": "Q126183288",
+          "label": "Máquina de vapor de Industrias Burés",
+          "distanceM": 0,
+          "similarity": 1
+        },
+        {
+          "qid": "Q11923330",
+          "label": "Complejo industrial Burés",
+          "distanceM": 90,
+          "similarity": 0.36
+        }
+      ],
+      "entity": {
+        "qid": "Q126183288",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Máquina de vapor de Industrias Burés",
+        "description": "máquina de vapor en Gerona, España",
+        "point": {
+          "lat": 41.959606,
+          "lon": 2.635202
+        },
+        "inception": {
+          "time": "+1903-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "CAT-03": {
+      "queriedPoint": "41.565446,2.007280",
+      "decision": "auto",
+      "qid": "Q45892565",
+      "candidates": [
+        {
+          "qid": "Q45892565",
+          "label": "Vapor Aymerich, Amat y Jover",
+          "distanceM": 64,
+          "similarity": 1
+        },
+        {
+          "qid": "Q55873004",
+          "label": "xemeneia del Vapor Aymerich, Amat i Jover",
+          "distanceM": 78,
+          "similarity": 0.69
+        }
+      ],
+      "entity": {
+        "qid": "Q45892565",
+        "heritageStatus": [
+          "Q1019352"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Vapor Aymerich, Amat y Jover",
+        "description": "edificio en Tarrasa",
+        "point": {
+          "lat": 41.565414,
+          "lon": 2.008052
+        },
+        "inception": {
+          "time": "+1907-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "ipac": "28214",
+        "image": "089 Vapor Aymerich, Amat i Jover (Terrassa).jpg",
+        "eswiki": "Vapor Aymerich, Amat y Jover"
+      }
+    },
+    "CAT-05": {
+      "queriedPoint": "41.548448,1.872177",
+      "decision": "auto",
+      "qid": "Q11914805",
+      "candidates": [
+        {
+          "qid": "Q11914805",
+          "label": "Colonia Sedó",
+          "distanceM": 265,
+          "similarity": 1
+        },
+        {
+          "qid": "Q137755979",
+          "label": "Plàtans de la Colònia Sedó",
+          "distanceM": 119,
+          "similarity": 0.55
+        },
+        {
+          "qid": "Q47186313",
+          "label": "Palanca de la Colònia Sedó",
+          "distanceM": 265,
+          "similarity": 0.55
+        },
+        {
+          "qid": "Q19367615",
+          "label": "Aqüeducte de la Colònia Sedó",
+          "distanceM": 106,
+          "similarity": 0.5
+        },
+        {
+          "qid": "Q130662365",
+          "label": "plàtans del Passeig de la Colònia Sedó",
+          "distanceM": 230,
+          "similarity": 0.4
+        }
+      ],
+      "entity": {
+        "qid": "Q11914805",
+        "heritageStatus": [
+          "Q28034408",
+          "Q11910250"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Colonia Sedó",
+        "point": {
+          "lat": 41.550819,
+          "lon": 1.871912
+        },
+        "inception": {
+          "time": "+1846-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "ipac": "33316",
+        "image": "082 Colònia Sedó, des del camí de les Hortes (Esparreguera).JPG",
+        "eswiki": "Colonia Sedó"
+      }
+    },
+    "CAT-06": {
+      "queriedPoint": "41.356093,2.064680",
+      "decision": "auto",
+      "qid": "Q21849463",
+      "candidates": [
+        {
+          "qid": "Q21849463",
+          "label": "Central de bombeo de la Sociedad de Aguas de Barcelona",
+          "distanceM": 23,
+          "similarity": 0.78
+        }
+      ],
+      "entity": {
+        "qid": "Q21849463",
+        "heritageStatus": [
+          "Q11910250"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Central de bombeo de la Sociedad de Aguas de Barcelona",
+        "point": {
+          "lat": 41.356284,
+          "lon": 2.064577
+        },
+        "inception": {
+          "time": "+1909-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "ipac": "18461",
+        "image": "Amargos-Cornella-EstacioAigues-2555sh.jpg"
+      }
+    },
+    "CAT-07": {
+      "queriedPoint": "41.723521,1.815133",
+      "decision": "auto",
+      "qid": "Q11923346",
+      "candidates": [
+        {
+          "qid": "Q11923346",
+          "label": "Fábrica de paños Cal Miralda",
+          "distanceM": 10,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q11923346",
+        "heritageStatus": [
+          "Q23712",
+          "Q1019352"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Fábrica de paños Cal Miralda",
+        "description": "fábrica en Manresa, España",
+        "point": {
+          "lat": 41.7235,
+          "lon": 1.81501
+        },
+        "inception": {
+          "time": "+1818-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0012329",
+        "ipac": "16640",
+        "image": "Manresa - Fàbrica dels Panyos.JPG"
+      }
+    },
+    "CAT-07/2": {
+      "queriedPoint": "41.016539,0.512617",
+      "decision": "none",
+      "candidates": []
+    },
+    "CAT-08": {
+      "queriedPoint": "42.260255,1.978478",
+      "decision": "auto",
+      "qid": "Q8200935",
+      "candidates": [
+        {
+          "qid": "Q8200935",
+          "label": "Fábrica de cemento de Clot del Moro.",
+          "distanceM": 75,
+          "similarity": 0.81
+        }
+      ],
+      "entity": {
+        "qid": "Q8200935",
+        "heritageStatus": [
+          "Q23712",
+          "Q1019352"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Fábrica de cemento de Clot del Moro.",
+        "description": "fábrica situada en Barcelona, España",
+        "point": {
+          "lat": 42.260815,
+          "lon": 1.977963
+        },
+        "inception": {
+          "time": "+1901-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0011355",
+        "ipac": "3229",
+        "image": "CastellarHug-FabricaAsland-8085.jpg",
+        "eswiki": "Antigua fábrica de Cemento Asland (Castellar de Nuch)"
+      }
+    },
+    "CAT-09": {
+      "queriedPoint": "41.161314,0.762697",
+      "decision": "candidate",
+      "qid": "Q126183231",
+      "candidates": [
+        {
+          "qid": "Q126183231",
+          "label": "Paisaje de las minas de plomo de Bellmunt del Priorat",
+          "distanceM": 8,
+          "similarity": 0.79
+        },
+        {
+          "qid": "Q11936825",
+          "label": "Mines de Bellmunt del Priorat",
+          "distanceM": 262,
+          "similarity": 0.77
+        },
+        {
+          "qid": "Q126596633",
+          "label": "Bellmunt del Priorat",
+          "distanceM": 413,
+          "similarity": 0.67
+        },
+        {
+          "qid": "Q1233531",
+          "label": "Bellmunt del Priorato",
+          "distanceM": 363,
+          "similarity": 0.58
+        },
+        {
+          "qid": "Q126827423",
+          "label": "casa consistorial de Bellmunt del Priorat",
+          "distanceM": 369,
+          "similarity": 0.38
+        }
+      ],
+      "entity": {
+        "qid": "Q126183231",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Paisaje de las minas de plomo de Bellmunt del Priorat",
+        "description": "minas en Tarragona, España",
+        "point": {
+          "lat": 41.161381,
+          "lon": 0.762726
+        }
+      }
+    },
+    "CAT-10": {
+      "queriedPoint": "41.906863,1.674777",
+      "decision": "candidate",
+      "qid": "Q22970043",
+      "candidates": [
+        {
+          "qid": "Q22970043",
+          "label": "Museo de la Sal de Cardona",
+          "distanceM": 1043,
+          "similarity": 0.5
+        },
+        {
+          "qid": "Q31613",
+          "label": "Montaña de sal de Cardona",
+          "distanceM": 368,
+          "similarity": 0.48
+        },
+        {
+          "qid": "Q19255371",
+          "label": "Puerta de Barcelona (Cardona)",
+          "distanceM": 1119,
+          "similarity": 0.39
+        },
+        {
+          "qid": "Q24002472",
+          "label": "Cardona",
+          "distanceM": 823,
+          "similarity": 0.37
+        },
+        {
+          "qid": "Q16683",
+          "label": "Cardona",
+          "distanceM": 959,
+          "similarity": 0.37
+        }
+      ],
+      "entity": {
+        "qid": "Q22970043",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Museo de la Sal de Cardona",
+        "point": {
+          "lat": 41.91408317471998,
+          "lon": 1.6828174739189126
+        },
+        "eswiki": "Museo de la Sal de Cardona"
+      }
+    },
+    "CAT-11": {
+      "queriedPoint": "41.362749,2.027429",
+      "decision": "none",
+      "candidates": []
+    },
+    "CAT-12": {
+      "queriedPoint": "42.466661,0.990583",
+      "decision": "candidate",
+      "qid": "Q17043816",
+      "candidates": [
+        {
+          "qid": "Q17043816",
+          "label": "Museo Hidroelèctrica de Capdella",
+          "distanceM": 4,
+          "similarity": 0.48
+        },
+        {
+          "qid": "Q76337399",
+          "label": "Central hidroelèctrica de Capdella",
+          "distanceM": 63,
+          "similarity": 0.46
+        }
+      ],
+      "entity": {
+        "qid": "Q17043816",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Museo Hidroelèctrica de Capdella",
+        "point": {
+          "lat": 42.46664767886548,
+          "lon": 0.9905348702108011
+        },
+        "image": "Museu Hidroelèctric de Capdella.JPG",
+        "eswiki": "Museo Hidroeléctrico de Capdella"
+      }
+    },
+    "CAT-13": {
+      "queriedPoint": "41.646981,1.125549",
+      "decision": "auto",
+      "qid": "Q11916496",
+      "candidates": [
+        {
+          "qid": "Q11916496",
+          "label": "Fábrica Trepat",
+          "distanceM": 8,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q11916496",
+        "heritageStatus": [
+          "Q11910250"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Fábrica Trepat",
+        "description": "fábrica de maquinaria agrícola situada en Tàrrega, Cataluña",
+        "point": {
+          "lat": 41.646911111111,
+          "lon": 1.1255611111111
+        },
+        "inception": {
+          "time": "+1913-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "ipac": "30538",
+        "image": "084 Fàbrica Trepat.jpg"
+      }
+    },
+    "CAT-14": {
+      "queriedPoint": "42.199214,2.188655",
+      "decision": "auto",
+      "qid": "Q11921582",
+      "candidates": [
+        {
+          "qid": "Q11921582",
+          "label": "La Farga Palau",
+          "distanceM": 8,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q11921582",
+        "heritageStatus": [
+          "Q11910250"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "La Farga Palau",
+        "point": {
+          "lat": 42.199211,
+          "lon": 2.18875
+        },
+        "inception": {
+          "time": "+1626-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "ipac": "1187",
+        "image": "350 Farga Palau, pg. Farga Catalana 14 (Ripoll), actual museu de la xarxa MNACTEC.jpg"
+      }
+    },
+    "CAT-15": {
+      "queriedPoint": "41.578942,1.610857",
+      "decision": "auto",
+      "qid": "Q8963167",
+      "candidates": [
+        {
+          "qid": "Q8963167",
+          "label": "Fábrica de La Igualadina Cotonera",
+          "distanceM": 38,
+          "similarity": 0.66
+        }
+      ],
+      "entity": {
+        "qid": "Q8963167",
+        "heritageStatus": [
+          "Q1019352"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Fábrica de La Igualadina Cotonera",
+        "point": {
+          "lat": 41.5788,
+          "lon": 1.61044
+        },
+        "inception": {
+          "time": "+1841-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0011591",
+        "ipac": "5713",
+        "image": "71 La Igualadina Cotonera, Vapor Vell, c. Joan Godó Llucià - c. Joan Abad (Igualada).jpg",
+        "eswiki": "Fábrica de La Igualadina Cotonera"
+      }
+    },
+    "CLM-01": {
+      "queriedPoint": "41.160088,-2.727857",
+      "decision": "auto",
+      "qid": "Q7405992",
+      "candidates": [
+        {
+          "qid": "Q7405992",
+          "label": "Salinas de Imón",
+          "distanceM": 238,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q7405992",
+        "heritageStatus": [
+          "Q23712",
+          "Q69873044"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Salinas de Imón",
+        "description": "salinas en Sigüenza (provincia de Guadalajara, España)",
+        "point": {
+          "lat": 41.1608122842269,
+          "lon": -2.72518274549257
+        },
+        "bic": "RI-51-0007282",
+        "image": "Salinas de Imón 2.jpg",
+        "eswiki": "Salinas de Imón"
+      }
+    },
+    "CLM-02": {
+      "queriedPoint": "38.775074,-4.842923",
+      "decision": "auto",
+      "qid": "Q24633844",
+      "candidates": [
+        {
+          "qid": "Q24633844",
+          "label": "Minas de Almadén",
+          "distanceM": 455,
+          "similarity": 1
+        },
+        {
+          "qid": "Q116943546",
+          "label": "Archivo Histórico de las Minas de Almadén",
+          "distanceM": 1013,
+          "similarity": 0.39
+        },
+        {
+          "qid": "Q116486898",
+          "label": "silo de Almadén",
+          "distanceM": 1753,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q24633844",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Minas de Almadén",
+        "description": "yacimiento y explotación minera en Almadén (Ciudad Real)",
+        "point": {
+          "lat": 38.775713888889,
+          "lon": -4.8481027777778
+        },
+        "image": "Minas de Almadén (RPS 21-07-2012) castillete.png"
+      }
+    },
+    "CLM-03": {
+      "queriedPoint": "38.929425,-4.154651",
+      "decision": "auto",
+      "qid": "Q126178486",
+      "candidates": [
+        {
+          "qid": "Q126178486",
+          "label": "Martinete de los Pozuelos de Calatrava",
+          "distanceM": 19,
+          "similarity": 0.71
+        }
+      ],
+      "entity": {
+        "qid": "Q126178486",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Martinete de los Pozuelos de Calatrava",
+        "description": "ferrería en Ciudad Real, España",
+        "point": {
+          "lat": 38.929586,
+          "lon": -4.154723
+        },
+        "inception": {
+          "time": "+1840-00-00T00:00:00Z",
+          "precision": 8
+        }
+      }
+    },
+    "CLM-04": {
+      "queriedPoint": "38.500444,-2.419239",
+      "decision": "none",
+      "candidates": []
+    },
+    "CLM-05": {
+      "queriedPoint": "39.864035,-4.040386",
+      "decision": "auto",
+      "qid": "Q8963171",
+      "candidates": [
+        {
+          "qid": "Q8963171",
+          "label": "Real Fábrica de Armas de Toledo",
+          "distanceM": 306,
+          "similarity": 1
+        },
+        {
+          "qid": "Q5836",
+          "label": "Toledo",
+          "distanceM": 669,
+          "similarity": 0.43
+        },
+        {
+          "qid": "Q16915937",
+          "label": "Campus de Toledo",
+          "distanceM": 127,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q8963171",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Real Fábrica de Armas de Toledo",
+        "description": "fábrica en Toledo, España",
+        "point": {
+          "lat": 39.865991,
+          "lon": -4.042913
+        },
+        "inception": {
+          "time": "+1783-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "ARI-53-0000654-00000",
+        "image": "Neomudéjar (45982797325).jpg",
+        "eswiki": "Fábrica de armas de Toledo"
+      }
+    },
+    "CLM-06": {
+      "queriedPoint": "38.682005,-4.126254",
+      "decision": "candidate",
+      "qid": "Q126178727",
+      "candidates": [
+        {
+          "qid": "Q126178727",
+          "label": "Escombreras Terri e instalaciones de la SMMP",
+          "distanceM": 47,
+          "similarity": 0.64
+        },
+        {
+          "qid": "Q126178727",
+          "label": "Escombreras Terri e instalaciones de la SMMP",
+          "distanceM": 452,
+          "similarity": 0.64
+        }
+      ],
+      "entity": {
+        "qid": "Q126178727",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Escombreras Terri e instalaciones de la SMMP",
+        "description": "restos industriales en Puertollano, España",
+        "point": {
+          "lat": 38.682422,
+          "lon": -4.126334
+        },
+        "inception": {
+          "time": "+1912-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "CLM-07": {
+      "queriedPoint": "40.760025,-2.867569",
+      "decision": "auto",
+      "qid": "Q6101925",
+      "candidates": [
+        {
+          "qid": "Q6101925",
+          "label": "Real Fábrica de Paños de Brihuega",
+          "distanceM": 47,
+          "similarity": 1
+        },
+        {
+          "qid": "Q56014864",
+          "label": "Brihuega",
+          "distanceM": 96,
+          "similarity": 0.5
+        },
+        {
+          "qid": "Q52615",
+          "label": "Brihuega",
+          "distanceM": 147,
+          "similarity": 0.5
+        },
+        {
+          "qid": "Q56014864",
+          "label": "Brihuega",
+          "distanceM": 215,
+          "similarity": 0.5
+        },
+        {
+          "qid": "Q56014864",
+          "label": "Brihuega",
+          "distanceM": 399,
+          "similarity": 0.5
+        }
+      ],
+      "entity": {
+        "qid": "Q6101925",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Real Fábrica de Paños de Brihuega",
+        "description": "antigua fábrica textil en la localidad española de Brihuega",
+        "point": {
+          "lat": 40.760363888889,
+          "lon": -2.8672277777778
+        },
+        "inception": {
+          "time": "+1750-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0010943",
+        "image": "Brihuega fabrica de paños.jpg",
+        "eswiki": "Real Fábrica de Paños de Brihuega"
+      }
+    },
+    "CV-01": {
+      "queriedPoint": "38.684649,-0.467794",
+      "decision": "candidate",
+      "qid": "Q8773178",
+      "candidates": [
+        {
+          "qid": "Q8773178",
+          "label": "El Molinar de Alcoy",
+          "distanceM": 610,
+          "similarity": 0.57
+        },
+        {
+          "qid": "Q46600022",
+          "label": "Fuente de El Molinar de Alcoy",
+          "distanceM": 609,
+          "similarity": 0.37
+        }
+      ],
+      "entity": {
+        "qid": "Q8773178",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "El Molinar de Alcoy",
+        "description": "conjunto industrial en Alcoy",
+        "point": {
+          "lat": 38.6796,
+          "lon": -0.465039
+        },
+        "inception": {
+          "time": "+1780-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-53-0000596",
+        "igpcv": "03.27.009-026",
+        "image": "Fàbrica abandonada al Tossal (Alcoi).JPG",
+        "eswiki": "El Molinar de Alcoy"
+      }
+    },
+    "CV-02": {
+      "queriedPoint": "40.618431,-0.133601",
+      "decision": "auto",
+      "qid": "Q125993331",
+      "candidates": [
+        {
+          "qid": "Q125993331",
+          "label": "Fábrica Giner",
+          "distanceM": 0,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q125993331",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Fábrica Giner",
+        "description": "fábrica en Morella, España",
+        "point": {
+          "lat": 40.618431,
+          "lon": -0.133601
+        },
+        "inception": {
+          "time": "+1870-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Vista de la Fábrica Giner 15.JPG"
+      }
+    },
+    "CV-03": {
+      "queriedPoint": "38.354502,-0.465347",
+      "decision": "candidate",
+      "qid": "Q87069547",
+      "candidates": [
+        {
+          "qid": "Q87069547",
+          "label": "Fábrica Refinería la Británica-Campsa",
+          "distanceM": 0,
+          "similarity": 0.58
+        },
+        {
+          "qid": "Q84025990",
+          "label": "Avenida de Villajoyosa",
+          "distanceM": 358,
+          "similarity": 0.41
+        }
+      ],
+      "entity": {
+        "qid": "Q87069547",
+        "heritageStatus": [
+          "Q11910247"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Fábrica Refinería la Británica-Campsa",
+        "description": "antiguas instalaciones industriales en Alicante",
+        "point": {
+          "lat": 38.354502,
+          "lon": -0.465347
+        },
+        "inception": {
+          "time": "+1875-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "igpcv": "03.32.014-142",
+        "image": "Serra Grossa depósito.jpg"
+      }
+    },
+    "CV-04": {
+      "queriedPoint": "39.466936,-0.377163",
+      "decision": "auto",
+      "qid": "Q1102684",
+      "candidates": [
+        {
+          "qid": "Q1102684",
+          "label": "estación del Norte",
+          "distanceM": 7,
+          "similarity": 0.63
+        },
+        {
+          "qid": "Q11920755",
+          "label": "Estació Central de València",
+          "distanceM": 21,
+          "similarity": 0.54
+        },
+        {
+          "qid": "Q8842389",
+          "label": "Estación de Xàtiva (MetroValencia)",
+          "distanceM": 36,
+          "similarity": 0.5
+        }
+      ],
+      "entity": {
+        "qid": "Q1102684",
+        "heritageStatus": [
+          "Q23712",
+          "Q41477381"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "estación del Norte",
+        "description": "estación de ferrocarril de Valencia, España",
+        "point": {
+          "lat": 39.466994,
+          "lon": -0.377125
+        },
+        "inception": {
+          "time": "+1917-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0004890",
+        "igpcv": "46.15.250-063",
+        "image": "Valencia dworzec.jpg",
+        "eswiki": "Estación del Norte (Valencia)"
+      }
+    },
+    "CV-05": {
+      "queriedPoint": "39.473590,-0.378973",
+      "decision": "auto",
+      "qid": "Q2197068",
+      "candidates": [
+        {
+          "qid": "Q2197068",
+          "label": "Mercado Central de Valencia",
+          "distanceM": 10,
+          "similarity": 0.71
+        },
+        {
+          "qid": "Q107710560",
+          "label": "Fuente del Mercado Central 02",
+          "distanceM": 37,
+          "similarity": 0.44
+        },
+        {
+          "qid": "Q107710561",
+          "label": "Fuente del Mercado Central 03",
+          "distanceM": 40,
+          "similarity": 0.44
+        },
+        {
+          "qid": "Q107710562",
+          "label": "Fuente del Mercado Central 04",
+          "distanceM": 55,
+          "similarity": 0.44
+        },
+        {
+          "qid": "Q107710559",
+          "label": "Fuente del Mercado Central 01",
+          "distanceM": 57,
+          "similarity": 0.44
+        }
+      ],
+      "entity": {
+        "qid": "Q2197068",
+        "heritageStatus": [
+          "Q23712",
+          "Q41477381"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Mercado Central de Valencia",
+        "description": "monumento de estilo modernista valenciano y espacio comercial en Valencia (España)",
+        "point": {
+          "lat": 39.473503,
+          "lon": -0.378942
+        },
+        "inception": {
+          "time": "+1914-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0008309",
+        "igpcv": "46.15.250-046",
+        "image": "Фасад центрального рынка Валенсии.jpg",
+        "eswiki": "Mercado Central de Valencia"
+      }
+    },
+    "CV-06": {
+      "queriedPoint": "38.695454,0.054806",
+      "decision": "auto",
+      "qid": "Q125993400",
+      "candidates": [
+        {
+          "qid": "Q125993400",
+          "label": "Viaducto de Santa Ana",
+          "distanceM": 37,
+          "similarity": 1
+        },
+        {
+          "qid": "Q57471094",
+          "label": "Ermita de Santa Ana",
+          "distanceM": 1534,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q125993400",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Viaducto de Santa Ana",
+        "description": "viaducto en España",
+        "point": {
+          "lat": 38.69539,
+          "lon": 0.05522
+        },
+        "inception": {
+          "time": "+1911-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "CV-07": {
+      "queriedPoint": "39.424267,-0.417610",
+      "decision": "auto",
+      "qid": "Q125992940",
+      "candidates": [
+        {
+          "qid": "Q125992940",
+          "label": "Horno Hoffman en el Rajolar de Bauset",
+          "distanceM": 28,
+          "similarity": 1
+        },
+        {
+          "qid": "Q27043450",
+          "label": "Rajolar de Bauset",
+          "distanceM": 8,
+          "similarity": 0.48
+        }
+      ],
+      "entity": {
+        "qid": "Q125992940",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Horno Hoffman en el Rajolar de Bauset",
+        "description": "horno en Paiporta, Valencia",
+        "point": {
+          "lat": 39.424187,
+          "lon": -0.417297
+        },
+        "inception": {
+          "time": "+1924-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Paiporta. Museu de la Rajoleria.JPG"
+      }
+    },
+    "CV-08": {
+      "queriedPoint": "39.654288,-0.220348",
+      "decision": "candidate",
+      "qid": "Q104758680",
+      "candidates": [
+        {
+          "qid": "Q104758680",
+          "label": "Alto Horno número 2 de Altos Hornos del Mediterráneo",
+          "distanceM": 2,
+          "similarity": 0.53
+        }
+      ],
+      "entity": {
+        "qid": "Q104758680",
+        "heritageStatus": [
+          "Q41477381",
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Alto Horno número 2 de Altos Hornos del Mediterráneo",
+        "description": "alto horno en Puerto de  Sagunto",
+        "point": {
+          "lat": 39.654275,
+          "lon": -0.220367
+        },
+        "inception": {
+          "time": "+1963-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "igpcv": "46.220-9999-000029",
+        "image": "Alto horno antigua fábrica.jpg"
+      }
+    },
+    "CV-09": {
+      "queriedPoint": "39.458319,-0.332378",
+      "decision": "auto",
+      "qid": "Q42885186",
+      "candidates": [
+        {
+          "qid": "Q42885186",
+          "label": "Estación de Renfe del Grao",
+          "distanceM": 12,
+          "similarity": 0.62
+        },
+        {
+          "qid": "Q137775047",
+          "label": "Falla Ingeniero Manuel Soto – Francia",
+          "distanceM": 111,
+          "similarity": 0.39
+        },
+        {
+          "qid": "Q93118722",
+          "label": "Estación I del Vía Crucis del Grao de Valencia",
+          "distanceM": 297,
+          "similarity": 0.39
+        }
+      ],
+      "entity": {
+        "qid": "Q42885186",
+        "heritageStatus": [
+          "Q11910247",
+          "Q41477381"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Estación de Renfe del Grao",
+        "description": "estación de ferrocarril en la ciudad de Valencia",
+        "point": {
+          "lat": 39.45831,
+          "lon": -0.332234
+        },
+        "inception": {
+          "time": "+1865-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "igpcv": "46.15.250-359",
+        "image": "València. Estació del Grau.JPG"
+      }
+    },
+    "CV-10": {
+      "queriedPoint": "38.568129,-0.849926",
+      "decision": "auto",
+      "qid": "Q9018423",
+      "candidates": [
+        {
+          "qid": "Q9018423",
+          "label": "La Colonia de Santa Eulalia",
+          "distanceM": 163,
+          "similarity": 1
+        },
+        {
+          "qid": "Q135319347",
+          "label": "estación de Colonia de Santa Eulalia",
+          "distanceM": 804,
+          "similarity": 0.65
+        },
+        {
+          "qid": "Q57523100",
+          "label": "Ermita de Santa Eulalia",
+          "distanceM": 85,
+          "similarity": 0.52
+        }
+      ],
+      "entity": {
+        "qid": "Q9018423",
+        "heritageStatus": [
+          "Q69873044",
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "La Colonia de Santa Eulalia",
+        "description": "localidad de España",
+        "point": {
+          "lat": 38.566666666667,
+          "lon": -0.85
+        },
+        "igpcv": "03.140.123-025",
+        "image": "La Colonia de Santa Eulalia.jpg",
+        "eswiki": "La Colonia de Santa Eulalia"
+      }
+    },
+    "CV-11": {
+      "queriedPoint": "38.944774,-0.181886",
+      "decision": "auto",
+      "qid": "Q117775299",
+      "candidates": [
+        {
+          "qid": "Q117775299",
+          "label": "Fábrica de Seda Lombard",
+          "distanceM": 47,
+          "similarity": 1
+        },
+        {
+          "qid": "Q24017217",
+          "label": "Almoines",
+          "distanceM": 99,
+          "similarity": 0.53
+        },
+        {
+          "qid": "Q1650138",
+          "label": "Almoines",
+          "distanceM": 163,
+          "similarity": 0.53
+        },
+        {
+          "qid": "Q24017217",
+          "label": "Almoines",
+          "distanceM": 172,
+          "similarity": 0.53
+        }
+      ],
+      "entity": {
+        "qid": "Q117775299",
+        "heritageStatus": [
+          "Q11910247"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Fábrica de Seda Lombard",
+        "description": "antigua fábrica sedera en Almoines, Valencia",
+        "point": {
+          "lat": 38.94444444444444,
+          "lon": -0.18222222222222223
+        },
+        "inception": {
+          "time": "+1848-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "igpcv": "46.034-9999-000002",
+        "image": "Edificios diversos de Almoines 08.jpg"
+      }
+    },
+    "CV-12": {
+      "queriedPoint": "39.473772,-0.361686",
+      "decision": "auto",
+      "qid": "Q50309302",
+      "candidates": [
+        {
+          "qid": "Q50309302",
+          "label": "Fábrica de tabacos de Valencia",
+          "distanceM": 11,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q50309302",
+        "heritageStatus": [
+          "Q11910247",
+          "Q41477381"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Fábrica de tabacos de Valencia",
+        "description": "edificio de Tabacalera en Valencia",
+        "point": {
+          "lat": 39.47375,
+          "lon": -0.36155555555556
+        },
+        "inception": {
+          "time": "+1909-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "igpcv": "46.15.250-216",
+        "image": "Tabacalera de València.JPG",
+        "eswiki": "Edificio de Tabacalera (Valencia)"
+      }
+    },
+    "CV-13": {
+      "queriedPoint": "38.707056,-0.662983",
+      "decision": "candidate",
+      "qid": "Q621626",
+      "candidates": [
+        {
+          "qid": "Q621626",
+          "label": "Banyeres de Mariola",
+          "distanceM": 1096,
+          "similarity": 0.62
+        },
+        {
+          "qid": "Q97331376",
+          "label": "Ruta de los Molinos Papeleros de Bañeres de Mariola en el Río Vinalopó",
+          "distanceM": 0,
+          "similarity": 0.59
+        },
+        {
+          "qid": "Q13582274",
+          "label": "Ruta de los Castillos del Vinalopó",
+          "distanceM": 1047,
+          "similarity": 0.48
+        },
+        {
+          "qid": "Q126827736",
+          "label": "casa consistorial de Banyeres de Mariola",
+          "distanceM": 1157,
+          "similarity": 0.36
+        }
+      ],
+      "entity": {
+        "qid": "Q621626",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Banyeres de Mariola",
+        "description": "municipio de la provincia de Alicante, España",
+        "point": {
+          "lat": 38.715833333333,
+          "lon": -0.65722222222222
+        },
+        "image": "Banyeres. Vista des de la via verda.JPG",
+        "eswiki": "Bañeres"
+      },
+      "acceptedEntity": {
+        "qid": "Q97331376",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Ruta de los Molinos Papeleros de Bañeres de Mariola en el Río Vinalopó",
+        "description": "bien de interés cultural en Bañeres de Mariola",
+        "point": {
+          "lat": 38.707056,
+          "lon": -0.662983
+        },
+        "inception": {
+          "time": "+1758-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "igpcv": "03.09.021-067"
+      }
+    },
+    "CV-14": {
+      "queriedPoint": "38.094328,-0.945608",
+      "decision": "candidate",
+      "qid": "Q67912524",
+      "candidates": [
+        {
+          "qid": "Q67912524",
+          "label": "Complejo minero de San Antón de Orihuela",
+          "distanceM": 24,
+          "similarity": 0.46
+        },
+        {
+          "qid": "Q57496400",
+          "label": "Ermita de San Antón",
+          "distanceM": 289,
+          "similarity": 0.38
+        }
+      ],
+      "entity": {
+        "qid": "Q67912524",
+        "heritageStatus": [
+          "Q69873044"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Complejo minero de San Antón de Orihuela",
+        "description": "instalación minera en la Sierra de San Miguel (provincia de Alicante, España)",
+        "point": {
+          "lat": 38.094372,
+          "lon": -0.94534
+        },
+        "inception": {
+          "time": "+1780-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "CYL-01": {
+      "queriedPoint": "40.954382,-4.128489",
+      "decision": "auto",
+      "qid": "Q5692199",
+      "candidates": [
+        {
+          "qid": "Q5692199",
+          "label": "Real Casa de la Moneda",
+          "distanceM": 44,
+          "similarity": 0.62
+        }
+      ],
+      "entity": {
+        "qid": "Q5692199",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Real Casa de la Moneda",
+        "description": "edificio en Segovia",
+        "point": {
+          "lat": 40.954611111111,
+          "lon": -4.1280583333333
+        },
+        "inception": {
+          "time": "+1583-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0010547-00000",
+        "image": "Casa de la Moneda Segovia ni.JPG",
+        "eswiki": "Real Casa de la Moneda (Segovia)"
+      }
+    },
+    "CYL-02": {
+      "queriedPoint": "42.165682,-4.531428",
+      "decision": "none",
+      "candidates": []
+    },
+    "CYL-03": {
+      "queriedPoint": "42.838337,-5.153806",
+      "decision": "candidate",
+      "qid": "Q5860662",
+      "candidates": [
+        {
+          "qid": "Q5860662",
+          "label": "Ferrería de San Blas",
+          "distanceM": 9,
+          "similarity": 0.81
+        },
+        {
+          "qid": "Q5860662",
+          "label": "Ferrería de San Blas",
+          "distanceM": 17,
+          "similarity": 0.81
+        }
+      ],
+      "entity": {
+        "qid": "Q5860662",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Ferrería de San Blas",
+        "description": "edificio en Sabero, España",
+        "point": {
+          "lat": 42.83825,
+          "lon": -5.1536388888889
+        },
+        "inception": {
+          "time": "+1847-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0007185",
+        "image": "Sabero 06 plaza cerrada by-dpc.jpg",
+        "eswiki": "Ferrería de San Blas"
+      }
+    },
+    "CYL-04": {
+      "queriedPoint": "41.642212,-4.726946",
+      "decision": "candidate",
+      "qid": "Q3327085",
+      "candidates": [
+        {
+          "qid": "Q3327085",
+          "label": "estación de Valladolid-Campo Grande",
+          "distanceM": 19,
+          "similarity": 0.7
+        },
+        {
+          "qid": "Q110962806",
+          "label": "Estación del Norte 1, Valladolid",
+          "distanceM": 260,
+          "similarity": 0.66
+        },
+        {
+          "qid": "Q5847597",
+          "label": "Estación de autobuses de Valladolid",
+          "distanceM": 444,
+          "similarity": 0.61
+        },
+        {
+          "qid": "Q110962840",
+          "label": "calle de la Estación",
+          "distanceM": 460,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q3327085",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "estación de Valladolid-Campo Grande",
+        "description": "estación de ferrocarril en Valladolid",
+        "point": {
+          "lat": 41.642042,
+          "lon": -4.726935
+        },
+        "inception": {
+          "time": "+1891-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Valladolid - Campo Grande station.JPG",
+        "eswiki": "Estación de Valladolid-Campo Grande"
+      }
+    },
+    "CYL-05": {
+      "queriedPoint": "40.880312,-4.015473",
+      "decision": "auto",
+      "qid": "Q126178962",
+      "candidates": [
+        {
+          "qid": "Q126178962",
+          "label": "Real Aserrío Mecánico de los Montes de Valsaín",
+          "distanceM": 2,
+          "similarity": 0.82
+        },
+        {
+          "qid": "Q6159376",
+          "label": "Valsaín",
+          "distanceM": 1035,
+          "similarity": 0.41
+        },
+        {
+          "qid": "Q9054569",
+          "label": "Palacio de Valsaín",
+          "distanceM": 1013,
+          "similarity": 0.39
+        }
+      ],
+      "entity": {
+        "qid": "Q126178962",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Real Aserrío Mecánico de los Montes de Valsaín",
+        "description": "aserradero en la provincia de Segovia, España",
+        "point": {
+          "lat": 40.880328,
+          "lon": -4.015475
+        },
+        "inception": {
+          "time": "+1884-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Aserradero de Balsaín.jpg"
+      }
+    },
+    "CYL-06": {
+      "queriedPoint": "41.560740,-6.129864",
+      "decision": "auto",
+      "qid": "Q6091421",
+      "candidates": [
+        {
+          "qid": "Q6091421",
+          "label": "Puente de Requejo",
+          "distanceM": 6,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q6091421",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Puente de Requejo",
+        "description": "puente sobre el Duero en España",
+        "point": {
+          "lat": 41.56068333,
+          "lon": -6.12986111
+        },
+        "inception": {
+          "time": "+1914-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Puente de Pino.JPG",
+        "eswiki": "Puente de Requejo"
+      }
+    },
+    "CYL-07": {
+      "queriedPoint": "42.557845,-6.591119",
+      "decision": "auto",
+      "qid": "Q5760923",
+      "candidates": [
+        {
+          "qid": "Q5760923",
+          "label": "Central térmica de la Minero Siderúrgica de Ponferrada",
+          "distanceM": 45,
+          "similarity": 1
+        },
+        {
+          "qid": "Q24013138",
+          "label": "Ponferrada",
+          "distanceM": 1238,
+          "similarity": 0.5
+        },
+        {
+          "qid": "Q12164",
+          "label": "Ponferrada",
+          "distanceM": 1305,
+          "similarity": 0.5
+        },
+        {
+          "qid": "Q24013138",
+          "label": "Ponferrada",
+          "distanceM": 1313,
+          "similarity": 0.5
+        },
+        {
+          "qid": "Q141501141",
+          "label": "Ponferrada",
+          "distanceM": 1562,
+          "similarity": 0.5
+        }
+      ],
+      "entity": {
+        "qid": "Q5760923",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Central térmica de la Minero Siderúrgica de Ponferrada",
+        "description": "edificio en Ponferrada, España",
+        "point": {
+          "lat": 42.5575,
+          "lon": -6.59083333
+        },
+        "inception": {
+          "time": "+1920-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Ponferrada - Ene.Museo Nacional de la Energía (La Fábrica de Luz) 05.jpg",
+        "eswiki": "Central térmica de la Minero Siderúrgica de Ponferrada"
+      }
+    },
+    "CYL-08": {
+      "queriedPoint": "42.828379,-5.127771",
+      "decision": "auto",
+      "qid": "Q126178759",
+      "candidates": [
+        {
+          "qid": "Q126178759",
+          "label": "Conjunto de la Cuenca Minera de Sabero-Cistierna",
+          "distanceM": 17,
+          "similarity": 1
+        },
+        {
+          "qid": "Q24013121",
+          "label": "Sabero",
+          "distanceM": 1463,
+          "similarity": 0.43
+        },
+        {
+          "qid": "Q24013121",
+          "label": "Sabero",
+          "distanceM": 1906,
+          "similarity": 0.43
+        }
+      ],
+      "entity": {
+        "qid": "Q126178759",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Conjunto de la Cuenca Minera de Sabero-Cistierna",
+        "description": "cuenca minera en León, España",
+        "point": {
+          "lat": 42.828535,
+          "lon": -5.12779
+        },
+        "image": "Complejo minero de Vegamediana, Cistierna 16.jpg"
+      }
+    },
+    "CYL-09": {
+      "queriedPoint": "40.389628,-5.773976",
+      "decision": "auto",
+      "qid": "Q126178798",
+      "candidates": [
+        {
+          "qid": "Q126178798",
+          "label": "Conjunto de Industrias Textiles de Béjar",
+          "distanceM": 34,
+          "similarity": 0.64
+        },
+        {
+          "qid": "Q125919678",
+          "label": "Museo Textil de Béjar",
+          "distanceM": 158,
+          "similarity": 0.43
+        }
+      ],
+      "entity": {
+        "qid": "Q126178798",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Conjunto de Industrias Textiles de Béjar",
+        "description": "conjunto industrial en Béjar, España",
+        "point": {
+          "lat": 40.38993,
+          "lon": -5.773975
+        },
+        "image": "Vista de la ruta de las fábricas de Béjar.jpg"
+      }
+    },
+    "CYL-10": {
+      "queriedPoint": "42.377729,-3.241797",
+      "decision": "auto",
+      "qid": "Q6093333",
+      "candidates": [
+        {
+          "qid": "Q6093333",
+          "label": "Puras de Villafranca",
+          "distanceM": 102,
+          "similarity": 0.71
+        },
+        {
+          "qid": "Q126179512",
+          "label": "Complejo Minero de Puras Villafranca",
+          "distanceM": 17,
+          "similarity": 0.54
+        },
+        {
+          "qid": "Q131851315",
+          "label": "Iglesia de San Martín de Tours (Puras de Villafranca)",
+          "distanceM": 101,
+          "similarity": 0.38
+        }
+      ],
+      "entity": {
+        "qid": "Q6093333",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Puras de Villafranca",
+        "description": "localidad de España",
+        "point": {
+          "lat": 42.3783273,
+          "lon": -3.2427428
+        },
+        "image": "Puras de Villafranca.jpg",
+        "eswiki": "Puras de Villafranca"
+      }
+    },
+    "CYL-11": {
+      "queriedPoint": "42.880776,-5.614091",
+      "decision": "auto",
+      "qid": "Q52853691",
+      "candidates": [
+        {
+          "qid": "Q52853691",
+          "label": "Conjunto industrial del Pozo de Ibarra",
+          "distanceM": 34,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q52853691",
+        "heritageStatus": [
+          "Q23712",
+          "Q69873044"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Conjunto industrial del Pozo de Ibarra",
+        "description": "pozo minero en Ciñera, España",
+        "point": {
+          "lat": 42.880499,
+          "lon": -5.613912
+        },
+        "inception": {
+          "time": "+1927-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Castillete del pozo Ibarra en Ciñera (León), España.jpg"
+      }
+    },
+    "CYL-12": {
+      "queriedPoint": "40.934234,-4.113526",
+      "decision": "auto",
+      "qid": "Q8841928",
+      "candidates": [
+        {
+          "qid": "Q8841928",
+          "label": "estación de Segovia",
+          "distanceM": 19,
+          "similarity": 0.7
+        },
+        {
+          "qid": "Q4890954",
+          "label": "Fuga de Segovia",
+          "distanceM": 603,
+          "similarity": 0.44
+        }
+      ],
+      "entity": {
+        "qid": "Q8841928",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "estación de Segovia",
+        "description": "estación ferroviaria en Segovia, España",
+        "point": {
+          "lat": 40.9341,
+          "lon": -4.11366
+        },
+        "inception": {
+          "time": "+1884-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Estacion segovia.jpg",
+        "eswiki": "Estación de Segovia"
+      }
+    },
+    "CYL-13": {
+      "queriedPoint": "41.886478,-5.046582",
+      "decision": "auto",
+      "qid": "Q5872082",
+      "candidates": [
+        {
+          "qid": "Q5872082",
+          "label": "Fábrica de harinas San Antonio",
+          "distanceM": 12,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q5872082",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Fábrica de harinas San Antonio",
+        "description": "edificio en Medina de Rioseco",
+        "point": {
+          "lat": 41.886388888889,
+          "lon": -5.0466666666667
+        },
+        "inception": {
+          "time": "+1852-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "ARI-51-0012133-00000",
+        "image": "Fabrica de harina san antonio medina rioseco.JPG",
+        "eswiki": "Fábrica de harinas San Antonio"
+      }
+    },
+    "CYL-14": {
+      "queriedPoint": "41.890062,-4.534901",
+      "decision": "auto",
+      "qid": "Q126077011",
+      "candidates": [
+        {
+          "qid": "Q126077011",
+          "label": "Fábrica de Harinas La Estrella",
+          "distanceM": 14,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126077011",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Fábrica de Harinas La Estrella",
+        "description": "fábrica en España",
+        "point": {
+          "lat": 41.890186,
+          "lon": -4.53488
+        }
+      }
+    },
+    "CYL-15": {
+      "queriedPoint": "42.598611,-5.583333",
+      "decision": "auto",
+      "qid": "Q18219497",
+      "candidates": [
+        {
+          "qid": "Q18219497",
+          "label": "Fábrica de productos químicos Abelló",
+          "distanceM": 13,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q18219497",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Fábrica de productos químicos Abelló",
+        "description": "edificio de León, España",
+        "point": {
+          "lat": 42.598527777778,
+          "lon": -5.5834361111111
+        },
+        "inception": {
+          "time": "+1894-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0006910",
+        "image": "Fabrica Abelló.jpg",
+        "eswiki": "Fábrica de productos químicos Abelló"
+      }
+    },
+    "CYL-16": {
+      "queriedPoint": "42.486631,-6.459253",
+      "decision": "auto",
+      "qid": "Q10522677",
+      "candidates": [
+        {
+          "qid": "Q10522677",
+          "label": "Herrería de Compludo",
+          "distanceM": 10,
+          "similarity": 1
+        },
+        {
+          "qid": "Q5156670",
+          "label": "Compludo",
+          "distanceM": 1257,
+          "similarity": 0.42
+        }
+      ],
+      "entity": {
+        "qid": "Q10522677",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Herrería de Compludo",
+        "description": "edificio en Compludo, España",
+        "point": {
+          "lat": 42.486555,
+          "lon": -6.459198
+        },
+        "bic": "RI-51-0003797",
+        "image": "Compludo Herreria-view.jpg",
+        "eswiki": "Herrería de Compludo"
+      }
+    },
+    "CYL-17": {
+      "queriedPoint": "41.613028,-4.734915",
+      "decision": "auto",
+      "qid": "Q6160881",
+      "candidates": [
+        {
+          "qid": "Q6160881",
+          "label": "Las Fuentes de Argales",
+          "distanceM": 11,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q6160881",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "Las Fuentes de Argales",
+        "description": "bien de interés cultural",
+        "point": {
+          "lat": 41.6131,
+          "lon": -4.735
+        },
+        "inception": {
+          "time": "+1586-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0004624",
+        "image": "Arcas Reales 1.jpg",
+        "eswiki": "Viaje de aguas de Argales"
+      }
+    },
+    "CYL-18": {
+      "queriedPoint": "40.989190,-6.837196",
+      "decision": "candidate",
+      "qid": "Q96942228",
+      "candidates": [
+        {
+          "qid": "Q96942228",
+          "label": "estación de La Fregeneda",
+          "distanceM": 9,
+          "similarity": 0.38
+        }
+      ],
+      "entity": {
+        "qid": "Q96942228",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:47.518Z",
+        "label": "estación de La Fregeneda",
+        "point": {
+          "lat": 40.98913888888889,
+          "lon": -6.837277777777778
+        },
+        "image": "Estación de La Fregeneda, provincia de Salamanca.jpg",
+        "eswiki": "Estación de La Fregeneda"
+      }
+    },
+    "CYL-19": {
+      "queriedPoint": "42.547718,-6.604023",
+      "decision": "auto",
+      "qid": "Q126180322",
+      "candidates": [
+        {
+          "qid": "Q126180322",
+          "label": "Locomotora Electric English 7766 Modelo 277-066-7B",
+          "distanceM": 52,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126180322",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Locomotora Electric English 7766 Modelo 277-066-7B",
+        "description": "locomotora situada en Ponferrada, España",
+        "point": {
+          "lat": 42.547886,
+          "lon": -6.604615
+        },
+        "inception": {
+          "time": "+1958-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "CYL-20": {
+      "queriedPoint": "42.547783,-6.604018",
+      "decision": "auto",
+      "qid": "Q126180369",
+      "candidates": [
+        {
+          "qid": "Q126180369",
+          "label": "Locomotora Mikado 141-F-2346",
+          "distanceM": 50,
+          "similarity": 1
+        },
+        {
+          "qid": "Q109375672",
+          "label": "Museo del Ferrocarril de Ponferrada",
+          "distanceM": 4,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q126180369",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Locomotora Mikado 141-F-2346",
+        "description": "locomotora situada en Ponferrada, España",
+        "point": {
+          "lat": 42.547886,
+          "lon": -6.604615
+        },
+        "inception": {
+          "time": "+1957-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "CYL-21": {
+      "queriedPoint": "41.049308,-3.824267",
+      "decision": "auto",
+      "qid": "Q6002369",
+      "candidates": [
+        {
+          "qid": "Q6002369",
+          "label": "Martinete de Navafría",
+          "distanceM": 60,
+          "similarity": 1
+        },
+        {
+          "qid": "Q2249220",
+          "label": "Navafría",
+          "distanceM": 620,
+          "similarity": 0.4
+        },
+        {
+          "qid": "Q23994369",
+          "label": "Navafría",
+          "distanceM": 865,
+          "similarity": 0.4
+        }
+      ],
+      "entity": {
+        "qid": "Q6002369",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Martinete de Navafría",
+        "description": "bien de interés cultural",
+        "point": {
+          "lat": 41.048783333333,
+          "lon": -3.8244361111111
+        },
+        "bic": "RI-51-0010219",
+        "eswiki": "Martinete de Navafría"
+      }
+    },
+    "CYL-22": {
+      "queriedPoint": "40.662683,-4.696748",
+      "decision": "auto",
+      "qid": "Q6005672",
+      "candidates": [
+        {
+          "qid": "Q6005672",
+          "label": "matadero de Ávila",
+          "distanceM": 10,
+          "similarity": 1
+        },
+        {
+          "qid": "Q27732235",
+          "label": "Museo de Ávila",
+          "distanceM": 703,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q6005672",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "matadero de Ávila",
+        "description": "edificio en Ávila, España",
+        "point": {
+          "lat": 40.662742,
+          "lon": -4.696656
+        },
+        "inception": {
+          "time": "+1890-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "ARI-51-0010107-00000",
+        "eswiki": "Matadero de Ávila"
+      }
+    },
+    "CYL-23": {
+      "queriedPoint": "41.637445,-4.745904",
+      "decision": "auto",
+      "qid": "Q126181725",
+      "candidates": [
+        {
+          "qid": "Q126181725",
+          "label": "Automóvil Renault 4 CV M-106.801",
+          "distanceM": 47,
+          "similarity": 1
+        },
+        {
+          "qid": "Q106654565",
+          "label": "Cuatro de Marzo",
+          "distanceM": 494,
+          "similarity": 0.5
+        }
+      ],
+      "entity": {
+        "qid": "Q126181725",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Automóvil Renault 4 CV M-106.801",
+        "description": "coche situado en Valladolid, España",
+        "point": {
+          "lat": 41.6377777,
+          "lon": -4.74555555
+        },
+        "inception": {
+          "time": "+1953-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Renault4, Museo de la Ciencia 02.jpg"
+      }
+    },
+    "CYL-24": {
+      "queriedPoint": "40.952871,-4.138884",
+      "decision": "auto",
+      "qid": "Q126077358",
+      "candidates": [
+        {
+          "qid": "Q126077358",
+          "label": "Molino de los Señores",
+          "distanceM": 4,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126077358",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Molino de los Señores",
+        "description": "molino de origen medieval en la ribera del Eresma, ciudad de Segovia (España)",
+        "point": {
+          "lat": 40.95286111111111,
+          "lon": -4.138833333333333
+        },
+        "inception": {
+          "time": "+1200-00-00T00:00:00Z",
+          "precision": 7
+        },
+        "image": "Molino de los Señores.jpg",
+        "eswiki": "Molino de los Señores"
+      }
+    },
+    "CYL-25": {
+      "queriedPoint": "40.902891,-4.006891",
+      "decision": "auto",
+      "qid": "Q5482623",
+      "candidates": [
+        {
+          "qid": "Q5482623",
+          "label": "Real Fábrica de Cristales de La Granja",
+          "distanceM": 63,
+          "similarity": 0.84
+        },
+        {
+          "qid": "Q85689770",
+          "label": "Biblioteca de la Fundación Centro Nacional del Vidrio",
+          "distanceM": 99,
+          "similarity": 0.52
+        }
+      ],
+      "entity": {
+        "qid": "Q5482623",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Real Fábrica de Cristales de La Granja",
+        "description": "fábrica española",
+        "point": {
+          "lat": 40.903355,
+          "lon": -4.006451
+        },
+        "inception": {
+          "time": "+1770-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0009336",
+        "image": "San Ildefonso - Real Fabrica de Cristales de la Granja 001.JPG",
+        "eswiki": "Real Fábrica de Cristales de La Granja"
+      }
+    },
+    "CYL-26": {
+      "queriedPoint": "42.673179,-3.513034",
+      "decision": "candidate",
+      "qid": "Q17739856",
+      "candidates": [
+        {
+          "qid": "Q17739856",
+          "label": "Salinas de Poza de la Sal",
+          "distanceM": 693,
+          "similarity": 0.87
+        },
+        {
+          "qid": "Q43173802",
+          "label": "Salinas de Poza de la Sal",
+          "distanceM": 899,
+          "similarity": 0.87
+        },
+        {
+          "qid": "Q1642806",
+          "label": "Poza de la Sal",
+          "distanceM": 1197,
+          "similarity": 0.38
+        },
+        {
+          "qid": "Q24010420",
+          "label": "Poza de la Sal",
+          "distanceM": 1248,
+          "similarity": 0.38
+        },
+        {
+          "qid": "Q24010420",
+          "label": "Poza de la Sal",
+          "distanceM": 1284,
+          "similarity": 0.38
+        }
+      ],
+      "entity": {
+        "qid": "Q17739856",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Salinas de Poza de la Sal",
+        "description": "salinas en Castilla y León, España",
+        "point": {
+          "lat": 42.6728,
+          "lon": -3.52149
+        },
+        "bic": "RI-54-0000137-00000",
+        "image": "Poza sal salinas.jpg",
+        "eswiki": "Salinas de Poza de la Sal"
+      },
+      "acceptedEntity": {
+        "qid": "Q43173802",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Salinas de Poza de la Sal",
+        "description": "bien de interés cultural",
+        "point": {
+          "lat": 42.668995,
+          "lon": -3.503625
+        },
+        "bic": "RI-54-0000137",
+        "image": "Poza sal salinas.jpg"
+      }
+    },
+    "EX-01": {
+      "queriedPoint": "39.434180,-6.380859",
+      "decision": "candidate",
+      "qid": "Q8193900",
+      "candidates": [
+        {
+          "qid": "Q8193900",
+          "label": "Aldea Moret",
+          "distanceM": 1548,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q8193900",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Aldea Moret",
+        "description": "barrio de Cáceres",
+        "point": {
+          "lat": 39.445492,
+          "lon": -6.391359
+        },
+        "inception": {
+          "time": "+1876-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Embarcadero de Aldea Moret, exterior.jpg",
+        "eswiki": "Aldea Moret"
+      }
+    },
+    "EX-02": {
+      "queriedPoint": "39.938498,-6.099310",
+      "decision": "candidate",
+      "qid": "Q5846733",
+      "candidates": [
+        {
+          "qid": "Q5846733",
+          "label": "estación de Monfragüe",
+          "distanceM": 190,
+          "similarity": 0.36
+        }
+      ],
+      "entity": {
+        "qid": "Q5846733",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "estación de Monfragüe",
+        "description": "estación de ferrocarril en Malpartida de Plasencia, España",
+        "point": {
+          "lat": 39.937444444444,
+          "lon": -6.1010611111111
+        },
+        "image": "J29 118 Bf Monfragüe.jpg",
+        "eswiki": "Estación de Monfragüe"
+      }
+    },
+    "EX-03": {
+      "queriedPoint": "38.120412,-5.927628",
+      "decision": "auto",
+      "qid": "Q6016816",
+      "candidates": [
+        {
+          "qid": "Q6016816",
+          "label": "Mina La Jayona",
+          "distanceM": 99,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q6016816",
+        "heritageStatus": [
+          "Q23790"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Mina La Jayona",
+        "point": {
+          "lat": 38.120177777778,
+          "lon": -5.9287222222222
+        },
+        "inception": {
+          "time": "+1900-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Mina de la Jayona - interior.jpg",
+        "eswiki": "Mina La Jayona"
+      }
+    },
+    "EX-04": {
+      "queriedPoint": "38.717911,-5.546491",
+      "decision": "auto",
+      "qid": "Q125989810",
+      "candidates": [
+        {
+          "qid": "Q125989810",
+          "label": "Fábrica de harinas de Castuera",
+          "distanceM": 8,
+          "similarity": 1
+        },
+        {
+          "qid": "Q515016",
+          "label": "Castuera",
+          "distanceM": 592,
+          "similarity": 0.44
+        },
+        {
+          "qid": "Q99336818",
+          "label": "silo de Castuera",
+          "distanceM": 1884,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q125989810",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Fábrica de harinas de Castuera",
+        "description": "fábrica en Badajoz, España",
+        "point": {
+          "lat": 38.717862,
+          "lon": -5.546421
+        }
+      }
+    },
+    "EX-05": {
+      "queriedPoint": "40.027757,-6.087452",
+      "decision": "auto",
+      "qid": "Q125989334",
+      "candidates": [
+        {
+          "qid": "Q125989334",
+          "label": "Harinera de Plasencia",
+          "distanceM": 47,
+          "similarity": 1
+        },
+        {
+          "qid": "Q241767",
+          "label": "Plasencia",
+          "distanceM": 289,
+          "similarity": 0.45
+        },
+        {
+          "qid": "Q23993886",
+          "label": "Plasencia",
+          "distanceM": 388,
+          "similarity": 0.45
+        },
+        {
+          "qid": "Q23993886",
+          "label": "Plasencia",
+          "distanceM": 482,
+          "similarity": 0.45
+        },
+        {
+          "qid": "Q10297531",
+          "label": "historia de Plasencia",
+          "distanceM": 289,
+          "similarity": 0.42
+        }
+      ],
+      "entity": {
+        "qid": "Q125989334",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Harinera de Plasencia",
+        "description": "fábrica en Plasencia, España",
+        "point": {
+          "lat": 40.028173,
+          "lon": -6.087539
+        },
+        "image": "Plasencia 14.jpg"
+      }
+    },
+    "EX-06": {
+      "queriedPoint": "38.681474,-6.399591",
+      "decision": "auto",
+      "qid": "Q126194122",
+      "candidates": [
+        {
+          "qid": "Q126194122",
+          "label": "Bodegas Almendralejo",
+          "distanceM": 19,
+          "similarity": 1
+        },
+        {
+          "qid": "Q24008859",
+          "label": "Almendralejo",
+          "distanceM": 709,
+          "similarity": 0.55
+        },
+        {
+          "qid": "Q24008859",
+          "label": "Almendralejo",
+          "distanceM": 784,
+          "similarity": 0.55
+        },
+        {
+          "qid": "Q490638",
+          "label": "Almendralejo",
+          "distanceM": 850,
+          "similarity": 0.55
+        },
+        {
+          "qid": "Q99301824",
+          "label": "silo de Almendralejo",
+          "distanceM": 690,
+          "similarity": 0.44
+        }
+      ],
+      "entity": {
+        "qid": "Q126194122",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Bodegas Almendralejo",
+        "description": "bodegas en Almendralejo, España",
+        "point": {
+          "lat": 38.681353203316995,
+          "lon": -6.39944235223168
+        }
+      }
+    },
+    "EX-07": {
+      "queriedPoint": "38.514880,-6.356570",
+      "decision": "auto",
+      "qid": "Q126194530",
+      "candidates": [
+        {
+          "qid": "Q126194530",
+          "label": "Almazara de Villafranca de los Barros",
+          "distanceM": 54,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126194530",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Almazara de Villafranca de los Barros",
+        "description": "almazara en Badajoz, España",
+        "point": {
+          "lat": 38.514435,
+          "lon": -6.356824
+        },
+        "inception": {
+          "time": "+1748-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "EX-08": {
+      "queriedPoint": "40.239314,-6.046862",
+      "decision": "auto",
+      "qid": "Q126194571",
+      "candidates": [
+        {
+          "qid": "Q126194571",
+          "label": "Electro-Harinera Zarceña",
+          "distanceM": 13,
+          "similarity": 1
+        },
+        {
+          "qid": "Q24011959",
+          "label": "Zarza de Granadilla",
+          "distanceM": 141,
+          "similarity": 0.41
+        },
+        {
+          "qid": "Q1613311",
+          "label": "Zarza de Granadilla",
+          "distanceM": 150,
+          "similarity": 0.41
+        },
+        {
+          "qid": "Q126829460",
+          "label": "casa consistorial de Zarza de Granadilla",
+          "distanceM": 482,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q126194571",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Electro-Harinera Zarceña",
+        "description": "fábrica en Zarza de Granadilla, España",
+        "point": {
+          "lat": 40.2392098407549,
+          "lon": -6.0469246705515545
+        },
+        "inception": {
+          "time": "+1900-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "EX-09": {
+      "queriedPoint": "38.696479,-5.290459",
+      "decision": "candidate",
+      "qid": "Q5669866",
+      "candidates": [
+        {
+          "qid": "Q5669866",
+          "label": "Almorchón",
+          "distanceM": 83,
+          "similarity": 0.56
+        },
+        {
+          "qid": "Q5845676",
+          "label": "estación de Almorchón",
+          "distanceM": 13,
+          "similarity": 0.44
+        }
+      ],
+      "entity": {
+        "qid": "Q5669866",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Almorchón",
+        "description": "localidad de España",
+        "point": {
+          "lat": 38.697222222222,
+          "lon": -5.2905555555556
+        },
+        "image": "Antigua escuela de Almorchón.png",
+        "eswiki": "Almorchón"
+      },
+      "acceptedEntity": {
+        "qid": "Q5845676",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "estación de Almorchón",
+        "description": "estación ferroviaria en Extremadura, España.",
+        "point": {
+          "lat": 38.6966,
+          "lon": -5.29047
+        },
+        "inception": {
+          "time": "+1868-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Renfe 319.304 + 319.323 at Almorchón (30652596793).jpg",
+        "eswiki": "Estación de Almorchón"
+      }
+    },
+    "EX-10": {
+      "queriedPoint": "38.969161,-5.796396",
+      "decision": "auto",
+      "qid": "Q125988529",
+      "candidates": [
+        {
+          "qid": "Q125988529",
+          "label": "Fábrica de jabones La Jabonera",
+          "distanceM": 5,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q125988529",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Fábrica de jabones La Jabonera",
+        "description": "fábrica en Villanueva de la Serena, España",
+        "point": {
+          "lat": 38.969208,
+          "lon": -5.79641
+        },
+        "inception": {
+          "time": "+1910-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "La fábrica de jabones Gallardo 02.jpg"
+      }
+    },
+    "EX-11": {
+      "queriedPoint": "39.335466,-5.484529",
+      "decision": "auto",
+      "qid": "Q126082675",
+      "candidates": [
+        {
+          "qid": "Q126082675",
+          "label": "Mina Constanaza",
+          "distanceM": 52,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126082675",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Mina Constanaza",
+        "description": "mina en Extremadura, España",
+        "point": {
+          "lat": 39.335109,
+          "lon": -5.484143
+        },
+        "inception": {
+          "time": "+1907-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "EX-12": {
+      "queriedPoint": "39.374256,-5.016358",
+      "decision": "auto",
+      "qid": "Q126083225",
+      "candidates": [
+        {
+          "qid": "Q126083225",
+          "label": "Presa de Cijara",
+          "distanceM": 100,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126083225",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Presa de Cijara",
+        "description": "presa en Cáceres, España",
+        "point": {
+          "lat": 39.373962,
+          "lon": -5.017458
+        },
+        "inception": {
+          "time": "+1932-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "GA-01": {
+      "queriedPoint": "42.253984,-8.788841",
+      "decision": "auto",
+      "qid": "Q125986227",
+      "candidates": [
+        {
+          "qid": "Q125986227",
+          "label": "Fábrica de Conservas y Factoría ballenera Massó",
+          "distanceM": 0,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q125986227",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Fábrica de Conservas y Factoría ballenera Massó",
+        "description": "fábrica en Galicia",
+        "point": {
+          "lat": 42.253984,
+          "lon": -8.788841
+        },
+        "inception": {
+          "time": "+1935-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Planta de Massó Cangas.jpg"
+      }
+    },
+    "GA-02": {
+      "queriedPoint": "42.836427,-8.849546",
+      "decision": "auto",
+      "qid": "Q56371901",
+      "candidates": [
+        {
+          "qid": "Q56371901",
+          "label": "Central Hidroeléctrica del Tambre",
+          "distanceM": 20,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q56371901",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Central Hidroeléctrica del Tambre",
+        "description": "central hidroeléctrica en Galicia",
+        "point": {
+          "lat": 42.836333333333,
+          "lon": -8.8493333333333
+        },
+        "inception": {
+          "time": "+1924-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Roo, Central Hidroeléctrica do Tambre 01-01b.jpg"
+      }
+    },
+    "GA-03": {
+      "queriedPoint": "43.481830,-8.232100",
+      "decision": "auto",
+      "qid": "Q17385214",
+      "candidates": [
+        {
+          "qid": "Q17385214",
+          "label": "Arsenal de Ferrol",
+          "distanceM": 468,
+          "similarity": 1
+        },
+        {
+          "qid": "Q485329",
+          "label": "Ferrol",
+          "distanceM": 296,
+          "similarity": 0.38
+        },
+        {
+          "qid": "Q19969093",
+          "label": "Museo Naval de Ferrol",
+          "distanceM": 0,
+          "similarity": 0.36
+        }
+      ],
+      "entity": {
+        "qid": "Q17385214",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Arsenal de Ferrol",
+        "description": "bien de Interés Cultural",
+        "point": {
+          "lat": 43.4797,
+          "lon": -8.2371
+        },
+        "inception": {
+          "time": "+1740-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0008849",
+        "image": "Arsenal de Ferrol.JPG",
+        "eswiki": "Arsenal de Ferrol"
+      }
+    },
+    "GA-04": {
+      "queriedPoint": "42.758103,-8.231799",
+      "decision": "candidate",
+      "qid": "Q9312784",
+      "candidates": [
+        {
+          "qid": "Q9312784",
+          "label": "Fontao",
+          "distanceM": 663,
+          "similarity": 0.38
+        }
+      ],
+      "entity": {
+        "qid": "Q9312784",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Fontao",
+        "description": "parroquia del concello de Villa de Cruces, provincia de Pontevedra, España",
+        "point": {
+          "lat": 42.76218843,
+          "lon": -8.22587996
+        },
+        "image": "Casa da dirección da mina de Fontao.jpg",
+        "eswiki": "Fontao (Villa de Cruces)"
+      }
+    },
+    "GA-05": {
+      "queriedPoint": "43.666792,-7.402768",
+      "decision": "candidate",
+      "qid": "Q43168152",
+      "candidates": [
+        {
+          "qid": "Q43168152",
+          "label": "Antiguo Complejo Siderúrgico y Cerámico de Sargadelos",
+          "distanceM": 711,
+          "similarity": 1
+        },
+        {
+          "qid": "Q11703615",
+          "label": "Sargadelos",
+          "distanceM": 395,
+          "similarity": 0.48
+        },
+        {
+          "qid": "Q113122753",
+          "label": "Sargadelos",
+          "distanceM": 431,
+          "similarity": 0.48
+        }
+      ],
+      "entity": {
+        "qid": "Q43168152",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Antiguo Complejo Siderúrgico y Cerámico de Sargadelos",
+        "description": "bien de interés cultural",
+        "point": {
+          "lat": 43.660651103646316,
+          "lon": -7.405214531899833
+        },
+        "bic": "RI-53-0000139",
+        "image": "Sargadelos antiguos hornos fundición lou.JPG"
+      }
+    },
+    "GA-06": {
+      "queriedPoint": "42.285712,-8.610008",
+      "decision": "auto",
+      "qid": "Q12401817",
+      "candidates": [
+        {
+          "qid": "Q12401817",
+          "label": "Viaducto de Pontevedra",
+          "distanceM": 29,
+          "similarity": 0.6
+        },
+        {
+          "qid": "Q12401816",
+          "label": "Viaducto de Madrid",
+          "distanceM": 497,
+          "similarity": 0.47
+        },
+        {
+          "qid": "Q20547064",
+          "label": "Redondela",
+          "distanceM": 233,
+          "similarity": 0.43
+        },
+        {
+          "qid": "Q10993151",
+          "label": "Redondela",
+          "distanceM": 249,
+          "similarity": 0.43
+        },
+        {
+          "qid": "Q20547064",
+          "label": "Redondela",
+          "distanceM": 266,
+          "similarity": 0.43
+        }
+      ],
+      "entity": {
+        "qid": "Q12401817",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Viaducto de Pontevedra",
+        "description": "viaducto en Redondela",
+        "point": {
+          "lat": 42.285826,
+          "lon": -8.609692
+        },
+        "inception": {
+          "time": "+1884-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Viaduto de Pontevedra, Redondela.jpg",
+        "eswiki": "Viaducto de Pontevedra"
+      }
+    },
+    "IB-01": {
+      "queriedPoint": "39.769092,2.715271",
+      "decision": "auto",
+      "qid": "Q126143261",
+      "candidates": [
+        {
+          "qid": "Q126143261",
+          "label": "Sa Fábrica Nova",
+          "distanceM": 0,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126143261",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Sa Fábrica Nova",
+        "description": "fábrica en Sóller, España",
+        "point": {
+          "lat": 39.769092,
+          "lon": 2.715271
+        },
+        "inception": {
+          "time": "+1922-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "IB-02": {
+      "queriedPoint": "39.470846,3.142077",
+      "decision": "auto",
+      "qid": "Q8249081",
+      "candidates": [
+        {
+          "qid": "Q8249081",
+          "label": "Bodega Cooperativa de Felanich",
+          "distanceM": 36,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q8249081",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Bodega Cooperativa de Felanich",
+        "description": "bien de interés cultural",
+        "point": {
+          "lat": 39.470833333333,
+          "lon": 3.1425
+        },
+        "inception": {
+          "time": "+1919-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0007385",
+        "image": "Sindicat.jpg",
+        "eswiki": "Bodega Cooperativa de Felanich"
+      }
+    },
+    "IB-03": {
+      "queriedPoint": "39.835521,3.144798",
+      "decision": "auto",
+      "qid": "Q126136177",
+      "candidates": [
+        {
+          "qid": "Q126136177",
+          "label": "Térmica de Alcudia",
+          "distanceM": 35,
+          "similarity": 1
+        },
+        {
+          "qid": "Q11941947",
+          "label": "Alcudia",
+          "distanceM": 1880,
+          "similarity": 0.41
+        }
+      ],
+      "entity": {
+        "qid": "Q126136177",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Térmica de Alcudia",
+        "description": "fábrica en Mallorca, España",
+        "point": {
+          "lat": 39.835836,
+          "lon": 3.144816
+        },
+        "inception": {
+          "time": "+1955-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "IB-04": {
+      "queriedPoint": "39.550463,2.724539",
+      "decision": "candidate",
+      "qid": "Q126149338",
+      "candidates": [
+        {
+          "qid": "Q126149338",
+          "label": "Aeronave Convair CV-990 Coronado EC-BZO",
+          "distanceM": 610,
+          "similarity": 0.65
+        }
+      ],
+      "entity": {
+        "qid": "Q126149338",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Aeronave Convair CV-990 Coronado EC-BZO",
+        "description": "aeronave situada en Palma, España",
+        "point": {
+          "lat": 39.545896,
+          "lon": 2.728487
+        },
+        "image": "EC-BZO.jpg"
+      }
+    },
+    "LR-01": {
+      "queriedPoint": "42.584419,-2.848204",
+      "decision": "auto",
+      "qid": "Q4936456",
+      "candidates": [
+        {
+          "qid": "Q4936456",
+          "label": "Bodegas R. López de Heredia",
+          "distanceM": 60,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q4936456",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Bodegas R. López de Heredia",
+        "description": "bodegas en La Rioja, España",
+        "point": {
+          "lat": 42.584734710977656,
+          "lon": -2.8476034211688805
+        },
+        "inception": {
+          "time": "+1877-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Zaha Hadid Tondonia Winery Pavillion.jpg"
+      }
+    },
+    "LR-02": {
+      "queriedPoint": "42.471111,-2.445556",
+      "decision": "auto",
+      "qid": "Q5755218",
+      "candidates": [
+        {
+          "qid": "Q5755218",
+          "label": "Casa de las Ciencias",
+          "distanceM": 20,
+          "similarity": 1
+        },
+        {
+          "qid": "Q85726254",
+          "label": "Biblioteca de la Casa de las Ciencias",
+          "distanceM": 211,
+          "similarity": 0.52
+        }
+      ],
+      "entity": {
+        "qid": "Q5755218",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Casa de las Ciencias",
+        "description": "espacio cultural de la ciudad de Logroño, La Rioja, España",
+        "point": {
+          "lat": 42.4710016,
+          "lon": -2.4457427
+        },
+        "inception": {
+          "time": "+1901-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Across the Ebro - panoramio.jpg",
+        "eswiki": "Casa de las Ciencias (Logroño)"
+      }
+    },
+    "LR-03": {
+      "queriedPoint": "42.327097,-3.013284",
+      "decision": "auto",
+      "qid": "Q18924117",
+      "candidates": [
+        {
+          "qid": "Q18924117",
+          "label": "Real Fábrica de Paños de Ezcaray",
+          "distanceM": 78,
+          "similarity": 0.7
+        }
+      ],
+      "entity": {
+        "qid": "Q18924117",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Real Fábrica de Paños de Ezcaray",
+        "description": "antigua fábrica textil en la localidad española de Ezcaray",
+        "point": {
+          "lat": 42.327721,
+          "lon": -3.013729
+        },
+        "inception": {
+          "time": "+1751-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0007321",
+        "image": "Real Fábrica de Paños- Ezcaray DSC 4586 W.jpg",
+        "eswiki": "Real Fábrica de Paños de Ezcaray"
+      }
+    },
+    "MAD-01": {
+      "queriedPoint": "40.366095,-3.243053",
+      "decision": "candidate",
+      "qid": "Q24012714",
+      "candidates": [
+        {
+          "qid": "Q24012714",
+          "label": "Nuevo Baztán",
+          "distanceM": 9,
+          "similarity": 1
+        },
+        {
+          "qid": "Q921352",
+          "label": "Nuevo Baztán",
+          "distanceM": 154,
+          "similarity": 1
+        },
+        {
+          "qid": "Q24012714",
+          "label": "Nuevo Baztán",
+          "distanceM": 204,
+          "similarity": 1
+        },
+        {
+          "qid": "Q54824009",
+          "label": "Olmo de Nuevo Baztán",
+          "distanceM": 139,
+          "similarity": 0.63
+        },
+        {
+          "qid": "Q42211037",
+          "label": "Conjunto Histórico de Nuevo Baztán",
+          "distanceM": 55,
+          "similarity": 0.41
+        }
+      ],
+      "entity": {
+        "qid": "Q24012714",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Nuevo Baztán",
+        "description": "localidad de Nuevo Baztán, España",
+        "point": {
+          "lat": 40.36731,
+          "lon": -3.24125
+        }
+      },
+      "acceptedEntity": {
+        "qid": "Q42211037",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Conjunto Histórico de Nuevo Baztán",
+        "description": "bien de interés cultural",
+        "point": {
+          "lat": 40.365666666667,
+          "lon": -3.2427305555556
+        },
+        "inception": {
+          "time": "+1709-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-53-0000519",
+        "image": "Plaza de las Fiestas. Nuevo Baztan.JPG",
+        "eswiki": "Conjunto histórico de Nuevo Baztán"
+      }
+    },
+    "MAD-02": {
+      "queriedPoint": "40.406196,-3.682014",
+      "decision": "auto",
+      "qid": "Q570665",
+      "candidates": [
+        {
+          "qid": "Q570665",
+          "label": "Real Fábrica de Tapices",
+          "distanceM": 42,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q570665",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Real Fábrica de Tapices",
+        "description": "edificio fabril en Madrid",
+        "point": {
+          "lat": 40.406069,
+          "lon": -3.682483
+        },
+        "inception": {
+          "time": "+1720-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0011608",
+        "image": "Real Fabrica de Tapices de Madrid.jpg",
+        "eswiki": "Real Fábrica de Tapices"
+      }
+    },
+    "MAD-03": {
+      "queriedPoint": "40.054503,-3.564636",
+      "decision": "auto",
+      "qid": "Q125988429",
+      "candidates": [
+        {
+          "qid": "Q125988429",
+          "label": "Lagar y bodegas del Real Cortijo de San Isidro",
+          "distanceM": 151,
+          "similarity": 0.7
+        },
+        {
+          "qid": "Q6101865",
+          "label": "Real Cortijo de San Isidro",
+          "distanceM": 102,
+          "similarity": 0.52
+        }
+      ],
+      "entity": {
+        "qid": "Q125988429",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Lagar y bodegas del Real Cortijo de San Isidro",
+        "description": "patrimonio industrial en el Madrid",
+        "point": {
+          "lat": 40.055203,
+          "lon": -3.566152
+        },
+        "inception": {
+          "time": "+1782-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "MAD-04": {
+      "queriedPoint": "40.883424,-3.441434",
+      "decision": "candidate",
+      "qid": "Q24019689",
+      "candidates": [
+        {
+          "qid": "Q24019689",
+          "label": "Pontón de la Oliva",
+          "distanceM": 44,
+          "similarity": 1
+        },
+        {
+          "qid": "Q5678588",
+          "label": "Pontón de la Oliva",
+          "distanceM": 135,
+          "similarity": 1
+        },
+        {
+          "qid": "Q43401083",
+          "label": "embalse del Pontón de la Oliva",
+          "distanceM": 467,
+          "similarity": 0.55
+        }
+      ],
+      "entity": {
+        "qid": "Q24019689",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Pontón de la Oliva",
+        "point": {
+          "lat": 40.88339,
+          "lon": -3.44196
+        }
+      },
+      "acceptedEntity": {
+        "qid": "Q5678588",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Pontón de la Oliva",
+        "description": "presa en desuso en el río Lozoya",
+        "point": {
+          "lat": 40.88444444,
+          "lon": -3.44055556
+        },
+        "image": "El Pontón de la Oliva aliviando.jpg",
+        "eswiki": "Pontón de la Oliva"
+      }
+    },
+    "MAD-05": {
+      "queriedPoint": "40.399727,-3.690637",
+      "decision": "auto",
+      "qid": "Q29917723",
+      "candidates": [
+        {
+          "qid": "Q29917723",
+          "label": "Fábrica de cervezas El Águila",
+          "distanceM": 48,
+          "similarity": 0.77
+        },
+        {
+          "qid": "Q27088291",
+          "label": "Archivo Regional de la Comunidad de Madrid",
+          "distanceM": 14,
+          "similarity": 0.55
+        },
+        {
+          "qid": "Q5727913",
+          "label": "Biblioteca Regional de Madrid",
+          "distanceM": 12,
+          "similarity": 0.38
+        },
+        {
+          "qid": "Q85696492",
+          "label": "Biblioteca Auxiliar del Archivo Regional de la Comunidad de Madrid",
+          "distanceM": 12,
+          "similarity": 0.37
+        }
+      ],
+      "entity": {
+        "qid": "Q29917723",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Fábrica de cervezas El Águila",
+        "description": "edificio en Madrid, sede de la Biblioteca Regional Joaquín Leguina",
+        "point": {
+          "lat": 40.400006944444,
+          "lon": -3.69021
+        },
+        "inception": {
+          "time": "+1912-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "ARI-51-0007007",
+        "image": "Biblioteca Joaquín Leguina (Madrid) 03.jpg",
+        "eswiki": "Fábrica de cerveza El Águila (Madrid)"
+      }
+    },
+    "MAD-06": {
+      "queriedPoint": "40.432262,-3.697715",
+      "decision": "candidate",
+      "qid": "Q482378",
+      "candidates": [
+        {
+          "qid": "Q482378",
+          "label": "Chamberí",
+          "distanceM": 4,
+          "similarity": 0.42
+        },
+        {
+          "qid": "Q1763370",
+          "label": "Chamberí",
+          "distanceM": 74,
+          "similarity": 0.42
+        }
+      ],
+      "entity": {
+        "qid": "Q482378",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Chamberí",
+        "description": "estación del metro de Madrid",
+        "point": {
+          "lat": 40.4323,
+          "lon": -3.69772
+        },
+        "inception": {
+          "time": "+1919-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Chamberi Anden 0 DSCF0689.JPG",
+        "eswiki": "Estación de Chamberí"
+      }
+    },
+    "MAD-07": {
+      "queriedPoint": "40.485524,-3.370148",
+      "decision": "auto",
+      "qid": "Q56642792",
+      "candidates": [
+        {
+          "qid": "Q56642792",
+          "label": "Fábrica de harinas La Esperanza",
+          "distanceM": 20,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q56642792",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Fábrica de harinas La Esperanza",
+        "description": "antigua fábrica eléctrica de harinas en Alcalá de Henares",
+        "point": {
+          "lat": 40.485361111111,
+          "lon": -3.3700555555556
+        },
+        "inception": {
+          "time": "+1916-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Alcalá de Henares (RPS 03-09-2017) Fábrica de harinas La Esperanza.png",
+        "eswiki": "Fábrica de harinas La Esperanza"
+      }
+    },
+    "MAD-08": {
+      "queriedPoint": "40.406519,-3.703276",
+      "decision": "auto",
+      "qid": "Q56427704",
+      "candidates": [
+        {
+          "qid": "Q56427704",
+          "label": "La Tabacalera de Lavapiés",
+          "distanceM": 69,
+          "similarity": 1
+        },
+        {
+          "qid": "Q5673185",
+          "label": "Real Fábrica de Tabacos de Madrid",
+          "distanceM": 44,
+          "similarity": 0.65
+        },
+        {
+          "qid": "Q31213958",
+          "label": "Tabacalera",
+          "distanceM": 25,
+          "similarity": 0.55
+        },
+        {
+          "qid": "Q2566034",
+          "label": "Lavapiés",
+          "distanceM": 293,
+          "similarity": 0.38
+        },
+        {
+          "qid": "Q388743",
+          "label": "Lavapiés",
+          "distanceM": 306,
+          "similarity": 0.38
+        }
+      ],
+      "entity": {
+        "qid": "Q56427704",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "La Tabacalera de Lavapiés",
+        "description": "centro socialcultural autogestionado de Madrid",
+        "point": {
+          "lat": 40.4061398143403,
+          "lon": -3.7026294357098
+        },
+        "inception": {
+          "time": "+2010-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Madrid - Tabacalera (35965390063).jpg",
+        "eswiki": "La Tabacalera de Lavapiés"
+      },
+      "acceptedEntity": {
+        "qid": "Q5673185",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Real Fábrica de Tabacos de Madrid",
+        "description": "edificio en Madrid",
+        "point": {
+          "lat": 40.40618611,
+          "lon": -3.70300278
+        },
+        "inception": {
+          "time": "+1781-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "ARI-51-0011073",
+        "image": "Fábrica de Tabacos (Madrid) 01.jpg",
+        "eswiki": "Fábrica de Tabacos (Madrid)"
+      }
+    },
+    "MAD-09": {
+      "queriedPoint": "40.398639,-3.690672",
+      "decision": "auto",
+      "qid": "Q125979489",
+      "candidates": [
+        {
+          "qid": "Q125979489",
+          "label": "Apisonadoras de vapor 1992-010-0001 y 0002",
+          "distanceM": 172,
+          "similarity": 1
+        },
+        {
+          "qid": "Q85697752",
+          "label": "Biblioteca del Museo Nacional de Ciencia y Tecnología (MUNCYT) - Sede Madrid",
+          "distanceM": 327,
+          "similarity": 0.46
+        }
+      ],
+      "entity": {
+        "qid": "Q125979489",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Apisonadoras de vapor 1992-010-0001 y 0002",
+        "description": "patrimonio industrial en España",
+        "point": {
+          "lat": 40.399643,
+          "lon": -3.692216
+        }
+      }
+    },
+    "ME-01": {
+      "queriedPoint": "35.289713,-2.934146",
+      "decision": "auto",
+      "qid": "Q28783134",
+      "candidates": [
+        {
+          "qid": "Q28783134",
+          "label": "Cargadero de mineral de Melilla",
+          "distanceM": 10,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q28783134",
+        "heritageStatus": [
+          "Q23712",
+          "Q3317612"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Cargadero de mineral de Melilla",
+        "description": "estructura en Melilla",
+        "point": {
+          "lat": 35.289752777778,
+          "lon": -2.9342444444444
+        },
+        "inception": {
+          "time": "+1925-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Cargadero del Mineral Melilla.jpg",
+        "eswiki": "Cargadero de mineral de Melilla"
+      }
+    },
+    "MU-01": {
+      "queriedPoint": "37.600520,-0.834066",
+      "decision": "none",
+      "candidates": []
+    },
+    "MU-02": {
+      "queriedPoint": "37.408789,-1.563549",
+      "decision": "auto",
+      "qid": "Q30901578",
+      "candidates": [
+        {
+          "qid": "Q30901578",
+          "label": "Embarcadero del Hornillo",
+          "distanceM": 303,
+          "similarity": 0.78
+        },
+        {
+          "qid": "Q28120601",
+          "label": "El Hornillo",
+          "distanceM": 364,
+          "similarity": 0.38
+        }
+      ],
+      "entity": {
+        "qid": "Q30901578",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Embarcadero del Hornillo",
+        "description": "bien de interés cultural",
+        "point": {
+          "lat": 37.408738,
+          "lon": -1.560123
+        },
+        "inception": {
+          "time": "+1903-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0010117",
+        "image": "Embarcadero del Hornillo.jpg",
+        "eswiki": "Embarcadero del Hornillo"
+      }
+    },
+    "MU-03": {
+      "queriedPoint": "37.600304,-0.988641",
+      "decision": "auto",
+      "qid": "Q4069935",
+      "candidates": [
+        {
+          "qid": "Q4069935",
+          "label": "Arsenal de Cartagena",
+          "distanceM": 3,
+          "similarity": 1
+        },
+        {
+          "qid": "Q141128107",
+          "label": "puerta del Arsenal de Cartagena",
+          "distanceM": 3,
+          "similarity": 0.67
+        },
+        {
+          "qid": "Q111389040",
+          "label": "NH Cartagena",
+          "distanceM": 251,
+          "similarity": 0.43
+        },
+        {
+          "qid": "Q119496026",
+          "label": "Calle de la Puerta de Murcia 13 (Cartagena)",
+          "distanceM": 241,
+          "similarity": 0.41
+        },
+        {
+          "qid": "Q3330747",
+          "label": "Museo Naval de Cartagena",
+          "distanceM": 298,
+          "similarity": 0.39
+        }
+      ],
+      "entity": {
+        "qid": "Q4069935",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:48.983Z",
+        "label": "Arsenal de Cartagena",
+        "description": "complejo militar de construcción de buques en Cartagena (España)",
+        "point": {
+          "lat": 37.60031111,
+          "lon": -0.98861111
+        },
+        "inception": {
+          "time": "+1731-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Arsenal de Cartagena.JPG",
+        "eswiki": "Arsenal de Cartagena"
+      }
+    },
+    "MU-04": {
+      "queriedPoint": "37.601263,-1.327566",
+      "decision": "candidate",
+      "qid": "Q24012543",
+      "candidates": [
+        {
+          "qid": "Q24012543",
+          "label": "Mazarrón",
+          "distanceM": 1040,
+          "similarity": 0.6
+        },
+        {
+          "qid": "Q24012543",
+          "label": "Mazarrón",
+          "distanceM": 1137,
+          "similarity": 0.6
+        },
+        {
+          "qid": "Q913277",
+          "label": "Mazarrón",
+          "distanceM": 1246,
+          "similarity": 0.6
+        },
+        {
+          "qid": "Q43174411",
+          "label": "Zona Minera de San Cristóbal- Los Perules",
+          "distanceM": 466,
+          "similarity": 0.46
+        },
+        {
+          "qid": "Q24023755",
+          "label": "plaza de toros de Mazarrón",
+          "distanceM": 1550,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q24012543",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Mazarrón",
+        "description": "localidad de Mazarrón, España",
+        "point": {
+          "lat": 37.5992,
+          "lon": -1.31493
+        }
+      },
+      "acceptedEntity": {
+        "qid": "Q43174411",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Zona Minera de San Cristóbal- Los Perules",
+        "description": "bien de interés cultural",
+        "point": {
+          "lat": 37.598182,
+          "lon": -1.323975
+        },
+        "bic": "RI-54-0000218",
+        "image": "Zona Minera de San Cristobal Los Perules.jpg"
+      }
+    },
+    "MU-05": {
+      "queriedPoint": "38.212149,-1.621031",
+      "decision": "auto",
+      "qid": "Q107738401",
+      "candidates": [
+        {
+          "qid": "Q107738401",
+          "label": "Salinas de la Ramona",
+          "distanceM": 96,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q107738401",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Salinas de la Ramona",
+        "description": "salina en Calasparra, España",
+        "point": {
+          "lat": 38.2126265405591,
+          "lon": -1.62194890323973
+        }
+      }
+    },
+    "NA-01": {
+      "queriedPoint": "43.009053,-1.227460",
+      "decision": "candidate",
+      "qid": "Q12265223",
+      "candidates": [
+        {
+          "qid": "Q12265223",
+          "label": "Real Fábrica de Armas de Orbaiceta",
+          "distanceM": 79,
+          "similarity": 0.43
+        }
+      ],
+      "entity": {
+        "qid": "Q12265223",
+        "heritageStatus": [
+          "Q23712",
+          "Q69873044"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Real Fábrica de Armas de Orbaiceta",
+        "description": "bien de interés cultural en Orbaiceta",
+        "point": {
+          "lat": 43.00972222,
+          "lon": -1.22777778
+        },
+        "inception": {
+          "time": "+1784-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0012022",
+        "image": "Orbaitzetako ola erreka.jpg",
+        "eswiki": "Real Fábrica de Armas de Orbaiceta"
+      }
+    },
+    "NA-02": {
+      "queriedPoint": "42.882470,-2.191087",
+      "decision": "none",
+      "candidates": []
+    },
+    "NA-03": {
+      "queriedPoint": "42.828990,-1.649572",
+      "decision": "none",
+      "candidates": []
+    },
+    "NA-04": {
+      "queriedPoint": "42.061742,-1.629196",
+      "decision": "auto",
+      "qid": "Q126187843",
+      "candidates": [
+        {
+          "qid": "Q126187843",
+          "label": "Piher Nacesa",
+          "distanceM": 128,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126187843",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Piher Nacesa",
+        "description": "fábrica en Tudela, España",
+        "point": {
+          "lat": 42.06265,
+          "lon": -1.630156
+        },
+        "inception": {
+          "time": "+1964-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "NA-05": {
+      "queriedPoint": "42.025710,-1.534423",
+      "decision": "auto",
+      "qid": "Q20492120",
+      "candidates": [
+        {
+          "qid": "Q20492120",
+          "label": "Trujal antiguo del paraje de Belver",
+          "distanceM": 111,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q20492120",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Trujal antiguo del paraje de Belver",
+        "description": "bien de interés cultural",
+        "point": {
+          "lat": 42.0256764,
+          "lon": -1.5357606
+        },
+        "bic": "RI-51-0011556",
+        "image": "Trujal de Belver (Cabanillas) 04.jpg"
+      }
+    },
+    "NA-06": {
+      "queriedPoint": "42.894779,-1.301297",
+      "decision": "candidate",
+      "qid": "Q126192466",
+      "candidates": [
+        {
+          "qid": "Q126192466",
+          "label": "Central Eléctrica de Oroz",
+          "distanceM": 12,
+          "similarity": 0.43
+        }
+      ],
+      "entity": {
+        "qid": "Q126192466",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Central Eléctrica de Oroz",
+        "description": "central eléctrica en Navarra, España",
+        "point": {
+          "lat": 42.89473088703104,
+          "lon": -1.301168174386077
+        }
+      }
+    },
+    "PV-01": {
+      "queriedPoint": "42.800405,-2.983459",
+      "decision": "candidate",
+      "qid": "Q65926730",
+      "candidates": [
+        {
+          "qid": "Q65926730",
+          "label": "Salinas de Añana",
+          "distanceM": 95,
+          "similarity": 1
+        },
+        {
+          "qid": "Q3469803",
+          "label": "Salinas de Añana",
+          "distanceM": 283,
+          "similarity": 1
+        },
+        {
+          "qid": "Q117244937",
+          "label": "Salinas De Anana (monasterio)",
+          "distanceM": 290,
+          "similarity": 0.57
+        }
+      ],
+      "entity": {
+        "qid": "Q65926730",
+        "heritageStatus": [
+          "Q65553409",
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Salinas de Añana",
+        "description": "patrimonio construido vasco en Añana",
+        "point": {
+          "lat": 42.7995545692,
+          "lon": -2.9835107155
+        },
+        "image": "Fundacion Valle Salado511.JPG"
+      }
+    },
+    "PV-02": {
+      "queriedPoint": "43.050206,-2.189972",
+      "decision": "auto",
+      "qid": "Q126188655",
+      "candidates": [
+        {
+          "qid": "Q126188655",
+          "label": "Compañía Auxiliar de Ferrocarriles S. A. CAF.",
+          "distanceM": 0,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126188655",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Compañía Auxiliar de Ferrocarriles S. A. CAF.",
+        "description": "conjunto de edificios de la compañía de ferrocarriles en Beasain, España",
+        "point": {
+          "lat": 43.050206,
+          "lon": -2.189972
+        },
+        "inception": {
+          "time": "+1860-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "PV-03": {
+      "queriedPoint": "43.284047,-3.055020",
+      "decision": "candidate",
+      "qid": "Q65581042",
+      "candidates": [
+        {
+          "qid": "Q65581042",
+          "label": "Poblado Minero La Arboleda",
+          "distanceM": 71,
+          "similarity": 0.53
+        },
+        {
+          "qid": "Q12269468",
+          "label": "La Arboleda",
+          "distanceM": 102,
+          "similarity": 0.44
+        },
+        {
+          "qid": "Q72593147",
+          "label": "La Arboleda (1188)",
+          "distanceM": 147,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q65581042",
+        "heritageStatus": [
+          "Q65553409"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Poblado Minero La Arboleda",
+        "description": "patrimonio construído vasco destacado en el Valle de Trapaga",
+        "point": {
+          "lat": 43.284656,
+          "lon": -3.054777
+        },
+        "inception": {
+          "time": "+1877-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Trapagaran - Zugaztietako Meatze Auzunea.jpg"
+      }
+    },
+    "PV-04": {
+      "queriedPoint": "43.014955,-2.300178",
+      "decision": "none",
+      "candidates": []
+    },
+    "PV-05": {
+      "queriedPoint": "43.176190,-3.212615",
+      "decision": "candidate",
+      "qid": "Q65965668",
+      "candidates": [
+        {
+          "qid": "Q65965668",
+          "label": "La Encartada",
+          "distanceM": 42,
+          "similarity": 0.47
+        },
+        {
+          "qid": "Q12255401",
+          "label": "La Encartada Fabrika Museoa",
+          "distanceM": 8,
+          "similarity": 0.43
+        }
+      ],
+      "entity": {
+        "qid": "Q65965668",
+        "heritageStatus": [
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "La Encartada",
+        "point": {
+          "lat": 43.175830555556,
+          "lon": -3.2127805555556
+        },
+        "inception": {
+          "time": "+1892-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "La Encartada 02.jpg"
+      },
+      "acceptedEntity": {
+        "qid": "Q12255401",
+        "heritageStatus": [
+          "Q65553409",
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "La Encartada Fabrika Museoa",
+        "description": "museo en el País Vasco",
+        "point": {
+          "lat": 43.176156,
+          "lon": -3.212533
+        },
+        "inception": {
+          "time": "+1892-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Laencartada.JPG",
+        "eswiki": "La Encartada"
+      }
+    },
+    "PV-06": {
+      "queriedPoint": "43.323194,-3.017140",
+      "decision": "auto",
+      "qid": "Q331996",
+      "candidates": [
+        {
+          "qid": "Q331996",
+          "label": "puente Vizcaya",
+          "distanceM": 22,
+          "similarity": 1
+        },
+        {
+          "qid": "Q72584408",
+          "label": "Bizkaia Zubia/Puente Bizkaia (1)",
+          "distanceM": 161,
+          "similarity": 0.44
+        },
+        {
+          "qid": "Q72600810",
+          "label": "Bizkaia Zubia / Puente Bizkaia (519)",
+          "distanceM": 129,
+          "similarity": 0.42
+        },
+        {
+          "qid": "Q72600838",
+          "label": "Bizkaia Zubia / Puente Bizkaia (534)",
+          "distanceM": 178,
+          "similarity": 0.42
+        },
+        {
+          "qid": "Q72598905",
+          "label": "Bizkaia Zubia / Puente Bizkaia (3468)",
+          "distanceM": 113,
+          "similarity": 0.41
+        }
+      ],
+      "entity": {
+        "qid": "Q331996",
+        "heritageStatus": [
+          "Q9259",
+          "Q65553409",
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "puente Vizcaya",
+        "description": "patrimonio construído vasco destacado en Portugalete y Bilbao",
+        "point": {
+          "lat": 43.323055555556,
+          "lon": -3.0169444444444
+        },
+        "bic": "RI-51-0005163",
+        "image": "Bizkaia zubia - Puente Bizkaia.jpg",
+        "eswiki": "Puente de Vizcaya"
+      }
+    },
+    "PV-07": {
+      "queriedPoint": "43.260048,-2.926516",
+      "decision": "candidate",
+      "qid": "Q3095996",
+      "candidates": [
+        {
+          "qid": "Q3095996",
+          "label": "estación de Bilbao-Concordia",
+          "distanceM": 25,
+          "similarity": 0.67
+        },
+        {
+          "qid": "Q119400059",
+          "label": "Oficinas De La Estación De La Concordia.",
+          "distanceM": 54,
+          "similarity": 0.62
+        },
+        {
+          "qid": "Q119400057",
+          "label": "Oficinas De La Estación De La Concordia",
+          "distanceM": 67,
+          "similarity": 0.62
+        },
+        {
+          "qid": "Q124626337",
+          "label": "Estacion De La Naja",
+          "distanceM": 63,
+          "similarity": 0.38
+        },
+        {
+          "qid": "Q119399937",
+          "label": "Estación De Abando",
+          "distanceM": 166,
+          "similarity": 0.35
+        }
+      ],
+      "entity": {
+        "qid": "Q3095996",
+        "heritageStatus": [
+          "Q29024527"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "estación de Bilbao-Concordia",
+        "description": "estación ferroviaria terminal en Bilbao (España)",
+        "point": {
+          "lat": 43.26016666666666,
+          "lon": -2.92625
+        },
+        "inception": {
+          "time": "+1898-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Bilbao - Estacion de FEVE Concordia 13.jpg",
+        "eswiki": "Estación de Bilbao La Concordia"
+      }
+    },
+    "PV-08": {
+      "queriedPoint": "43.056925,-2.331707",
+      "decision": "candidate",
+      "qid": "Q131453108",
+      "candidates": [
+        {
+          "qid": "Q131453108",
+          "label": "Patricio Echeverria S.A.",
+          "distanceM": 95,
+          "similarity": 1
+        },
+        {
+          "qid": "Q125909022",
+          "label": "Patricio Echeverría S. A.",
+          "distanceM": 351,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q131453108",
+        "heritageStatus": [
+          "Q29024527"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Patricio Echeverria S.A.",
+        "description": "edificios listados en Legazpi",
+        "point": {
+          "lat": 43.05777742,
+          "lon": -2.33182132
+        },
+        "image": "Patricio Echeverría S.A.-Fabrikaren esparruaren barruko bista (ELDE20230154311).jpg"
+      },
+      "acceptedEntity": {
+        "qid": "Q125909022",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Patricio Echeverría S. A.",
+        "description": "conjunto de instalaciones fabriles",
+        "point": {
+          "lat": 43.05377928918757,
+          "lon": -2.331328098450425
+        },
+        "inception": {
+          "time": "+1908-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Legazpi - Corporación Patricio Echeverría, S.A. (2).jpg"
+      }
+    },
+    "PV-09": {
+      "queriedPoint": "43.316987,-1.976017",
+      "decision": "candidate",
+      "qid": "Q134840167",
+      "candidates": [
+        {
+          "qid": "Q134840167",
+          "label": "Antigua fábrica de tabacos de San Sebastián",
+          "distanceM": 48,
+          "similarity": 0.6
+        },
+        {
+          "qid": "Q9081343",
+          "label": "Tabakalera",
+          "distanceM": 47,
+          "similarity": 0.55
+        }
+      ],
+      "entity": {
+        "qid": "Q134840167",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Antigua fábrica de tabacos de San Sebastián",
+        "point": {
+          "lat": 43.316580555555554,
+          "lon": -1.9758305555555555
+        },
+        "eswiki": "Antigua fábrica de tabacos de San Sebastián"
+      }
+    },
+    "PV-10": {
+      "queriedPoint": "43.311539,-3.000674",
+      "decision": "candidate",
+      "qid": "Q11682603",
+      "candidates": [
+        {
+          "qid": "Q11682603",
+          "label": "Horno Alto 1 de Altos Hornos de Vizcaya",
+          "distanceM": 22,
+          "similarity": 0.55
+        }
+      ],
+      "entity": {
+        "qid": "Q11682603",
+        "heritageStatus": [
+          "Q65553409"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Horno Alto 1 de Altos Hornos de Vizcaya",
+        "description": "patrimonio construído vasco destacado en Sestao",
+        "point": {
+          "lat": 43.311644,
+          "lon": -3.000445
+        },
+        "inception": {
+          "time": "+1959-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Sestao - AHV 1. Labe Garaia 114.jpg",
+        "eswiki": "Horno Alto 1 de Altos Hornos de Vizcaya"
+      }
+    },
+    "PV-11": {
+      "queriedPoint": "43.329512,-1.925696",
+      "decision": "auto",
+      "qid": "Q61069427",
+      "candidates": [
+        {
+          "qid": "Q61069427",
+          "label": "Draga Jaizkibel",
+          "distanceM": 1,
+          "similarity": 1
+        },
+        {
+          "qid": "Q12265567",
+          "label": "Pasajes San Pedro",
+          "distanceM": 781,
+          "similarity": 0.64
+        },
+        {
+          "qid": "Q23993616",
+          "label": "Pasajes San Juan",
+          "distanceM": 532,
+          "similarity": 0.38
+        }
+      ],
+      "entity": {
+        "qid": "Q61069427",
+        "heritageStatus": [
+          "Q65553409",
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Draga Jaizkibel",
+        "description": "patrimonio construido vasco en Pasaia",
+        "point": {
+          "lat": 43.3295193763,
+          "lon": -1.92569431564
+        },
+        "image": "Albaola Itsas Kultur Faktoria 1, Pasai San Pedro. Gipuzkoa, Euskal Herria.jpg"
+      }
+    },
+    "PV-12": {
+      "queriedPoint": "43.317978,-1.772334",
+      "decision": "auto",
+      "qid": "Q125914598",
+      "candidates": [
+        {
+          "qid": "Q125914598",
+          "label": "Coto minero de Irugurutzeta",
+          "distanceM": 11,
+          "similarity": 0.89
+        },
+        {
+          "qid": "Q95618854",
+          "label": "Irugutzeta",
+          "distanceM": 22,
+          "similarity": 0.38
+        }
+      ],
+      "entity": {
+        "qid": "Q125914598",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Coto minero de Irugurutzeta",
+        "description": "patrimonio industrial en el País Vasco",
+        "point": {
+          "lat": 43.31788181598576,
+          "lon": -1.7723779149795125
+        },
+        "image": "Irugurutzetakolabeak5.jpg"
+      }
+    },
+    "PV-13": {
+      "queriedPoint": "43.361711,-2.498819",
+      "decision": "auto",
+      "qid": "Q16518343",
+      "candidates": [
+        {
+          "qid": "Q16518343",
+          "label": "Astillero Mendieta",
+          "distanceM": 18,
+          "similarity": 1
+        },
+        {
+          "qid": "Q65562323",
+          "label": "Astillero de Mendexa",
+          "distanceM": 119,
+          "similarity": 0.61
+        }
+      ],
+      "entity": {
+        "qid": "Q16518343",
+        "heritageStatus": [
+          "Q65553409",
+          "Q23712"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Astillero Mendieta",
+        "description": "patrimonio construído vasco destacado en Lekeitio",
+        "point": {
+          "lat": 43.36166667,
+          "lon": -2.49861111
+        },
+        "inception": {
+          "time": "+1917-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Astillero de Mendieta- Instalazioen ikuspegi orokorra (ELDE20230139073).jpg"
+      }
+    },
+    "SA-01": {
+      "queriedPoint": "43.174070,-3.676455",
+      "decision": "auto",
+      "qid": "Q126122022",
+      "candidates": [
+        {
+          "qid": "Q126122022",
+          "label": "Obras para el transporte de maderas con destino a la Real Fábrica de Cañones de La Cavada",
+          "distanceM": 29,
+          "similarity": 0.72
+        }
+      ],
+      "entity": {
+        "qid": "Q126122022",
+        "heritageStatus": [
+          "Q51879399"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Obras para el transporte de maderas con destino a la Real Fábrica de Cañones de La Cavada",
+        "description": "infraestructuras para el transporte de madera en Cantabria",
+        "point": {
+          "lat": 43.174197,
+          "lon": -3.676139
+        },
+        "inception": {
+          "time": "+1791-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "SA-02": {
+      "queriedPoint": "43.355015,-4.055675",
+      "decision": "auto",
+      "qid": "Q5858828",
+      "candidates": [
+        {
+          "qid": "Q5858828",
+          "label": "La Lechera Montañesa",
+          "distanceM": 13,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q5858828",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "La Lechera Montañesa",
+        "description": "recinto ferial de Torrelavega, España",
+        "point": {
+          "lat": 43.355132,
+          "lon": -4.055708
+        },
+        "inception": {
+          "time": "+1899-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Feria de Muestras de Cantabria - Trade Exhibition Building (4864033585).jpg",
+        "eswiki": "La Lechera Montañesa"
+      }
+    },
+    "SA-03": {
+      "queriedPoint": "43.400794,-3.815959",
+      "decision": "auto",
+      "qid": "Q126178580",
+      "candidates": [
+        {
+          "qid": "Q126178580",
+          "label": "Paisaje minero de Cabarga",
+          "distanceM": 28,
+          "similarity": 1
+        }
+      ],
+      "entity": {
+        "qid": "Q126178580",
+        "heritageStatus": [
+          "Q27643271"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Paisaje minero de Cabarga",
+        "description": "conjunto de restos de explotaciones mineras en Cantabria",
+        "point": {
+          "lat": 43.400984,
+          "lon": -3.815724
+        }
+      }
+    },
+    "SA-04": {
+      "queriedPoint": "43.078108,-4.073701",
+      "decision": "auto",
+      "qid": "Q125860636",
+      "candidates": [
+        {
+          "qid": "Q125860636",
+          "label": "Fábrica de harinas La Montañesa",
+          "distanceM": 112,
+          "similarity": 0.63
+        }
+      ],
+      "entity": {
+        "qid": "Q125860636",
+        "heritageStatus": [
+          "Q51879399"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Fábrica de harinas La Montañesa",
+        "description": "fábrica en Ventorrillo, Cantabria",
+        "point": {
+          "lat": 43.07873777334317,
+          "lon": -4.07261895562039
+        },
+        "inception": {
+          "time": "+1920-00-00T00:00:00Z",
+          "precision": 9
+        }
+      }
+    },
+    "SA-05": {
+      "queriedPoint": "43.352561,-3.707385",
+      "decision": "candidate",
+      "qid": "Q5962797",
+      "candidates": [
+        {
+          "qid": "Q5962797",
+          "label": "La Cavada",
+          "distanceM": 15,
+          "similarity": 0.44
+        }
+      ],
+      "entity": {
+        "qid": "Q5962797",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "La Cavada",
+        "description": "localidad de Cantabria (España)",
+        "point": {
+          "lat": 43.3525,
+          "lon": -3.7072222222222
+        },
+        "image": "Panoramica de La Cavada.jpg",
+        "eswiki": "La Cavada"
+      }
+    },
+    "SA-06": {
+      "queriedPoint": "43.344379,-4.083891",
+      "decision": "candidate",
+      "qid": "Q9033259",
+      "candidates": [
+        {
+          "qid": "Q9033259",
+          "label": "Mina de Reocín",
+          "distanceM": 819,
+          "similarity": 0.53
+        },
+        {
+          "qid": "Q6105792",
+          "label": "Reocín",
+          "distanceM": 963,
+          "similarity": 0.4
+        },
+        {
+          "qid": "Q1623013",
+          "label": "Reocín",
+          "distanceM": 1750,
+          "similarity": 0.4
+        }
+      ],
+      "entity": {
+        "qid": "Q9033259",
+        "heritageStatus": [],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Mina de Reocín",
+        "description": "antigua mina de zinc en España",
+        "point": {
+          "lat": 43.3435,
+          "lon": -4.09395278
+        },
+        "inception": {
+          "time": "+1856-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "image": "Pozo Santa Amelia.JPG",
+        "eswiki": "Mina de Reocín"
+      }
+    },
+    "SA-07": {
+      "queriedPoint": "43.369111,-3.195208",
+      "decision": "auto",
+      "qid": "Q24568157",
+      "candidates": [
+        {
+          "qid": "Q24568157",
+          "label": "Cargadero de mineral de Mioño",
+          "distanceM": 40,
+          "similarity": 0.6
+        }
+      ],
+      "entity": {
+        "qid": "Q24568157",
+        "heritageStatus": [
+          "Q23712",
+          "Q69873044"
+        ],
+        "retrievedAt": "2026-10-25T16:24:49.644Z",
+        "label": "Cargadero de mineral de Mioño",
+        "description": "antiguo cargadero de mineral en Cantabria, España",
+        "point": {
+          "lat": 43.369108333333,
+          "lon": -3.1947138888889
+        },
+        "inception": {
+          "time": "+1938-00-00T00:00:00Z",
+          "precision": 9
+        },
+        "bic": "RI-51-0002323-00000",
+        "image": "Cargadero de mineral de Mioño o de Dícido (Cantabria).jpg",
+        "eswiki": "Cargadero de Dícido"
+      }
+    }
+  }
+}

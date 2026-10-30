@@ -1,0 +1,805 @@
+[
+  {
+    "slug": "zaragoza-industrial",
+    "title": "Zaragoza industrial",
+    "theme": "urbana",
+    "kind": "propuesta",
+    "territory": "Zaragoza (Aragón)",
+    "intro": [
+      "Itinerario urbano por cuatro elementos del listado del Plan Nacional de Patrimonio Industrial situados en la ciudad de Zaragoza: una fundición, una fábrica de cerveza, una fábrica de material eléctrico y la antigua estación de Delicias.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "AR-09"
+      },
+      {
+        "code": "AR-01"
+      },
+      {
+        "code": "AR-02"
+      },
+      {
+        "code": "AR-07"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "madrid-industrial",
+    "title": "Madrid: tapices, tabaco, cerveza y metro",
+    "theme": "urbana",
+    "kind": "propuesta",
+    "territory": "Madrid (Comunidad de Madrid)",
+    "intro": [
+      "Recorrido por cuatro elementos del listado nacional en la ciudad de Madrid, desde una Real Fábrica del siglo XVIII hasta las primeras instalaciones del Metro.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "MAD-06"
+      },
+      {
+        "code": "MAD-05"
+      },
+      {
+        "code": "MAD-08"
+      },
+      {
+        "code": "MAD-02"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "valencia-industrial",
+    "title": "València: estaciones, mercado y tabacalera",
+    "theme": "urbana",
+    "kind": "propuesta",
+    "territory": "València (Comunitat Valenciana)",
+    "intro": [
+      "Itinerario por cuatro elementos del listado nacional en la ciudad de València, entre el centro y el puerto.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. El Ayuntamiento de València publica además su propia Ruta del Patrimonio Industrial del Grao como datos abiertos."
+    ],
+    "stops": [
+      {
+        "code": "CV-04"
+      },
+      {
+        "code": "CV-05"
+      },
+      {
+        "code": "CV-12"
+      },
+      {
+        "code": "CV-09"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      },
+      {
+        "title": "Ruta del Patrimonio Industrial del Grao — datos abiertos del Ayuntamiento de València",
+        "url": "https://datos.gob.es/catalogo/l01462508-ruta-del-patrimonio-industrial-del-grao1"
+      }
+    ]
+  },
+  {
+    "slug": "oviedo-armas-y-gas",
+    "title": "Oviedo y Trubia: armas, gas y electricidad",
+    "theme": "provincial",
+    "kind": "propuesta",
+    "territory": "Oviedo (Principado de Asturias)",
+    "intro": [
+      "Tres elementos del listado nacional en el municipio de Oviedo: las dos fábricas de armas de Asturias, en La Vega y en Trubia, y la fábrica de electricidad y gas.",
+      "Trubia está fuera del casco urbano: este itinerario no es un recorrido a pie. Es una propuesta de España Industrial, no un itinerario oficial."
+    ],
+    "stops": [
+      {
+        "code": "AS-09"
+      },
+      {
+        "code": "AS-00"
+      },
+      {
+        "code": "AS-01"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "asturias-cuencas-mineras",
+    "title": "Asturias: las cuencas del carbón",
+    "theme": "minera",
+    "kind": "propuesta",
+    "territory": "Mieres, Langreo, San Martín del Rey Aurelio y Castrillón (Asturias)",
+    "intro": [
+      "Recorrido por los paisajes del carbón y del zinc asturianos incluidos en el Plan Nacional de Patrimonio Industrial: el valle del Turón, los pozos Sotón y San Luis en la cuenca del Nalón y el conjunto minero y metalúrgico de Arnao, en la costa.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "AS-05"
+      },
+      {
+        "code": "AS-06"
+      },
+      {
+        "code": "AS-10"
+      },
+      {
+        "code": "AS-02"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "asturias-costa-industrial",
+    "title": "Asturias: Gijón, Avilés y Villaviciosa",
+    "theme": "provincial",
+    "kind": "propuesta",
+    "territory": "Gijón, Avilés y Villaviciosa (Asturias)",
+    "intro": [
+      "La Asturias industrial de la costa: la antigua estación del Norte de Gijón, el conjunto siderúrgico de ENSIDESA en Avilés y la fábrica de sidra El Gaitero en Villaviciosa.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "AS-03"
+      },
+      {
+        "code": "AS-08"
+      },
+      {
+        "code": "AS-04"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "leon-carbon-hierro-energia",
+    "title": "León: carbón, hierro y energía",
+    "theme": "minera",
+    "kind": "propuesta",
+    "territory": "Sabero, La Pola de Gordón, León y Ponferrada (León)",
+    "intro": [
+      "De la montaña leonesa al Bierzo: la cuenca minera de Sabero-Cistierna y su ferrería de San Blas, el pozo Ibarra, la fábrica de productos químicos Abelló en León, la central térmica de la Minero-Siderúrgica de Ponferrada, hoy museo, y la herrería de Compludo.",
+      "La central de Ponferrada (Museo de la Energía) figura como punto de anclaje de la Ruta Europea del Patrimonio Industrial (ERIH). El resto del recorrido es una propuesta de España Industrial; comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "CYL-08"
+      },
+      {
+        "code": "CYL-03"
+      },
+      {
+        "code": "CYL-11"
+      },
+      {
+        "code": "CYL-15"
+      },
+      {
+        "code": "CYL-07"
+      },
+      {
+        "code": "CYL-16"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      },
+      {
+        "title": "European Route of Industrial Heritage (ERIH)",
+        "url": "https://www.erih.net/"
+      }
+    ]
+  },
+  {
+    "slug": "segovia-reales-sitios",
+    "title": "Segovia: Reales Sitios y fábricas de la Corona",
+    "theme": "provincial",
+    "kind": "propuesta",
+    "territory": "Segovia, Real Sitio de San Ildefonso y Navafría (Segovia)",
+    "intro": [
+      "La provincia de Segovia reúne varias industrias ligadas a la Corona: el Real Ingenio de la Moneda, la Real Fábrica de Cristales de La Granja y el Real Aserrío de Valsaín, junto a un molino harinero, un martinete de cobre y la estación de ferrocarril de Segovia.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "CYL-01"
+      },
+      {
+        "code": "CYL-24"
+      },
+      {
+        "code": "CYL-12"
+      },
+      {
+        "code": "CYL-25"
+      },
+      {
+        "code": "CYL-05"
+      },
+      {
+        "code": "CYL-21"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "canal-de-castilla",
+    "title": "El Canal de Castilla y sus harineras",
+    "theme": "hidraulica",
+    "kind": "propuesta",
+    "territory": "Ribas de Campos y Dueñas (Palencia) y Medina de Rioseco (Valladolid)",
+    "intro": [
+      "El Canal de Castilla, obra hidráulica iniciada en el siglo XVIII para transportar el cereal de la meseta, y dos fábricas de harinas del listado situadas en localidades de su recorrido: La Estrella, en Dueñas, y San Antonio, en Medina de Rioseco.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "CYL-02"
+      },
+      {
+        "code": "CYL-14"
+      },
+      {
+        "code": "CYL-13"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "cantabria-hierro-y-canones",
+    "title": "Cantabria: cañones, hierro y zinc",
+    "theme": "minera",
+    "kind": "propuesta",
+    "territory": "Soba, Riotuerto, El Astillero, Reocín y Castro-Urdiales (Cantabria)",
+    "intro": [
+      "Las Reales Fábricas de Artillería de Liérganes y La Cavada, con las obras que llevaban madera hasta ellas, y los paisajes mineros de Cabarga y Reocín, hasta el cargadero de mineral de Dícido en Castro-Urdiales.",
+      "El lugar de la Real Fábrica de Cañones de La Cavada es Bien de Interés Cultural desde 2004. Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "SA-01"
+      },
+      {
+        "code": "SA-05"
+      },
+      {
+        "code": "SA-03"
+      },
+      {
+        "code": "SA-06"
+      },
+      {
+        "code": "SA-07"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      },
+      {
+        "title": "BOE: declaración BIC del lugar de la Real Fábrica de Cañones de La Cavada (2004)",
+        "url": "https://boe.es/boe/dias/2004/06/05/pdfs/A20678-20679.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "bizkaia-ria-del-hierro",
+    "title": "Bizkaia: la ría del hierro",
+    "theme": "provincial",
+    "kind": "propuesta",
+    "territory": "Valle de Trápaga, Sestao, Getxo, Bilbao y Balmaseda (Bizkaia)",
+    "intro": [
+      "Del mineral al acero y al transporte: el paisaje minero de La Arboleda, los Altos Hornos de Vizcaya en Sestao, el Puente Bizkaia, la estación de La Concordia en Bilbao y la fábrica de boinas La Encartada en Balmaseda.",
+      "El Puente Bizkaia es Patrimonio Mundial de la UNESCO desde 2006. Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "PV-03"
+      },
+      {
+        "code": "PV-10"
+      },
+      {
+        "code": "PV-06"
+      },
+      {
+        "code": "PV-07"
+      },
+      {
+        "code": "PV-05"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      },
+      {
+        "title": "UNESCO: Puente de Vizcaya",
+        "url": "https://whc.unesco.org/es/list/1217"
+      }
+    ]
+  },
+  {
+    "slug": "gipuzkoa-hierro-maquinas-puerto",
+    "title": "Gipuzkoa: minas, máquinas y puerto",
+    "theme": "provincial",
+    "kind": "propuesta",
+    "territory": "Zerain, Legazpi, Beasain, Donostia/San Sebastián, Pasaia e Irun (Gipuzkoa)",
+    "intro": [
+      "Los cotos mineros de Zerain y Mutiloa y de Irugurutzeta, las acerías Patricio Echeverría en Legazpi, la fábrica de material ferroviario CAF en Beasain, la antigua fábrica de tabacos de Donostia y la draga Jaizkibel en Pasaia.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "PV-04"
+      },
+      {
+        "code": "PV-08"
+      },
+      {
+        "code": "PV-02"
+      },
+      {
+        "code": "PV-09"
+      },
+      {
+        "code": "PV-11"
+      },
+      {
+        "code": "PV-12"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "llobregat-y-cardona",
+    "title": "Cataluña: el Llobregat, de la sal al agua",
+    "theme": "colonias",
+    "kind": "propuesta",
+    "territory": "Cardona, Castellar de n'Hug, Esparreguera, Santa Coloma de Cervelló y Cornellà de Llobregat (Barcelona)",
+    "intro": [
+      "Siguiendo el río Llobregat: la montaña de sal de Cardona, la fábrica de cemento del Clot del Moro, las colonias industriales de la cuenca y la colonia Sedó, hasta la central de bombeo de la Sociedad de Aguas en Cornellà, hoy Museu Agbar de les Aigües.",
+      "El Museu Agbar de les Aigües figura como punto de anclaje de la Ruta Europea del Patrimonio Industrial (ERIH). Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "CAT-10"
+      },
+      {
+        "code": "CAT-08"
+      },
+      {
+        "code": "CAT-11"
+      },
+      {
+        "code": "CAT-05"
+      },
+      {
+        "code": "CAT-06"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      },
+      {
+        "title": "European Route of Industrial Heritage (ERIH)",
+        "url": "https://www.erih.net/"
+      }
+    ]
+  },
+  {
+    "slug": "cataluna-vapores-y-fargas",
+    "title": "Cataluña: vapores, papel y forja",
+    "theme": "textil",
+    "kind": "propuesta",
+    "territory": "Terrassa, Igualada, Capellades y Ripoll",
+    "intro": [
+      "La Cataluña de la industria textil y del papel: el vapor Aymerich, Amat i Jover de Terrassa, sede del Museu de la Ciència i de la Tècnica de Catalunya, La Igualadina Cotonera, el molino papelero de Capellades y La Farga Palau en Ripoll.",
+      "El Museu de la Ciència i de la Tècnica de Catalunya figura como punto de anclaje de la Ruta Europea del Patrimonio Industrial (ERIH). Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "CAT-03"
+      },
+      {
+        "code": "CAT-15"
+      },
+      {
+        "code": "CAT-01"
+      },
+      {
+        "code": "CAT-14"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      },
+      {
+        "title": "European Route of Industrial Heritage (ERIH)",
+        "url": "https://www.erih.net/"
+      }
+    ]
+  },
+  {
+    "slug": "pirineo-aragones-agua-y-ferrocarril",
+    "title": "Pirineo aragonés: agua, energía y ferrocarril",
+    "theme": "energetica",
+    "kind": "propuesta",
+    "territory": "Canfranc, Seira y Fiscal (Huesca)",
+    "intro": [
+      "La estación internacional de Canfranc y la central y contrapresa de Ip, la central hidroeléctrica de El Run-Seira y el puente colgante de Jánovas sobre el río Ara.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "AR-13"
+      },
+      {
+        "code": "AR-11"
+      },
+      {
+        "code": "AR-04"
+      },
+      {
+        "code": "AR-19"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "ojos-negros-sagunto",
+    "title": "Del mineral al alto horno: Ojos Negros y Sagunto",
+    "theme": "ferroviaria",
+    "kind": "propuesta",
+    "territory": "Ojos Negros (Teruel) y Sagunto (Valencia)",
+    "intro": [
+      "El hierro de Sierra Menera viajaba en ferrocarril hasta los altos hornos de Sagunto. El recorrido une el paisaje minero de Ojos Negros con el Alto Horno número 2 de Sagunto, en los dos extremos de aquella línea.",
+      "El antiguo ferrocarril minero es hoy en buena parte la Vía Verde de Ojos Negros: consulta la sección de ferrocarril del atlas y la información oficial en viasverdes.com antes de recorrerlo. Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "AR-18"
+      },
+      {
+        "code": "CV-08"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      },
+      {
+        "title": "Vías Verdes — Fundación de los Ferrocarriles Españoles",
+        "url": "https://www.viasverdes.com/"
+      }
+    ]
+  },
+  {
+    "slug": "teruel-minero",
+    "title": "Teruel: carbón, hierro y resina",
+    "theme": "minera",
+    "kind": "propuesta",
+    "territory": "Ariño, Ojos Negros y Teruel (Teruel)",
+    "intro": [
+      "Tres paisajes de la industria turolense: la minería del carbón de Val de Ariño, el hierro de Sierra Menera y la chimenea de la resinera El Carmen.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "AR-08"
+      },
+      {
+        "code": "AR-18"
+      },
+      {
+        "code": "AR-12"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "murcia-sierras-mineras",
+    "title": "Murcia: de Mazarrón a La Unión",
+    "theme": "minera",
+    "kind": "propuesta",
+    "territory": "Mazarrón, Águilas y Cartagena (Región de Murcia)",
+    "intro": [
+      "Las sierras mineras del litoral murciano: el conjunto minero de San Cristóbal y Los Perules en Mazarrón, el embarcadero de mineral de El Hornillo en Águilas, el paisaje de la Sierra Minera de Cartagena-La Unión y el Arsenal de Cartagena.",
+      "La Sierra Minera de Cartagena-La Unión es Bien de Interés Cultural como sitio histórico. Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "MU-04"
+      },
+      {
+        "code": "MU-02"
+      },
+      {
+        "code": "MU-01"
+      },
+      {
+        "code": "MU-03"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "andalucia-minera",
+    "title": "Andalucía minera",
+    "theme": "minera",
+    "kind": "propuesta",
+    "territory": "Huelva, Córdoba, Jaén y Almería",
+    "intro": [
+      "Los grandes paisajes mineros andaluces del listado: la cuenca de Riotinto-Nerva, el cerco industrial de Peñarroya, el distrito de Linares-La Carolina y el cargadero de mineral de El Alquife (Cable Inglés) en Almería.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "AN-04"
+      },
+      {
+        "code": "AN-13"
+      },
+      {
+        "code": "AN-03"
+      },
+      {
+        "code": "AN-07"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "granada-azucar",
+    "title": "Granada: azúcar y ferrocarril",
+    "theme": "agroindustrial",
+    "kind": "propuesta",
+    "territory": "Granada, Motril y Alamedilla (Granada)",
+    "intro": [
+      "La industria azucarera granadina, de la remolacha de la Vega a la caña de la costa: la azucarera de San Isidro en Granada y la fábrica de Nuestra Señora de El Pilar en Motril, con el puente ferroviario del Hacho en Alamedilla.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "AN-06"
+      },
+      {
+        "code": "AN-09"
+      },
+      {
+        "code": "AN-17"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "extremadura-minera",
+    "title": "Extremadura: minas y ferrocarril",
+    "theme": "minera",
+    "kind": "propuesta",
+    "territory": "Cáceres, Logrosán, Fuente del Arco y Cabeza del Buey",
+    "intro": [
+      "Las minas de fosfatos de Aldea Moret y Costanaza, la mina de hierro de La Jayona y el nudo ferroviario de Almorchón.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "EX-01"
+      },
+      {
+        "code": "EX-11"
+      },
+      {
+        "code": "EX-03"
+      },
+      {
+        "code": "EX-09"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "galicia-mar-y-rio",
+    "title": "Galicia: mar, río y cerámica",
+    "theme": "provincial",
+    "kind": "propuesta",
+    "territory": "Cangas, Redondela, Vila de Cruces, Noia, Ferrol y Cervo",
+    "intro": [
+      "La conservera y factoría ballenera Massó, los viaductos ferroviarios de Redondela, el poblado minero de Fontao, la central hidroeléctrica del Tambre, los astilleros del Arsenal de Ferrol y el complejo de Sargadelos.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "GA-01"
+      },
+      {
+        "code": "GA-06"
+      },
+      {
+        "code": "GA-04"
+      },
+      {
+        "code": "GA-02"
+      },
+      {
+        "code": "GA-03"
+      },
+      {
+        "code": "GA-05"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "mallorca-industrial",
+    "title": "Mallorca industrial",
+    "theme": "provincial",
+    "kind": "propuesta",
+    "territory": "Sóller, Felanitx y Alcúdia (Illes Balears)",
+    "intro": [
+      "Tres elementos mallorquines del listado: la fábrica textil Sa Fàbrica Nova en Sóller, la bodega cooperativa Es Sindicat en Felanitx y la central térmica de Alcúdia.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "IB-01"
+      },
+      {
+        "code": "IB-02"
+      },
+      {
+        "code": "IB-03"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "alicante-interior",
+    "title": "Alicante interior: papel, colonias y minas",
+    "theme": "provincial",
+    "kind": "propuesta",
+    "territory": "Banyeres de Mariola, Sax y Orihuela (Alicante)",
+    "intro": [
+      "Los molinos papeleros del Vinalopó, la colonia de Santa Eulalia en Sax y el conjunto minero de San Antón en Orihuela.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "CV-13"
+      },
+      {
+        "code": "CV-10"
+      },
+      {
+        "code": "CV-14"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "navarra-pirenaica",
+    "title": "Navarra pirenaica: municiones y electricidad",
+    "theme": "energetica",
+    "kind": "propuesta",
+    "territory": "Orbaizeta y Oroz-Betelu (Navarra)",
+    "intro": [
+      "La Real Fábrica de Municiones de Orbaizeta, en la selva de Irati, y las centrales eléctricas del río Irati.",
+      "Es una propuesta de España Industrial, no un itinerario oficial. Comprueba en cada ficha si el elemento puede visitarse."
+    ],
+    "stops": [
+      {
+        "code": "NA-01"
+      },
+      {
+        "code": "NA-06"
+      }
+    ],
+    "references": [
+      {
+        "title": "Fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  }
+]

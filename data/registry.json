@@ -1,0 +1,895 @@
+{
+  "nextNumber": 179,
+  "entries": {
+    "ministerio-cultura:AN-01": {
+      "id": "ei-00001",
+      "slug": "real-fabrica-de-artilleria-de-sevilla",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-02": {
+      "id": "ei-00002",
+      "slug": "carpinteria-de-ribera-de-astilleros-nereo",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-03": {
+      "id": "ei-00003",
+      "slug": "paisaje-minero-de-linares-y-la-carolina",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-04": {
+      "id": "ei-00004",
+      "slug": "cuenca-minera-de-riotinto-nerva",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-05": {
+      "id": "ei-00005",
+      "slug": "bodega-gonzalez-byass",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-06": {
+      "id": "ei-00006",
+      "slug": "azucarera-san-isidro-e-ingenio-desan-juan",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-07": {
+      "id": "ei-00007",
+      "slug": "cargadero-de-mineral-el-alquife",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-08": {
+      "id": "ei-00008",
+      "slug": "fabrica-de-cervezas-el-aguila",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-09": {
+      "id": "ei-00009",
+      "slug": "fabrica-de-azucar-nuestra-senora-del-pilar",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-10": {
+      "id": "ei-00010",
+      "slug": "altos-hornos-de-marbella",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-11": {
+      "id": "ei-00011",
+      "slug": "real-fabrica-de-hojalata-de-juzcar",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-12": {
+      "id": "ei-00012",
+      "slug": "astilleros-de-puerto-real",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-13": {
+      "id": "ei-00013",
+      "slug": "cerco-industrial-de-penarroya",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-14": {
+      "id": "ei-00014",
+      "slug": "embalse-y-central-electrica-del-jandula",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-15": {
+      "id": "ei-00015",
+      "slug": "industrias-textiles-de-guadalhorce",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-16": {
+      "id": "ei-00016",
+      "slug": "fabrica-de-vidrio-la-trinidad",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AN-17": {
+      "id": "ei-00017",
+      "slug": "puente-del-hacho",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-01": {
+      "id": "ei-00018",
+      "slug": "fundacion-averly",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-02": {
+      "id": "ei-00019",
+      "slug": "fabrica-de-cervezas-la-zaragozana",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-03": {
+      "id": "ei-00020",
+      "slug": "electro-metalurgica-del-ebro",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-04": {
+      "id": "ei-00021",
+      "slug": "central-hidroelectrica-el-run",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-05": {
+      "id": "ei-00022",
+      "slug": "fabrica-de-harinas-polo",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-06": {
+      "id": "ei-00023",
+      "slug": "fabrica-de-cementos-portland",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-07": {
+      "id": "ei-00024",
+      "slug": "fabrica-de-material-electrico-giesa",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-08": {
+      "id": "ei-00025",
+      "slug": "paisaje-minero-de-val-de-arino",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-09": {
+      "id": "ei-00026",
+      "slug": "antigua-estacion-de-ferrocarril-zaragoza-delicias",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-10": {
+      "id": "ei-00027",
+      "slug": "fabrica-de-azucar-labradora",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-11": {
+      "id": "ei-00028",
+      "slug": "central-y-contrapresa-ip-de-canfranc",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-12": {
+      "id": "ei-00029",
+      "slug": "chimenea-de-la-resinera-el-carmen",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-13": {
+      "id": "ei-00030",
+      "slug": "estacion-internacional-de-canfranc",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-14": {
+      "id": "ei-00031",
+      "slug": "estacion-de-ferrocarril-de-caminreal",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-15": {
+      "id": "ei-00032",
+      "slug": "harinera-de-monegros",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-16": {
+      "id": "ei-00033",
+      "slug": "harinera-la-dolores",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-17": {
+      "id": "ei-00034",
+      "slug": "molinos-de-la-real-fabrica-de-polvora-de-villafeliche",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-18": {
+      "id": "ei-00035",
+      "slug": "paisaje-minero-de-sierra-menera",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AR-19": {
+      "id": "ei-00036",
+      "slug": "puente-colgante-de-janovas-sobre-el-rio-ara",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AS-00": {
+      "id": "ei-00037",
+      "slug": "fabrica-de-armas-de-asturias-la-vega",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AS-01": {
+      "id": "ei-00038",
+      "slug": "fabrica-de-armas-de-asturias-trubia",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AS-02": {
+      "id": "ei-00039",
+      "slug": "paisaje-minero-y-fabrica-de-zinc-de-arnao",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AS-03": {
+      "id": "ei-00040",
+      "slug": "estacion-del-norte-de-gijon",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AS-04": {
+      "id": "ei-00041",
+      "slug": "fabrica-de-sidra-el-gaitero",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AS-05": {
+      "id": "ei-00042",
+      "slug": "paisaje-minero-del-valle-del-turon",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AS-06": {
+      "id": "ei-00043",
+      "slug": "pozo-soton",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AS-07": {
+      "id": "ei-00044",
+      "slug": "salto-y-central-hidroelectrica-de-grandas-de-salime",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AS-08": {
+      "id": "ei-00045",
+      "slug": "conjunto-industrial-de-ensidesa-aviles-corvera-y-gozon",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AS-09": {
+      "id": "ei-00046",
+      "slug": "fabrica-de-electricidad-y-gas-de-oviedo",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:AS-10": {
+      "id": "ei-00047",
+      "slug": "pozo-san-luis",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CA-01": {
+      "id": "ei-00048",
+      "slug": "noria-de-jinamar",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CA-02": {
+      "id": "ei-00049",
+      "slug": "azucarera-de-san-juan",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CA-03": {
+      "id": "ei-00050",
+      "slug": "espacio-cultural-el-tanque",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-01": {
+      "id": "ei-00051",
+      "slug": "molino-de-papel-de-la-vila-de-la-costa",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-02": {
+      "id": "ei-00052",
+      "slug": "maquina-de-vapor-de-industrias-bures",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-03": {
+      "id": "ei-00053",
+      "slug": "vapor-aymerich-amat-i-jover",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-05": {
+      "id": "ei-00054",
+      "slug": "colonia-sedo",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-06": {
+      "id": "ei-00055",
+      "slug": "central-de-bombeo-de-la-sociedad-de-aguas",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-07": {
+      "id": "ei-00056",
+      "slug": "fabrica-de-panos-cal-miralda",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-08": {
+      "id": "ei-00057",
+      "slug": "fabrica-de-cemento-de-clot-del-moro",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-09": {
+      "id": "ei-00058",
+      "slug": "paisaje-de-las-minas-de-plomo-de-bellmunt-del-priorat",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-10": {
+      "id": "ei-00059",
+      "slug": "paisaje-de-las-minas-de-sal-de-cardona",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-11": {
+      "id": "ei-00060",
+      "slug": "colonias-industriales-de-las-cuencas-altas-del-llobregat-y-ter",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-12": {
+      "id": "ei-00061",
+      "slug": "conjunto-hidroelectrico-de-capdella-sallente",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-13": {
+      "id": "ei-00062",
+      "slug": "fabrica-trepat",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-14": {
+      "id": "ei-00063",
+      "slug": "la-farga-palau",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-15": {
+      "id": "ei-00064",
+      "slug": "la-igualadina-cotonera",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CLM-01": {
+      "id": "ei-00065",
+      "slug": "paisaje-minero-de-las-salinas-de-imon-y-la-olmeda",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CLM-02": {
+      "id": "ei-00066",
+      "slug": "paisaje-minero-de-almaden",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CLM-03": {
+      "id": "ei-00067",
+      "slug": "martinete-de-los-pozuelos-de-calatrava",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CLM-04": {
+      "id": "ei-00068",
+      "slug": "real-fabrica-de-laton-de-san-juan-de-alcaraz",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CLM-05": {
+      "id": "ei-00069",
+      "slug": "real-fabrica-de-armas-de-toledo",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CLM-06": {
+      "id": "ei-00070",
+      "slug": "escombreras-terri-e-instalaciones-de-la-smmp",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CLM-07": {
+      "id": "ei-00071",
+      "slug": "real-fabrica-de-panos-de-brihuega",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CV-01": {
+      "id": "ei-00072",
+      "slug": "el-molinar",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CV-02": {
+      "id": "ei-00073",
+      "slug": "fabrica-giner",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CV-03": {
+      "id": "ei-00074",
+      "slug": "refineria-la-britanica",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CV-04": {
+      "id": "ei-00075",
+      "slug": "estacion-del-norte-de-valencia",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CV-05": {
+      "id": "ei-00076",
+      "slug": "mercado-central-de-abastos-de-valencia",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CV-06": {
+      "id": "ei-00077",
+      "slug": "viaducto-de-santa-ana",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CV-07": {
+      "id": "ei-00078",
+      "slug": "horno-hoffman-en-el-rajolar-de-bauset",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CV-08": {
+      "id": "ei-00079",
+      "slug": "alto-horno-numero-2",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CV-09": {
+      "id": "ei-00080",
+      "slug": "antigua-estacion-del-grao",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CV-10": {
+      "id": "ei-00081",
+      "slug": "colonia-de-santa-eulalia",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CV-11": {
+      "id": "ei-00082",
+      "slug": "fabrica-de-seda-de-almiones",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CV-12": {
+      "id": "ei-00083",
+      "slug": "fabrica-de-tabacos-de-valencia",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CV-13": {
+      "id": "ei-00084",
+      "slug": "ruta-de-los-molinos-papeleros-del-vinalopo",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CV-14": {
+      "id": "ei-00085",
+      "slug": "conjunto-minero-de-san-anton",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-01": {
+      "id": "ei-00086",
+      "slug": "real-ingenio-y-casa-de-la-moneda",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-02": {
+      "id": "ei-00087",
+      "slug": "canal-de-castilla-burgos-palencia-y-valladolid",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-03": {
+      "id": "ei-00088",
+      "slug": "ferreria-de-san-blas",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-04": {
+      "id": "ei-00089",
+      "slug": "estacion-de-ferrocarril-de-valladolid-campo-grande",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-05": {
+      "id": "ei-00090",
+      "slug": "real-aserrio-mecanico-de-los-montes-de-valsain",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-06": {
+      "id": "ei-00091",
+      "slug": "puente-viaducto-de-pino",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-07": {
+      "id": "ei-00092",
+      "slug": "central-termica-de-la-minero-siderurgica-de-ponferrada",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-08": {
+      "id": "ei-00093",
+      "slug": "conjunto-de-la-cuenca-minera-de-sabero-cistierna",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-09": {
+      "id": "ei-00094",
+      "slug": "conjunto-fabricas-textiles-de-bejar",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-10": {
+      "id": "ei-00095",
+      "slug": "complejo-minero-de-belorado",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-11": {
+      "id": "ei-00096",
+      "slug": "conjunto-industrial-de-pozo-ibarra",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-12": {
+      "id": "ei-00097",
+      "slug": "estacion-de-ferrocarril-de-segovia",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-13": {
+      "id": "ei-00098",
+      "slug": "fabrica-de-harinas-san-antonio",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-14": {
+      "id": "ei-00099",
+      "slug": "fabrica-de-harinas-la-estrella",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-15": {
+      "id": "ei-00100",
+      "slug": "fabrica-de-productos-quimicos-abello",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-16": {
+      "id": "ei-00101",
+      "slug": "herreria-de-compludo",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-17": {
+      "id": "ei-00102",
+      "slug": "las-fuentes-de-argales",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-18": {
+      "id": "ei-00103",
+      "slug": "linea-ferrea-fuente-de-san-esteban-boadilla-la-fregeneda",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-19": {
+      "id": "ei-00104",
+      "slug": "locomotora-electric-english-7766-modelo-277-066-7b",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-20": {
+      "id": "ei-00105",
+      "slug": "locomotora-mikado-141-f-2346",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-21": {
+      "id": "ei-00106",
+      "slug": "martinete-de-navafria",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-22": {
+      "id": "ei-00107",
+      "slug": "matadero-de-avila",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-23": {
+      "id": "ei-00108",
+      "slug": "automovil-renault-4-cv-m-106-801",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-24": {
+      "id": "ei-00109",
+      "slug": "molino-de-los-senores",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-25": {
+      "id": "ei-00110",
+      "slug": "real-fabrica-de-cristal-de-la-granja",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CYL-26": {
+      "id": "ei-00111",
+      "slug": "salinas-de-poza",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:EX-01": {
+      "id": "ei-00112",
+      "slug": "conjunto-minero-de-aldea-moret",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:EX-02": {
+      "id": "ei-00113",
+      "slug": "poblado-ferroviario-de-monfrague",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:EX-03": {
+      "id": "ei-00114",
+      "slug": "mina-de-la-jayona",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:EX-04": {
+      "id": "ei-00115",
+      "slug": "fabrica-de-harinas-de-castuera",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:EX-05": {
+      "id": "ei-00116",
+      "slug": "harinera-de-plasencia",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:EX-06": {
+      "id": "ei-00117",
+      "slug": "conjunto-de-bodegas-vinicolas",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:EX-07": {
+      "id": "ei-00118",
+      "slug": "almazara-villafranca-de-los-barros",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:EX-08": {
+      "id": "ei-00119",
+      "slug": "electro-harinera-zarcena",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:EX-09": {
+      "id": "ei-00120",
+      "slug": "estacion-poblado-ferroviario-de-almorchon",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:EX-10": {
+      "id": "ei-00121",
+      "slug": "fabrica-de-jabones-la-jabonera",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:EX-11": {
+      "id": "ei-00122",
+      "slug": "mina-constanaza",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:EX-12": {
+      "id": "ei-00123",
+      "slug": "presa-del-cijara",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:GA-01": {
+      "id": "ei-00124",
+      "slug": "fabrica-de-conservas-y-factoria-ballenera-masso",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:GA-02": {
+      "id": "ei-00125",
+      "slug": "central-hidroelectrica-del-tambre",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:GA-03": {
+      "id": "ei-00126",
+      "slug": "astilleros-del-arsenal-militar-de-ferrol",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:GA-04": {
+      "id": "ei-00127",
+      "slug": "poblado-minero-de-fontao",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:GA-05": {
+      "id": "ei-00128",
+      "slug": "complejo-siderurgico-y-ceramico-de-sargadelos",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:GA-06": {
+      "id": "ei-00129",
+      "slug": "viaductos-madrid-y-pontevedra",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:IB-01": {
+      "id": "ei-00130",
+      "slug": "sa-fabrica-nova",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:IB-02": {
+      "id": "ei-00131",
+      "slug": "bodega-cooperativa-es-sindicat",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:IB-03": {
+      "id": "ei-00132",
+      "slug": "termica-de-alcudia",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:IB-04": {
+      "id": "ei-00133",
+      "slug": "aeronave-convair-cv-990-de-spantax-ec-bzo",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:LR-01": {
+      "id": "ei-00134",
+      "slug": "bodegas-r-lopez-de-heredia",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:LR-02": {
+      "id": "ei-00135",
+      "slug": "antiguo-matadero-municipal",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:LR-03": {
+      "id": "ei-00136",
+      "slug": "real-fabrica-de-panos",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:MAD-01": {
+      "id": "ei-00137",
+      "slug": "conjunto-urbano-industrial-de-nuevo-baztan",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:MAD-02": {
+      "id": "ei-00138",
+      "slug": "real-fabrica-de-tapices-de-madrid",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:MAD-03": {
+      "id": "ei-00139",
+      "slug": "lagar-y-bodegas-del-real-cortijo-de-san-isidro",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:MAD-04": {
+      "id": "ei-00140",
+      "slug": "conjunto-hidraulico-del-canal-de-isabel-ii-ponton-de-la-oliva",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:MAD-05": {
+      "id": "ei-00141",
+      "slug": "fabrica-de-cervezas-el-aguila-madrid",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:MAD-06": {
+      "id": "ei-00142",
+      "slug": "estacion-de-chamberi-y-nave-de-motores-metro-de-madrid",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:MAD-07": {
+      "id": "ei-00143",
+      "slug": "fabrica-de-harinas-la-esperanza",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:MAD-08": {
+      "id": "ei-00144",
+      "slug": "antigua-fabrica-de-tabacos",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:MAD-09": {
+      "id": "ei-00145",
+      "slug": "apisonadoras-de-vapor-1992-010-0001-y-0002",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:ME-01": {
+      "id": "ei-00146",
+      "slug": "cargadero-de-mineral-de-melilla",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:MU-01": {
+      "id": "ei-00147",
+      "slug": "paisaje-industrial-de-la-sierra-minera-de-cartagena-la-union",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:MU-02": {
+      "id": "ei-00148",
+      "slug": "embarcadero-de-mineral-de-el-hornillo",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:MU-03": {
+      "id": "ei-00149",
+      "slug": "arsenal-de-cartagena",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:MU-04": {
+      "id": "ei-00150",
+      "slug": "conjunto-minero-del-cabezo-de-san-cristobal-y-de-los-perules",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:MU-05": {
+      "id": "ei-00151",
+      "slug": "salinas-reales-de-calasparra",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:NA-01": {
+      "id": "ei-00152",
+      "slug": "real-fabrica-de-municiones-de-hierro",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:NA-02": {
+      "id": "ei-00153",
+      "slug": "cementos-portland-de-valderrivas",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:NA-03": {
+      "id": "ei-00154",
+      "slug": "industrial-urbana-matesa-iwer-navarra",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:NA-04": {
+      "id": "ei-00155",
+      "slug": "piher-nacesa",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:NA-05": {
+      "id": "ei-00156",
+      "slug": "el-trujal-de-la-marquesa",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:NA-06": {
+      "id": "ei-00157",
+      "slug": "centrales-electricas-de-irati",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:PV-01": {
+      "id": "ei-00158",
+      "slug": "paisaje-de-las-salinas-de-anana",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:PV-02": {
+      "id": "ei-00159",
+      "slug": "compania-auxiliar-de-ferrocarriles-s-a-caf",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:PV-03": {
+      "id": "ei-00160",
+      "slug": "paisaje-minero-de-la-arboleda",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:PV-04": {
+      "id": "ei-00161",
+      "slug": "cotos-mineros-de-zerain-y-mutiloa",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:PV-05": {
+      "id": "ei-00162",
+      "slug": "fabrica-de-boinas-la-encartada",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:PV-06": {
+      "id": "ei-00163",
+      "slug": "puente-bizkaia",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:PV-07": {
+      "id": "ei-00164",
+      "slug": "estacion-de-ffcc-la-concordia",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:PV-08": {
+      "id": "ei-00165",
+      "slug": "patricio-echeverria-s-a",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:PV-09": {
+      "id": "ei-00166",
+      "slug": "fabrica-de-tabacos-de-donostia-san-sebastian",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:PV-10": {
+      "id": "ei-00167",
+      "slug": "altos-hornos-de-vizcaya",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:PV-11": {
+      "id": "ei-00168",
+      "slug": "draga-jaizkibel",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:PV-12": {
+      "id": "ei-00169",
+      "slug": "coto-minero-de-irugurutzeta",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:PV-13": {
+      "id": "ei-00170",
+      "slug": "astillero-de-mendieta",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:SA-01": {
+      "id": "ei-00171",
+      "slug": "obras-para-el-transporte-a-la-real-fabrica-de-canones-de-la-cavada",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:SA-02": {
+      "id": "ei-00172",
+      "slug": "la-lechera-montanesa",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:SA-03": {
+      "id": "ei-00173",
+      "slug": "paisaje-minero-de-cabarga",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:SA-04": {
+      "id": "ei-00174",
+      "slug": "fabrica-de-harinas-la-montanesa",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:SA-05": {
+      "id": "ei-00175",
+      "slug": "complejo-siderurgico-de-la-cavada-lierganes",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:SA-06": {
+      "id": "ei-00176",
+      "slug": "paisaje-minero-de-reocin",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:SA-07": {
+      "id": "ei-00177",
+      "slug": "cargadero-de-mineral-de-dicido",
+      "createdAt": "2026-10-25T12:22:12.844Z"
+    },
+    "ministerio-cultura:CAT-07/2": {
+      "id": "ei-00178",
+      "slug": "bodega-del-sindicato-agricola",
+      "createdAt": "2026-10-25T16:24:33.739Z"
+    }
+  }
+}

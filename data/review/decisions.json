@@ -1,0 +1,371 @@
+{
+  "wikidata": {
+    "AR-11": {
+      "action": "accept",
+      "qid": "Q56371783",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "AR-14": {
+      "action": "accept",
+      "qid": "Q5845923",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "AS-00": {
+      "action": "accept",
+      "qid": "Q57497405",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "AS-07": {
+      "action": "accept",
+      "qid": "Q46481097",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "CAT-09": {
+      "action": "accept",
+      "qid": "Q126183231",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "CLM-06": {
+      "action": "accept",
+      "qid": "Q126178727",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "CV-01": {
+      "action": "accept",
+      "qid": "Q8773178",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "CV-03": {
+      "action": "accept",
+      "qid": "Q87069547",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "CV-08": {
+      "action": "accept",
+      "qid": "Q104758680",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "CV-13": {
+      "action": "accept",
+      "qid": "Q97331376",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "CV-14": {
+      "action": "accept",
+      "qid": "Q67912524",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "CYL-03": {
+      "action": "accept",
+      "qid": "Q5860662",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "CYL-04": {
+      "action": "accept",
+      "qid": "Q3327085",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "CYL-26": {
+      "action": "accept",
+      "qid": "Q43173802",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "EX-09": {
+      "action": "accept",
+      "qid": "Q5845676",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "GA-05": {
+      "action": "accept",
+      "qid": "Q43168152",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "IB-04": {
+      "action": "accept",
+      "qid": "Q126149338",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "MAD-01": {
+      "action": "accept",
+      "qid": "Q42211037",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "MAD-04": {
+      "action": "accept",
+      "qid": "Q5678588",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "MAD-06": {
+      "action": "accept",
+      "qid": "Q482378",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "MU-04": {
+      "action": "accept",
+      "qid": "Q43174411",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "NA-01": {
+      "action": "accept",
+      "qid": "Q12265223",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "PV-01": {
+      "action": "accept",
+      "qid": "Q65926730",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "PV-05": {
+      "action": "accept",
+      "qid": "Q12255401",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "PV-07": {
+      "action": "accept",
+      "qid": "Q3095996",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "PV-08": {
+      "action": "accept",
+      "qid": "Q125909022",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "PV-09": {
+      "action": "accept",
+      "qid": "Q134840167",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "PV-10": {
+      "action": "accept",
+      "qid": "Q11682603",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "SA-06": {
+      "action": "accept",
+      "qid": "Q9033259",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "MAD-08": {
+      "action": "accept",
+      "qid": "Q5673185",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "AN-12": {
+      "action": "reject",
+      "qid": "Q131922383",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "AS-02": {
+      "action": "reject",
+      "qid": "Q6388610",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "CAT-10": {
+      "action": "reject",
+      "qid": "Q22970043",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "CAT-12": {
+      "action": "reject",
+      "qid": "Q17043816",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "CYL-18": {
+      "action": "reject",
+      "qid": "Q96942228",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "EX-01": {
+      "action": "reject",
+      "qid": "Q8193900",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "EX-02": {
+      "action": "reject",
+      "qid": "Q5846733",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "GA-04": {
+      "action": "reject",
+      "qid": "Q9312784",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "NA-06": {
+      "action": "reject",
+      "qid": "Q126192466",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "PV-03": {
+      "action": "reject",
+      "qid": "Q65581042",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "SA-05": {
+      "action": "reject",
+      "qid": "Q5962797",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "CYL-10": {
+      "action": "reject",
+      "qid": "Q6093333",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    }
+  },
+  "duplicates": {
+    "ei-00001|ei-00044": {
+      "verdict": "distinct",
+      "note": "Bienes distintos: la ficha de Grandas de Salime repetía la referencia catastral de la Real Fábrica de Artillería (Catastro).",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00082|ei-00084": {
+      "verdict": "distinct",
+      "note": "Bienes distintos: la ficha de los molinos papeleros repetía la referencia catastral de la fábrica de seda de Almoines (Catastro).",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00172|ei-00173": {
+      "verdict": "distinct",
+      "note": "Bienes distintos: la ficha del paisaje minero de Cabarga repetía la referencia catastral de La Lechera Montañesa (Catastro).",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    }
+  },
+  "images": {},
+  "withdrawn": {},
+  "discrepancies": {
+    "ei-00005:location.point": {
+      "note": "Verificado: la ficha del IPCE contiene coordenadas de Málaga por error; el mapa y Wikidata coinciden en Jerez de la Frontera.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00177:location.point": {
+      "note": "Verificado: la ficha del IPCE repite las coordenadas del paisaje minero de Reocín; el mapa y Wikidata coinciden en Dícido (Castro Urdiales).",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00176:location.point": {
+      "note": "Verificado: ambos puntos están dentro del paisaje minero; son puntos representativos distintos de un conjunto extenso.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00112:location.point": {
+      "note": "Verificado: el punto del mapa está en la zona de minas (parcela «Las Minas», Catastro) y el de la ficha en el barrio de Aldea Moret; ambos pertenecen al conjunto.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00038:location.point": {
+      "note": "Verificado: el punto del mapa corresponde a la fábrica (carretera Trubia-Proaza 401, Catastro); el de la ficha cae en una parcela vecina.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00069:location.point": {
+      "note": "Verificado: los dos puntos están dentro de la misma parcela catastral (avenida Carlos III 21, Toledo).",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00133:location.point": {
+      "note": "Verificado: ambos puntos están en el aeropuerto de Son Sant Joan; la aeronave es un bien mueble.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00148:location.point": {
+      "note": "Verificado: se adopta el punto de la ficha, que coincide con Wikidata; el del mapa caía en una zona verde.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00149:location.point": {
+      "note": "Verificado: ambos puntos están en la calle Real, frente al recinto del Arsenal.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00150:location.point": {
+      "note": "Verificado: los dos puntos están en parcelas contiguas del paraje de San Cristóbal (Catastro).",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00001:inception": {
+      "note": "La cronología del IPCE (1720) corresponde a las bóvedas de Verboom; la fecha de Wikidata (1796) no tiene referencia. La fábrica se fundó en 1565 según la ficha.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00010:inception": {
+      "note": "Corregido: la ficha decía 1882; la ferrería se fundó en 1826 y se inauguró en 1828, fecha que recoge Wikidata.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00019:inception": {
+      "note": "Verificado: La Zaragozana se constituyó en 1900 y funciona desde 1901-1902; la fecha de 1936 de Wikidata no aparece en la fuente que cita.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00055:inception": {
+      "note": "La fecha de Wikidata (1909) no tiene referencia; se mantiene la del IPCE.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00075:inception": {
+      "note": "Hitos distintos: las obras empezaron en 1906 y la estación se inauguró en 1917 (fecha de Wikidata).",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00076:inception": {
+      "note": "Hitos distintos: el concurso del proyecto es de 1910, las obras empezaron en 1914 (Wikidata) y el mercado se inauguró en 1928.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00078:inception": {
+      "note": "Corregido: el mapa decía 1942; la fábrica funcionaba desde los años veinte (1924, como indican la ficha y Wikidata).",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00096:inception": {
+      "note": "Hitos distintos según la ficha: la excavación del pozo empezó en 1927 (Wikidata) y la explotación en 1930.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00126:inception": {
+      "note": "Ámbitos distintos: Wikidata fecha la fundación del Arsenal de Ferrol (1740); el IPCE, las instalaciones de astillero de este elemento.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00129:inception": {
+      "note": "Las obras de los viaductos empezaron en 1876; Wikidata recoge 1884, fecha que no aparece en la ficha que cita.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00131:inception": {
+      "note": "La fecha de Wikidata (1919) procede de Wikipedia en alemán sin otra referencia; se mantiene la del IPCE.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00135:inception": {
+      "note": "Verificado: el matadero se construyó hacia 1901 (Wikidata y ficha) y se inauguró en 1910 (mapa), según Senditur.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00141:inception": {
+      "note": "Hitos distintos según la ficha: el edificio actual se construyó entre 1912 y 1914 (Wikidata); 1904 corresponde a la empresa.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00170:inception": {
+      "note": "La fecha de Wikidata (1917) procede de Wikipedia sin otra referencia; se mantiene la del IPCE.",
+      "decidedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "ei-00028:location.point": {
+      "note": "Verificado: el elemento comprende la central y la contrapresa; Wikidata sitúa su punto en otra parte del mismo conjunto.",
+      "decidedAt": "2026-10-25T16:26:47.476Z"
+    },
+    "ei-00072:location.point": {
+      "note": "Verificado: El Molinar es un conjunto industrial a lo largo del río; los dos puntos pertenecen a él.",
+      "decidedAt": "2026-10-25T16:26:47.476Z"
+    },
+    "ei-00111:location.point": {
+      "note": "Verificado: las salinas ocupan un valle extenso; los dos puntos están dentro del conjunto.",
+      "decidedAt": "2026-10-25T16:26:47.476Z"
+    },
+    "ei-00128:location.point": {
+      "note": "Verificado: el complejo reúne la fábrica de cerámica y los restos siderúrgicos, separados unos 700 m; cada fuente marca una parte.",
+      "decidedAt": "2026-10-25T16:26:47.476Z"
+    },
+    "ei-00167:inception": {
+      "note": "Ámbitos distintos: el IPCE fecha la empresa (1902) y la entidad de Wikidata es el Horno Alto n.º 1 (1959).",
+      "decidedAt": "2026-10-25T16:26:47.476Z"
+    },
+    "ei-00088:inception": {
+      "note": "Corregido según la descripción del propio IPCE: construida en 1846-1847, como indica Wikidata.",
+      "decidedAt": "2026-10-25T16:26:47.476Z"
+    },
+    "ei-00079:inception": {
+      "note": "Verificado: construcción desde 1922 y primera colada en 1926 (IPCE); reconstrucción completa en los años sesenta, a la que corresponde la fecha de Wikidata (Comunitat Valenciana, Fundación Port de Sagunto).",
+      "decidedAt": "2026-10-25T16:26:47.476Z"
+    },
+    "ei-00085:inception": {
+      "note": "La explotación minera documentada es de la segunda mitad del siglo XIX (Ayuntamiento de Orihuela; MARQ); la fecha de Wikidata (1780) no tiene respaldo.",
+      "decidedAt": "2026-10-25T16:26:47.476Z"
+    },
+    "ei-00089:inception": {
+      "note": "Hitos distintos: el ferrocarril llegó a Valladolid en 1858 (IPCE) y el edificio actual de la estación es de finales del siglo XIX (Wikidata, 1891).",
+      "decidedAt": "2026-10-25T16:26:47.476Z"
+    },
+    "ei-00120:inception": {
+      "note": "Las fuentes sitúan la estación en 1865-1866 (línea Ciudad Real-Badajoz) y la línea a Belmez en 1868, que es la fecha de Wikidata; el año 1876 del IPCE no se ha podido confirmar (Universidad de Valladolid, TST 2025; Vías Verdes).",
+      "decidedAt": "2026-10-25T16:26:47.476Z"
+    }
+  }
+}

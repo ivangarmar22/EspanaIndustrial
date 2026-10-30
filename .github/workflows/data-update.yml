@@ -1,0 +1,51 @@
+# Runs the data pipeline and proposes the result as a Pull Request.
+# It never approves important changes: those stay in data/review/pending-catalog.json
+# for manual review. Manual trigger only, as agreed for the local-only phase;
+# uncomment `schedule` to run it monthly without depending on a personal computer.
+name: Data update
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "0 5 1 * *" # 05:00 UTC on the 1st of every month
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - name: Run pipeline
+        env:
+          DATA_CONTACT: https://github.com/${{ github.repository }}
+        run: npm run data:update
+      - run: npm run data:validate
+      - name: Open pull request with the changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- data; then
+            echo "No data changes."
+            exit 0
+          fi
+          branch="data-update/$(date -u +%Y%m%d-%H%M)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add data
+          git commit -m "Actualización de datos $(date -u +%Y-%m-%d)"
+          git push origin "$branch"
+          gh pr create --title "Actualización de datos $(date -u +%Y-%m-%d)" --body-file data/reports/latest.md --base main --head "$branch"

@@ -1,0 +1,16 @@
+{
+  "recordId": "ei-00078",
+  "fields": {
+    "name": {
+      "value": "Horno Hoffmann en el Rajolar de Bauset",
+      "note": "El horno lleva el nombre de Friedrich Hoffmann. Listado oficial del Plan Nacional de Patrimonio Industrial (cultura.gob.es, consultado el 25/10/2026).",
+      "editedAt": "2026-10-25T16:24:35.060Z"
+    },
+    "chronology": {
+      "value": "1924-1990",
+      "note": "El mapa dice 1942 y la ficha 1924; la fábrica El Pilar funcionaba desde los años veinte (Museu de la Rajoleria, Diputació de València).",
+      "editedAt": "2026-10-25T16:24:35.060Z"
+    }
+  },
+  "updatedAt": "2026-10-25T16:24:35.060Z"
+}

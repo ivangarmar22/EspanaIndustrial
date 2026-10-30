@@ -1,0 +1,522 @@
+[
+  {
+    "slug": "paisajes-mineros",
+    "title": "Los paisajes mineros",
+    "intro": [
+      "El listado del Plan Nacional de Patrimonio Industrial no recoge solo edificios aislados: incluye paisajes completos donde la extracción transformó el territorio, con pozos, castilletes, escombreras, poblados y vías de transporte.",
+      "Esta colección reúne los elementos que el atlas clasifica como paisajes mineros a partir de su denominación y del uso asignado en el mapa del IPCE."
+    ],
+    "criteria": {
+      "family": "mineria",
+      "subs": [
+        "paisaje-minero"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "reales-fabricas",
+    "title": "Las Reales Fábricas",
+    "intro": [
+      "Bajo el nombre de Reales Fábricas se conocen manufacturas promovidas o gestionadas por la Corona. El listado nacional incluye varias, dedicadas a productos tan distintos como armas, paños, tapices, vidrio, hojalata o latón.",
+      "La selección agrupa los elementos cuyo nombre oficial en la ficha del IPCE comienza por «Real»; las fechas de cada uno son las que recogen sus fuentes."
+    ],
+    "criteria": {
+      "codes": [
+        "AN-01",
+        "AN-11",
+        "CLM-04",
+        "CLM-05",
+        "CLM-07",
+        "CYL-01",
+        "CYL-05",
+        "CYL-25",
+        "LR-03",
+        "MAD-02",
+        "NA-01"
+      ]
+    },
+    "references": [
+      {
+        "title": "Mapa interactivo y fichas documentales del Plan Nacional de Patrimonio Industrial",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/mapa-interactivo.html"
+      }
+    ]
+  },
+  {
+    "slug": "fabricas-textiles",
+    "title": "Fábricas textiles",
+    "intro": [
+      "Lana, algodón, seda y paños: la industria textil dejó fábricas, vapores y colonias en buena parte de la península.",
+      "La colección reúne los elementos clasificados como textiles por su denominación y por el uso que les asigna el mapa del IPCE."
+    ],
+    "criteria": {
+      "family": "industria",
+      "subs": [
+        "textil"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "harineras",
+    "title": "Harineras y fábricas de harina",
+    "intro": [
+      "Las fábricas de harina son uno de los tipos más numerosos del listado nacional. Muchas aprovecharon la fuerza hidráulica de los ríos antes de incorporar otras fuentes de energía.",
+      "Se incluyen los elementos cuya denominación identifica una fábrica de harinas o harinera."
+    ],
+    "criteria": {
+      "family": "industria",
+      "subs": [
+        "harinera"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "patrimonio-ferroviario",
+    "title": "El patrimonio ferroviario",
+    "intro": [
+      "Estaciones, líneas, puentes, poblados ferroviarios y material móvil: el ferrocarril está presente en el listado nacional de muy diversas formas.",
+      "La colección reúne los elementos de transporte vinculados al ferrocarril según su denominación y el uso «Ferroviario» del mapa del IPCE."
+    ],
+    "criteria": {
+      "family": "transporte",
+      "subs": [
+        "estacion",
+        "linea",
+        "taller-ferroviario",
+        "otras-transporte"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "industria-azucarera",
+    "title": "La industria azucarera",
+    "intro": [
+      "Azucareras de remolacha y de caña aparecen en el listado nacional desde Granada hasta Canarias y Aragón.",
+      "Se incluyen los elementos cuya denominación los identifica como fábricas de azúcar, azucareras o ingenios."
+    ],
+    "criteria": {
+      "family": "industria",
+      "subs": [
+        "azucarera"
+      ]
+    },
+    "references": [
+      {
+        "title": "Estudio del paisaje de la industria azucarera de la Vega de Granada — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial/actuaciones/-estudio-del-paisaje-de-la-industria-azucarera-de-la-vega-de-granada.html"
+      }
+    ]
+  },
+  {
+    "slug": "centrales-hidroelectricas",
+    "title": "Centrales hidroeléctricas históricas",
+    "intro": [
+      "Saltos, presas y centrales que aprovecharon los ríos para producir electricidad forman parte del listado nacional.",
+      "La selección reúne los elementos de energía identificados como hidroeléctricos por su denominación."
+    ],
+    "criteria": {
+      "family": "energia",
+      "subs": [
+        "hidroelectrica"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "colonias-y-poblados",
+    "title": "Colonias y poblados industriales",
+    "intro": [
+      "Junto a las fábricas y las minas se construyeron viviendas, escuelas e iglesias para los trabajadores. Algunas de estas colonias y poblados figuran en el listado nacional como conjuntos.",
+      "Se incluyen los elementos que el atlas clasifica en la familia «Paisaje y vida industrial»."
+    ],
+    "criteria": {
+      "family": "paisaje"
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "industrializacion-andalucia",
+    "title": "La industrialización de Andalucía",
+    "intro": [
+      "Altos hornos, astilleros, minas, bodegas, azucareras y fábricas de vidrio: los elementos andaluces del listado nacional muestran la variedad de su pasado industrial.",
+      "La colección reúne todos los elementos del atlas situados en Andalucía."
+    ],
+    "criteria": {
+      "regions": [
+        "01"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "espana-industrial-siglo-xix",
+    "title": "La España industrial del siglo XIX",
+    "intro": [
+      "Elementos cuya cronología, según sus fuentes, comienza antes de 1900. Muchos siguieron funcionando, transformándose o ampliándose durante el siglo XX.",
+      "Solo se incluyen elementos con una fecha de inicio documentada; los que carecen de ella no aparecen aunque sean antiguos."
+    ],
+    "criteria": {
+      "yearTo": 1899
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "siderurgia-y-fundiciones",
+    "title": "Siderurgia y fundiciones",
+    "intro": [
+      "Altos hornos, fundiciones y fábricas de hierro y acero del listado, desde las fábricas reales del siglo XVIII hasta la siderurgia integral del siglo XX.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "family": "industria",
+      "subs": [
+        "siderurgia"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "fabricas-de-armas",
+    "title": "Fábricas de armas y municiones",
+    "intro": [
+      "Fábricas de armas, pólvora y municiones, muchas de ellas fundadas por la Corona.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "family": "industria",
+      "subs": [
+        "armamento"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "fabricas-de-tabacos",
+    "title": "Fábricas de tabacos",
+    "intro": [
+      "Las antiguas fábricas de tabacos, grandes edificios urbanos que emplearon sobre todo a mujeres cigarreras.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "family": "industria",
+      "subs": [
+        "tabaco"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "fabricas-de-cerveza",
+    "title": "Fábricas de cerveza",
+    "intro": [
+      "Las fábricas de cerveza incluidas en el listado.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "family": "industria",
+      "subs": [
+        "cerveza"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "bodegas-y-almazaras",
+    "title": "Bodegas, almazaras y lagares",
+    "intro": [
+      "La transformación del vino y del aceite: bodegas, cooperativas agrícolas y almazaras.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "family": "agroindustria",
+      "subs": [
+        "bodega",
+        "almazara"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "puentes-y-viaductos",
+    "title": "Puentes y viaductos",
+    "intro": [
+      "Puentes de hierro, viaductos ferroviarios y puentes transbordadores.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "family": "transporte",
+      "subs": [
+        "puente"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "astilleros-y-puertos",
+    "title": "Astilleros y puertos",
+    "intro": [
+      "Astilleros, arsenales y maquinaria portuaria.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "family": "transporte",
+      "subs": [
+        "astillero",
+        "puerto"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "pozos-y-minas",
+    "title": "Pozos y minas",
+    "intro": [
+      "Pozos, castilletes y explotaciones mineras concretas, distintas de los grandes paisajes mineros.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "family": "mineria",
+      "subs": [
+        "pozo",
+        "mina"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "cargaderos-de-mineral",
+    "title": "Cargaderos y embarcaderos de mineral",
+    "intro": [
+      "Las estructuras donde el mineral pasaba del tren o del cable al barco.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "codes": [
+        "AN-07",
+        "SA-07",
+        "ME-01",
+        "MU-02"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "salinas",
+    "title": "Salinas",
+    "intro": [
+      "Salinas de interior y minas de sal: Añana, Imón y La Olmeda, Poza de la Sal, Calasparra y Cardona.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "codes": [
+        "PV-01",
+        "CLM-01",
+        "CYL-26",
+        "MU-05",
+        "CAT-10"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "ferrerias-y-martinetes",
+    "title": "Ferrerías, forjas y martinetes",
+    "intro": [
+      "Instalaciones preindustriales y de transición en las que el agua movía mazos y fuelles para trabajar el hierro y el cobre.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "codes": [
+        "CYL-03",
+        "CYL-16",
+        "CYL-21",
+        "CLM-03",
+        "CAT-14"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "energia-termica-y-gas",
+    "title": "Centrales térmicas y gas",
+    "intro": [
+      "Centrales térmicas y fábricas de gas para el alumbrado y la industria.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "family": "energia",
+      "subs": [
+        "termica",
+        "gas"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "agua-canales-y-abastecimiento",
+    "title": "Agua: canales y abastecimiento",
+    "intro": [
+      "Canales de navegación y riego, norias y sistemas de abastecimiento urbano.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "family": "agua"
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "ceramica-cemento-y-vidrio",
+    "title": "Cerámica, cemento y vidrio",
+    "intro": [
+      "Hornos cerámicos, fábricas de cemento y de vidrio.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "family": "industria",
+      "subs": [
+        "ceramica-construccion",
+        "vidrio"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  },
+  {
+    "slug": "maquinas-y-vehiculos",
+    "title": "Máquinas y vehículos",
+    "intro": [
+      "Bienes muebles del listado: locomotoras, una aeronave, un automóvil, apisonadoras de vapor, una draga y una máquina de vapor.",
+      "La selección se calcula sobre el catálogo publicado: si se añaden elementos que cumplen el criterio, aparecen aquí automáticamente."
+    ],
+    "criteria": {
+      "codes": [
+        "CYL-19",
+        "CYL-20",
+        "CYL-23",
+        "MAD-09",
+        "IB-04",
+        "PV-11",
+        "CAT-02"
+      ]
+    },
+    "references": [
+      {
+        "title": "Plan Nacional de Patrimonio Industrial — Ministerio de Cultura",
+        "url": "https://www.cultura.gob.es/planes-nacionales/planes-nacionales/patrimonio-industrial.html"
+      }
+    ]
+  }
+]

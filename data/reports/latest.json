@@ -1,0 +1,180 @@
+{
+  "startedAt": "2026-10-25T16:27:59.389Z",
+  "finishedAt": "2026-10-25T16:27:59.722Z",
+  "outcome": "published",
+  "message": "178 registros publicados.",
+  "connectors": [],
+  "issues": [],
+  "duplicates": [],
+  "diff": {
+    "added": [],
+    "removed": [],
+    "modified": [
+      {
+        "id": "ei-00001",
+        "name": "Real Fábrica de Artillería de Sevilla",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00014",
+        "name": "Embalse y central eléctrica del Jándula",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00016",
+        "name": "Fábrica de vidrio La Trinidad",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00022",
+        "name": "Fábrica de Harinas Polo",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00025",
+        "name": "Paisaje minero de Val de Ariño",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00033",
+        "name": "Harinera La Dolores",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00034",
+        "name": "Molinos de la Real Fábrica de pólvora de Villafeliche",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00053",
+        "name": "Vapor Aymerich, Amat i Jover",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00056",
+        "name": "Fábrica de paños Cal Miralda",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00064",
+        "name": "La Igualadina Cotonera",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00092",
+        "name": "Central térmica de la Minero-Siderúrgica de Ponferrada",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00095",
+        "name": "Complejo minero de Belorado",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00099",
+        "name": "Fábrica de harinas La Estrella",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00104",
+        "name": "Locomotora English Electric 7766",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00110",
+        "name": "Real Fábrica de Cristal de la Granja",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00118",
+        "name": "Almazara Villafranca de los Barros",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00134",
+        "name": "Bodegas R. López de Heredia",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00158",
+        "name": "Paisaje de las salinas de Añana",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00164",
+        "name": "Estación de ferrocarril de La Concordia",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      },
+      {
+        "id": "ei-00170",
+        "name": "Astillero de Mendieta",
+        "fields": [
+          "summary"
+        ],
+        "important": []
+      }
+    ],
+    "requiresReview": false
+  },
+  "counts": {
+    "records": 178,
+    "published": 178
+  }
+}

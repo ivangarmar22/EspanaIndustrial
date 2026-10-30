@@ -1,0 +1,247 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens — España Industrial.
+ * Paper & ink base, iron greys, a single rust accent. Category colours are
+ * desaturated "painted steel" tones; every category also has a glyph so colour
+ * is never the only signal.
+ */
+@theme {
+  --color-paper: #f4f0e8;
+  --color-paper-deep: #ebe5d8;
+  --color-card: #fbf9f4;
+  --color-ink: #1c1b19;
+  --color-ink-soft: #46433e;
+  --color-iron: #6b6760;
+  --color-rule: #d3cbbb;
+  --color-rule-strong: #a69d8c;
+  --color-rust: #9e4320;
+  --color-rust-deep: #7c3418;
+  --color-copper: #a0693a;
+  /* Copper for text on carbon backgrounds (≥ 4.5:1 on --color-carbon). */
+  --color-copper-light: #d69c66;
+  --color-green: #4c6656;
+  --color-carbon: #20201e;
+  --color-carbon-soft: #2c2b28;
+  --color-warning: #8a5a00;
+  --color-danger: #a12b1f;
+  --color-ok: #3f6b4a;
+
+  /* Validated with the dataviz palette checker (adjacent order below). Mining is a
+     deliberate neutral, distinguished by lightness; every marker also carries a glyph. */
+  --color-cat-industria: #a6441c;
+  --color-cat-mineria: #33312e;
+  --color-cat-transporte: #2e63a6;
+  --color-cat-energia: #a37b10;
+  --color-cat-agua: #008aa6;
+  --color-cat-paisaje: #a23a63;
+  --color-cat-agroindustria: #6d7d1c;
+  /* Railway map: greenways (mirrored in rail-canvas.tsx for MapLibre). */
+  --color-greenway: #1f7a4a;
+
+  --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-newsreader), ui-serif, Georgia, serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+
+  --text-display: clamp(2.3rem, 1.4rem + 4.4vw, 5.4rem);
+  --text-headline: clamp(1.9rem, 1.4rem + 1.9vw, 3rem);
+
+  --breakpoint-xs: 26rem;
+}
+
+@layer base {
+  :root {
+    --select-chevron: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27%236b6760%27 stroke-width=%272%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27%3E%3Cpath d=%27m6 9 6 6 6-6%27/%3E%3C/svg%3E");
+  }
+  html {
+    color-scheme: light;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "kern", "liga";
+    text-rendering: optimizeLegibility;
+  }
+  /* Long Spanish words ("industrialización") must never widen narrow screens. */
+  h1,
+  h2 {
+    hyphens: auto;
+    overflow-wrap: break-word;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--color-rust) 22%, transparent);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-rust);
+    outline-offset: 2px;
+  }
+  a {
+    text-underline-offset: 0.18em;
+    text-decoration-thickness: 1px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* Condensed signage label, e.g. category tags and section markers. */
+  .signage {
+    font-family: var(--font-sans);
+    font-stretch: 72%;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.72rem;
+    line-height: 1.2;
+  }
+  .prose-ei {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-ink-soft);
+    max-width: 68ch;
+  }
+  .prose-ei p + p {
+    margin-top: 1em;
+  }
+  /* Blueprint-like grid used behind cartographic compositions and photo placeholders. */
+  .blueprint {
+    background-color: var(--color-paper-deep);
+    background-image:
+      linear-gradient(color-mix(in srgb, var(--color-rule-strong) 45%, transparent) 1px, transparent 1px),
+      linear-gradient(90deg, color-mix(in srgb, var(--color-rule-strong) 45%, transparent) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+  /* Shared form control, same language as the header search: paper pill, inset shadow, rust focus halo. */
+  .ctl {
+    display: block;
+    width: 100%;
+    min-height: 2.75rem;
+    border: 1px solid var(--color-rule-strong);
+    border-radius: 999px;
+    background-color: var(--color-card);
+    padding: 0 1rem;
+    font-size: 0.95rem;
+    color: var(--color-ink);
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 0.07);
+    transition:
+      border-color 0.15s,
+      box-shadow 0.15s;
+  }
+  .ctl::placeholder {
+    color: var(--color-iron);
+  }
+  .ctl:hover {
+    border-color: var(--color-iron);
+  }
+  .ctl:focus,
+  .ctl:focus-visible,
+  .ctl[aria-expanded="true"] {
+    outline: none;
+    border-color: var(--color-ink);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-rust) 18%, transparent);
+  }
+  .ctl[aria-invalid="true"] {
+    border-color: var(--color-danger);
+  }
+  textarea.ctl {
+    border-radius: 1.1rem;
+    padding: 0.7rem 1rem;
+    line-height: 1.5;
+  }
+  /* Pre-hydration fallback of <Select>: a native select dressed as the custom one. */
+  .select-native {
+    appearance: none;
+    padding-right: 2.5rem;
+    background-image: var(--select-chevron);
+    background-repeat: no-repeat;
+    background-position: right 0.95rem center;
+    background-size: 1rem;
+  }
+  .select-pop {
+    animation: select-pop 0.12s ease-out;
+  }
+  @keyframes select-pop {
+    from {
+      opacity: 0;
+      transform: translateY(-4px);
+    }
+  }
+  /* Native checkbox restyled as an on/off switch (keeps its keyboard and form semantics). */
+  .switch {
+    appearance: none;
+    position: relative;
+    flex-shrink: 0;
+    width: 2.75rem;
+    height: 1.5rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-rule-strong);
+    background: var(--color-paper-deep);
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  .switch::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 1.125rem;
+    height: 1.125rem;
+    border-radius: 999px;
+    background: var(--color-card);
+    box-shadow: 0 0 0 1px var(--color-rule-strong);
+    transition: transform 0.15s;
+  }
+  .switch:checked {
+    background: var(--color-rust);
+    border-color: var(--color-rust);
+  }
+  .switch:checked::after {
+    transform: translateX(1.25rem);
+    box-shadow: none;
+  }
+  /* Search fields draw their own clear button. */
+  .search-input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  .skip-link {
+    position: absolute;
+    left: 1rem;
+    top: -4rem;
+    z-index: 100;
+    background: var(--color-ink);
+    color: var(--color-paper);
+    padding: 0.6rem 1rem;
+  }
+  .skip-link:focus {
+    top: 1rem;
+  }
+}
+
+/* MapLibre controls restyled to the paper/ink palette. */
+.maplibregl-ctrl-group {
+  border-radius: 2px !important;
+  box-shadow: 0 0 0 1px var(--color-rule-strong) !important;
+  background: var(--color-card) !important;
+}
+.maplibregl-ctrl-group button {
+  width: 36px !important;
+  height: 36px !important;
+}
+.maplibregl-ctrl-attrib {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  background: color-mix(in srgb, var(--color-card) 88%, transparent) !important;
+}
+.maplibregl-ctrl-attrib a {
+  color: var(--color-ink-soft) !important;
+}

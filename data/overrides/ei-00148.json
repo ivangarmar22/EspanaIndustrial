@@ -1,0 +1,14 @@
+{
+  "recordId": "ei-00148",
+  "fields": {
+    "point": {
+      "value": {
+        "lat": 37.40898,
+        "lon": -1.56005
+      },
+      "note": "Se adopta el punto de la ficha del IPCE, que coincide con Wikidata (calle Gustavo Gillman); el del mapa cae en una zona verde (Sede Electrónica del Catastro, consulta de parcela por coordenadas (25/10/2026); CartoCiudad).",
+      "editedAt": "2026-10-25T16:24:35.060Z"
+    }
+  },
+  "updatedAt": "2026-10-25T16:24:35.060Z"
+}

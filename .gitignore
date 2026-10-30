@@ -1,0 +1,41 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+
+# testing
+/coverage
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# env — secrets never go into the repository
+.env
+.env.*
+!.env.example
+
+# data: raw downloads and private material (see docs/data/data-layout.md)
+/data/snapshots/*
+!/data/snapshots/.gitkeep
+/data/reports/history/
+/data/.tmp/
+/data/.lock
+
+# downloaded media (regenerated with `npm run data:media`)
+/public/media/*
+!/public/media/.gitkeep
+
+# os / editors
+.DS_Store
+Thumbs.db
+*.log
+
+# local scratch scripts
+/scripts/.scratch/
+
+# copied from node_modules by scripts/maintenance/copy-maplibre-worker.mjs
+/public/vendor/

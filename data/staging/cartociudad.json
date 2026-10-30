@@ -1,0 +1,2166 @@
+{
+  "sourceId": "cartociudad",
+  "retrievedAt": "2026-10-25T12:18:33.611Z",
+  "contentHash": "b8c3d94c233d903664f46da34ed76ff635d926f60d3ff5598847db7b8df22b84",
+  "data": {
+    "37.383968,-5.981500": {
+      "point": {
+        "lat": 37.383968,
+        "lon": -5.9815
+      },
+      "retrievedAt": "2026-10-25T12:00:43.022Z",
+      "municipality": "Sevilla",
+      "ineCode": "41091",
+      "provinceCode": "41",
+      "regionCode": "01",
+      "cadastralRef": "6118001TG3461N"
+    },
+    "36.720706,-4.380961": {
+      "point": {
+        "lat": 36.720706,
+        "lon": -4.380961
+      },
+      "retrievedAt": "2026-10-25T12:00:44.045Z",
+      "municipality": "Málaga",
+      "ineCode": "29067",
+      "provinceCode": "29",
+      "regionCode": "01",
+      "cadastralRef": "6750102UF7665S"
+    },
+    "37.692311,-6.596019": {
+      "point": {
+        "lat": 37.692311,
+        "lon": -6.596019
+      },
+      "retrievedAt": "2026-10-25T12:00:46.252Z",
+      "municipality": "Minas de Riotinto",
+      "ineCode": "21049",
+      "provinceCode": "21",
+      "regionCode": "01",
+      "cadastralRef": "2145921QB1724N"
+    },
+    "36.680518,-6.142782": {
+      "point": {
+        "lat": 36.680518,
+        "lon": -6.142782
+      },
+      "retrievedAt": "2026-10-25T12:00:47.364Z",
+      "municipality": "Jerez de la Frontera",
+      "ineCode": "11020",
+      "provinceCode": "11",
+      "regionCode": "01",
+      "cadastralRef": "5336001QA5653E"
+    },
+    "37.192839,-3.642886": {
+      "point": {
+        "lat": 37.192839,
+        "lon": -3.642886
+      },
+      "retrievedAt": "2026-10-25T12:00:48.447Z",
+      "municipality": "Granada",
+      "ineCode": "18087",
+      "provinceCode": "18",
+      "regionCode": "01",
+      "cadastralRef": "2966201VG4126F"
+    },
+    "36.831993,-2.463483": {
+      "point": {
+        "lat": 36.831993,
+        "lon": -2.463483
+      },
+      "retrievedAt": "2026-10-25T12:00:49.554Z",
+      "municipality": "Almería",
+      "ineCode": "04013",
+      "provinceCode": "04",
+      "regionCode": "01",
+      "cadastralRef": "8165207WF4786N"
+    },
+    "37.904224,-4.730086": {
+      "point": {
+        "lat": 37.904224,
+        "lon": -4.730086
+      },
+      "retrievedAt": "2026-10-25T12:00:50.646Z",
+      "municipality": "Córdoba",
+      "ineCode": "14021",
+      "provinceCode": "14",
+      "regionCode": "01",
+      "cadastralRef": "7966601UG4976N"
+    },
+    "36.746602,-3.529553": {
+      "point": {
+        "lat": 36.746602,
+        "lon": -3.529553
+      },
+      "retrievedAt": "2026-10-25T12:00:51.764Z",
+      "municipality": "Motril",
+      "ineCode": "18140",
+      "provinceCode": "18",
+      "regionCode": "01",
+      "cadastralRef": "2871201VF5627B"
+    },
+    "36.521438,-4.954986": {
+      "point": {
+        "lat": 36.521438,
+        "lon": -4.954986
+      },
+      "retrievedAt": "2026-10-25T12:00:52.865Z",
+      "municipality": "Marbella",
+      "ineCode": "29069",
+      "provinceCode": "29",
+      "regionCode": "01",
+      "cadastralRef": "001100200UF24D"
+    },
+    "36.609999,-5.170566": {
+      "point": {
+        "lat": 36.609999,
+        "lon": -5.170566
+      },
+      "retrievedAt": "2026-10-25T12:00:53.980Z",
+      "municipality": "Júzcar",
+      "ineCode": "29065",
+      "provinceCode": "29",
+      "regionCode": "01",
+      "cadastralRef": "29065A00300023"
+    },
+    "36.468923,-6.182384": {
+      "point": {
+        "lat": 36.468923,
+        "lon": -6.182384
+      },
+      "retrievedAt": "2026-10-25T12:00:55.095Z",
+      "municipality": "Puerto Real",
+      "ineCode": "11028",
+      "provinceCode": "11",
+      "regionCode": "01",
+      "cadastralRef": "11028A01900004"
+    },
+    "38.294179,-5.271218": {
+      "point": {
+        "lat": 38.294179,
+        "lon": -5.271218
+      },
+      "retrievedAt": "2026-10-25T12:00:56.200Z",
+      "municipality": "Peñarroya-Pueblonuevo",
+      "ineCode": "14052",
+      "provinceCode": "14",
+      "regionCode": "01",
+      "cadastralRef": "1408903UH0410N"
+    },
+    "36.706641,-4.495720": {
+      "point": {
+        "lat": 36.706641,
+        "lon": -4.49572
+      },
+      "retrievedAt": "2026-10-25T12:00:58.426Z",
+      "municipality": "Málaga",
+      "ineCode": "29067",
+      "provinceCode": "29",
+      "regionCode": "01",
+      "cadastralRef": "6434109UF6663S"
+    },
+    "37.399589,-5.979671": {
+      "point": {
+        "lat": 37.399589,
+        "lon": -5.979671
+      },
+      "retrievedAt": "2026-10-25T12:00:59.508Z",
+      "municipality": "Sevilla",
+      "ineCode": "41091",
+      "provinceCode": "41",
+      "regionCode": "01",
+      "cadastralRef": "6335066TG3463N"
+    },
+    "37.582924,-3.302901": {
+      "point": {
+        "lat": 37.582924,
+        "lon": -3.302901
+      },
+      "retrievedAt": "2026-10-25T12:01:00.641Z",
+      "municipality": "Alamedilla",
+      "ineCode": "18002",
+      "provinceCode": "18",
+      "regionCode": "01",
+      "cadastralRef": "7057022VG6675A"
+    },
+    "41.654033,-0.893697": {
+      "point": {
+        "lat": 41.654033,
+        "lon": -0.893697
+      },
+      "retrievedAt": "2026-10-25T12:01:01.729Z",
+      "municipality": "Zaragoza",
+      "ineCode": "50297",
+      "provinceCode": "50",
+      "regionCode": "02",
+      "cadastralRef": "5437219XM7153G"
+    },
+    "41.637500,-0.881667": {
+      "point": {
+        "lat": 41.6375,
+        "lon": -0.881667
+      },
+      "retrievedAt": "2026-10-25T12:01:02.833Z",
+      "municipality": "Zaragoza",
+      "ineCode": "50297",
+      "provinceCode": "50",
+      "regionCode": "02",
+      "cadastralRef": "6519206XM7161H"
+    },
+    "41.319415,-0.358680": {
+      "point": {
+        "lat": 41.319415,
+        "lon": -0.35868
+      },
+      "retrievedAt": "2026-10-25T12:01:03.938Z",
+      "municipality": "Sástago",
+      "ineCode": "50240",
+      "provinceCode": "50",
+      "regionCode": "02",
+      "cadastralRef": "1278701YL2717N"
+    },
+    "42.478173,0.436796": {
+      "point": {
+        "lat": 42.478173,
+        "lon": 0.436796
+      },
+      "retrievedAt": "2026-10-25T12:01:05.059Z",
+      "municipality": "Seira",
+      "ineCode": "22215",
+      "provinceCode": "22",
+      "regionCode": "02",
+      "cadastralRef": "9262502BH8096S"
+    },
+    "41.763649,-0.818009": {
+      "point": {
+        "lat": 41.763649,
+        "lon": -0.818009
+      },
+      "retrievedAt": "2026-10-25T12:01:06.161Z",
+      "municipality": "Villanueva de Gállego",
+      "ineCode": "50288",
+      "provinceCode": "50",
+      "regionCode": "02",
+      "cadastralRef": "1560001XM8216S"
+    },
+    "41.476501,-1.488553": {
+      "point": {
+        "lat": 41.476501,
+        "lon": -1.488553
+      },
+      "retrievedAt": "2026-10-25T12:01:07.264Z",
+      "municipality": "Morata de Jalón",
+      "ineCode": "50175",
+      "provinceCode": "50",
+      "regionCode": "02",
+      "cadastralRef": "6492625XL2962S"
+    },
+    "41.639488,-0.864968": {
+      "point": {
+        "lat": 41.639488,
+        "lon": -0.864968
+      },
+      "retrievedAt": "2026-10-25T12:01:08.363Z",
+      "municipality": "Zaragoza",
+      "ineCode": "50297",
+      "provinceCode": "50",
+      "regionCode": "02",
+      "cadastralRef": "7920302XM7172B"
+    },
+    "41.657346,-0.909447": {
+      "point": {
+        "lat": 41.657346,
+        "lon": -0.909447
+      },
+      "retrievedAt": "2026-10-25T12:01:10.589Z",
+      "municipality": "Zaragoza",
+      "ineCode": "50297",
+      "provinceCode": "50",
+      "regionCode": "02",
+      "cadastralRef": "3345405XM7143G"
+    },
+    "41.345766,-1.637339": {
+      "point": {
+        "lat": 41.345766,
+        "lon": -1.637339
+      },
+      "retrievedAt": "2026-10-25T12:01:11.718Z",
+      "municipality": "Calatayud",
+      "ineCode": "50067",
+      "provinceCode": "50",
+      "regionCode": "02",
+      "cadastralRef": "4184902XL1748S"
+    },
+    "42.738543,-0.520611": {
+      "point": {
+        "lat": 42.738543,
+        "lon": -0.520611
+      },
+      "retrievedAt": "2026-10-25T12:01:12.825Z",
+      "municipality": "Canfranc",
+      "ineCode": "22078",
+      "provinceCode": "22",
+      "regionCode": "02"
+    },
+    "40.347764,-1.117144": {
+      "point": {
+        "lat": 40.347764,
+        "lon": -1.117144
+      },
+      "retrievedAt": "2026-10-25T12:01:13.933Z",
+      "municipality": "Teruel",
+      "ineCode": "44216",
+      "provinceCode": "44",
+      "regionCode": "02",
+      "cadastralRef": "0281214XK6608A"
+    },
+    "42.751387,-0.514204": {
+      "point": {
+        "lat": 42.751387,
+        "lon": -0.514204
+      },
+      "retrievedAt": "2026-10-25T12:01:15.039Z",
+      "municipality": "Canfranc",
+      "ineCode": "22078",
+      "provinceCode": "22",
+      "regionCode": "02",
+      "cadastralRef": "3664003YN0336S"
+    },
+    "40.850995,-1.337513": {
+      "point": {
+        "lat": 40.850995,
+        "lon": -1.337513
+      },
+      "retrievedAt": "2026-10-25T12:01:16.136Z",
+      "municipality": "Caminreal",
+      "ineCode": "44056",
+      "provinceCode": "44",
+      "regionCode": "02",
+      "cadastralRef": "001100200XL42C"
+    },
+    "41.817420,-0.170714": {
+      "point": {
+        "lat": 41.81742,
+        "lon": -0.170714
+      },
+      "retrievedAt": "2026-10-25T12:01:17.265Z",
+      "municipality": "Sariñena",
+      "ineCode": "22213",
+      "provinceCode": "22",
+      "regionCode": "02",
+      "cadastralRef": "4935104YM3353E"
+    },
+    "42.398639,-0.501093": {
+      "point": {
+        "lat": 42.398639,
+        "lon": -0.501093
+      },
+      "retrievedAt": "2026-10-25T12:01:18.387Z",
+      "municipality": "Caldearenas",
+      "ineCode": "22072",
+      "provinceCode": "22",
+      "regionCode": "02",
+      "cadastralRef": "22038D50505031"
+    },
+    "41.189555,-1.511001": {
+      "point": {
+        "lat": 41.189555,
+        "lon": -1.511001
+      },
+      "retrievedAt": "2026-10-25T12:01:19.483Z",
+      "municipality": "Villafeliche",
+      "ineCode": "50284",
+      "provinceCode": "50",
+      "regionCode": "02",
+      "cadastralRef": "002100900XL26B"
+    },
+    "40.715350,-1.524448": {
+      "point": {
+        "lat": 40.71535,
+        "lon": -1.524448
+      },
+      "retrievedAt": "2026-10-25T12:01:20.588Z",
+      "municipality": "Ojos Negros",
+      "ineCode": "44169",
+      "provinceCode": "44",
+      "regionCode": "02",
+      "cadastralRef": "4784206XL2048D"
+    },
+    "42.465767,0.001822": {
+      "point": {
+        "lat": 42.465767,
+        "lon": 0.001822
+      },
+      "retrievedAt": "2026-10-25T12:01:21.692Z",
+      "municipality": "Fiscal",
+      "ineCode": "22109",
+      "provinceCode": "22",
+      "regionCode": "02",
+      "cadastralRef": "6559303YN4065N"
+    },
+    "43.365376,-5.837711": {
+      "point": {
+        "lat": 43.365376,
+        "lon": -5.837711
+      },
+      "retrievedAt": "2026-10-25T12:01:22.810Z",
+      "municipality": "Oviedo",
+      "ineCode": "33044",
+      "provinceCode": "33",
+      "regionCode": "03",
+      "cadastralRef": "0355001TP7005N"
+    },
+    "43.345591,-5.973254": {
+      "point": {
+        "lat": 43.345591,
+        "lon": -5.973254
+      },
+      "retrievedAt": "2026-10-25T12:01:23.920Z",
+      "municipality": "Oviedo",
+      "ineCode": "33044",
+      "provinceCode": "33",
+      "regionCode": "03",
+      "cadastralRef": "9137001TP5093N"
+    },
+    "43.577475,-5.975591": {
+      "point": {
+        "lat": 43.577475,
+        "lon": -5.975591
+      },
+      "retrievedAt": "2026-10-25T12:01:25.043Z",
+      "municipality": "Castrillón",
+      "ineCode": "33016",
+      "provinceCode": "33",
+      "regionCode": "03",
+      "cadastralRef": "9994001TP5299S"
+    },
+    "43.541125,-5.672647": {
+      "point": {
+        "lat": 43.541125,
+        "lon": -5.672647
+      },
+      "retrievedAt": "2026-10-25T12:01:26.128Z",
+      "municipality": "Gijón",
+      "ineCode": "33024",
+      "provinceCode": "33",
+      "regionCode": "03",
+      "cadastralRef": "3946201TP8244N"
+    },
+    "43.492937,-5.424036": {
+      "point": {
+        "lat": 43.492937,
+        "lon": -5.424036
+      },
+      "retrievedAt": "2026-10-25T12:01:27.235Z",
+      "municipality": "Villaviciosa",
+      "ineCode": "33076",
+      "provinceCode": "33",
+      "regionCode": "03",
+      "cadastralRef": "4188801UP0148N"
+    },
+    "43.213942,-5.717926": {
+      "point": {
+        "lat": 43.213942,
+        "lon": -5.717926
+      },
+      "retrievedAt": "2026-10-25T12:01:28.329Z",
+      "municipality": "Mieres",
+      "ineCode": "33037",
+      "provinceCode": "33",
+      "regionCode": "03",
+      "cadastralRef": "L06301000TN78H"
+    },
+    "43.280819,-5.622041": {
+      "point": {
+        "lat": 43.280819,
+        "lon": -5.622041
+      },
+      "retrievedAt": "2026-10-25T12:01:29.439Z",
+      "municipality": "San Martín del Rey Aurelio",
+      "ineCode": "33060",
+      "provinceCode": "33",
+      "regionCode": "03",
+      "cadastralRef": "B12602800TN89F"
+    },
+    "43.236111,-6.847778": {
+      "point": {
+        "lat": 43.236111,
+        "lon": -6.847778
+      },
+      "retrievedAt": "2026-10-25T12:01:30.557Z",
+      "municipality": "Grandas de Salime",
+      "ineCode": "33027",
+      "provinceCode": "33",
+      "regionCode": "03"
+    },
+    "43.555780,-5.898471": {
+      "point": {
+        "lat": 43.55578,
+        "lon": -5.898471
+      },
+      "retrievedAt": "2026-10-25T12:01:31.669Z",
+      "municipality": "Avilés",
+      "ineCode": "33004",
+      "provinceCode": "33",
+      "regionCode": "03",
+      "cadastralRef": "5870614TP6256N"
+    },
+    "43.362756,-5.841277": {
+      "point": {
+        "lat": 43.362756,
+        "lon": -5.841277
+      },
+      "retrievedAt": "2026-10-25T12:01:32.772Z",
+      "municipality": "Oviedo",
+      "ineCode": "33044",
+      "provinceCode": "33",
+      "regionCode": "03",
+      "cadastralRef": "99520A8TP6095S"
+    },
+    "43.261281,-5.673602": {
+      "point": {
+        "lat": 43.261281,
+        "lon": -5.673602
+      },
+      "retrievedAt": "2026-10-25T12:01:33.878Z",
+      "municipality": "Langreo",
+      "ineCode": "33031",
+      "provinceCode": "33",
+      "regionCode": "03",
+      "cadastralRef": "3036410TN8933N"
+    },
+    "28.027845,-15.399139": {
+      "point": {
+        "lat": 28.027845,
+        "lon": -15.399139
+      },
+      "retrievedAt": "2026-10-25T12:01:34.977Z",
+      "municipality": "Telde",
+      "ineCode": "35026",
+      "provinceCode": "35",
+      "regionCode": "05",
+      "cadastralRef": "0704101DS6000S"
+    },
+    "28.001317,-15.420823": {
+      "point": {
+        "lat": 28.001317,
+        "lon": -15.420823
+      },
+      "retrievedAt": "2026-10-25T12:01:36.115Z",
+      "municipality": "Telde",
+      "ineCode": "35026",
+      "provinceCode": "35",
+      "regionCode": "05",
+      "cadastralRef": "35026A01800750"
+    },
+    "28.457335,-16.256165": {
+      "point": {
+        "lat": 28.457335,
+        "lon": -16.256165
+      },
+      "retrievedAt": "2026-10-25T12:01:37.218Z",
+      "municipality": "Santa Cruz de Tenerife",
+      "ineCode": "38038",
+      "provinceCode": "38",
+      "regionCode": "05",
+      "cadastralRef": "7283201CS7478S"
+    },
+    "41.528678,1.684101": {
+      "point": {
+        "lat": 41.528678,
+        "lon": 1.684101
+      },
+      "retrievedAt": "2026-10-25T12:01:38.334Z",
+      "municipality": "Capellades",
+      "ineCode": "08044",
+      "provinceCode": "08",
+      "regionCode": "09",
+      "cadastralRef": "0384802CF9908S"
+    },
+    "41.959606,2.635202": {
+      "point": {
+        "lat": 41.959606,
+        "lon": 2.635202
+      },
+      "retrievedAt": "2026-10-25T12:01:39.451Z",
+      "municipality": "Anglès",
+      "ineCode": "17008",
+      "provinceCode": "17",
+      "regionCode": "09",
+      "cadastralRef": "9852201DG6495S"
+    },
+    "41.565446,2.007280": {
+      "point": {
+        "lat": 41.565446,
+        "lon": 2.00728
+      },
+      "retrievedAt": "2026-10-25T12:01:40.522Z",
+      "municipality": "Terrassa",
+      "ineCode": "08279",
+      "provinceCode": "08",
+      "regionCode": "09",
+      "cadastralRef": "7221301DG1072B"
+    },
+    "41.548448,1.872177": {
+      "point": {
+        "lat": 41.548448,
+        "lon": 1.872177
+      },
+      "retrievedAt": "2026-10-25T12:01:41.633Z",
+      "municipality": "Esparreguera",
+      "ineCode": "08076",
+      "provinceCode": "08",
+      "regionCode": "09",
+      "cadastralRef": "6005333DG0060N"
+    },
+    "41.550676,1.872205": {
+      "point": {
+        "lat": 41.550676,
+        "lon": 1.872205
+      },
+      "retrievedAt": "2026-10-25T12:01:42.733Z",
+      "municipality": "Esparreguera",
+      "ineCode": "08076",
+      "provinceCode": "08",
+      "regionCode": "09",
+      "cadastralRef": "6005321DG0060N"
+    },
+    "41.356093,2.064680": {
+      "point": {
+        "lat": 41.356093,
+        "lon": 2.06468
+      },
+      "retrievedAt": "2026-10-25T12:01:43.870Z",
+      "municipality": "Cornellà de Llobregat",
+      "ineCode": "08073",
+      "provinceCode": "08",
+      "regionCode": "09",
+      "cadastralRef": "1790837DF2719B"
+    },
+    "41.723521,1.815133": {
+      "point": {
+        "lat": 41.723521,
+        "lon": 1.815133
+      },
+      "retrievedAt": "2026-10-25T12:01:44.945Z",
+      "municipality": "Manresa",
+      "ineCode": "08113",
+      "provinceCode": "08",
+      "regionCode": "09",
+      "cadastralRef": "1697716DG0119G"
+    },
+    "41.016539,0.512617": {
+      "point": {
+        "lat": 41.016539,
+        "lon": 0.512617
+      },
+      "retrievedAt": "2026-10-25T12:01:46.052Z",
+      "municipality": "El Pinell de Brai",
+      "ineCode": "43106",
+      "provinceCode": "43",
+      "regionCode": "09",
+      "cadastralRef": "0937401BF9403H"
+    },
+    "42.260255,1.978478": {
+      "point": {
+        "lat": 42.260255,
+        "lon": 1.978478
+      },
+      "retrievedAt": "2026-10-25T12:01:47.168Z",
+      "municipality": "Castellar de n\"Hug",
+      "ineCode": "08052",
+      "provinceCode": "08",
+      "regionCode": "09",
+      "cadastralRef": "08051A00400107"
+    },
+    "41.161314,0.762697": {
+      "point": {
+        "lat": 41.161314,
+        "lon": 0.762697
+      },
+      "retrievedAt": "2026-10-25T12:01:48.285Z",
+      "municipality": "Bellmunt del Priorat",
+      "ineCode": "43023",
+      "provinceCode": "43",
+      "regionCode": "09",
+      "cadastralRef": "2494512CF1529C"
+    },
+    "41.906863,1.674777": {
+      "point": {
+        "lat": 41.906863,
+        "lon": 1.674777
+      },
+      "retrievedAt": "2026-10-25T12:01:49.381Z",
+      "municipality": "Cardona",
+      "ineCode": "08047",
+      "provinceCode": "08",
+      "regionCode": "09",
+      "cadastralRef": "0005202CG9400N"
+    },
+    "41.362749,2.027429": {
+      "point": {
+        "lat": 41.362749,
+        "lon": 2.027429
+      },
+      "retrievedAt": "2026-10-25T12:01:50.489Z",
+      "municipality": "Santa Coloma de Cervelló",
+      "ineCode": "08244",
+      "provinceCode": "08",
+      "regionCode": "09",
+      "cadastralRef": "8797806DF1789F"
+    },
+    "42.466661,0.990583": {
+      "point": {
+        "lat": 42.466661,
+        "lon": 0.990583
+      },
+      "retrievedAt": "2026-10-25T12:01:51.596Z",
+      "municipality": "la Torre de Cabdella",
+      "ineCode": "25227",
+      "provinceCode": "25",
+      "regionCode": "09",
+      "cadastralRef": "4937901CH3043N"
+    },
+    "41.646981,1.125549": {
+      "point": {
+        "lat": 41.646981,
+        "lon": 1.125549
+      },
+      "retrievedAt": "2026-10-25T12:01:52.702Z",
+      "municipality": "Tàrrega",
+      "ineCode": "25217",
+      "provinceCode": "25",
+      "regionCode": "09",
+      "cadastralRef": "3924901CG4142S"
+    },
+    "42.199214,2.188655": {
+      "point": {
+        "lat": 42.199214,
+        "lon": 2.188655
+      },
+      "retrievedAt": "2026-10-25T12:01:53.815Z",
+      "municipality": "Ripoll",
+      "ineCode": "17147",
+      "provinceCode": "17",
+      "regionCode": "09",
+      "cadastralRef": "2925606DG3722N"
+    },
+    "41.578942,1.610857": {
+      "point": {
+        "lat": 41.578942,
+        "lon": 1.610857
+      },
+      "retrievedAt": "2026-10-25T12:01:54.923Z",
+      "municipality": "Igualada",
+      "ineCode": "08102",
+      "provinceCode": "08",
+      "regionCode": "09",
+      "cadastralRef": "4341801CG8044S"
+    },
+    "41.160088,-2.727857": {
+      "point": {
+        "lat": 41.160088,
+        "lon": -2.727857
+      },
+      "retrievedAt": "2026-10-25T12:01:56.024Z",
+      "municipality": "Sigüenza",
+      "ineCode": "19257",
+      "provinceCode": "19",
+      "regionCode": "08"
+    },
+    "38.775074,-4.842923": {
+      "point": {
+        "lat": 38.775074,
+        "lon": -4.842923
+      },
+      "retrievedAt": "2026-10-25T12:01:57.124Z",
+      "municipality": "Almadén",
+      "ineCode": "13011",
+      "provinceCode": "13",
+      "regionCode": "08",
+      "cadastralRef": "0036528UH4903N"
+    },
+    "38.500444,-2.419239": {
+      "point": {
+        "lat": 38.500444,
+        "lon": -2.419239
+      },
+      "retrievedAt": "2026-10-25T12:01:59.338Z",
+      "municipality": "Riópar",
+      "ineCode": "02067",
+      "provinceCode": "02",
+      "regionCode": "08",
+      "cadastralRef": "0817000WH5601N"
+    },
+    "39.864035,-4.040386": {
+      "point": {
+        "lat": 39.864035,
+        "lon": -4.040386
+      },
+      "retrievedAt": "2026-10-25T12:02:00.452Z",
+      "municipality": "Toledo",
+      "ineCode": "45168",
+      "provinceCode": "45",
+      "regionCode": "08",
+      "cadastralRef": "1235201VK1113E"
+    },
+    "38.682005,-4.126254": {
+      "point": {
+        "lat": 38.682005,
+        "lon": -4.126254
+      },
+      "retrievedAt": "2026-10-25T12:02:01.564Z",
+      "municipality": "Puertollano",
+      "ineCode": "13071",
+      "provinceCode": "13",
+      "regionCode": "08"
+    },
+    "40.760025,-2.867569": {
+      "point": {
+        "lat": 40.760025,
+        "lon": -2.867569
+      },
+      "retrievedAt": "2026-10-25T12:02:02.675Z",
+      "municipality": "Brihuega",
+      "ineCode": "19053",
+      "provinceCode": "19",
+      "regionCode": "08",
+      "cadastralRef": "1223736WL1112S"
+    },
+    "38.684649,-0.467794": {
+      "point": {
+        "lat": 38.684649,
+        "lon": -0.467794
+      },
+      "retrievedAt": "2026-10-25T12:02:03.769Z",
+      "municipality": "Alcoi/Alcoy",
+      "ineCode": "03009",
+      "provinceCode": "03",
+      "regionCode": "10",
+      "cadastralRef": "002101300YH28E"
+    },
+    "40.618431,-0.133601": {
+      "point": {
+        "lat": 40.618431,
+        "lon": -0.133601
+      },
+      "retrievedAt": "2026-10-25T12:02:04.867Z",
+      "municipality": "Morella",
+      "ineCode": "12080",
+      "provinceCode": "12",
+      "regionCode": "10",
+      "cadastralRef": "2607101YL4020N"
+    },
+    "38.354502,-0.465347": {
+      "point": {
+        "lat": 38.354502,
+        "lon": -0.465347
+      },
+      "retrievedAt": "2026-10-25T12:02:05.978Z",
+      "municipality": "Alacant/Alicante",
+      "ineCode": "03014",
+      "provinceCode": "03",
+      "regionCode": "10",
+      "cadastralRef": "001200100YH24G"
+    },
+    "39.466936,-0.377163": {
+      "point": {
+        "lat": 39.466936,
+        "lon": -0.377163
+      },
+      "retrievedAt": "2026-10-25T12:02:07.095Z",
+      "municipality": "València",
+      "ineCode": "46250",
+      "provinceCode": "46",
+      "regionCode": "10",
+      "cadastralRef": "5411701YJ2751A"
+    },
+    "39.473590,-0.378973": {
+      "point": {
+        "lat": 39.47359,
+        "lon": -0.378973
+      },
+      "retrievedAt": "2026-10-25T12:02:08.188Z",
+      "municipality": "València",
+      "ineCode": "46250",
+      "provinceCode": "46",
+      "regionCode": "10",
+      "cadastralRef": "5528801YJ2752H"
+    },
+    "38.695454,0.054806": {
+      "point": {
+        "lat": 38.695454,
+        "lon": 0.054806
+      },
+      "retrievedAt": "2026-10-25T12:02:09.284Z",
+      "municipality": "Benissa",
+      "ineCode": "03041",
+      "provinceCode": "03",
+      "regionCode": "10",
+      "cadastralRef": "0004016BC4805S"
+    },
+    "39.424267,-0.417610": {
+      "point": {
+        "lat": 39.424267,
+        "lon": -0.41761
+      },
+      "retrievedAt": "2026-10-25T12:02:10.403Z",
+      "municipality": "Paiporta",
+      "ineCode": "46186",
+      "provinceCode": "46",
+      "regionCode": "10",
+      "cadastralRef": "2472201YJ2627S"
+    },
+    "39.654288,-0.220348": {
+      "point": {
+        "lat": 39.654288,
+        "lon": -0.220348
+      },
+      "retrievedAt": "2026-10-25T12:02:11.493Z",
+      "municipality": "Sagunt/Sagunto",
+      "ineCode": "46220",
+      "provinceCode": "46",
+      "regionCode": "10",
+      "cadastralRef": "8532501YJ3983S"
+    },
+    "39.458319,-0.332378": {
+      "point": {
+        "lat": 39.458319,
+        "lon": -0.332378
+      },
+      "retrievedAt": "2026-10-25T12:02:12.607Z",
+      "municipality": "València",
+      "ineCode": "46250",
+      "provinceCode": "46",
+      "regionCode": "10",
+      "cadastralRef": "9612602YJ2791A"
+    },
+    "38.568129,-0.849926": {
+      "point": {
+        "lat": 38.568129,
+        "lon": -0.849926
+      },
+      "retrievedAt": "2026-10-25T12:02:13.720Z",
+      "municipality": "Sax",
+      "ineCode": "03123",
+      "provinceCode": "03",
+      "regionCode": "10",
+      "cadastralRef": "0013019YH8750S"
+    },
+    "38.944774,-0.181886": {
+      "point": {
+        "lat": 38.944774,
+        "lon": -0.181886
+      },
+      "retrievedAt": "2026-10-25T12:02:14.818Z",
+      "municipality": "Almoines",
+      "ineCode": "46034",
+      "provinceCode": "46",
+      "regionCode": "10",
+      "cadastralRef": "4445137YJ4144N"
+    },
+    "39.473772,-0.361686": {
+      "point": {
+        "lat": 39.473772,
+        "lon": -0.361686
+      },
+      "retrievedAt": "2026-10-25T12:02:15.907Z",
+      "municipality": "València",
+      "ineCode": "46250",
+      "provinceCode": "46",
+      "regionCode": "10",
+      "cadastralRef": "7029501YJ2772G"
+    },
+    "38.707056,-0.662983": {
+      "point": {
+        "lat": 38.707056,
+        "lon": -0.662983
+      },
+      "retrievedAt": "2026-10-25T12:02:17.007Z",
+      "municipality": "Banyeres de Mariola",
+      "ineCode": "03021",
+      "provinceCode": "03",
+      "regionCode": "10",
+      "cadastralRef": "0004035YH0805S"
+    },
+    "38.094328,-0.945608": {
+      "point": {
+        "lat": 38.094328,
+        "lon": -0.945608
+      },
+      "retrievedAt": "2026-10-25T12:02:18.135Z",
+      "municipality": "Orihuela",
+      "ineCode": "03099",
+      "provinceCode": "03",
+      "regionCode": "10",
+      "cadastralRef": "0385913XH8108N"
+    },
+    "40.954382,-4.128489": {
+      "point": {
+        "lat": 40.954382,
+        "lon": -4.128489
+      },
+      "retrievedAt": "2026-10-25T12:02:19.222Z",
+      "municipality": "Segovia",
+      "ineCode": "40194",
+      "provinceCode": "40",
+      "regionCode": "07",
+      "cadastralRef": "5145601VL0354N"
+    },
+    "42.838337,-5.153806": {
+      "point": {
+        "lat": 42.838337,
+        "lon": -5.153806
+      },
+      "retrievedAt": "2026-10-25T12:02:21.436Z",
+      "municipality": "Sabero",
+      "ineCode": "24137",
+      "provinceCode": "24",
+      "regionCode": "07",
+      "cadastralRef": "3953810UN2435S"
+    },
+    "41.642212,-4.726946": {
+      "point": {
+        "lat": 41.642212,
+        "lon": -4.726946
+      },
+      "retrievedAt": "2026-10-25T12:02:22.534Z",
+      "municipality": "Valladolid",
+      "ineCode": "47186",
+      "provinceCode": "47",
+      "regionCode": "07",
+      "cadastralRef": "6415801UM5161E"
+    },
+    "40.880312,-4.015473": {
+      "point": {
+        "lat": 40.880312,
+        "lon": -4.015473
+      },
+      "retrievedAt": "2026-10-25T12:02:23.650Z",
+      "municipality": "Real Sitio de San Ildefonso",
+      "ineCode": "40181",
+      "provinceCode": "40",
+      "regionCode": "07",
+      "cadastralRef": "4463802VL1246S"
+    },
+    "41.560740,-6.129864": {
+      "point": {
+        "lat": 41.56074,
+        "lon": -6.129864
+      },
+      "retrievedAt": "2026-10-25T12:02:24.762Z",
+      "municipality": "Pino del Oro",
+      "ineCode": "49157",
+      "provinceCode": "49",
+      "regionCode": "07"
+    },
+    "42.557845,-6.591119": {
+      "point": {
+        "lat": 42.557845,
+        "lon": -6.591119
+      },
+      "retrievedAt": "2026-10-25T12:02:25.867Z",
+      "municipality": "Ponferrada",
+      "ineCode": "24115",
+      "provinceCode": "24",
+      "regionCode": "07",
+      "cadastralRef": "24118A01100091"
+    },
+    "42.828379,-5.127771": {
+      "point": {
+        "lat": 42.828379,
+        "lon": -5.127771
+      },
+      "retrievedAt": "2026-10-25T12:02:26.980Z",
+      "municipality": "Sabero",
+      "ineCode": "24137",
+      "provinceCode": "24",
+      "regionCode": "07",
+      "cadastralRef": "6141601UN2464S"
+    },
+    "40.389628,-5.773976": {
+      "point": {
+        "lat": 40.389628,
+        "lon": -5.773976
+      },
+      "retrievedAt": "2026-10-25T12:02:28.077Z",
+      "municipality": "Béjar",
+      "ineCode": "37046",
+      "provinceCode": "37",
+      "regionCode": "07",
+      "cadastralRef": "4849305TK6744N"
+    },
+    "42.377729,-3.241797": {
+      "point": {
+        "lat": 42.377729,
+        "lon": -3.241797
+      },
+      "retrievedAt": "2026-10-25T12:02:29.181Z",
+      "municipality": "Belorado",
+      "ineCode": "09048",
+      "provinceCode": "09",
+      "regionCode": "07",
+      "cadastralRef": "0119509VM8901N"
+    },
+    "40.934234,-4.113526": {
+      "point": {
+        "lat": 40.934234,
+        "lon": -4.113526
+      },
+      "retrievedAt": "2026-10-25T12:02:31.444Z",
+      "municipality": "Segovia",
+      "ineCode": "40194",
+      "provinceCode": "40",
+      "regionCode": "07",
+      "cadastralRef": "6323815VL0362S"
+    },
+    "41.886478,-5.046582": {
+      "point": {
+        "lat": 41.886478,
+        "lon": -5.046582
+      },
+      "retrievedAt": "2026-10-25T12:02:32.520Z",
+      "municipality": "Medina de Rioseco",
+      "ineCode": "47086",
+      "provinceCode": "47",
+      "regionCode": "07",
+      "cadastralRef": "0495102UM3309N"
+    },
+    "41.890062,-4.534901": {
+      "point": {
+        "lat": 41.890062,
+        "lon": -4.534901
+      },
+      "retrievedAt": "2026-10-25T12:02:33.690Z",
+      "municipality": "Dueñas",
+      "ineCode": "34069",
+      "provinceCode": "34",
+      "regionCode": "07",
+      "cadastralRef": "34069A00205102"
+    },
+    "42.598611,-5.583333": {
+      "point": {
+        "lat": 42.598611,
+        "lon": -5.583333
+      },
+      "retrievedAt": "2026-10-25T12:02:34.732Z",
+      "municipality": "León",
+      "ineCode": "24089",
+      "provinceCode": "24",
+      "regionCode": "07",
+      "cadastralRef": "8297004TN8189N"
+    },
+    "42.486631,-6.459253": {
+      "point": {
+        "lat": 42.486631,
+        "lon": -6.459253
+      },
+      "retrievedAt": "2026-10-25T12:02:35.829Z",
+      "municipality": "Ponferrada",
+      "ineCode": "24115",
+      "provinceCode": "24",
+      "regionCode": "07"
+    },
+    "41.613028,-4.734915": {
+      "point": {
+        "lat": 41.613028,
+        "lon": -4.734915
+      },
+      "retrievedAt": "2026-10-25T12:02:36.951Z",
+      "municipality": "Valladolid",
+      "ineCode": "47186",
+      "provinceCode": "47",
+      "regionCode": "07",
+      "cadastralRef": "5985518UM5058F"
+    },
+    "40.989190,-6.837196": {
+      "point": {
+        "lat": 40.98919,
+        "lon": -6.837196
+      },
+      "retrievedAt": "2026-10-25T12:02:38.060Z",
+      "municipality": "La Fregeneda",
+      "ineCode": "37132",
+      "provinceCode": "37",
+      "regionCode": "07",
+      "cadastralRef": "002301100PF84A"
+    },
+    "40.793167,-6.248416": {
+      "point": {
+        "lat": 40.793167,
+        "lon": -6.248416
+      },
+      "retrievedAt": "2026-10-25T12:02:39.149Z",
+      "municipality": "La Fuente de San Esteban",
+      "ineCode": "37135",
+      "provinceCode": "37",
+      "regionCode": "07",
+      "cadastralRef": "000300700QF31G"
+    },
+    "42.547718,-6.604023": {
+      "point": {
+        "lat": 42.547718,
+        "lon": -6.604023
+      },
+      "retrievedAt": "2026-10-25T12:02:40.286Z",
+      "municipality": "Ponferrada",
+      "ineCode": "24115",
+      "provinceCode": "24",
+      "regionCode": "07",
+      "cadastralRef": "6736802PH9163N"
+    },
+    "42.547783,-6.604018": {
+      "point": {
+        "lat": 42.547783,
+        "lon": -6.604018
+      },
+      "retrievedAt": "2026-10-25T12:02:41.373Z",
+      "municipality": "Ponferrada",
+      "ineCode": "24115",
+      "provinceCode": "24",
+      "regionCode": "07",
+      "cadastralRef": "6736802PH9163N"
+    },
+    "41.049308,-3.824267": {
+      "point": {
+        "lat": 41.049308,
+        "lon": -3.824267
+      },
+      "retrievedAt": "2026-10-25T12:02:42.494Z",
+      "municipality": "Navafría",
+      "ineCode": "40139",
+      "provinceCode": "40",
+      "regionCode": "07",
+      "cadastralRef": "40163A00300407"
+    },
+    "40.662683,-4.696748": {
+      "point": {
+        "lat": 40.662683,
+        "lon": -4.696748
+      },
+      "retrievedAt": "2026-10-25T12:02:43.596Z",
+      "municipality": "Ávila",
+      "ineCode": "05019",
+      "provinceCode": "05",
+      "regionCode": "07",
+      "cadastralRef": "6729001UL5062N"
+    },
+    "41.637445,-4.745904": {
+      "point": {
+        "lat": 41.637445,
+        "lon": -4.745904
+      },
+      "retrievedAt": "2026-10-25T12:02:44.753Z",
+      "municipality": "Valladolid",
+      "ineCode": "47186",
+      "provinceCode": "47",
+      "regionCode": "07",
+      "cadastralRef": "4710312UM5141B"
+    },
+    "40.952871,-4.138884": {
+      "point": {
+        "lat": 40.952871,
+        "lon": -4.138884
+      },
+      "retrievedAt": "2026-10-25T12:02:45.818Z",
+      "municipality": "Segovia",
+      "ineCode": "40194",
+      "provinceCode": "40",
+      "regionCode": "07",
+      "cadastralRef": "40900F01005043"
+    },
+    "40.902891,-4.006891": {
+      "point": {
+        "lat": 40.902891,
+        "lon": -4.006891
+      },
+      "retrievedAt": "2026-10-25T12:02:46.935Z",
+      "municipality": "Real Sitio de San Ildefonso",
+      "ineCode": "40181",
+      "provinceCode": "40",
+      "regionCode": "07",
+      "cadastralRef": "5287601VL1258N"
+    },
+    "39.938498,-6.099310": {
+      "point": {
+        "lat": 39.938498,
+        "lon": -6.09931
+      },
+      "retrievedAt": "2026-10-25T12:02:50.273Z",
+      "municipality": "Malpartida de Plasencia",
+      "ineCode": "10116",
+      "provinceCode": "10",
+      "regionCode": "11",
+      "cadastralRef": "002400200QE42F"
+    },
+    "38.717911,-5.546491": {
+      "point": {
+        "lat": 38.717911,
+        "lon": -5.546491
+      },
+      "retrievedAt": "2026-10-25T12:02:52.472Z",
+      "municipality": "Castuera",
+      "ineCode": "06036",
+      "provinceCode": "06",
+      "regionCode": "11",
+      "cadastralRef": "8689425TH7888N"
+    },
+    "40.027757,-6.087452": {
+      "point": {
+        "lat": 40.027757,
+        "lon": -6.087452
+      },
+      "retrievedAt": "2026-10-25T12:02:53.595Z",
+      "municipality": "Plasencia",
+      "ineCode": "10148",
+      "provinceCode": "10",
+      "regionCode": "11",
+      "cadastralRef": "8751802QE4385B"
+    },
+    "38.681474,-6.399591": {
+      "point": {
+        "lat": 38.681474,
+        "lon": -6.399591
+      },
+      "retrievedAt": "2026-10-25T12:02:54.679Z",
+      "municipality": "Almendralejo",
+      "ineCode": "06011",
+      "provinceCode": "06",
+      "regionCode": "11",
+      "cadastralRef": "6248714QC2864N"
+    },
+    "40.239314,-6.046862": {
+      "point": {
+        "lat": 40.239314,
+        "lon": -6.046862
+      },
+      "retrievedAt": "2026-10-25T12:02:56.906Z",
+      "municipality": "Zarza de Granadilla",
+      "ineCode": "10216",
+      "provinceCode": "10",
+      "regionCode": "11",
+      "cadastralRef": "0990601TK4509S"
+    },
+    "38.696479,-5.290459": {
+      "point": {
+        "lat": 38.696479,
+        "lon": -5.290459
+      },
+      "retrievedAt": "2026-10-25T12:02:58.010Z",
+      "municipality": "Cabeza del Buey",
+      "ineCode": "06023",
+      "provinceCode": "06",
+      "regionCode": "11",
+      "cadastralRef": "0958908UH0805N"
+    },
+    "38.969161,-5.796396": {
+      "point": {
+        "lat": 38.969161,
+        "lon": -5.796396
+      },
+      "retrievedAt": "2026-10-25T12:02:59.170Z",
+      "municipality": "Villanueva de la Serena",
+      "ineCode": "06153",
+      "provinceCode": "06",
+      "regionCode": "11",
+      "cadastralRef": "7973010TJ5177S"
+    },
+    "39.335466,-5.484529": {
+      "point": {
+        "lat": 39.335466,
+        "lon": -5.484529
+      },
+      "retrievedAt": "2026-10-25T12:03:00.237Z",
+      "municipality": "Logrosán",
+      "ineCode": "10109",
+      "provinceCode": "10",
+      "regionCode": "11",
+      "cadastralRef": "10112A00700008"
+    },
+    "39.374256,-5.016358": {
+      "point": {
+        "lat": 39.374256,
+        "lon": -5.016358
+      },
+      "retrievedAt": "2026-10-25T12:03:01.349Z",
+      "municipality": "Helechosa de los Montes",
+      "ineCode": "06062",
+      "provinceCode": "06",
+      "regionCode": "11"
+    },
+    "42.253984,-8.788841": {
+      "point": {
+        "lat": 42.253984,
+        "lon": -8.788841
+      },
+      "retrievedAt": "2026-10-25T12:03:02.459Z",
+      "municipality": "Cangas",
+      "ineCode": "36008",
+      "provinceCode": "36",
+      "regionCode": "12",
+      "cadastralRef": "36008A05000700"
+    },
+    "43.481830,-8.232100": {
+      "point": {
+        "lat": 43.48183,
+        "lon": -8.2321
+      },
+      "retrievedAt": "2026-10-25T12:03:04.670Z",
+      "municipality": "Ferrol",
+      "ineCode": "15036",
+      "provinceCode": "15",
+      "regionCode": "12",
+      "cadastralRef": "2249011NJ6124N"
+    },
+    "42.758103,-8.231799": {
+      "point": {
+        "lat": 42.758103,
+        "lon": -8.231799
+      },
+      "retrievedAt": "2026-10-25T12:03:05.797Z",
+      "municipality": "Vila de Cruces",
+      "ineCode": "36059",
+      "provinceCode": "36",
+      "regionCode": "12",
+      "cadastralRef": "000306000NH63C"
+    },
+    "43.666792,-7.402768": {
+      "point": {
+        "lat": 43.666792,
+        "lon": -7.402768
+      },
+      "retrievedAt": "2026-10-25T12:03:06.900Z",
+      "municipality": "Cervo",
+      "ineCode": "27013",
+      "provinceCode": "27",
+      "regionCode": "12",
+      "cadastralRef": "9164040PJ2396S"
+    },
+    "42.285712,-8.610008": {
+      "point": {
+        "lat": 42.285712,
+        "lon": -8.610008
+      },
+      "retrievedAt": "2026-10-25T12:03:08.009Z",
+      "municipality": "Redondela",
+      "ineCode": "36045",
+      "provinceCode": "36",
+      "regionCode": "12",
+      "cadastralRef": "2317001NG3821N"
+    },
+    "39.769092,2.715271": {
+      "point": {
+        "lat": 39.769092,
+        "lon": 2.715271
+      },
+      "retrievedAt": "2026-10-25T12:03:09.123Z",
+      "municipality": "Sóller",
+      "ineCode": "07061",
+      "provinceCode": "07",
+      "regionCode": "04",
+      "cadastralRef": "5724003DE7052S"
+    },
+    "39.470846,3.142077": {
+      "point": {
+        "lat": 39.470846,
+        "lon": 3.142077
+      },
+      "retrievedAt": "2026-10-25T12:03:10.229Z",
+      "municipality": "Felanitx",
+      "ineCode": "07022",
+      "provinceCode": "07",
+      "regionCode": "04",
+      "cadastralRef": "07022A05500037"
+    },
+    "39.835521,3.144798": {
+      "point": {
+        "lat": 39.835521,
+        "lon": 3.144798
+      },
+      "retrievedAt": "2026-10-25T12:03:11.336Z",
+      "municipality": "Alcúdia",
+      "ineCode": "07003",
+      "provinceCode": "07",
+      "regionCode": "04",
+      "cadastralRef": "2597214EE1029N"
+    },
+    "39.550463,2.724539": {
+      "point": {
+        "lat": 39.550463,
+        "lon": 2.724539
+      },
+      "retrievedAt": "2026-10-25T12:03:12.434Z",
+      "municipality": "Palma",
+      "ineCode": "07040",
+      "provinceCode": "07",
+      "regionCode": "04",
+      "cadastralRef": "7085154DD7778A"
+    },
+    "42.584419,-2.848204": {
+      "point": {
+        "lat": 42.584419,
+        "lon": -2.848204
+      },
+      "retrievedAt": "2026-10-25T12:03:13.557Z",
+      "municipality": "Haro",
+      "ineCode": "26071",
+      "provinceCode": "26",
+      "regionCode": "17",
+      "cadastralRef": "2549001WN1124S"
+    },
+    "42.471111,-2.445556": {
+      "point": {
+        "lat": 42.471111,
+        "lon": -2.445556
+      },
+      "retrievedAt": "2026-10-25T12:03:14.653Z",
+      "municipality": "Logroño",
+      "ineCode": "26089",
+      "provinceCode": "26",
+      "regionCode": "17",
+      "cadastralRef": "5624401WN4052S"
+    },
+    "42.327097,-3.013284": {
+      "point": {
+        "lat": 42.327097,
+        "lon": -3.013284
+      },
+      "retrievedAt": "2026-10-25T12:03:15.784Z",
+      "municipality": "Ezcaray",
+      "ineCode": "26061",
+      "provinceCode": "26",
+      "regionCode": "17",
+      "cadastralRef": "9064005VM9896S"
+    },
+    "40.366095,-3.243053": {
+      "point": {
+        "lat": 40.366095,
+        "lon": -3.243053
+      },
+      "retrievedAt": "2026-10-25T12:03:16.877Z",
+      "municipality": "Nuevo Baztán",
+      "ineCode": "28100",
+      "provinceCode": "28",
+      "regionCode": "13",
+      "cadastralRef": "9486701VK7698N"
+    },
+    "40.406196,-3.682014": {
+      "point": {
+        "lat": 40.406196,
+        "lon": -3.682014
+      },
+      "retrievedAt": "2026-10-25T12:03:17.976Z",
+      "municipality": "Madrid",
+      "ineCode": "28079",
+      "provinceCode": "28",
+      "regionCode": "13",
+      "cadastralRef": "2133702VK4723C"
+    },
+    "40.054503,-3.564636": {
+      "point": {
+        "lat": 40.054503,
+        "lon": -3.564636
+      },
+      "retrievedAt": "2026-10-25T12:03:19.097Z",
+      "municipality": "Aranjuez",
+      "ineCode": "28013",
+      "provinceCode": "28",
+      "regionCode": "13",
+      "cadastralRef": "2042016VK5324S"
+    },
+    "40.883424,-3.441434": {
+      "point": {
+        "lat": 40.883424,
+        "lon": -3.441434
+      },
+      "retrievedAt": "2026-10-25T12:03:20.224Z",
+      "municipality": "Patones",
+      "ineCode": "28107",
+      "provinceCode": "28",
+      "regionCode": "13",
+      "cadastralRef": "28107A00501374"
+    },
+    "40.399727,-3.690637": {
+      "point": {
+        "lat": 40.399727,
+        "lon": -3.690637
+      },
+      "retrievedAt": "2026-10-25T12:03:21.317Z",
+      "municipality": "Madrid",
+      "ineCode": "28079",
+      "provinceCode": "28",
+      "regionCode": "13",
+      "cadastralRef": "1525401VK4712F"
+    },
+    "40.432262,-3.697715": {
+      "point": {
+        "lat": 40.432262,
+        "lon": -3.697715
+      },
+      "retrievedAt": "2026-10-25T12:03:22.416Z",
+      "municipality": "Madrid",
+      "ineCode": "28079",
+      "provinceCode": "28",
+      "regionCode": "13",
+      "cadastralRef": "0960303VK4706B"
+    },
+    "40.404048,-3.674226": {
+      "point": {
+        "lat": 40.404048,
+        "lon": -3.674226
+      },
+      "retrievedAt": "2026-10-25T12:03:23.520Z",
+      "municipality": "Madrid",
+      "ineCode": "28079",
+      "provinceCode": "28",
+      "regionCode": "13",
+      "cadastralRef": "2930911VK4723B"
+    },
+    "40.485524,-3.370148": {
+      "point": {
+        "lat": 40.485524,
+        "lon": -3.370148
+      },
+      "retrievedAt": "2026-10-25T12:03:24.618Z",
+      "municipality": "Alcalá de Henares",
+      "ineCode": "28005",
+      "provinceCode": "28",
+      "regionCode": "13",
+      "cadastralRef": "8719801VK6881N"
+    },
+    "40.406519,-3.703276": {
+      "point": {
+        "lat": 40.406519,
+        "lon": -3.703276
+      },
+      "retrievedAt": "2026-10-25T12:03:25.732Z",
+      "municipality": "Madrid",
+      "ineCode": "28079",
+      "provinceCode": "28",
+      "regionCode": "13",
+      "cadastralRef": "0332304VK4703C"
+    },
+    "40.398639,-3.690672": {
+      "point": {
+        "lat": 40.398639,
+        "lon": -3.690672
+      },
+      "retrievedAt": "2026-10-25T12:03:26.831Z",
+      "municipality": "Madrid",
+      "ineCode": "28079",
+      "provinceCode": "28",
+      "regionCode": "13",
+      "cadastralRef": "1622401VK4712D"
+    },
+    "35.289713,-2.934146": {
+      "point": {
+        "lat": 35.289713,
+        "lon": -2.934146
+      },
+      "retrievedAt": "2026-10-25T12:03:27.963Z",
+      "municipality": "Melilla",
+      "ineCode": "52001",
+      "provinceCode": "52",
+      "regionCode": "19",
+      "cadastralRef": "5852702WE0055S"
+    },
+    "37.408789,-1.563549": {
+      "point": {
+        "lat": 37.408789,
+        "lon": -1.563549
+      },
+      "retrievedAt": "2026-10-25T12:03:30.166Z",
+      "municipality": "Águilas",
+      "ineCode": "30003",
+      "provinceCode": "30",
+      "regionCode": "14",
+      "cadastralRef": "7214803XG2471C"
+    },
+    "37.600304,-0.988641": {
+      "point": {
+        "lat": 37.600304,
+        "lon": -0.988641
+      },
+      "retrievedAt": "2026-10-25T12:03:31.261Z",
+      "municipality": "Cartagena",
+      "ineCode": "30016",
+      "provinceCode": "30",
+      "regionCode": "14",
+      "cadastralRef": "7735702XG7673N"
+    },
+    "43.009053,-1.227460": {
+      "point": {
+        "lat": 43.009053,
+        "lon": -1.22746
+      },
+      "retrievedAt": "2026-10-25T12:03:34.582Z",
+      "municipality": "Orbaizeta",
+      "ineCode": "31195",
+      "provinceCode": "31",
+      "regionCode": "15",
+      "cadastralRef": "31195100013"
+    },
+    "42.882470,-2.191087": {
+      "point": {
+        "lat": 42.88247,
+        "lon": -2.191087
+      },
+      "retrievedAt": "2026-10-25T12:03:35.679Z",
+      "municipality": "Olazti/Olazagutía",
+      "ineCode": "31189",
+      "provinceCode": "31",
+      "regionCode": "15",
+      "cadastralRef": "31189030785"
+    },
+    "42.828990,-1.649572": {
+      "point": {
+        "lat": 42.82899,
+        "lon": -1.649572
+      },
+      "retrievedAt": "2026-10-25T12:03:36.789Z",
+      "municipality": "Pamplona/Iruña",
+      "ineCode": "31201",
+      "provinceCode": "31",
+      "regionCode": "15",
+      "cadastralRef": "31201070007"
+    },
+    "42.061742,-1.629196": {
+      "point": {
+        "lat": 42.061742,
+        "lon": -1.629196
+      },
+      "retrievedAt": "2026-10-25T12:03:37.904Z",
+      "municipality": "Tudela",
+      "ineCode": "31232",
+      "provinceCode": "31",
+      "regionCode": "15",
+      "cadastralRef": "31232060337"
+    },
+    "42.894779,-1.301297": {
+      "point": {
+        "lat": 42.894779,
+        "lon": -1.301297
+      },
+      "retrievedAt": "2026-10-25T12:03:40.125Z",
+      "municipality": "Oroz-Betelu/Orotz-Betelu",
+      "ineCode": "31199",
+      "provinceCode": "31",
+      "regionCode": "15",
+      "cadastralRef": "31199040066"
+    },
+    "42.800405,-2.983459": {
+      "point": {
+        "lat": 42.800405,
+        "lon": -2.983459
+      },
+      "retrievedAt": "2026-10-25T12:03:41.246Z",
+      "municipality": "Añana",
+      "ineCode": "01049",
+      "provinceCode": "01",
+      "regionCode": "16",
+      "cadastralRef": "04900030015"
+    },
+    "43.050206,-2.189972": {
+      "point": {
+        "lat": 43.050206,
+        "lon": -2.189972
+      },
+      "retrievedAt": "2026-10-25T12:03:42.348Z",
+      "municipality": "Beasain",
+      "ineCode": "20019",
+      "provinceCode": "20",
+      "regionCode": "16",
+      "cadastralRef": "0196666010"
+    },
+    "43.284047,-3.055020": {
+      "point": {
+        "lat": 43.284047,
+        "lon": -3.05502
+      },
+      "retrievedAt": "2026-10-25T12:03:43.453Z",
+      "municipality": "Valle de Trápaga-Trapagaran",
+      "ineCode": "48080",
+      "provinceCode": "48",
+      "regionCode": "16",
+      "cadastralRef": "080103618080"
+    },
+    "43.014955,-2.300178": {
+      "point": {
+        "lat": 43.014955,
+        "lon": -2.300178
+      },
+      "retrievedAt": "2026-10-25T12:03:44.563Z",
+      "municipality": "Zerain",
+      "ineCode": "20026",
+      "provinceCode": "20",
+      "regionCode": "16",
+      "cadastralRef": "0260060104"
+    },
+    "43.176190,-3.212615": {
+      "point": {
+        "lat": 43.17619,
+        "lon": -3.212615
+      },
+      "retrievedAt": "2026-10-25T12:03:45.677Z",
+      "municipality": "Balmaseda",
+      "ineCode": "48090",
+      "provinceCode": "48",
+      "regionCode": "16",
+      "cadastralRef": "090101912004"
+    },
+    "43.323194,-3.017140": {
+      "point": {
+        "lat": 43.323194,
+        "lon": -3.01714
+      },
+      "retrievedAt": "2026-10-25T12:03:46.798Z",
+      "municipality": "Getxo",
+      "ineCode": "48044",
+      "provinceCode": "48",
+      "regionCode": "16",
+      "cadastralRef": "044000500001"
+    },
+    "43.260048,-2.926516": {
+      "point": {
+        "lat": 43.260048,
+        "lon": -2.926516
+      },
+      "retrievedAt": "2026-10-25T12:03:47.915Z",
+      "municipality": "Bilbao",
+      "ineCode": "48020",
+      "provinceCode": "48",
+      "regionCode": "16",
+      "cadastralRef": "020163002003"
+    },
+    "43.056925,-2.331707": {
+      "point": {
+        "lat": 43.056925,
+        "lon": -2.331707
+      },
+      "retrievedAt": "2026-10-25T12:03:49.053Z",
+      "municipality": "Legazpi",
+      "ineCode": "20051",
+      "provinceCode": "20",
+      "regionCode": "16",
+      "cadastralRef": "0515467283"
+    },
+    "43.316987,-1.976017": {
+      "point": {
+        "lat": 43.316987,
+        "lon": -1.976017
+      },
+      "retrievedAt": "2026-10-25T12:03:50.126Z",
+      "municipality": "Donostia/San Sebastián",
+      "ineCode": "20069",
+      "provinceCode": "20",
+      "regionCode": "16"
+    },
+    "43.311539,-3.000674": {
+      "point": {
+        "lat": 43.311539,
+        "lon": -3.000674
+      },
+      "retrievedAt": "2026-10-25T12:03:51.235Z",
+      "municipality": "Sestao",
+      "ineCode": "48084",
+      "provinceCode": "48",
+      "regionCode": "16",
+      "cadastralRef": "084101575001"
+    },
+    "43.302533,-2.983534": {
+      "point": {
+        "lat": 43.302533,
+        "lon": -2.983534
+      },
+      "retrievedAt": "2026-10-25T12:03:52.328Z",
+      "municipality": "Barakaldo",
+      "ineCode": "48013",
+      "provinceCode": "48",
+      "regionCode": "16",
+      "cadastralRef": "013100203001"
+    },
+    "43.329512,-1.925696": {
+      "point": {
+        "lat": 43.329512,
+        "lon": -1.925696
+      },
+      "retrievedAt": "2026-10-25T12:03:53.446Z",
+      "municipality": "Pasaia",
+      "ineCode": "20064",
+      "provinceCode": "20",
+      "regionCode": "16",
+      "cadastralRef": "0648798024"
+    },
+    "43.317978,-1.772334": {
+      "point": {
+        "lat": 43.317978,
+        "lon": -1.772334
+      },
+      "retrievedAt": "2026-10-25T12:03:54.554Z",
+      "municipality": "Irun",
+      "ineCode": "20045",
+      "provinceCode": "20",
+      "regionCode": "16",
+      "cadastralRef": "0450090055"
+    },
+    "43.361711,-2.498819": {
+      "point": {
+        "lat": 43.361711,
+        "lon": -2.498819
+      },
+      "retrievedAt": "2026-10-25T12:03:55.669Z",
+      "municipality": "Lekeitio",
+      "ineCode": "48057",
+      "provinceCode": "48",
+      "regionCode": "16",
+      "cadastralRef": "057000300038"
+    },
+    "43.174070,-3.676455": {
+      "point": {
+        "lat": 43.17407,
+        "lon": -3.676455
+      },
+      "retrievedAt": "2026-10-25T12:03:56.765Z",
+      "municipality": "Soba",
+      "ineCode": "39083",
+      "provinceCode": "39",
+      "regionCode": "06",
+      "cadastralRef": "39083A00100165"
+    },
+    "43.355015,-4.055675": {
+      "point": {
+        "lat": 43.355015,
+        "lon": -4.055675
+      },
+      "retrievedAt": "2026-10-25T12:03:57.903Z",
+      "municipality": "Torrelavega",
+      "ineCode": "39087",
+      "provinceCode": "39",
+      "regionCode": "06",
+      "cadastralRef": "4610005VP1041B"
+    },
+    "43.400794,-3.815959": {
+      "point": {
+        "lat": 43.400794,
+        "lon": -3.815959
+      },
+      "retrievedAt": "2026-10-25T12:03:58.969Z",
+      "municipality": "El Astillero",
+      "ineCode": "39008",
+      "provinceCode": "39",
+      "regionCode": "06"
+    },
+    "43.078108,-4.073701": {
+      "point": {
+        "lat": 43.078108,
+        "lon": -4.073701
+      },
+      "retrievedAt": "2026-10-25T12:04:00.088Z",
+      "municipality": "Pesquera",
+      "ineCode": "39051",
+      "provinceCode": "39",
+      "regionCode": "06",
+      "cadastralRef": "2602605VN1720S"
+    },
+    "43.352561,-3.707385": {
+      "point": {
+        "lat": 43.352561,
+        "lon": -3.707385
+      },
+      "retrievedAt": "2026-10-25T12:04:01.184Z",
+      "municipality": "Riotuerto",
+      "ineCode": "39064",
+      "provinceCode": "39",
+      "regionCode": "06",
+      "cadastralRef": "2804811VP4020S"
+    },
+    "43.369111,-3.195208": {
+      "point": {
+        "lat": 43.369111,
+        "lon": -3.195208
+      },
+      "retrievedAt": "2026-10-25T12:04:03.406Z",
+      "municipality": "Castro-Urdiales",
+      "ineCode": "39020",
+      "provinceCode": "39",
+      "regionCode": "06",
+      "cadastralRef": "4018407VP8041N"
+    },
+    "38.217294,-3.692227": {
+      "point": {
+        "lat": 38.217294,
+        "lon": -3.692227
+      },
+      "municipality": "Baños de la Encina",
+      "ineCode": "23011",
+      "provinceCode": "23",
+      "regionCode": "01",
+      "retrievedAt": "2026-10-25T12:18:16.776Z"
+    },
+    "38.224648,-3.974948": {
+      "point": {
+        "lat": 38.224648,
+        "lon": -3.974948
+      },
+      "municipality": "Andújar",
+      "ineCode": "23005",
+      "provinceCode": "23",
+      "regionCode": "01",
+      "retrievedAt": "2026-10-25T12:18:17.805Z"
+    },
+    "41.027457,-0.558995": {
+      "point": {
+        "lat": 41.027457,
+        "lon": -0.558995
+      },
+      "municipality": "Ariño",
+      "ineCode": "44029",
+      "provinceCode": "44",
+      "regionCode": "02",
+      "retrievedAt": "2026-10-25T12:18:18.908Z"
+    },
+    "38.929425,-4.154651": {
+      "point": {
+        "lat": 38.929425,
+        "lon": -4.154651
+      },
+      "municipality": "Los Pozuelos de Calatrava",
+      "ineCode": "13067",
+      "provinceCode": "13",
+      "regionCode": "08",
+      "retrievedAt": "2026-10-25T12:18:20.005Z"
+    },
+    "42.165682,-4.531428": {
+      "point": {
+        "lat": 42.165682,
+        "lon": -4.531428
+      },
+      "municipality": "Ribas de Campos",
+      "ineCode": "34155",
+      "provinceCode": "34",
+      "regionCode": "07",
+      "retrievedAt": "2026-10-25T12:18:21.133Z"
+    },
+    "42.880776,-5.614091": {
+      "point": {
+        "lat": 42.880776,
+        "lon": -5.614091
+      },
+      "municipality": "La Pola de Gordón",
+      "ineCode": "24114",
+      "provinceCode": "24",
+      "regionCode": "07",
+      "retrievedAt": "2026-10-25T12:18:22.255Z"
+    },
+    "42.673179,-3.513034": {
+      "point": {
+        "lat": 42.673179,
+        "lon": -3.513034
+      },
+      "municipality": "Poza de la Sal",
+      "ineCode": "09272",
+      "provinceCode": "09",
+      "regionCode": "07",
+      "retrievedAt": "2026-10-25T12:18:23.344Z"
+    },
+    "39.434180,-6.380859": {
+      "point": {
+        "lat": 39.43418,
+        "lon": -6.380859
+      },
+      "municipality": "Cáceres",
+      "ineCode": "10037",
+      "provinceCode": "10",
+      "regionCode": "11",
+      "retrievedAt": "2026-10-25T12:18:24.456Z"
+    },
+    "38.120412,-5.927628": {
+      "point": {
+        "lat": 38.120412,
+        "lon": -5.927628
+      },
+      "municipality": "Fuente del Arco",
+      "ineCode": "06053",
+      "provinceCode": "06",
+      "regionCode": "11",
+      "retrievedAt": "2026-10-25T12:18:25.557Z"
+    },
+    "38.514880,-6.356570": {
+      "point": {
+        "lat": 38.51488,
+        "lon": -6.35657
+      },
+      "municipality": "Villafranca de los Barros",
+      "ineCode": "06149",
+      "provinceCode": "06",
+      "regionCode": "11",
+      "retrievedAt": "2026-10-25T12:18:26.672Z"
+    },
+    "42.836427,-8.849546": {
+      "point": {
+        "lat": 42.836427,
+        "lon": -8.849546
+      },
+      "municipality": "Noia",
+      "ineCode": "15057",
+      "provinceCode": "15",
+      "regionCode": "12",
+      "retrievedAt": "2026-10-25T12:18:27.772Z"
+    },
+    "37.600520,-0.834066": {
+      "point": {
+        "lat": 37.60052,
+        "lon": -0.834066
+      },
+      "municipality": "Cartagena",
+      "ineCode": "30016",
+      "provinceCode": "30",
+      "regionCode": "14",
+      "retrievedAt": "2026-10-25T12:18:28.918Z"
+    },
+    "37.601263,-1.327566": {
+      "point": {
+        "lat": 37.601263,
+        "lon": -1.327566
+      },
+      "municipality": "Mazarrón",
+      "ineCode": "30026",
+      "provinceCode": "30",
+      "regionCode": "14",
+      "retrievedAt": "2026-10-25T12:18:29.989Z"
+    },
+    "38.212149,-1.621031": {
+      "point": {
+        "lat": 38.212149,
+        "lon": -1.621031
+      },
+      "municipality": "Calasparra",
+      "ineCode": "30013",
+      "provinceCode": "30",
+      "regionCode": "14",
+      "retrievedAt": "2026-10-25T12:18:31.089Z"
+    },
+    "42.025710,-1.534423": {
+      "point": {
+        "lat": 42.02571,
+        "lon": -1.534423
+      },
+      "municipality": "Cabanillas",
+      "ineCode": "31062",
+      "provinceCode": "31",
+      "regionCode": "15",
+      "retrievedAt": "2026-10-25T12:18:32.208Z"
+    },
+    "43.344379,-4.083891": {
+      "point": {
+        "lat": 43.344379,
+        "lon": -4.083891
+      },
+      "municipality": "Reocín",
+      "ineCode": "39060",
+      "provinceCode": "39",
+      "regionCode": "06",
+      "retrievedAt": "2026-10-25T12:18:33.305Z"
+    }
+  }
+}
