@@ -80,7 +80,7 @@ export function MobileNav() {
   const close = () => setOpen(false);
 
   return (
-    <div className="xl:hidden">
+    <div className="max-md:ml-auto xl:hidden">
       <button
         ref={buttonRef}
         type="button"

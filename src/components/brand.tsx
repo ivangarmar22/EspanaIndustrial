@@ -75,7 +75,8 @@ export function Wordmark() {
         id="mark-header"
         className="size-10 shrink-0 drop-shadow-[0_2px_3px_rgba(60,24,8,0.3)] transition-transform group-hover:-rotate-3"
       />
-      <span className="flex flex-col leading-none">
+      {/* Without the subtitle (below sm) the cap height sits 2px high against the plate; nudge it down. */}
+      <span className="flex flex-col leading-none max-sm:translate-y-0.5">
         <span className="font-display text-[1.15rem] font-semibold tracking-tight whitespace-nowrap xs:text-[1.35rem]">
           España <span className="font-medium text-rust italic">Industrial</span>
         </span>

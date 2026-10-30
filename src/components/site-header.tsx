@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { Search } from "lucide-react";
 import { Wordmark } from "./brand";
 import { SearchBox } from "./search-box";
 import { MobileNav } from "./mobile-nav";
@@ -26,13 +24,6 @@ export function SiteHeader() {
           placeholder="Buscar en el atlas…"
           className="ml-auto hidden md:block"
         />
-        <Link
-          href="/catalogo"
-          className="ml-auto inline-flex size-10 items-center justify-center md:hidden"
-          aria-label="Buscar en el catálogo"
-        >
-          <Search className="size-5" aria-hidden="true" />
-        </Link>
         <MobileNav />
       </div>
     </header>
