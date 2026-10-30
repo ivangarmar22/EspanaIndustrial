@@ -81,8 +81,15 @@ test("mobile menu opens, traps nothing and closes with Escape", async ({ page, i
   await page.goto("/");
   await page.getByRole("button", { name: "Abrir menú" }).click();
   await expect(page.getByRole("navigation", { name: "Principal (móvil)" })).toBeVisible();
+  // The panel must fill the screen below the header, not be clipped to the header box.
+  const panel = await page.locator("#mobile-menu").boundingBox();
+  expect(panel?.height).toBeGreaterThan(400);
   await page.keyboard.press("Escape");
   await expect(page.getByRole("navigation", { name: "Principal (móvil)" })).toBeHidden();
+  await page.getByRole("button", { name: "Abrir menú" }).click();
+  await page.getByRole("navigation", { name: "Principal (móvil)" }).getByRole("link", { name: "Rutas" }).click();
+  await expect(page).toHaveURL(/\/rutas\/?$/);
+  await expect(page.locator("#mobile-menu")).toHaveCount(0);
 });
 
 test("railway section maps closed stations, filters by greenway and links line pages", async ({ page, isMobile }) => {

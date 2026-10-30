@@ -8,16 +8,6 @@ export const MAIN_NAV = [
   { href: "/colabora", label: "Colabora" },
 ] as const;
 
-/** Secondary links for the mobile menu. */
-export const FOOTER_NAV = [
-  { href: "/metodologia", label: "Metodología y calidad" },
-  { href: "/fuentes", label: "Fuentes, licencias y cobertura" },
-  { href: "/colabora#proponer", label: "Proponer un lugar o una corrección" },
-  { href: "/favoritos", label: "Mis lugares guardados" },
-  { href: "/aviso-legal", label: "Aviso legal" },
-  { href: "/privacidad", label: "Privacidad" },
-] as const;
-
 /** Footer link groups (the main sections are already in the header). */
 export const FOOTER_GROUPS = [
   {
