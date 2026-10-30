@@ -13,7 +13,7 @@ export function FiltersDisclosure({ activeCount, children }: { activeCount: numb
         aria-expanded={open}
         aria-controls="catalog-filters"
         onClick={() => setOpen((v) => !v)}
-        className="inline-flex min-h-11 w-full items-center justify-center gap-2 border border-rule-strong bg-card text-sm lg:hidden"
+        className="inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-full border border-rule-strong bg-card text-sm shadow-[inset_0_1px_2px_rgba(0,0,0,0.07)] lg:hidden"
       >
         <SlidersHorizontal className="size-4" aria-hidden="true" />
         {open ? "Ocultar filtros" : "Mostrar filtros"}

@@ -5,7 +5,14 @@ import { Suspense } from "react";
 import { ExternalLink, Footprints } from "lucide-react";
 import { PageHeader } from "@/components/page-header";
 import { getRailDataset } from "@/data-access/rail";
-import { GREENWAY_NEAR_M, LINE_PAGE_MIN_STATIONS, LINE_STATE_LABELS, TRACK_KINDS, type TrackKind } from "@/domain/rail";
+import {
+  GREENWAY_NEAR_M,
+  LINE_PAGE_MIN_STATIONS,
+  LINE_STATE_LABELS,
+  TRACK_KINDS,
+  type RailLine,
+  type TrackKind,
+} from "@/domain/rail";
 import { RailExplorer } from "@/features/rail/rail-explorer";
 import { SafetyNotice } from "@/features/rail/safety-notice";
 import { formatKm, formatNumber } from "@/lib/format";
@@ -16,6 +23,42 @@ export const metadata: Metadata = {
     "Mapa de las estaciones de ferrocarril cerradas de España, los antiguos trazados abandonados y las Vías Verdes que hoy se pueden recorrer a pie o en bicicleta.",
   alternates: { canonical: "/ferrocarril" },
 };
+
+/** Lines shown before the "see the rest" toggle (they are sorted by number of closed stations). */
+const FEATURED_LINES = 12;
+
+function LineGrid({ lines }: { lines: RailLine[] }) {
+  return (
+    <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {lines.map((l) => (
+        <li
+          key={l.id}
+          className="group relative rounded-2xl border border-rule bg-card p-4 transition-colors hover:border-ink"
+        >
+          <h3 className="font-display text-xl leading-snug">
+            <Link
+              href={`/ferrocarril/lineas/${l.slug}`}
+              className="text-ink no-underline after:absolute after:inset-0 group-hover:underline"
+            >
+              {l.name}
+            </Link>
+          </h3>
+          <p className="mt-1 text-sm text-ink-soft">
+            <span className="font-mono">{formatNumber(l.stationCount)}</span> estaciones · {LINE_STATE_LABELS[l.state]}
+            {l.state === "closed" && l.closedYear ? ` en ${l.closedYear}` : ""}
+          </p>
+          {l.greenways.length ? (
+            <p className="mt-1.5 flex items-start gap-1.5 text-sm text-greenway">
+              <Footprints className="mt-0.5 size-4 shrink-0" aria-hidden="true" />
+              {l.greenways.slice(0, 2).join(" · ")}
+              {l.greenways.length > 2 ? ` y ${l.greenways.length - 2} más` : ""}
+            </p>
+          ) : null}
+        </li>
+      ))}
+    </ul>
+  );
+}
 
 export default async function RailPage() {
   const rail = await getRailDataset();
@@ -39,7 +82,7 @@ export default async function RailPage() {
         }
       />
       <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8">
-        <dl className="grid grid-cols-2 gap-px border border-rule bg-rule md:grid-cols-4">
+        <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-rule bg-rule md:grid-cols-4">
           {[
             [formatNumber(rail.stats.stations), "estaciones cerradas con ubicación"],
             [
@@ -114,32 +157,18 @@ export default async function RailPage() {
             {formatNumber(linePages.length)} líneas con al menos {LINE_PAGE_MIN_STATIONS} estaciones cerradas
             documentadas. El estado de la línea es el que indica Wikidata y puede no reflejar cierres parciales.
           </p>
-          <ul className="mt-6 grid gap-px border border-rule bg-rule sm:grid-cols-2 lg:grid-cols-3">
-            {linePages.map((l) => (
-              <li key={l.id} className="group relative bg-card p-4 hover:bg-paper">
-                <h3 className="font-display text-xl leading-snug">
-                  <Link
-                    href={`/ferrocarril/lineas/${l.slug}`}
-                    className="text-ink no-underline after:absolute after:inset-0 group-hover:underline"
-                  >
-                    {l.name}
-                  </Link>
-                </h3>
-                <p className="mt-1 text-sm text-ink-soft">
-                  <span className="font-mono">{formatNumber(l.stationCount)}</span> estaciones ·{" "}
-                  {LINE_STATE_LABELS[l.state]}
-                  {l.state === "closed" && l.closedYear ? ` en ${l.closedYear}` : ""}
-                </p>
-                {l.greenways.length ? (
-                  <p className="mt-1.5 flex items-start gap-1.5 text-sm text-greenway">
-                    <Footprints className="mt-0.5 size-4 shrink-0" aria-hidden="true" />
-                    {l.greenways.slice(0, 2).join(" · ")}
-                    {l.greenways.length > 2 ? ` y ${l.greenways.length - 2} más` : ""}
-                  </p>
-                ) : null}
-              </li>
-            ))}
-          </ul>
+          <LineGrid lines={linePages.slice(0, FEATURED_LINES)} />
+          {linePages.length > FEATURED_LINES ? (
+            <details className="group mt-3">
+              <summary className="inline-flex min-h-11 cursor-pointer list-none items-center gap-2 rounded-full border border-rule-strong bg-card px-5 text-sm hover:border-ink [&::-webkit-details-marker]:hidden">
+                <span className="group-open:hidden">
+                  Ver las {formatNumber(linePages.length - FEATURED_LINES)} líneas restantes
+                </span>
+                <span className="hidden group-open:inline">Ocultar líneas</span>
+              </summary>
+              <LineGrid lines={linePages.slice(FEATURED_LINES)} />
+            </details>
+          ) : null}
         </section>
 
         <section aria-labelledby="fuentes-ferrocarril" className="prose-ei mt-14">

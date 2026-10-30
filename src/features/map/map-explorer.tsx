@@ -90,7 +90,7 @@ function PlaceCard({ item, onClose, onZoom }: { item: IndexItem; onClose: () => 
 
 function Legend() {
   return (
-    <details className="group border border-rule-strong bg-card/95 text-sm shadow-sm">
+    <details className="group overflow-hidden rounded-2xl border border-rule-strong bg-card/95 text-sm shadow-sm">
       <summary className="signage flex min-h-9 cursor-pointer list-none items-center gap-2 px-3 text-ink-soft">
         <Layers className="size-4" aria-hidden="true" /> Leyenda
       </summary>
@@ -229,12 +229,12 @@ export function MapExplorer({ items: allItems }: { items: IndexItem[] }) {
 
         <div className="absolute top-3 left-3 z-10 flex flex-col items-start gap-2">
           <div className="flex flex-wrap gap-2">
-            <fieldset className="flex border border-rule-strong bg-card text-sm shadow-sm">
+            <fieldset className="flex rounded-full border border-rule-strong bg-card p-0.5 text-sm shadow-sm">
               <legend className="sr-only">Mapa base</legend>
               {BASES.map((b) => (
                 <label
                   key={b.id}
-                  className={`cursor-pointer px-2.5 py-2 has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-rust ${base === b.id ? "bg-ink text-paper" : "hover:bg-paper-deep"}`}
+                  className={`inline-flex min-h-9 cursor-pointer items-center rounded-full px-3 has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-rust ${base === b.id ? "bg-ink text-paper" : "hover:bg-paper-deep"}`}
                 >
                   <input
                     type="radio"
@@ -252,7 +252,7 @@ export function MapExplorer({ items: allItems }: { items: IndexItem[] }) {
             <button
               type="button"
               onClick={() => setFlyTo({ ...CANARIAS, key: Date.now() })}
-              className="border border-rule-strong bg-card px-2.5 py-2 text-sm shadow-sm hover:border-ink"
+              className="inline-flex min-h-10 items-center rounded-full border border-rule-strong bg-card px-3.5 text-sm shadow-sm hover:border-ink"
             >
               Canarias
             </button>
@@ -280,7 +280,7 @@ export function MapExplorer({ items: allItems }: { items: IndexItem[] }) {
               onClick={() => setSheetOpen(true)}
               aria-expanded={sheetOpen}
               aria-controls="map-filters-sheet"
-              className="inline-flex min-h-11 flex-1 items-center justify-center gap-2 bg-ink px-3 text-sm text-paper"
+              className="inline-flex min-h-11 flex-1 items-center justify-center gap-2 rounded-full bg-ink px-5 text-sm text-paper md:max-w-xs"
             >
               <SlidersHorizontal className="size-4" aria-hidden="true" />
               Buscar y filtrar
@@ -290,12 +290,12 @@ export function MapExplorer({ items: allItems }: { items: IndexItem[] }) {
                 </span>
               ) : null}
             </button>
-            <span className="px-1 text-sm text-ink-soft" aria-hidden="true">
-              <strong className="text-ink">{items.length}</strong> en el mapa
+            <span className="px-1 text-sm whitespace-nowrap text-ink-soft md:ml-auto" aria-hidden="true">
+              <strong className="text-ink">{formatNumber(items.length)}</strong> en el mapa
             </span>
             <Link
               href={listHref}
-              className="inline-flex size-11 items-center justify-center border border-rule-strong bg-card"
+              className="inline-flex size-11 items-center justify-center rounded-full border border-rule-strong bg-card"
               aria-label="Ver como lista"
             >
               <List className="size-5" aria-hidden="true" />

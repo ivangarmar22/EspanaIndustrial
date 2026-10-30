@@ -221,7 +221,7 @@ export default async function HomePage() {
       ) : null}
 
       <section aria-labelledby="colecciones-home" className="mx-auto max-w-[1440px] px-4 pt-24 sm:px-6 lg:px-8">
-        <div className="grid gap-12 lg:grid-cols-2">
+        <div className="grid gap-12 md:grid-cols-2 md:gap-10 lg:gap-16">
           <div>
             <h2 id="colecciones-home" className="font-display text-3xl">
               Colecciones
@@ -239,27 +239,36 @@ export default async function HomePage() {
                 </li>
               ))}
             </ul>
-            <Link href="/colecciones" className="mt-4 inline-block">
-              Todas las colecciones
+            <Link
+              href="/colecciones"
+              className="mt-4 inline-flex min-h-10 items-center gap-1.5 rounded-full border border-rule-strong px-4 text-sm text-ink no-underline hover:border-ink"
+            >
+              Todas las colecciones ({formatNumber(collections.length)}){" "}
+              <ArrowRight className="size-4" aria-hidden="true" />
             </Link>
           </div>
           <div>
             <h2 className="font-display text-3xl">Rutas propuestas</h2>
             <ul className="mt-5 divide-y divide-rule border-y border-rule">
-              {routes.map((r) => (
+              {routes.slice(0, 6).map((r) => (
                 <li key={r.slug}>
                   <Link
                     href={`/rutas/${r.slug}`}
                     className="group flex items-baseline justify-between gap-4 py-3.5 text-ink no-underline"
                   >
                     <span className="font-display text-xl group-hover:underline">{r.title}</span>
-                    <span className="font-mono text-sm text-iron">{formatNumber(r.resolvedStops.length)} paradas</span>
+                    <span className="shrink-0 font-mono text-sm whitespace-nowrap text-iron">
+                      {formatNumber(r.resolvedStops.length)} paradas
+                    </span>
                   </Link>
                 </li>
               ))}
             </ul>
-            <Link href="/rutas" className="mt-4 inline-block">
-              Todas las rutas
+            <Link
+              href="/rutas"
+              className="mt-4 inline-flex min-h-10 items-center gap-1.5 rounded-full border border-rule-strong px-4 text-sm text-ink no-underline hover:border-ink"
+            >
+              Todas las rutas ({formatNumber(routes.length)}) <ArrowRight className="size-4" aria-hidden="true" />
             </Link>
           </div>
         </div>

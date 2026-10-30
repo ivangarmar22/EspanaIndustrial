@@ -87,9 +87,10 @@ export default async function ChronologyPage() {
             {formatNumber(precise.length)} elementos con año exacto o aproximado. Las fechas expresadas solo como siglo
             no se representan para no situarlas en una década concreta.
           </p>
-          <div className="mt-6 overflow-x-auto pb-2">
-            <div className="relative h-56 min-w-[640px] border-b border-ink">
-              <div className="absolute inset-0 flex items-end gap-[2px]">
+          {/* Fits the screen width: on phones the bars are thinner instead of scrolling sideways. */}
+          <div className="mt-6 pb-2">
+            <div className="relative h-44 border-b border-ink sm:h-56">
+              <div className="absolute inset-0 flex items-end gap-px sm:gap-[2px]">
                 {decades.map((d) => (
                   <Link
                     key={d.decade}
@@ -98,7 +99,7 @@ export default async function ChronologyPage() {
                     aria-label={`${d.decade}–${d.decade + 9}: ${d.count} ${d.count === 1 ? "elemento" : "elementos"}`}
                   >
                     <span
-                      className="block w-full rounded-t-[4px] bg-rust transition-colors group-hover:bg-rust-deep group-focus-visible:bg-rust-deep"
+                      className="block w-full rounded-t-[2px] bg-rust sm:rounded-t-[4px] transition-colors group-hover:bg-rust-deep group-focus-visible:bg-rust-deep"
                       style={{ height: d.count ? `${(d.count / peak) * 100}%` : "0" }}
                     />
                     <span
@@ -111,7 +112,7 @@ export default async function ChronologyPage() {
                 ))}
               </div>
             </div>
-            <div className="flex min-w-[640px] justify-between pt-1 font-mono text-xs text-iron" aria-hidden="true">
+            <div className="flex justify-between pt-1 font-mono text-[0.65rem] text-iron sm:text-xs" aria-hidden="true">
               {decades
                 .filter((d) => d.decade % 50 === 0)
                 .map((d) => (

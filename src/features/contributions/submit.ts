@@ -62,7 +62,8 @@ export async function submitContribution(fd: FormData, records: RecordOption[]):
   if (kind === "new-element" && !text(fd, "elementName")) conditional.elementName = "Indica el nombre del elemento.";
   if (kind && kind !== "new-element" && !text(fd, "recordId"))
     conditional.recordId = "Elige el elemento al que se refiere la propuesta.";
-  if (kind === "photo" && !text(fd, "photoLinks")) conditional.photoLinks = "Pega al menos un enlace a las fotografías.";
+  if (kind === "photo" && !text(fd, "photoLinks"))
+    conditional.photoLinks = "Pega al menos un enlace a las fotografías.";
   if (!parsed.success || Object.keys(conditional).length) {
     const fieldErrors: Record<string, string> = { ...conditional };
     for (const issue of parsed.error?.issues ?? []) fieldErrors[String(issue.path[0] ?? "form")] ??= issue.message;

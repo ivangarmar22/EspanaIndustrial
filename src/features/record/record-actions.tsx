@@ -13,7 +13,7 @@ interface Props {
 }
 
 const btn =
-  "inline-flex min-h-11 items-center gap-2 border border-rule-strong bg-card px-3.5 text-sm text-ink transition-colors hover:border-ink disabled:opacity-50";
+  "inline-flex min-h-11 items-center justify-center gap-2 rounded-full border border-rule-strong bg-card px-4 text-sm text-ink transition-colors hover:border-ink disabled:opacity-50";
 
 export function RecordActions({ id, slug, name, point }: Props) {
   const places = usePlaces();
@@ -36,7 +36,7 @@ export function RecordActions({ id, slug, name, point }: Props) {
   }
 
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
       <button type="button" className={btn} aria-pressed={saved} onClick={() => places.toggleSaved({ id, slug, name })}>
         {saved ? (
           <BookmarkCheck className="size-4 text-rust" aria-hidden="true" />
@@ -47,7 +47,14 @@ export function RecordActions({ id, slug, name, point }: Props) {
       </button>
       <button type="button" className={btn} aria-pressed={visited} onClick={() => places.toggleVisited(id)}>
         <Check className={`size-4 ${visited ? "text-green" : "text-iron"}`} aria-hidden="true" />
-        {visited ? "Visitado" : "Marcar como visitado"}
+        {visited ? (
+          "Visitado"
+        ) : (
+          <>
+            <span className="sm:hidden">Lo he visitado</span>
+            <span className="hidden sm:inline">Marcar como visitado</span>
+          </>
+        )}
       </button>
       <button type="button" className={btn} onClick={share}>
         <Share2 className="size-4" aria-hidden="true" />

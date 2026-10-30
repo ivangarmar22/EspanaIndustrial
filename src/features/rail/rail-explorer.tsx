@@ -407,7 +407,7 @@ export function RailExplorer({
           ariaLabel={`Mapa de ${stations.length} estaciones de ferrocarril cerradas y antiguos trazados`}
         />
         {selected ? (
-          <div className="absolute inset-x-3 bottom-16 z-20 max-h-[60%] md:top-3 md:right-auto md:bottom-auto md:left-3 md:max-h-[calc(100%-1.5rem)] md:w-[340px] lg:bottom-auto">
+          <div className="absolute inset-x-3 bottom-16 z-20 max-h-[60%] md:top-16 md:right-auto md:bottom-auto md:left-3 lg:top-3 md:max-h-[calc(100%-1.5rem)] md:w-[340px] lg:bottom-auto">
             <StationCard station={selected} lines={lineById} onClose={() => setSelectedId(undefined)} />
           </div>
         ) : null}

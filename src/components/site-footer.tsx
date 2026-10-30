@@ -4,7 +4,7 @@ import { site } from "@/config/site";
 import { PlateMark } from "./brand";
 import { FOOTER_GROUPS } from "./nav-links";
 
-const linkCls = "text-paper/80 no-underline hover:text-paper hover:underline";
+const linkCls = "inline-block py-1 text-paper/80 no-underline hover:text-paper hover:underline";
 
 export function SiteFooter() {
   return (
@@ -31,7 +31,7 @@ export function SiteFooter() {
           {FOOTER_GROUPS.map((g) => (
             <nav key={g.title} aria-label={g.title}>
               <h2 className="signage text-copper-light">{g.title}</h2>
-              <ul className="mt-4 grid gap-3 text-sm">
+              <ul className="mt-3 grid gap-1 text-sm">
                 {g.links.map((l) => (
                   <li key={l.href}>
                     <Link href={l.href} className={linkCls}>

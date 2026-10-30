@@ -13,6 +13,12 @@ import { CatalogFiltersForm } from "./catalog-filters-form";
 import { FiltersDisclosure } from "./filters-disclosure";
 
 const PER_PAGE = 24;
+const segmented = "inline-flex rounded-full border border-rule-strong bg-card p-0.5";
+const segment = "inline-flex min-h-9 items-center rounded-full no-underline transition-colors";
+const segmentOn = "bg-ink text-paper";
+const segmentOff = "text-ink-soft hover:text-ink";
+const pageBtn =
+  "inline-flex min-h-10 min-w-11 items-center justify-center gap-1 rounded-full border border-rule-strong px-3 text-sm text-ink no-underline hover:border-ink";
 
 /** Filters, sorting and pagination read from the URL and applied in the browser (the site is static). */
 export function CatalogBrowser({ all, options }: { all: IndexItem[]; options: FilterOptions }) {
@@ -46,50 +52,52 @@ export function CatalogBrowser({ all, options }: { all: IndexItem[]; options: Fi
       </aside>
 
       <section aria-labelledby="resultados" className="min-w-0">
-        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-rule pb-4">
+        <div className="flex flex-col gap-3 border-b border-rule pb-4 md:flex-row md:flex-wrap md:items-center md:justify-between">
           <h2 id="resultados" className="text-sm" aria-live="polite">
             <strong className="font-semibold">{formatNumber(results.length)}</strong>{" "}
             {results.length === 1 ? "elemento" : "elementos"}
             {pages > 1 ? ` · página ${formatNumber(page)} de ${formatNumber(pages)}` : ""}
           </h2>
           <div className="flex flex-wrap items-center gap-2 text-sm">
-            <span className="text-iron">Ordenar:</span>
-            {(
-              [
-                ["name", "A–Z"],
-                ["oldest", "Más antiguos"],
-                ["newest", "Más recientes"],
-              ] as const
-            ).map(([k, label]) => (
+            <nav aria-label="Ordenar" className={segmented}>
+              {(
+                [
+                  ["name", "A–Z"],
+                  ["oldest", "Más antiguos"],
+                  ["newest", "Más recientes"],
+                ] as const
+              ).map(([k, label]) => (
+                <Link
+                  key={k}
+                  href={hrefWith(filters, { orden: SORT_PARAM[k] })}
+                  aria-current={sort === k ? "true" : undefined}
+                  className={`${segment} px-3 ${sort === k ? segmentOn : segmentOff}`}
+                >
+                  {label}
+                </Link>
+              ))}
+            </nav>
+            <nav aria-label="Vista" className={segmented}>
               <Link
-                key={k}
-                href={hrefWith(filters, { orden: SORT_PARAM[k] })}
-                aria-current={sort === k ? "true" : undefined}
-                className={sort === k ? "font-semibold text-ink no-underline" : "text-ink-soft"}
+                href={hrefWith(filters, { vista: undefined })}
+                aria-label="Vista de lista"
+                aria-current={view === "lista" ? "true" : undefined}
+                className={`${segment} w-9 justify-center ${view === "lista" ? segmentOn : segmentOff}`}
               >
-                {label}
+                <List className="size-4" aria-hidden="true" />
               </Link>
-            ))}
-            <span className="mx-1 h-5 w-px bg-rule" aria-hidden="true" />
-            <Link
-              href={hrefWith(filters, { vista: undefined })}
-              aria-label="Vista de lista"
-              aria-current={view === "lista" ? "true" : undefined}
-              className={`inline-flex size-9 items-center justify-center border ${view === "lista" ? "border-ink" : "border-transparent"}`}
-            >
-              <List className="size-4" aria-hidden="true" />
-            </Link>
-            <Link
-              href={hrefWith(filters, { vista: "cuadricula" })}
-              aria-label="Vista de cuadrícula"
-              aria-current={view === "cuadricula" ? "true" : undefined}
-              className={`inline-flex size-9 items-center justify-center border ${view === "cuadricula" ? "border-ink" : "border-transparent"}`}
-            >
-              <LayoutGrid className="size-4" aria-hidden="true" />
-            </Link>
+              <Link
+                href={hrefWith(filters, { vista: "cuadricula" })}
+                aria-label="Vista de cuadrícula"
+                aria-current={view === "cuadricula" ? "true" : undefined}
+                className={`${segment} w-9 justify-center ${view === "cuadricula" ? segmentOn : segmentOff}`}
+              >
+                <LayoutGrid className="size-4" aria-hidden="true" />
+              </Link>
+            </nav>
             <Link
               href={`/mapa?${filtersToParams(filters).toString()}`}
-              className="inline-flex min-h-9 items-center gap-1.5 border border-rule-strong px-2.5 text-ink no-underline"
+              className="inline-flex min-h-10 items-center gap-1.5 rounded-full border border-rule-strong bg-card px-3.5 text-ink no-underline hover:border-ink"
             >
               <MapIcon className="size-4" aria-hidden="true" /> Ver en el mapa
             </Link>
@@ -102,13 +110,13 @@ export function CatalogBrowser({ all, options }: { all: IndexItem[]; options: Fi
               <Link
                 key={c.key}
                 href={hrefWith(removeFilter(filters, c.key))}
-                className="inline-flex min-h-8 items-center gap-1 border border-ink bg-ink px-2 text-xs text-paper no-underline"
+                className="inline-flex min-h-8 items-center gap-1 rounded-full border border-ink bg-ink py-0.5 pr-2 pl-3 text-xs text-paper no-underline"
               >
                 {c.label} <X className="size-3.5" aria-hidden="true" />
                 <span className="sr-only">(quitar filtro)</span>
               </Link>
             ))}
-            <Link href="/catalogo" className="px-2 text-xs text-rust">
+            <Link href="/catalogo" className="inline-flex min-h-8 items-center px-2 text-xs text-rust">
               Quitar todos
             </Link>
           </div>
@@ -140,35 +148,39 @@ export function CatalogBrowser({ all, options }: { all: IndexItem[]; options: Fi
         )}
 
         {pages > 1 ? (
-          <nav aria-label="Paginación" className="mt-10 flex flex-wrap items-center gap-1.5">
+          <nav
+            aria-label="Paginación"
+            className="mt-10 flex items-center justify-between gap-2 sm:justify-start sm:gap-1.5"
+          >
             {page > 1 ? (
-              <Link
-                href={hrefWith(filters, { pagina: String(page - 1) })}
-                rel="prev"
-                className="min-h-10 border border-rule-strong px-3 py-2 text-sm no-underline"
-              >
-                ← Anterior
+              <Link href={hrefWith(filters, { pagina: String(page - 1) })} rel="prev" className={pageBtn}>
+                ← <span className="hidden sm:inline">Anterior</span>
+                <span className="sr-only sm:hidden">Página anterior</span>
               </Link>
-            ) : null}
+            ) : (
+              <span className="w-11 sm:hidden" aria-hidden="true" />
+            )}
+            <span className="text-sm text-ink-soft sm:hidden">
+              Página {formatNumber(page)} de {formatNumber(pages)}
+            </span>
             {Array.from({ length: pages }, (_, i) => i + 1).map((n) => (
               <Link
                 key={n}
                 href={hrefWith(filters, { pagina: n > 1 ? String(n) : undefined })}
                 aria-current={n === page ? "page" : undefined}
-                className={`inline-flex min-h-10 min-w-10 items-center justify-center border text-sm no-underline ${n === page ? "border-ink bg-ink text-paper" : "border-rule-strong text-ink"}`}
+                className={`hidden min-h-10 min-w-10 items-center justify-center rounded-full border text-sm no-underline sm:inline-flex ${n === page ? "border-ink bg-ink text-paper" : "border-rule-strong text-ink hover:border-ink"}`}
               >
                 {n}
               </Link>
             ))}
             {page < pages ? (
-              <Link
-                href={hrefWith(filters, { pagina: String(page + 1) })}
-                rel="next"
-                className="min-h-10 border border-rule-strong px-3 py-2 text-sm no-underline"
-              >
-                Siguiente →
+              <Link href={hrefWith(filters, { pagina: String(page + 1) })} rel="next" className={pageBtn}>
+                <span className="hidden sm:inline">Siguiente</span>
+                <span className="sr-only sm:hidden">Página siguiente</span> →
               </Link>
-            ) : null}
+            ) : (
+              <span className="w-11 sm:hidden" aria-hidden="true" />
+            )}
           </nav>
         ) : null}
       </section>

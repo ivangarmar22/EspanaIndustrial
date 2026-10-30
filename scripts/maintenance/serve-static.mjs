@@ -32,7 +32,10 @@ async function resolve(urlPath) {
   if (!file.startsWith(root)) return undefined;
   const s = await stat(file).catch(() => undefined);
   if (s?.isFile()) return file;
-  if (s?.isDirectory()) return (await stat(path.join(file, "index.html")).catch(() => undefined)) ? path.join(file, "index.html") : undefined;
+  if (s?.isDirectory())
+    return (await stat(path.join(file, "index.html")).catch(() => undefined))
+      ? path.join(file, "index.html")
+      : undefined;
   return undefined;
 }
 

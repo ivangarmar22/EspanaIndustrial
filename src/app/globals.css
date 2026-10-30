@@ -229,7 +229,8 @@
 
 /* MapLibre controls restyled to the paper/ink palette. */
 .maplibregl-ctrl-group {
-  border-radius: 2px !important;
+  border-radius: 12px !important;
+  overflow: hidden;
   box-shadow: 0 0 0 1px var(--color-rule-strong) !important;
   background: var(--color-card) !important;
 }

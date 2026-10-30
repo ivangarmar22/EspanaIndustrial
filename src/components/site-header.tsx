@@ -23,7 +23,7 @@ export function SiteHeader() {
         <SearchBox
           id="header-search"
           label="Buscar en el catálogo"
-          placeholder="Buscar fábricas, minas, municipios…"
+          placeholder="Buscar en el atlas…"
           className="ml-auto hidden md:block"
         />
         <Link

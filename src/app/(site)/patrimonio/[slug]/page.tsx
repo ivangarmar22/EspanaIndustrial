@@ -405,8 +405,9 @@ export default async function RecordPage({ params }: PageProps<"/patrimonio/[slu
           </Section>
         </div>
 
-        <aside className="space-y-8 lg:sticky lg:top-24 lg:self-start" aria-label="Ficha técnica">
-          <div className="border border-rule bg-card p-5">
+        {/* Key facts come before the long texts on phones and tablets; beside them on desktop. */}
+        <aside className="space-y-8 max-lg:order-first lg:sticky lg:top-24 lg:self-start" aria-label="Ficha técnica">
+          <div className="rounded-2xl border border-rule bg-card p-5">
             <h2 className="signage text-rust">Ficha técnica</h2>
             <dl className="mt-3">
               <Fact label="Categoría">
