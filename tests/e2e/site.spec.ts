@@ -81,6 +81,8 @@ test("mobile menu opens, traps nothing and closes with Escape", async ({ page, i
   await page.goto("/");
   await page.getByRole("button", { name: "Abrir menú" }).click();
   await expect(page.getByRole("navigation", { name: "Principal (móvil)" })).toBeVisible();
+  // Opening the menu must not focus the search field (it would pop up the touch keyboard).
+  await expect(page.locator("#mobile-search")).not.toBeFocused();
   // The panel must fill the screen below the header, not be clipped to the header box.
   const panel = await page.locator("#mobile-menu").boundingBox();
   expect(panel?.height).toBeGreaterThan(400);
