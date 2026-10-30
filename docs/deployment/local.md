@@ -1,14 +1,26 @@
-# Ejecución local y actualizaciones
+# Publicación, ejecución local y actualizaciones
 
-## Modo actual: solo local
+## Publicación en GitHub Pages
+
+La web es una exportación estática de Next.js (`output: "export"`). Cada push a `main` ejecuta `.github/workflows/pages.yml`, que descarga las fotografías de Commons (con caché), construye la web con el prefijo `/EspanaIndustrial` y la publica en https://ivangarmar22.github.io/EspanaIndustrial/.
+
+Los valores públicos se configuran como **variables del repositorio** (Settings → Secrets and variables → Actions → Variables):
+
+| Variable                                         | Uso                                                            |
+| ------------------------------------------------ | -------------------------------------------------------------- |
+| `WEB3FORMS_KEY`                                  | Clave de acceso de Web3Forms para el formulario de propuestas. |
+| `DONATE_PAYPAL` · `DONATE_BIZUM` · `DONATE_KOFI` | Canales de donación de «Colabora».                             |
+
+## Vista previa local
 
 ```bash
-npm run build && npm start   # http://127.0.0.1:3000
+npm run dev                  # desarrollo: http://127.0.0.1:3000
+npm run build && npm start   # la exportación estática (out/) servida como en GitHub Pages
 ```
 
-El servidor escucha solo en `127.0.0.1`. La web no escribe en disco: los datos se actualizan con el pipeline y editando `data/`, y después se vuelve a construir.
+La web no escribe en disco: los datos se actualizan con el pipeline y editando `data/`, y después se vuelve a construir.
 
-El formulario de «Colabora» envía las propuestas por SMTP. Con Gmail: `SMTP_HOST=smtp.gmail.com`, `SMTP_PORT=465`, la dirección en `SMTP_USER` y una [contraseña de aplicación](https://myaccount.google.com/apppasswords) en `SMTP_PASS` (requiere verificación en dos pasos). `CONTACT_TO` es el buzón que recibe las propuestas.
+El formulario de «Colabora» envía las propuestas a Web3Forms, que las reenvía por correo. Para obtener la clave basta con indicar el correo de destino en https://web3forms.com/ (sin contraseña ni cuenta); el plan gratuito admite 250 envíos al mes.
 
 ## Actualizar los datos
 
@@ -31,9 +43,3 @@ Frecuencias recomendadas:
 ## Automatización (preparada, no activada)
 
 `.github/workflows/data-update.yml` ejecuta el pipeline **bajo demanda** (`workflow_dispatch`) y abre un Pull Request con los cambios, sin aprobar nada automáticamente: los cambios importantes quedan en `data/review/pending-catalog.json` para revisión. Para programarlo, descomenta el bloque `schedule` del workflow. No depende de ningún ordenador personal encendido.
-
-## Despliegue futuro
-
-Si se publica en internet:
-
-Cualquier hosting de Next.js con Node sirve (VPS, contenedor o plataforma _serverless_), porque la web no escribe en disco. Hay que configurar `NEXT_PUBLIC_SITE_URL`, las variables SMTP y de donaciones, servir con HTTPS y, si hay varias instancias, sustituir el limitador de frecuencia en memoria por uno compartido.

@@ -23,10 +23,10 @@ export default function PrivacyPage() {
         </p>
         <h2 className="pt-4 font-display text-2xl text-ink">Propuestas y correcciones</h2>
         <p>
-          Al enviar una propuesta, su contenido (y la fotografía, si la adjuntas) se envía por correo electrónico al
-          responsable del proyecto; la web no lo guarda. El nombre y el correo son opcionales, solo se usan para
-          responder sobre esa propuesta y nunca se publican. Puedes pedir que se borre tu correo respondiendo a ese
-          mensaje.
+          Al enviar una propuesta, su contenido (incluidos los enlaces a fotografías, si los añades) se envía por correo
+          electrónico al responsable del proyecto a través del servicio Web3Forms; esta web no lo guarda. El nombre y el
+          correo son opcionales, solo se usan para responder sobre esa propuesta y nunca se publican. Puedes pedir que
+          se borre tu correo respondiendo a ese mensaje.
         </p>
         <h2 className="pt-4 font-display text-2xl text-ink">Servicios externos</h2>
         <p>

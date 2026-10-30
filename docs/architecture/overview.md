@@ -40,8 +40,6 @@
 ## Seguridad
 
 - **Sin administración web**: no hay login, cookies de sesión ni escrituras desde la web. La capa editorial se edita en los ficheros de `data/` y se versiona en git.
-- **Server Actions**: Next.js comprueba que `Origin` coincide con `Host` (CSRF). Todas las entradas se validan con Zod.
-- **Propuestas**: campo trampa, tiempo mínimo de rellenado, 5 envíos/hora por cliente e imágenes verificadas por bytes mágicos (JPEG/PNG/WebP, ≤ 8 MB). Se envían por SMTP (`src/server/mailer.ts`) al correo de `CONTACT_TO` y no se guardan en el servidor; credenciales solo en variables de entorno. Sin SMTP configurado, el formulario no se muestra.
-- **Cabeceras**: CSP restrictiva (solo `self`, OpenFreeMap e IGN), `X-Frame-Options: DENY`, `nosniff`, `Referrer-Policy`, `Permissions-Policy` (geolocalización solo en el propio origen y bajo acción explícita).
+- **Web estática**: se publica como exportación estática de Next.js en GitHub Pages; no hay servidor propio, Server Actions ni base de datos que atacar.
+- **Propuestas**: el formulario valida con Zod en el navegador (campo trampa y tiempo mínimo de rellenado) y envía a [Web3Forms](https://web3forms.com/), que reenvía el correo al responsable. La clave de acceso es pública por diseño: solo permite enviar a ese buzón. Las fotos se aportan como enlaces, no como archivos.
 - **Privacidad**: sin analítica ni cookies de terceros. Favoritos solo en `localStorage`.
-- El limitador de frecuencia es en memoria: válido para un único proceso local. Un despliegue con varias instancias necesitaría un almacén compartido.

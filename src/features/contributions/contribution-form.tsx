@@ -1,17 +1,11 @@
 "use client";
 
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useActionState, useEffect, useRef, useState } from "react";
-import { CONTRIBUTION_KINDS, MAX_PHOTOS, type ContributionKind } from "@/domain/contribution";
+import { CONTRIBUTION_KINDS, type ContributionKind } from "@/domain/contribution";
 import { Select } from "@/components/select";
-import { PhotoPicker } from "./photo-picker";
-import { submitContribution, type ContributionState } from "./actions";
-
-export interface RecordOption {
-  id: string;
-  name: string;
-  group: string;
-}
+import { submitContribution, type ContributionState, type RecordOption } from "./submit";
 
 const field = "ctl text-base";
 const labelCls = "mb-1.5 block font-medium";
@@ -37,8 +31,14 @@ function Fieldset({ n, title, children }: { n: number; title: string; children: 
   );
 }
 
-export function ContributionForm({ records, preselected }: { records: RecordOption[]; preselected?: string }) {
-  const [state, action, pending] = useActionState<ContributionState, FormData>(submitContribution, { status: "idle" });
+export function ContributionForm({ records }: { records: RecordOption[] }) {
+  // "Proponer una corrección" links on record pages pass the record as ?elemento=<slug>.
+  const elemento = useSearchParams().get("elemento");
+  const preselected = records.find((r) => r.slug === elemento)?.id;
+  const [state, action, pending] = useActionState<ContributionState, FormData>(
+    (_prev, fd) => submitContribution(fd, records),
+    { status: "idle" },
+  );
   const [kind, setKind] = useState<ContributionKind>("correction");
   // Mount time feeds the anti-bot minimum fill time; set in an effect to keep SSR and hydration identical.
   const mountedAt = useRef(0);
@@ -207,22 +207,28 @@ export function ContributionForm({ records, preselected }: { records: RecordOpti
       {showPhotos ? (
         <Fieldset n={4} title={kind === "photo" ? "Fotografías" : "Fotografías (opcional)"}>
           <div>
-            <label htmlFor="photo" className={labelCls}>
-              Archivos
+            <label htmlFor="photoLinks" className={labelCls}>
+              Enlaces a las fotografías {kind === "photo" ? "*" : ""}
             </label>
-            <PhotoPicker
-              id="photo"
-              name="photo"
-              max={MAX_PHOTOS}
-              invalid={!!err.photo}
-              describedBy={describe("photo")}
+            <textarea
+              id="photoLinks"
+              name="photoLinks"
+              rows={3}
+              className={field}
+              placeholder="https://drive.google.com/…"
+              aria-invalid={!!err.photoLinks}
+              aria-describedby={describe("photoLinks", "photoLinks-hint")}
             />
-            <FieldError id="photo-error" error={err.photo} />
+            <p id="photoLinks-hint" className={hint}>
+              Sube las fotos a Google Drive, Google Fotos, WeTransfer o Wikimedia Commons y pega aquí el enlace
+              compartido (uno por línea). Comprueba que cualquiera con el enlace pueda verlas.
+            </p>
+            <FieldError id="photoLinks-error" error={err.photoLinks} />
           </div>
           <div className="grid gap-5 sm:grid-cols-2">
             <div>
               <label htmlFor="photoAuthor" className={labelCls}>
-                Autoría {kind === "photo" ? "*" : "(si adjuntas fotos)"}
+                Autoría {kind === "photo" ? "*" : "(si envías fotos)"}
               </label>
               <input
                 id="photoAuthor"

@@ -23,6 +23,7 @@
 </p>
 
 <p align="center">
+  <a href="https://ivangarmar22.github.io/EspanaIndustrial/"><strong>🌐 Ver la web</strong></a> ·
   <a href="#qué-ofrece">Qué ofrece</a> ·
   <a href="#puesta-en-marcha">Puesta en marcha</a> ·
   <a href="#cómo-funcionan-los-datos">Datos</a> ·
@@ -98,8 +99,8 @@ El catálogo publicado (`data/catalog/catalog.json`), los datos intermedios (`da
 | Variable                                                                             | Uso                                                                                                |
 | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
 | `NEXT_PUBLIC_SITE_URL`                                                               | URL base para enlaces canónicos, sitemap y Open Graph.                                             |
-| `SMTP_HOST` · `SMTP_PORT` · `SMTP_USER` · `SMTP_PASS`                                | Cuenta SMTP que envía las propuestas del formulario (con Gmail, una contraseña de aplicación).     |
-| `CONTACT_TO` · `CONTACT_FROM`                                                        | Correo que recibe las propuestas y remitente opcional.                                             |
+| `NEXT_PUBLIC_WEB3FORMS_KEY`                                                          | Clave de [Web3Forms](https://web3forms.com/) para que las propuestas lleguen por correo.           |
+| `NEXT_PUBLIC_BASE_PATH`                                                              | Subruta de publicación (`/EspanaIndustrial` en GitHub Pages; vacía en local).                      |
 | `NEXT_PUBLIC_DONATE_PAYPAL` · `NEXT_PUBLIC_DONATE_KOFI` · `NEXT_PUBLIC_DONATE_BIZUM` | Canales de donación de «Colabora»; solo se muestran los configurados.                              |
 | `DATA_CONTACT`                                                                       | Contacto incluido en el User-Agent de las peticiones del pipeline (por defecto, este repositorio). |
 
@@ -112,7 +113,7 @@ Los secretos nunca se versionan: `.env*` está en `.gitignore` salvo `.env.examp
 
 | Comando                                 | Qué hace                                                                                                                           |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| `npm run dev` / `build` / `start`       | Desarrollo, build de producción y servidor de producción (escuchan en 127.0.0.1).                                                  |
+| `npm run dev` / `build` / `start`       | Desarrollo, exportación estática a `out/` y vista previa de esa exportación (escuchan en 127.0.0.1).                               |
 | `npm run check`                         | Tipos, lint, pruebas y validación de datos.                                                                                        |
 | `npm run typecheck` · `lint` · `format` | Calidad de código.                                                                                                                 |
 | `npm test`                              | Pruebas unitarias y de integración (Vitest).                                                                                       |
@@ -146,7 +147,7 @@ flowchart LR
 - **El catálogo nunca se vacía:** si una fuente no responde, se conserva su último staging correcto.
 - **Los cambios importantes se revisan:** altas, bajas, cambios de nombre, categoría, protección o ubicación (> 100 m) esperan a `npm run data:diff` y `--approve`.
 - **Las correcciones manuales mandan:** viven en `data/overrides/` con su fuente y la sincronización nunca las sobrescribe.
-- **Sin panel de administración:** las propuestas del público llegan por correo y se incorporan a mano; la web no guarda nada.
+- **Sin panel de administración ni servidor:** la web es estática (GitHub Pages); las propuestas del público llegan por correo a través de Web3Forms y se incorporan a mano.
 
 <details>
 <summary><strong>Estructura del repositorio</strong></summary>
@@ -158,7 +159,6 @@ src/features/      Funcionalidades: map, rail, record, catalog, routes, home, fa
 src/domain/        Esquemas Zod, tipos, vocabularios, territorios, fechas, filtros (sin E/S)
 src/data-access/   Lectura del catálogo, del ferrocarril y del contenido editorial
 src/pipeline/      Conectores, construcción, diff, duplicados, publicación y conjunto ferroviario
-src/server/        Envío de propuestas por correo y limitador de frecuencia (solo servidor)
 scripts/           CLI de datos y mantenimiento
 data/              Catálogo publicado, staging, capa editorial, ferrocarril e informes
 docs/              Investigación de fuentes, arquitectura, datos y despliegue
@@ -174,7 +174,7 @@ tests/             unit, integration, e2e y fixtures con procedencia documentada
 | Investigación de fuentes | [Catálogo de fuentes](docs/research/source-catalog.md) · [Derechos de reutilización](docs/research/data-rights.md) · [Plan de adquisición](docs/research/data-acquisition-plan.md)                                      |
 | Arquitectura y datos     | [Arquitectura](docs/architecture/overview.md) · [Organización de los datos](docs/data/data-layout.md) · [Política de calidad](docs/data/quality-policy.md) · [Revisión de octubre de 2026](docs/data/review-2026-10.md) |
 | Fuente principal         | [Ministerio de Cultura (IPCE)](docs/data/sources/ministerio-cultura.md)                                                                                                                                                 |
-| Despliegue               | [Ejecución local y actualizaciones](docs/deployment/local.md)                                                                                                                                                           |
+| Despliegue               | [Publicación en GitHub Pages, ejecución local y actualizaciones](docs/deployment/local.md)                                                                                                                              |
 
 ## Limitaciones conocidas
 

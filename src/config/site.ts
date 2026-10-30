@@ -28,4 +28,9 @@ export const donations = {
   bizum: process.env.NEXT_PUBLIC_DONATE_BIZUM?.trim() || undefined,
 };
 
-export const absoluteUrl = (pathname: string) => `${site.url}${pathname.startsWith("/") ? pathname : `/${pathname}`}`;
+/** Absolute URL of a page or file. Pages get the trailing slash the static export serves them with. */
+export function absoluteUrl(pathname: string): string {
+  let p = pathname.startsWith("/") ? pathname : `/${pathname}`;
+  if (!/[?#]/.test(p) && !p.endsWith("/") && !/\.[a-z0-9]+$/i.test(p)) p += "/";
+  return `${site.url}${p}`;
+}

@@ -1,3 +1,4 @@
+import Form from "next/form";
 import Link from "next/link";
 import { Search } from "lucide-react";
 import { Select } from "@/components/select";
@@ -9,7 +10,7 @@ import { PROVINCES, REGIONS } from "@/domain/territory";
 const labelCls = "mb-1.5 block text-sm font-medium text-ink-soft";
 
 /**
- * Plain GET form: works without JavaScript and produces shareable URLs.
+ * GET form (next/form keeps the base path): produces shareable URLs.
  * Options and counts come from the real catalogue.
  */
 export function CatalogFiltersForm({
@@ -29,7 +30,7 @@ export function CatalogFiltersForm({
   const period = PERIODS.find((p) => p.from === filters.from && p.to === filters.to);
 
   return (
-    <form action="/catalogo" method="get" className="grid gap-5" aria-label="Filtrar el catálogo">
+    <Form action="/catalogo" className="grid gap-5" aria-label="Filtrar el catálogo">
       {view ? <input type="hidden" name="vista" value={view} /> : null}
       {sort ? <input type="hidden" name="orden" value={sort} /> : null}
       <div>
@@ -207,6 +208,6 @@ export function CatalogFiltersForm({
           Limpiar
         </Link>
       </div>
-    </form>
+    </Form>
   );
 }

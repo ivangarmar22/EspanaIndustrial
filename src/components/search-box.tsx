@@ -1,10 +1,32 @@
 "use client";
 
+import Form from "next/form";
 import { useRouter } from "next/navigation";
-import { useEffect, useId, useRef, useState } from "react";
+import { useId, useRef, useState } from "react";
 import { ArrowRight, Search } from "lucide-react";
-import type { SearchSuggestion } from "@/app/api/buscar/route";
+import type { CategoryFamilyId } from "@/domain/categories";
+import { searchItems } from "@/domain/index-item";
+import { withBase } from "@/lib/base-path";
 import { CategoryGlyph } from "./category";
+
+/** One entry of the static search index (/datos/indice.json). */
+export interface SearchEntry {
+  slug: string;
+  name: string;
+  family: CategoryFamilyId;
+  place: string;
+  search: string;
+}
+
+// Loaded once per page view, the first time someone types in a search box.
+let indexPromise: Promise<SearchEntry[]> | undefined;
+const loadIndex = () =>
+  (indexPromise ??= fetch(withBase("/datos/indice.json"))
+    .then((r) => (r.ok ? (r.json() as Promise<SearchEntry[]>) : []))
+    .catch(() => {
+      indexPromise = undefined;
+      return [];
+    }));
 
 const VARIANTS = {
   header: {
@@ -25,7 +47,7 @@ const VARIANTS = {
 
 /**
  * Catalogue search box: submits to the catalogue, and while typing offers the
- * best matches from /api/buscar to jump straight to a record (ARIA combobox).
+ * best matches from the static index to jump straight to a record (ARIA combobox).
  */
 export function SearchBox({
   id,
@@ -43,33 +65,16 @@ export function SearchBox({
   const v = VARIANTS[variant];
   const router = useRouter();
   const [q, setQ] = useState("");
-  const [results, setResults] = useState<SearchSuggestion[]>([]);
+  const [index, setIndex] = useState<SearchEntry[]>([]);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
   const input = useRef<HTMLInputElement>(null);
   const listId = useId();
   const term = q.trim();
+  const results = term.length >= 2 ? searchItems(index, term, 6) : [];
   // Last option is always "see every result in the catalogue".
   const options = results.length ? [...results.map((r) => `/patrimonio/${r.slug}`), catalogHref(term)] : [];
   const expanded = open && term.length >= 2 && results.length > 0;
-
-  useEffect(() => {
-    if (term.length < 2) return;
-    const ctrl = new AbortController();
-    const timer = setTimeout(() => {
-      fetch(`/api/buscar?q=${encodeURIComponent(term)}`, { signal: ctrl.signal })
-        .then((r) => (r.ok ? r.json() : { results: [] }))
-        .then((d: { results: SearchSuggestion[] }) => {
-          setResults(d.results);
-          setActive(-1);
-        })
-        .catch(() => {});
-    }, 140);
-    return () => {
-      clearTimeout(timer);
-      ctrl.abort();
-    };
-  }, [term]);
 
   const go = (href: string) => {
     setOpen(false);
@@ -79,7 +84,7 @@ export function SearchBox({
   };
 
   return (
-    <form
+    <Form
       action="/catalogo"
       role="search"
       className={`relative ${className}`}
@@ -113,9 +118,12 @@ export function SearchBox({
           onChange={(e) => {
             setQ(e.target.value);
             setOpen(true);
-            if (e.target.value.trim().length < 2) setResults([]);
+            setActive(-1);
           }}
-          onFocus={() => setOpen(true)}
+          onFocus={() => {
+            setOpen(true);
+            void loadIndex().then(setIndex);
+          }}
           onBlur={() => setOpen(false)}
           onKeyDown={(e) => {
             if (e.key === "Escape") setOpen(false);
@@ -175,7 +183,7 @@ export function SearchBox({
           <ArrowRight className="size-4" aria-hidden="true" />
         </li>
       </ul>
-    </form>
+    </Form>
   );
 }
 

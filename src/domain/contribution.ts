@@ -5,14 +5,10 @@ export const CONTRIBUTION_KINDS = {
   correction: "Corregir un dato",
   "new-element": "Añadir un lugar nuevo",
   reference: "Aportar una fuente o referencia",
-  photo: "Enviar una fotografía",
+  photo: "Enviar fotografías",
   status: "Avisar de un cambio (conservación, uso, visitas)",
 } as const;
 export type ContributionKind = keyof typeof CONTRIBUTION_KINDS;
-
-/** Limits for the photos attached to one proposal (all of them together). */
-export const MAX_PHOTO_BYTES = 8 * 1024 * 1024;
-export const MAX_PHOTOS = 4;
 
 /** Public form input (after FormData parsing). */
 export const ContributionInput = z
@@ -25,6 +21,16 @@ export const ContributionInput = z
     proposedValue: z.string().trim().max(4000).optional(),
     description: z.string().trim().min(20, "Describe la propuesta con al menos 20 caracteres.").max(8000),
     sources: z.string().trim().max(4000).optional(),
+    /** Public links to the photos (Drive, Google Fotos, WeTransfer, Commons…), one per line. */
+    photoLinks: z
+      .string()
+      .trim()
+      .max(2000)
+      .refine(
+        (v) => v.split(/\s+/).every((u) => /^https?:\/\/\S+\.\S+/.test(u)),
+        "Pega enlaces completos que empiecen por https://, uno por línea.",
+      )
+      .optional(),
     photoAuthor: z.string().trim().max(200).optional(),
     photoTakenAt: z.string().trim().max(60).optional(),
     contactName: z.string().trim().max(120).optional(),
@@ -35,6 +41,10 @@ export const ContributionInput = z
   .superRefine((v, ctx) => {
     if (v.kind === "new-element" && !v.elementName)
       ctx.addIssue({ code: "custom", path: ["elementName"], message: "Indica el nombre del elemento." });
+    if (v.kind === "photo" && !v.photoLinks)
+      ctx.addIssue({ code: "custom", path: ["photoLinks"], message: "Pega al menos un enlace a las fotografías." });
+    if (v.photoLinks && !v.photoAuthor)
+      ctx.addIssue({ code: "custom", path: ["photoAuthor"], message: "Indica quién hizo las fotografías." });
     if (v.kind !== "new-element" && !v.recordId)
       ctx.addIssue({
         code: "custom",

@@ -3,6 +3,7 @@ import { existsSync } from "node:fs";
 import path from "node:path";
 import Image from "next/image";
 import Link from "next/link";
+import { Suspense } from "react";
 import { ExternalLink, Factory, HeartHandshake, MapPinPlus } from "lucide-react";
 import { donations, site } from "@/config/site";
 import { getPublishedRecords } from "@/data-access/catalog";
@@ -10,6 +11,8 @@ import { getRegion } from "@/domain/territory";
 import { PageHeader } from "@/components/page-header";
 import { ContributionForm } from "@/features/contributions/contribution-form";
 import { CopyButton } from "@/features/contributions/copy-button";
+import { PROPOSALS_KEY } from "@/features/contributions/submit";
+import { withBase } from "@/lib/base-path";
 
 export const metadata: Metadata = {
   title: "Colabora",
@@ -48,17 +51,16 @@ function Section({
   );
 }
 
-export default async function CollaboratePage({ searchParams }: PageProps<"/colabora">) {
-  const sp = await searchParams;
+export default async function CollaboratePage() {
   const records = await getPublishedRecords();
   const options = records
     .map((r) => ({
       id: r.id,
+      slug: r.slug,
       name: r.name.value,
       group: (r.location.regionCode && getRegion(r.location.regionCode)?.name) || "Sin comunidad",
     }))
     .sort((a, b) => a.group.localeCompare(b.group, "es") || a.name.localeCompare(b.name, "es"));
-  const preselected = typeof sp.elemento === "string" ? records.find((r) => r.slug === sp.elemento)?.id : undefined;
   const anyDonation = donations.paypal || donations.kofi || donations.bizum;
 
   return (
@@ -148,7 +150,7 @@ export default async function CollaboratePage({ searchParams }: PageProps<"/cola
                   </div>
                   {hasPaypalQr ? (
                     <Image
-                      src={PAYPAL_QR}
+                      src={withBase(PAYPAL_QR)}
                       alt="Código QR para donar con PayPal"
                       width={136}
                       height={136}
@@ -203,7 +205,15 @@ export default async function CollaboratePage({ searchParams }: PageProps<"/cola
             correo al responsable del proyecto, que la contrasta antes de incorporarla al atlas citando la fuente. No se
             guarda nada en esta web.
           </p>
-          <ContributionForm records={options} preselected={preselected} />
+          {PROPOSALS_KEY ? (
+            <Suspense>
+              <ContributionForm records={options} />
+            </Suspense>
+          ) : (
+            <p className="border-l-4 border-warning bg-card p-4 text-ink-soft" role="status">
+              El envío de propuestas no está disponible en este momento.
+            </p>
+          )}
         </Section>
       </div>
     </>

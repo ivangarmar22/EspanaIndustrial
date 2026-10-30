@@ -103,7 +103,7 @@ export function itemPlace(i: Pick<IndexItem, "municipality" | "provinceCode">): 
 }
 
 /** Matching items ordered by relevance: name prefix, then a word of the name, then any indexed text. */
-export function searchItems<T extends IndexItem>(items: T[], q: string, limit: number): T[] {
+export function searchItems<T extends Pick<IndexItem, "name" | "search">>(items: T[], q: string, limit: number): T[] {
   const needle = normalizeText(q);
   const rank = (i: T) => {
     const name = normalizeText(i.name);

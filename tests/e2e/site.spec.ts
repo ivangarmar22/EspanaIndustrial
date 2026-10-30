@@ -67,7 +67,7 @@ test("map loads tiles, filters update results and selection opens a summary", as
   expect(page.url()).toContain("sel=");
 });
 
-test("contribution form validates on the server and explains errors", async ({ page }) => {
+test("contribution form validates and explains errors", async ({ page }) => {
   await page.goto("/colabora");
   await page.waitForTimeout(4500); // anti-bot minimum fill time
   await page.getByRole("button", { name: "Enviar propuesta" }).click();

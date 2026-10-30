@@ -1,6 +1,8 @@
 import { getCatalog } from "@/data-access/catalog";
 
-/** Public JSON download of the published catalogue (withdrawn records excluded). */
+export const dynamic = "force-static";
+
+/** Public JSON download of the published catalogue (withdrawn records excluded), written as a static file. */
 export async function GET() {
   const catalog = await getCatalog();
   const body = {
@@ -10,10 +12,5 @@ export async function GET() {
       "Origen de los datos: Ministerio de Cultura (IPCE, Plan Nacional de Patrimonio Industrial); CartoCiudad © IGN (CC BY 4.0); Wikidata (CC0). Imágenes: licencia individual indicada en cada una.",
     records: catalog.records.filter((r) => r.editorial.published),
   };
-  return Response.json(body, {
-    headers: {
-      "Content-Disposition": 'inline; filename="espana-industrial-catalogo.json"',
-      "Cache-Control": "public, max-age=300",
-    },
-  });
+  return Response.json(body);
 }

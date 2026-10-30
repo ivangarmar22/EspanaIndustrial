@@ -67,7 +67,7 @@ El conjunto ferroviario de `/ferrocarril` sí incorpora datos de OpenStreetMap (
 ## 6. Contribuciones del público
 
 - El formulario exige declarar que la persona es autora del texto o la fotografía, o que tiene derecho a cederlos, y aceptar su publicación bajo **CC BY-SA 4.0** (fotos y textos) si se incorpora al atlas.
-- La propuesta se envía por correo al responsable y la web no la guarda. El correo de contacto es **opcional** y se usa solo para resolver la propuesta. Se informa en la política de privacidad.
+- La propuesta se envía por correo al responsable a través de Web3Forms y la web no la guarda. Las fotografías se aportan como enlaces públicos (Drive, Commons…), no como archivos. El correo de contacto es **opcional** y se usa solo para resolver la propuesta. Se informa en la política de privacidad.
 - Ninguna contribución se publica sin revisión: el responsable la incorpora a mano, con su fuente, en la capa editorial.
 
 ## 7. Contenidos que no se copian

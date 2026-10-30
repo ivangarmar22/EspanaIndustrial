@@ -12,6 +12,7 @@ import { CategoryGlyph } from "@/components/category";
 import { RecordVisual } from "@/components/record-visual";
 import { SearchBox } from "@/components/search-box";
 import { DotMap } from "@/features/home/dot-map";
+import { withBase } from "@/lib/base-path";
 import { formatNumber } from "@/lib/format";
 
 export const metadata: Metadata = { alternates: { canonical: "/" } };
@@ -153,7 +154,7 @@ export default async function HomePage() {
             <article className="group relative">
               <div className="relative aspect-[16/10] overflow-hidden bg-paper-deep">
                 <Image
-                  src={lead.image!.src}
+                  src={withBase(lead.image!.src)}
                   alt={lead.image!.alt}
                   fill
                   sizes="(min-width: 1024px) 58vw, 100vw"

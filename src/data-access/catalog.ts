@@ -62,10 +62,6 @@ export async function getRecordBySlug(
   return moved ? { record: moved, redirectTo: moved.slug } : undefined;
 }
 
-export async function getRecordById(id: string): Promise<HeritageRecord | undefined> {
-  return (await getCatalog()).records.find((r) => r.id === id);
-}
-
 export async function getRecordsByExternalCodes(codes: string[]): Promise<HeritageRecord[]> {
   const byCode = new Map((await getPublishedRecords()).map((r) => [r.externalIds.ipce, r]));
   return codes.flatMap((c) => (byCode.has(c) ? [byCode.get(c)!] : []));

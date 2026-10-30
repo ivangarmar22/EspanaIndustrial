@@ -7,6 +7,8 @@ import { CATEGORIES } from "@/domain/categories";
 import { LINE_PAGE_MIN_STATIONS } from "@/domain/rail";
 import { REGIONS } from "@/domain/territory";
 
+export const dynamic = "force-static";
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [records, collections, routes, rail] = await Promise.all([
     getPublishedRecords(),

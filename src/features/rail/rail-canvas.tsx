@@ -7,6 +7,7 @@ import type { GeoJSONSource, Map as MlMap } from "maplibre-gl";
 import type { RailStation, TrackKind } from "@/domain/rail";
 import { basemapStyle } from "@/features/map/basemap-style";
 import { loadMaplibre } from "@/features/map/load-maplibre";
+import { withBase } from "@/lib/base-path";
 
 /** Colours validated with the dataviz checker; dash patterns are the secondary encoding. */
 export const TRACK_STYLE: Record<TrackKind, { color: string; width: number; dash?: [number, number] }> = {
@@ -86,7 +87,7 @@ export function RailCanvas({ stations, selectedId, onSelect, kinds, frame, ariaL
 
       map.on("load", () => {
         if (!map) return;
-        map.addSource("tracks", { type: "geojson", data: "/data/rail-tracks.geojson" });
+        map.addSource("tracks", { type: "geojson", data: withBase("/data/rail-tracks.geojson") });
         for (const [kind, s] of Object.entries(TRACK_STYLE)) {
           map.addLayer({
             id: `track-${kind}`,

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { CategoryFamilyId } from "@/domain/categories";
 import { getFamily } from "@/domain/categories";
+import { withBase } from "@/lib/base-path";
 import { formatCoordinates } from "@/lib/geo";
 import { FAMILY_CLASSES } from "./category";
 
@@ -21,7 +22,14 @@ export function RecordVisual({ image, family, point, className = "aspect-[4/3]",
   if (image) {
     return (
       <div className={`relative overflow-hidden bg-paper-deep ${className}`}>
-        <Image src={image.src} alt={image.alt} fill sizes={sizes} priority={priority} className="object-cover" />
+        <Image
+          src={withBase(image.src)}
+          alt={image.alt}
+          fill
+          sizes={sizes}
+          priority={priority}
+          className="object-cover"
+        />
       </div>
     );
   }

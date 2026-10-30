@@ -16,18 +16,16 @@ export default defineConfig({
     { name: "mobile", use: { ...devices["Pixel 7"] } },
   ],
   webServer: {
-    command: `npm run build && npx next start -H 127.0.0.1 -p ${PORT}`,
+    command: "npm run build && npm start",
     url: `http://127.0.0.1:${PORT}`,
     reuseExistingServer: false,
     timeout: 300_000,
     env: {
       NEXT_PUBLIC_SITE_URL: `http://127.0.0.1:${PORT}`,
-      // Unreachable SMTP: enough to render the form; the validation test never sends.
-      SMTP_HOST: "127.0.0.1",
-      SMTP_PORT: "2525",
-      SMTP_USER: "e2e",
-      SMTP_PASS: "e2e",
-      CONTACT_TO: "e2e@example.invalid",
+      PORT: String(PORT),
+      NEXT_PUBLIC_BASE_PATH: "",
+      // Any key renders the form; the validation test never reaches Web3Forms.
+      NEXT_PUBLIC_WEB3FORMS_KEY: "e2e-test-key",
     },
   },
 });

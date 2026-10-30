@@ -1,5 +1,6 @@
 "use client";
 
+import Form from "next/form";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
@@ -54,7 +55,7 @@ export function MobileNav() {
           id="mobile-menu"
           className="fixed inset-x-0 top-16 bottom-0 z-50 overflow-y-auto border-t border-rule bg-paper"
         >
-          <form action="/catalogo" role="search" className="border-b border-rule p-4">
+          <Form action="/catalogo" role="search" className="border-b border-rule p-4">
             <label htmlFor="mobile-search" className="signage mb-2 block text-iron">
               Buscar en el catálogo
             </label>
@@ -71,7 +72,7 @@ export function MobileNav() {
                 className="ctl search-input h-12 pl-11 text-base"
               />
             </div>
-          </form>
+          </Form>
           <nav aria-label="Principal (móvil)">
             <ul>
               {MAIN_NAV.map((item) => (

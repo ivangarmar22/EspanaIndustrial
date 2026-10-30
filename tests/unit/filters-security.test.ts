@@ -1,9 +1,9 @@
-import { afterEach, describe, expect, it } from "vitest";
+import { describe, expect, it } from "vitest";
 import { filtersToParams, parseFilters } from "@/domain/filters-url";
 import { applyFilters, matchesQuery, type IndexItem } from "@/domain/index-item";
 import { normalizeText } from "@/lib/text";
 import { HttpClient, InvalidResponseError, SourceUnavailableError } from "@/pipeline/http";
-import { isMailConfigured } from "@/server/mailer";
+import { ContributionInput } from "@/domain/contribution";
 
 const item = (over: Partial<IndexItem>): IndexItem => ({
   id: "ei-00001",
@@ -45,18 +45,28 @@ describe("filters", () => {
   });
 });
 
-describe("proposal mailer", () => {
-  const keys = ["SMTP_HOST", "SMTP_USER", "SMTP_PASS", "CONTACT_TO"] as const;
-  afterEach(() => keys.forEach((k) => delete process.env[k]));
-  it("stays disabled until every SMTP setting is present", () => {
-    expect(isMailConfigured()).toBe(false);
-    process.env.SMTP_HOST = "smtp.example.org";
-    process.env.SMTP_USER = "user";
-    process.env.SMTP_PASS = "  ";
-    process.env.CONTACT_TO = "to@example.org";
-    expect(isMailConfigured()).toBe(false);
-    process.env.SMTP_PASS = "secret";
-    expect(isMailConfigured()).toBe(true);
+describe("contribution form validation", () => {
+  const base = {
+    kind: "photo" as const,
+    recordId: "ei-00001",
+    description: "Fotografías actuales del castillete y de la casa de máquinas.",
+    acceptLicense: true as const,
+    acceptPrivacy: true as const,
+  };
+  it("asks for photo links, then for their author", () => {
+    expect(ContributionInput.safeParse(base).error?.issues[0]?.path).toEqual(["photoLinks"]);
+    const links = {
+      ...base,
+      photoLinks: ["https://drive.google.com/abc", "https://commons.wikimedia.org/wiki/File:X.jpg"].join(
+        String.fromCharCode(10),
+      ),
+    };
+    expect(ContributionInput.safeParse(links).error?.issues[0]?.path).toEqual(["photoAuthor"]);
+    expect(ContributionInput.safeParse({ ...links, photoAuthor: "Ana" }).success).toBe(true);
+  });
+  it("rejects anything that is not a full link", () => {
+    const r = ContributionInput.safeParse({ ...base, photoAuthor: "Ana", photoLinks: "mis fotos en drive" });
+    expect(r.error?.issues[0]?.path).toEqual(["photoLinks"]);
   });
 });
 
