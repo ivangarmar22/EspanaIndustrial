@@ -4,7 +4,17 @@ import path from "node:path";
 import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
-import { ExternalLink, Factory, HeartHandshake, MapPinPlus } from "lucide-react";
+import {
+  Coffee,
+  ExternalLink,
+  Factory,
+  HeartHandshake,
+  Info,
+  MapPinPlus,
+  ScanLine,
+  Smartphone,
+  Wallet,
+} from "lucide-react";
 import { donations, site } from "@/config/site";
 import { getPublishedRecords } from "@/data-access/catalog";
 import { getRegion } from "@/domain/territory";
@@ -48,6 +58,36 @@ function Section({
       </h2>
       <div className="mt-5">{children}</div>
     </section>
+  );
+}
+
+function DonationCard({
+  icon,
+  label,
+  title,
+  children,
+}: {
+  icon: React.ReactNode;
+  label: string;
+  title: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <article className="flex flex-col rounded-2xl border border-ink bg-card">
+      <header className="flex items-center gap-4 px-5 pt-5">
+        <span
+          className="inline-flex size-11 shrink-0 items-center justify-center rounded-xl border border-rule bg-paper text-rust"
+          aria-hidden="true"
+        >
+          {icon}
+        </span>
+        <div className="flex flex-col gap-1">
+          <span className="signage text-[0.7rem] text-rust">{label}</span>
+          <h3 className="font-display text-2xl leading-none">{title}</h3>
+        </div>
+      </header>
+      <div className="flex flex-1 flex-col justify-end px-5 pt-4 pb-5">{children}</div>
+    </article>
   );
 }
 
@@ -133,60 +173,82 @@ export default async function CollaboratePage() {
             revisión. El acceso será siempre gratuito; las aportaciones voluntarias ayudan a dedicarle más tiempo.
           </p>
           {anyDonation ? (
-            <div className="mt-6 grid gap-4 sm:grid-cols-2">
-              {donations.paypal ? (
-                <div className="flex flex-col gap-4 rounded-2xl border border-ink bg-card p-5 sm:flex-row sm:items-center">
-                  <div className="flex flex-1 flex-col gap-2">
-                    <span className="signage text-rust">PayPal</span>
-                    <span className="font-display text-2xl">Donar con PayPal</span>
+            <>
+              <div className="mt-6 grid gap-4 md:grid-cols-2">
+                {donations.paypal ? (
+                  <DonationCard
+                    icon={<Wallet className="size-5" strokeWidth={1.75} />}
+                    label="PayPal"
+                    title="Donar con PayPal"
+                  >
+                    <div className="flex items-end gap-5">
+                      <div className="flex flex-1 flex-col gap-4">
+                        <p className="text-ink-soft">Tú eliges la cantidad, con tu cuenta de PayPal.</p>
+                        <a
+                          href={donations.paypal}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex min-h-12 items-center justify-center gap-2 self-start rounded-full bg-rust px-6 font-medium text-paper no-underline shadow-[inset_0_1px_0_rgba(255,236,220,0.3),0_4px_10px_-4px_rgba(122,50,22,0.6)] hover:bg-rust-deep max-sm:self-stretch"
+                        >
+                          Abrir PayPal <ExternalLink className="size-4" aria-hidden="true" />
+                        </a>
+                      </div>
+                      {hasPaypalQr ? (
+                        // Scanning only makes sense from a computer, so the code is hidden on phones.
+                        <figure className="hidden shrink-0 text-center sm:block">
+                          <Image
+                            src={withBase(PAYPAL_QR)}
+                            alt="Código QR para donar con PayPal"
+                            width={112}
+                            height={112}
+                            className="rounded-xl border border-rule bg-white p-1.5"
+                          />
+                          <figcaption className="signage mt-2 flex items-center justify-center gap-1 text-[0.65rem] text-iron">
+                            <ScanLine className="size-3" aria-hidden="true" /> Escanea con el móvil
+                          </figcaption>
+                        </figure>
+                      ) : null}
+                    </div>
+                  </DonationCard>
+                ) : null}
+                {donations.kofi ? (
+                  <DonationCard
+                    icon={<Coffee className="size-5" strokeWidth={1.75} />}
+                    label="Ko-fi"
+                    title="Invítanos a un café"
+                  >
                     <a
-                      href={donations.paypal}
+                      href={donations.kofi}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="mt-1 inline-flex min-h-11 items-center justify-center gap-2 self-start rounded-full bg-rust px-5 text-paper no-underline hover:bg-rust-deep"
+                      className="inline-flex min-h-12 items-center justify-center gap-2 self-start rounded-full bg-rust px-6 font-medium text-paper no-underline hover:bg-rust-deep max-sm:self-stretch"
                     >
-                      Abrir PayPal <ExternalLink className="size-4" aria-hidden="true" />
+                      Abrir Ko-fi <ExternalLink className="size-4" aria-hidden="true" />
                     </a>
-                  </div>
-                  {hasPaypalQr ? (
-                    <Image
-                      src={withBase(PAYPAL_QR)}
-                      alt="Código QR para donar con PayPal"
-                      width={136}
-                      height={136}
-                      className="hidden rounded-xl border border-rule bg-white p-2 sm:block"
-                    />
-                  ) : null}
-                </div>
-              ) : null}
-              {donations.kofi ? (
-                <a
-                  href={donations.kofi}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex flex-col gap-2 rounded-2xl border border-ink bg-card p-5 text-ink no-underline hover:bg-paper-deep"
-                >
-                  <span className="signage text-rust">Ko-fi</span>
-                  <span className="font-display text-2xl">Invítanos a un café</span>
-                  <span className="inline-flex items-center gap-1.5 text-sm text-ink-soft">
-                    Abre Ko-fi en una pestaña nueva <ExternalLink className="size-3.5" aria-hidden="true" />
-                  </span>
-                </a>
-              ) : null}
-              {donations.bizum ? (
-                <div className="flex flex-col gap-2 rounded-2xl border border-ink bg-card p-5">
-                  <span className="signage text-rust">Bizum</span>
-                  <span className="font-display text-2xl">Envía un Bizum</span>
-                  <span className="font-mono text-xl tracking-wide">
-                    {donations.bizum.replace(/^(\d{3})(\d{3})(\d{3})$/, "$1 $2 $3")}
-                  </span>
-                  <span className="text-sm text-ink-soft">Indica «España Industrial» en el concepto.</span>
-                  <div>
-                    <CopyButton value={donations.bizum.replace(/\s+/g, "")} label="Copiar número" />
-                  </div>
-                </div>
-              ) : null}
-            </div>
+                  </DonationCard>
+                ) : null}
+                {donations.bizum ? (
+                  <DonationCard
+                    icon={<Smartphone className="size-5" strokeWidth={1.75} />}
+                    label="Bizum"
+                    title="Envía un Bizum"
+                  >
+                    <div className="flex flex-col gap-4">
+                      <p className="text-ink-soft">
+                        Desde la app de tu banco, con el concepto{" "}
+                        <strong className="font-semibold text-ink">«España Industrial»</strong>, a este número:
+                      </p>
+                      <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-dashed border-rule-strong bg-paper py-3 pr-3 pl-4">
+                        <span className="font-mono text-xl tracking-wide whitespace-nowrap text-ink sm:text-2xl sm:tracking-wider">
+                          {donations.bizum.replace(/^(\d{3})(\d{3})(\d{3})$/, "$1 $2 $3")}
+                        </span>
+                        <CopyButton value={donations.bizum.replace(/\s+/g, "")} label="Copiar" />
+                      </div>
+                    </div>
+                  </DonationCard>
+                ) : null}
+              </div>
+            </>
           ) : (
             <p className="mt-6 border-l-4 border-rule-strong bg-card p-4 text-ink-soft">
               Las formas de donar se publicarán aquí próximamente. Mientras tanto, puedes ayudar proponiendo lugares o
