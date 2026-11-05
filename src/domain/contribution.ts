@@ -36,7 +36,7 @@ export const ContributionInput = z
     contactName: z.string().trim().max(120).optional(),
     contactEmail: z.email("El correo no parece válido.").max(200).optional(),
     acceptLicense: z.literal(true, { error: "Debes aceptar las condiciones de publicación." }),
-    acceptPrivacy: z.literal(true, { error: "Debes aceptar la política de privacidad." }),
+    acceptPrivacy: z.literal(true, { error: "Necesitamos tu consentimiento para gestionar la propuesta." }),
   })
   .superRefine((v, ctx) => {
     if (v.kind === "new-element" && !v.elementName)

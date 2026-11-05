@@ -63,7 +63,10 @@ export default async function RailLinePage({ params }: PageProps<"/ferrocarril/l
             <span>
               Hay Vías Verdes junto a estaciones de esta línea. En OpenStreetMap figuran como{" "}
               <strong className="font-semibold">{line.greenways.join(", ")}</strong>. Consulta su estado oficial en{" "}
-              <a href="https://www.viasverdes.com/">viasverdes.com</a>.
+              <a href="https://www.viasverdes.com/" target="_blank" rel="noopener noreferrer">
+                viasverdes.com
+              </a>
+              .
             </span>
           </p>
         ) : null}
@@ -102,7 +105,9 @@ export default async function RailLinePage({ params }: PageProps<"/ferrocarril/l
                   {stations.map((s) => (
                     <tr key={s.id} className="border-b border-rule align-top">
                       <th scope="row" className="py-2 pr-3 font-normal">
-                        <a href={`https://www.wikidata.org/wiki/${s.id}`}>{s.name}</a>
+                        <a href={`https://www.wikidata.org/wiki/${s.id}`} target="_blank" rel="noopener noreferrer">
+                          {s.name}
+                        </a>
                       </th>
                       <td className="py-2 pr-3 text-ink-soft">
                         {[s.municipality, s.provinceCode ? getProvince(s.provinceCode)?.name : undefined]

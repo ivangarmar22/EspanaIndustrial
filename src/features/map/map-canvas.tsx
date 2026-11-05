@@ -23,8 +23,8 @@ interface Props {
   base: BaseLayer;
   initialView?: MapView;
   onViewChange?: (v: MapView) => void;
-  /** Change this value to fly to a point (e.g. "Canarias" shortcut). */
-  flyTo?: MapView & { key: number };
+  /** Change this value to fly to a view, or back to the Peninsula ("Canarias" ⇄ "Península" shortcut). */
+  flyTo?: (MapView | { peninsula: true }) & { key: number };
   ariaLabel: string;
 }
 
@@ -236,7 +236,10 @@ export function MapCanvas({ items, selectedId, onSelect, base, initialView, onVi
   }, [base, ready]);
 
   useEffect(() => {
-    if (ready && flyTo) mapRef.current?.flyTo({ center: [flyTo.lon, flyTo.lat], zoom: flyTo.zoom });
+    const map = mapRef.current;
+    if (!ready || !map || !flyTo) return;
+    if ("peninsula" in flyTo) map.fitBounds(PENINSULA_BOUNDS, { padding: 24 });
+    else map.flyTo({ center: [flyTo.lon, flyTo.lat], zoom: flyTo.zoom });
   }, [flyTo, ready]);
 
   return (

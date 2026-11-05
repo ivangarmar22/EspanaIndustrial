@@ -443,7 +443,11 @@ export function RailExplorer({
             </div>
             <div className="min-h-0 flex-1 overflow-y-auto p-4">{panel("rm")}</div>
             <div className="border-t border-rule p-3">
-              <button type="button" onClick={() => setSheetOpen(false)} className="min-h-12 w-full bg-rust text-paper">
+              <button
+                type="button"
+                onClick={() => setSheetOpen(false)}
+                className="min-h-12 w-full rounded-full bg-rust text-paper hover:bg-rust-deep"
+              >
                 Ver {formatNumber(stations.length)} estaciones
               </button>
             </div>

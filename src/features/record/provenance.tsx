@@ -19,7 +19,7 @@ export function Cite({ src }: { src: string[] }) {
       {src.map((s, i) => (
         <span key={s}>
           {i > 0 ? ", " : ""}
-          <a href={`#fuente-${s}`} className="text-iron hover:text-ink">
+          <a href={`#fuente-${s}`} className="text-iron no-underline hover:text-ink hover:underline">
             {sourceShortLabel(s)}
           </a>
         </span>
@@ -119,20 +119,20 @@ export function SourcesTable({ record }: { record: HeritageRecord }) {
             )}
           </p>
           {s.organization ? <p className="text-sm text-ink-soft">{s.organization}</p> : null}
-          <dl className="mt-2 grid gap-x-6 gap-y-1 text-sm text-ink-soft sm:grid-cols-[10rem_1fr]">
-            <dt className="text-iron">Datos que aporta</dt>
+          <dl className="mt-2 grid gap-x-6 gap-y-1 text-sm text-ink-soft sm:grid-cols-[10rem_1fr] [&_dt]:text-iron max-sm:[&_dt]:mt-2 max-sm:[&_dt]:text-[0.66rem] max-sm:[&_dt]:font-semibold max-sm:[&_dt]:tracking-[0.08em] max-sm:[&_dt]:uppercase">
+            <dt>Datos que aporta</dt>
             <dd>{usage.get(key)?.join(", ") ?? "—"}</dd>
-            <dt className="text-iron">Consultada</dt>
+            <dt>Consultada</dt>
             <dd>{formatDate(s.retrievedAt)} (fecha de descarga, no de verificación)</dd>
-            <dt className="text-iron">Método</dt>
+            <dt>Método</dt>
             <dd>{METHOD_LABELS[s.method]}</dd>
-            <dt className="text-iron">Revisión</dt>
+            <dt>Revisión</dt>
             <dd>{REVIEW_LABELS[s.review]}</dd>
-            <dt className="text-iron">Licencia</dt>
+            <dt>Licencia</dt>
             <dd>{s.license}</dd>
             {s.note ? (
               <>
-                <dt className="text-iron">Nota</dt>
+                <dt>Nota</dt>
                 <dd>{s.note}</dd>
               </>
             ) : null}

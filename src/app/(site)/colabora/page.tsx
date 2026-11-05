@@ -8,6 +8,7 @@ import { Coffee, ExternalLink, Factory, HeartHandshake, MapPinPlus, ScanLine, Sm
 import { donations, site } from "@/config/site";
 import { getPublishedRecords } from "@/data-access/catalog";
 import { getRegion } from "@/domain/territory";
+import { DocBody, DocSection } from "@/components/doc-section";
 import { PageHeader } from "@/components/page-header";
 import { ContributionForm } from "@/features/contributions/contribution-form";
 import { CopyButton } from "@/features/contributions/copy-button";
@@ -22,34 +23,6 @@ export const metadata: Metadata = {
 
 const PAYPAL_QR = "/donate/paypal-qr.png";
 const hasPaypalQr = existsSync(path.join(process.cwd(), "public", PAYPAL_QR));
-
-function Section({
-  id,
-  icon,
-  title,
-  children,
-}: {
-  id: string;
-  icon: React.ReactNode;
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <section id={id} aria-labelledby={`${id}-t`} className="scroll-mt-24 border-t border-ink pt-8">
-      <h2 id={`${id}-t`} className="flex items-center gap-4 font-display text-3xl">
-        {/* Same cast-iron plate finish as the brand mark. */}
-        <span
-          className="relative inline-flex size-12 shrink-0 items-center justify-center rounded-xl bg-[linear-gradient(160deg,#c25d2d,#9e4320_55%,#7a3216)] text-[#fdf6ec] shadow-[inset_0_1px_0_rgba(255,236,220,0.45),inset_0_-2px_0_rgba(59,23,9,0.35),0_6px_14px_-6px_rgba(122,50,22,0.6)] ring-1 ring-[#5c240e]/50 [&_svg]:drop-shadow-[0_1px_0_rgba(59,23,9,0.55)]"
-          aria-hidden="true"
-        >
-          {icon}
-        </span>
-        {title}
-      </h2>
-      <div className="mt-5">{children}</div>
-    </section>
-  );
-}
 
 function DonationCard({
   icon,
@@ -124,8 +97,8 @@ export default async function CollaboratePage() {
         </nav>
       </PageHeader>
 
-      <div className="mx-auto max-w-4xl space-y-16 px-4 sm:px-6">
-        <Section id="proyecto" icon={<Factory className="size-6" strokeWidth={1.8} />} title="El proyecto">
+      <DocBody>
+        <DocSection id="proyecto" icon={<Factory className="size-6" strokeWidth={1.8} />} title="El proyecto">
           <div className="prose-ei space-y-4">
             <blockquote className="border-l-2 border-rust pl-5 font-display text-xl text-ink italic">
               «Se entiende por patrimonio industrial el conjunto de los bienes muebles, inmuebles y sistemas de
@@ -155,9 +128,9 @@ export default async function CollaboratePage() {
               reutilizarlos.
             </p>
           </div>
-        </Section>
+        </DocSection>
 
-        <Section id="apoya" icon={<HeartHandshake className="size-6" strokeWidth={1.8} />} title="Apoya el proyecto">
+        <DocSection id="apoya" icon={<HeartHandshake className="size-6" strokeWidth={1.8} />} title="Apoya el proyecto">
           <p className="prose-ei">
             Mantener el atlas tiene costes de alojamiento, dominio y, sobre todo, muchas horas de investigación y
             revisión. El acceso será siempre gratuito; las aportaciones voluntarias ayudan a dedicarle más tiempo.
@@ -191,6 +164,7 @@ export default async function CollaboratePage() {
                             alt="Código QR para donar con PayPal"
                             width={112}
                             height={112}
+                            unoptimized
                             className="rounded-xl border border-rule bg-white p-1.5"
                           />
                           <figcaption className="signage mt-2 flex items-center justify-center gap-1 text-[0.65rem] text-iron">
@@ -245,9 +219,9 @@ export default async function CollaboratePage() {
               difundiendo el proyecto.
             </p>
           )}
-        </Section>
+        </DocSection>
 
-        <Section
+        <DocSection
           id="proponer"
           icon={<MapPinPlus className="size-6" strokeWidth={1.8} />}
           title="Propón un lugar o una corrección"
@@ -266,8 +240,8 @@ export default async function CollaboratePage() {
               El envío de propuestas no está disponible en este momento.
             </p>
           )}
-        </Section>
-      </div>
+        </DocSection>
+      </DocBody>
     </>
   );
 }

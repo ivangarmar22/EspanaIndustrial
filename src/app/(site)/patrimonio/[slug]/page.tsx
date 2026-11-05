@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound, permanentRedirect } from "next/navigation";
+import { notFound } from "next/navigation";
 import { AlertTriangle } from "lucide-react";
-import { absoluteUrl, site } from "@/config/site";
+import { DEFAULT_SOCIAL_IMAGE, absoluteUrl, site } from "@/config/site";
 import { getIndexItems, getPublishedRecords, getRecordBySlug } from "@/data-access/catalog";
 import { getFamily, getSubcategory } from "@/domain/categories";
 import { formatHistoricalDate } from "@/domain/dates";
@@ -18,10 +18,13 @@ import { HistoricalCompare } from "@/features/record/historical-compare";
 import { LocatorMap } from "@/features/record/locator-map";
 import { Alternatives, Cite, SourcesTable } from "@/features/record/provenance";
 import { RecordActions } from "@/features/record/record-actions";
+import { withBase } from "@/lib/base-path";
 import { formatKm, formatNumber } from "@/lib/format";
+import { socialImagePath } from "@/lib/media";
 
+// Former slugs (after a rename) get a page that forwards to the current one.
 export async function generateStaticParams() {
-  return (await getPublishedRecords()).map((r) => ({ slug: r.slug }));
+  return (await getPublishedRecords()).flatMap((r) => [r.slug, ...(r.previousSlugs ?? [])].map((slug) => ({ slug })));
 }
 
 const periodText = (p: Period) =>
@@ -43,6 +46,8 @@ export async function generateMetadata({ params }: PageProps<"/patrimonio/[slug]
   const found = await getRecordBySlug(slug);
   if (!found) return { title: "Elemento no encontrado" };
   const r = found.record;
+  if (found.redirectTo)
+    return { title: r.name.value, robots: { index: false }, alternates: { canonical: `/patrimonio/${r.slug}` } };
   const fam = getFamily(r.category.family);
   const description = (r.summary?.value ?? `${fam.label} en ${placeLine(r)}.`).slice(0, 158);
   const img = r.images?.find((i) => i.localPath);
@@ -55,9 +60,9 @@ export async function generateMetadata({ params }: PageProps<"/patrimonio/[slug]
       description,
       url: `/patrimonio/${r.slug}`,
       type: "article",
-      ...(img?.localPath
-        ? { images: [{ url: img.localPath, width: img.width, height: img.height, alt: img.alt }] }
-        : {}),
+      images: [
+        img?.localPath ? { url: absoluteUrl(socialImagePath(img.localPath)), alt: img.alt } : DEFAULT_SOCIAL_IMAGE,
+      ],
     },
   };
 }
@@ -100,8 +105,18 @@ export default async function RecordPage({ params }: PageProps<"/patrimonio/[slu
   const { slug } = await params;
   const found = await getRecordBySlug(slug);
   if (!found) notFound();
-  if (found.redirectTo) permanentRedirect(`/patrimonio/${found.redirectTo}`);
   const r = found.record;
+  if (found.redirectTo) {
+    const target = `/patrimonio/${found.redirectTo}/`;
+    return (
+      <div className="mx-auto max-w-[1440px] px-4 py-24 sm:px-6 lg:px-8">
+        <meta httpEquiv="refresh" content={`0; url=${withBase(target)}`} />
+        <p className="text-lg text-ink-soft">
+          Esta ficha ha cambiado de dirección: <Link href={target}>{r.name.value}</Link>.
+        </p>
+      </div>
+    );
+  }
 
   const family = getFamily(r.category.family);
   const sub = getSubcategory(r.category.family, r.category.sub);
@@ -146,7 +161,7 @@ export default async function RecordPage({ params }: PageProps<"/patrimonio/[slu
       ...(r.location.municipality ? { addressLocality: r.location.municipality.value.name } : {}),
       ...(province ? { addressRegion: province.name } : {}),
     },
-    ...(image?.localPath ? { image: absoluteUrl(image.localPath) } : {}),
+    ...(image?.localPath ? { image: absoluteUrl(socialImagePath(image.localPath)) } : {}),
     ...(r.externalIds.wikidata ? { sameAs: [`https://www.wikidata.org/wiki/${r.externalIds.wikidata}`] } : {}),
   };
 
@@ -194,7 +209,7 @@ export default async function RecordPage({ params }: PageProps<"/patrimonio/[slu
             ))}
           </p>
           <div className="mt-6">
-            <RecordActions id={r.id} slug={r.slug} name={r.name.value} point={point} />
+            <RecordActions slug={r.slug} name={r.name.value} point={point} />
           </div>
         </div>
         <figure>

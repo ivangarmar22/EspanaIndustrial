@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Archivo, IBM_Plex_Mono, Newsreader } from "next/font/google";
-import { site } from "@/config/site";
+import { DEFAULT_SOCIAL_IMAGE, absoluteUrl, site } from "@/config/site";
 import "./globals.css";
 
 const archivo = Archivo({ subsets: ["latin"], axes: ["wdth"], variable: "--font-archivo", display: "swap" });
@@ -22,8 +22,9 @@ export const metadata: Metadata = {
   title: { default: `${site.name}`, template: `%s · ${site.name}` },
   description: site.description,
   applicationName: site.name,
-  openGraph: { type: "website", locale: site.locale, siteName: site.name },
+  openGraph: { type: "website", locale: site.locale, siteName: site.name, images: [DEFAULT_SOCIAL_IMAGE] },
   twitter: { card: "summary_large_image" },
+  icons: { apple: absoluteUrl("/apple-touch-icon.png") },
   formatDetection: { telephone: false },
 };
 

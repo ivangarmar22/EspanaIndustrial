@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { getCatalog, getPublishedRecords } from "@/data-access/catalog";
 import { VALIDATION_LABELS } from "@/domain/labels";
 import { computeStats } from "@/domain/stats";
 import { PageHeader } from "@/components/page-header";
+import { withBase } from "@/lib/base-path";
 import { formatNumber } from "@/lib/format";
 
 export const metadata: Metadata = {
@@ -121,7 +123,7 @@ export default async function SourcesPage() {
               <ul className="mt-3 divide-y divide-rule border-y border-rule">
                 {s.byRegion.map((r) => (
                   <li key={r.code} className="flex justify-between py-2 text-sm">
-                    <a href={`/territorio/${r.slug}`}>{r.name}</a>
+                    <Link href={`/territorio/${r.slug}`}>{r.name}</Link>
                     <span className="font-mono">{formatNumber(r.count)}</span>
                   </li>
                 ))}
@@ -154,8 +156,11 @@ export default async function SourcesPage() {
           <p className="prose-ei mt-8">
             España Industrial es un proyecto independiente y no está afiliado al Ministerio de Cultura, al IGN ni a la
             Fundación Wikimedia. La reutilización de la información del sector público no implica que el organismo
-            titular participe, patrocine o apoye este proyecto. Los datos del catálogo pueden descargarse en formato
-            JSON desde el pie de página bajo licencia{" "}
+            titular participe, patrocine o apoye este proyecto. Los datos del catálogo pueden{" "}
+            <a href={withBase("/datos/catalogo.json")} download>
+              descargarse en formato JSON
+            </a>{" "}
+            bajo licencia{" "}
             <a
               href="https://creativecommons.org/licenses/by/4.0/deed.es"
               rel="license noopener noreferrer"

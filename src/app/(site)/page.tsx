@@ -12,6 +12,7 @@ import { CategoryGlyph } from "@/components/category";
 import { RecordVisual } from "@/components/record-visual";
 import { SearchBox } from "@/components/search-box";
 import { DotMap } from "@/features/home/dot-map";
+import { QuickSearches } from "@/features/home/quick-searches";
 import { withBase } from "@/lib/base-path";
 import { formatNumber } from "@/lib/format";
 
@@ -58,21 +59,10 @@ export default async function HomePage() {
             id="home-search"
             variant="hero"
             label="Buscar un lugar del patrimonio industrial"
-            placeholder="Altos hornos, Riotinto, azucarera, Zaragoza…"
+            placeholder="Riotinto, azucarera, Zaragoza…"
             className="mt-5 max-w-lg"
           />
-          <p className="mt-3 flex flex-wrap items-center gap-1.5 text-sm text-iron">
-            <span className="mr-1">Prueba con</span>
-            {QUICK_SEARCHES.map((q) => (
-              <Link
-                key={q}
-                href={`/catalogo?q=${encodeURIComponent(q)}`}
-                className="rounded-full border border-rule-strong bg-card px-3 py-1 text-ink-soft no-underline hover:border-ink hover:text-ink"
-              >
-                {q}
-              </Link>
-            ))}
-          </p>
+          <QuickSearches terms={QUICK_SEARCHES} />
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/mapa"
@@ -142,6 +132,21 @@ export default async function HomePage() {
               </li>
             );
           })}
+          {/* Eighth cell: completes the 2- and 4-column grids. */}
+          <li className="border-b border-rule">
+            <Link
+              href="/catalogo"
+              className="group flex h-full flex-col justify-between gap-3 p-5 text-ink no-underline hover:bg-card"
+            >
+              <span className="signage text-rust">Todo el atlas</span>
+              <span className="flex items-center gap-2 font-display text-2xl group-hover:underline">
+                Ver el catálogo completo <ArrowRight className="size-5 text-rust" aria-hidden="true" />
+              </span>
+              <span className="text-sm text-ink-soft">
+                {formatNumber(stats.records)} elementos con búsqueda y filtros por territorio, periodo y protección.
+              </span>
+            </Link>
+          </li>
         </ul>
       </section>
 

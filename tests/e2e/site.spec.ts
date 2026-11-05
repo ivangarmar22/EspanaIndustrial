@@ -45,9 +45,15 @@ test("record page shows provenance per field and a working map link", async ({ p
   await expect(page.getByText("Las fuentes no coinciden en algún dato")).toBeVisible();
   const jsonLd = await page.locator('script[type="application/ld+json"]').allTextContents();
   expect(jsonLd.some((j) => j.includes("LandmarksOrHistoricalBuildings"))).toBe(true);
-  await page.getByRole("button", { name: "Guardar" }).click();
-  await expect(page.getByRole("button", { name: "Guardado" })).toBeVisible();
   await expectNoSeriousA11yViolations(page);
+});
+
+test("the published catalogue can be downloaded as JSON", async ({ page, request }) => {
+  await page.goto("/fuentes");
+  const href = await page.getByRole("link", { name: "descargarse en formato JSON" }).getAttribute("href");
+  const res = await request.get(href!);
+  expect(res.ok()).toBe(true);
+  expect((await res.json()).records.length).toBeGreaterThan(100);
 });
 
 test("old or unknown slugs do not break the site", async ({ page }) => {

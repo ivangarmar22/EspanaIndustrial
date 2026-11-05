@@ -15,12 +15,15 @@ export default function NotFound() {
           Puede que la dirección esté mal escrita o que el elemento se haya retirado del catálogo.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
-          <Link href="/catalogo" className="inline-flex min-h-11 items-center bg-ink px-4 text-paper no-underline">
+          <Link
+            href="/catalogo"
+            className="inline-flex min-h-12 items-center rounded-full bg-rust px-6 text-paper no-underline hover:bg-rust-deep"
+          >
             Buscar en el catálogo
           </Link>
           <Link
             href="/mapa"
-            className="inline-flex min-h-11 items-center border border-rule-strong px-4 text-ink no-underline"
+            className="inline-flex min-h-12 items-center rounded-full border border-ink px-6 text-ink no-underline hover:bg-paper-deep"
           >
             Explorar el mapa
           </Link>

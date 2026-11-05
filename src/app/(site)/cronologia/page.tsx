@@ -72,9 +72,9 @@ export default async function ChronologyPage() {
         lead={
           <p>
             Fecha de inicio que recogen las fuentes para {formatNumber(dated.length)} de los{" "}
-            {formatNumber(records.length)} elementos del atlas. {undated} no tienen una cronología interpretable y no
-            aparecen aquí. No es todavía una cronología general de la industrialización española: solo refleja los
-            elementos documentados.
+            {formatNumber(records.length)} elementos del atlas. {formatNumber(undated)} no tienen una cronología
+            interpretable y no aparecen aquí. No es todavía una cronología general de la industrialización española:
+            solo refleja los elementos documentados.
           </p>
         }
       />

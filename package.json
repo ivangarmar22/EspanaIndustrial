@@ -9,9 +9,9 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "predev": "node scripts/maintenance/copy-maplibre-worker.mjs",
+    "predev": "node scripts/maintenance/copy-maplibre-worker.mjs && tsx scripts/maintenance/optimize-media.ts",
     "dev": "next dev -H 127.0.0.1",
-    "prebuild": "node scripts/maintenance/copy-maplibre-worker.mjs",
+    "prebuild": "node scripts/maintenance/copy-maplibre-worker.mjs && tsx scripts/maintenance/optimize-media.ts",
     "build": "next build",
     "start": "node scripts/maintenance/serve-static.mjs",
     "lint": "eslint .",
@@ -29,14 +29,16 @@
     "data:duplicates": "tsx scripts/data/duplicates.ts",
     "data:diff": "tsx scripts/data/diff.ts",
     "data:media": "tsx scripts/data/media.ts",
+    "media:optimize": "tsx scripts/maintenance/optimize-media.ts",
     "data:rail": "tsx scripts/data/rail.ts",
     "data:links": "tsx scripts/data/check-links.ts",
-    "maintenance:outline": "tsx scripts/maintenance/build-outline.ts"
+    "maintenance:outline": "tsx scripts/maintenance/build-outline.ts",
+    "maintenance:favicon": "tsx scripts/maintenance/build-favicon.ts"
   },
   "dependencies": {
-    "lucide-react": "1.65.0",
+    "lucide-react": "1.69.0",
     "maplibre-gl": "6.16.0",
-    "next": "16.4.3",
+    "next": "16.4.5",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "zod": "4.6.7"
@@ -44,19 +46,20 @@
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",
     "@playwright/test": "1.64.1",
-    "@tailwindcss/postcss": "4.3.3",
+    "@tailwindcss/postcss": "4.3.4",
     "@types/geojson": "7946.0.16",
     "@types/node": "24.19.2",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "eslint": "9.39.5",
-    "eslint-config-next": "16.4.3",
-    "fast-xml-parser": "5.11.2",
+    "eslint-config-next": "16.4.5",
+    "fast-xml-parser": "5.12.0",
     "prettier": "3.9.10",
-    "tailwindcss": "4.3.3",
+    "sharp": "0.35.5",
+    "tailwindcss": "4.3.4",
     "tsx": "4.23.15",
     "typescript": "6.0.3",
     "unpdf": "1.9.1",
-    "vitest": "5.0.5"
+    "vitest": "5.1.0"
   }
 }

@@ -20,14 +20,12 @@
   --color-copper: #a0693a;
   /* Copper for text on carbon backgrounds (≥ 4.5:1 on --color-carbon). */
   --color-copper-light: #d69c66;
-  --color-green: #4c6656;
   --color-carbon: #20201e;
-  --color-carbon-soft: #2c2b28;
   --color-warning: #8a5a00;
   --color-danger: #a12b1f;
   --color-ok: #3f6b4a;
 
-  /* Validated with the dataviz palette checker (adjacent order below). Mining is a
+  /* Checked for contrast and mutual distinction in this order. Mining is a
      deliberate neutral, distinguished by lightness; every marker also carries a glyph. */
   --color-cat-industria: #a6441c;
   --color-cat-mineria: #33312e;
@@ -70,6 +68,12 @@
     hyphens: auto;
     overflow-wrap: break-word;
   }
+  /* Tailwind 4 gives buttons the default arrow; every clickable control shows the hand. */
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  summary {
+    cursor: pointer;
+  }
   ::selection {
     background: color-mix(in srgb, var(--color-rust) 22%, transparent);
   }
@@ -77,9 +81,16 @@
     outline: 2px solid var(--color-rust);
     outline-offset: 2px;
   }
+  /* Text links are underlined in rust; cards, menus and buttons opt out with no-underline. */
   a {
+    text-decoration-line: underline;
+    text-decoration-color: color-mix(in srgb, var(--color-rust) 55%, transparent);
     text-underline-offset: 0.18em;
     text-decoration-thickness: 1px;
+    transition: text-decoration-color 0.15s;
+  }
+  a:hover {
+    text-decoration-color: currentColor;
   }
   @media (prefers-reduced-motion: reduce) {
     *,

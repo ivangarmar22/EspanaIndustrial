@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="https://ivangarmar22.github.io/EspanaIndustrial/"><strong>🌐 Ver la web</strong></a> ·
+  <a href="https://xn--espaaindustrial-1qb.es/"><strong>🌐 españaindustrial.es</strong></a> ·
   <a href="#qué-ofrece">Qué ofrece</a> ·
   <a href="#puesta-en-marcha">Puesta en marcha</a> ·
   <a href="#cómo-funcionan-los-datos">Datos</a> ·
@@ -100,7 +100,8 @@ El catálogo publicado (`data/catalog/catalog.json`), los datos intermedios (`da
 | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
 | `NEXT_PUBLIC_SITE_URL`                                                               | URL base para enlaces canónicos, sitemap y Open Graph.                                             |
 | `NEXT_PUBLIC_WEB3FORMS_KEY`                                                          | Clave de [Web3Forms](https://web3forms.com/) para que las propuestas lleguen por correo.           |
-| `NEXT_PUBLIC_BASE_PATH`                                                              | Subruta de publicación (`/EspanaIndustrial` en GitHub Pages; vacía en local).                      |
+| `NEXT_PUBLIC_BASE_PATH`                                                              | Subruta de publicación (`/EspanaIndustrial` en github.io; vacía en local y con dominio propio).    |
+| `NEXT_PUBLIC_OWNER_NAME` · `NEXT_PUBLIC_CONTACT_EMAIL`                               | Responsable y contacto que muestran el aviso legal y la política de privacidad.                    |
 | `NEXT_PUBLIC_DONATE_PAYPAL` · `NEXT_PUBLIC_DONATE_KOFI` · `NEXT_PUBLIC_DONATE_BIZUM` | Canales de donación de «Colabora»; solo se muestran los configurados.                              |
 | `DATA_CONTACT`                                                                       | Contacto incluido en el User-Agent de las peticiones del pipeline (por defecto, este repositorio). |
 
@@ -125,9 +126,11 @@ Los secretos nunca se versionan: `.env*` está en `.gitignore` salvo `.env.examp
 | `npm run data:diff`                     | Muestra la actualización pendiente de aprobación frente a lo publicado.                                                            |
 | `npm run data:duplicates`               | Lista los posibles duplicados sin decidir.                                                                                         |
 | `npm run data:media`                    | Descarga las miniaturas de Commons (nunca se enlazan en caliente).                                                                 |
+| `npm run media:optimize`                | Crea las copias WebP por tamaño y las JPEG para compartir (se ejecuta solo antes de `dev` y `build`).                              |
 | `npm run data:rail`                     | Conjunto ferroviario (Wikidata y OpenStreetMap). `--keep-osm` reutiliza la última descarga de Overpass; `--offline` no usa la red. |
 | `npm run data:links`                    | Comprueba los enlaces externos con peticiones espaciadas.                                                                          |
 | `npm run maintenance:outline`           | Regenera la cartografía del mapa de la portada a partir de Natural Earth.                                                          |
+| `npm run maintenance:favicon`           | Regenera `favicon.ico` a partir de los dibujos de 16, 24 y 32 px de `scripts/maintenance/favicon/`.                                |
 
 </details>
 
@@ -153,9 +156,9 @@ flowchart LR
 <summary><strong>Estructura del repositorio</strong></summary>
 
 ```
-src/app/           Rutas (App Router): (site) web editorial, (map) mapa a pantalla completa, api
+src/app/           Rutas (App Router): (site) web editorial, (map) mapa a pantalla completa, datos (JSON descargables)
 src/components/    Componentes de presentación compartidos
-src/features/      Funcionalidades: map, rail, record, catalog, routes, home, favorites, contributions
+src/features/      Funcionalidades: map, rail, record, catalog, routes, home, contributions
 src/domain/        Esquemas Zod, tipos, vocabularios, territorios, fechas, filtros (sin E/S)
 src/data-access/   Lectura del catálogo, del ferrocarril y del contenido editorial
 src/pipeline/      Conectores, construcción, diff, duplicados, publicación y conjunto ferroviario
@@ -174,7 +177,7 @@ tests/             unit, integration, e2e y fixtures con procedencia documentada
 | Investigación de fuentes | [Catálogo de fuentes](docs/research/source-catalog.md) · [Derechos de reutilización](docs/research/data-rights.md) · [Plan de adquisición](docs/research/data-acquisition-plan.md)                                      |
 | Arquitectura y datos     | [Arquitectura](docs/architecture/overview.md) · [Organización de los datos](docs/data/data-layout.md) · [Política de calidad](docs/data/quality-policy.md) · [Revisión de octubre de 2026](docs/data/review-2026-10.md) |
 | Fuente principal         | [Ministerio de Cultura (IPCE)](docs/data/sources/ministerio-cultura.md)                                                                                                                                                 |
-| Despliegue               | [Publicación en GitHub Pages, ejecución local y actualizaciones](docs/deployment/local.md)                                                                                                                              |
+| Despliegue               | [Publicación, ejecución local y actualizaciones](docs/deployment/local.md) · [Dominio propio (IONOS)](docs/deployment/dominio.md)                                                                                       |
 
 ## Limitaciones conocidas
 

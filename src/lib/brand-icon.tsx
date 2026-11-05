@@ -1,12 +1,8 @@
 import { ImageResponse } from "next/og";
 import { PlateMark } from "@/components/brand";
 
-export const size = { width: 180, height: 180 };
-export const contentType = "image/png";
-export const dynamic = "force-static";
-
-// Apple masks its own rounded corners, so the plate sits on a full-bleed paper background.
-export default function AppleIcon() {
+/** PNG of the full brand plate on a paper background (platforms mask their own corners). */
+export function brandIcon(size: number) {
   return new ImageResponse(
     <div
       style={{
@@ -18,8 +14,8 @@ export default function AppleIcon() {
         justifyContent: "center",
       }}
     >
-      <PlateMark id="apple" size={150} />
+      <PlateMark id="icon" size={Math.round(size * 0.82)} />
     </div>,
-    size,
+    { width: size, height: size },
   );
 }

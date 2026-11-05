@@ -23,6 +23,8 @@ const BASES: Array<{ id: BaseLayer; label: string; ign: boolean }> = [
   { id: "topografico", label: "Topográfico", ign: true },
 ];
 const CANARIAS: MapView = { lat: 28.35, lon: -15.8, zoom: 6.6 };
+/** The map shows the Canary Islands when its centre is south-west of the Peninsula. */
+const isCanarias = (v: MapView | undefined) => !!v && v.lat < 31 && v.lon < -12;
 
 function parseView(v: string | null): MapView | undefined {
   const m = v?.match(/^(-?\d+\.?\d*),(-?\d+\.?\d*),(\d+\.?\d*)$/);
@@ -33,7 +35,7 @@ function parseView(v: string | null): MapView | undefined {
 function PlaceCard({ item, onClose, onZoom }: { item: IndexItem; onClose: () => void; onZoom: () => void }) {
   return (
     <article
-      className="relative overflow-hidden border border-ink bg-card shadow-[0_18px_40px_-18px_rgba(0,0,0,0.55)]"
+      className="relative overflow-hidden rounded-2xl border border-ink bg-card shadow-[0_18px_40px_-18px_rgba(0,0,0,0.55)]"
       aria-label={`Elemento seleccionado: ${item.name}`}
       aria-live="polite"
     >
@@ -62,7 +64,7 @@ function PlaceCard({ item, onClose, onZoom }: { item: IndexItem; onClose: () => 
           <p className="mt-2 flex flex-wrap items-center gap-1.5">
             {item.chronology ? <span className="font-mono text-xs text-iron">{item.chronology}</span> : null}
             {item.protection.map((p) => (
-              <span key={p} className="border border-rule-strong px-1.5 py-0.5 text-[0.7rem] text-ink-soft">
+              <span key={p} className="rounded-full border border-rule-strong px-2 py-0.5 text-[0.7rem] text-ink-soft">
                 {PROTECTION_SHORT[p]}
               </span>
             ))}
@@ -71,14 +73,14 @@ function PlaceCard({ item, onClose, onZoom }: { item: IndexItem; onClose: () => 
         <div className="mt-4 flex gap-2">
           <Link
             href={`/patrimonio/${item.slug}`}
-            className="inline-flex min-h-11 flex-1 items-center justify-center gap-2 bg-rust px-4 text-paper no-underline hover:bg-rust-deep"
+            className="inline-flex min-h-11 flex-1 items-center justify-center gap-2 rounded-full bg-rust px-4 text-paper no-underline hover:bg-rust-deep"
           >
             Abrir la ficha <ArrowRight className="size-4" aria-hidden="true" />
           </Link>
           <button
             type="button"
             onClick={onZoom}
-            className="inline-flex min-h-11 items-center gap-1.5 border border-rule-strong px-3 text-sm hover:border-ink"
+            className="inline-flex min-h-11 items-center gap-1.5 rounded-full border border-rule-strong px-4 text-sm hover:border-ink"
           >
             <ZoomIn className="size-4" aria-hidden="true" /> Acercar
           </button>
@@ -137,7 +139,8 @@ export function MapExplorer({ items: allItems }: { items: IndexItem[] }) {
     return v ?? (sel ? { lat: sel.lat, lon: sel.lon, zoom: 12 } : undefined);
   });
   const [sheetOpen, setSheetOpen] = useState(false);
-  const [flyTo, setFlyTo] = useState<(MapView & { key: number }) | undefined>();
+  const [flyTo, setFlyTo] = useState<React.ComponentProps<typeof MapCanvas>["flyTo"]>();
+  const inCanarias = isCanarias(view);
 
   const options = useMemo(() => buildFilterOptions(allItems), [allItems]);
   const items = useMemo(() => applyFilters(allItems, filters), [allItems, filters]);
@@ -180,7 +183,7 @@ export function MapExplorer({ items: allItems }: { items: IndexItem[] }) {
     <div className="flex items-center gap-2 border-t border-rule bg-paper px-4 py-3">
       <Link
         href={listHref}
-        className="inline-flex min-h-11 flex-1 items-center justify-center gap-2 border border-ink text-sm no-underline hover:bg-paper-deep"
+        className="inline-flex min-h-11 flex-1 items-center justify-center gap-2 rounded-full border border-ink text-sm text-ink no-underline hover:bg-paper-deep"
       >
         <List className="size-4" aria-hidden="true" /> Ver como lista
       </Link>
@@ -245,16 +248,18 @@ export function MapExplorer({ items: allItems }: { items: IndexItem[] }) {
                     className="sr-only"
                   />
                   {b.label}
-                  {b.ign ? <span className="hidden sm:inline"> IGN</span> : null}
+                  {b.ign ? <span className="ml-1 hidden sm:inline">IGN</span> : null}
                 </label>
               ))}
             </fieldset>
             <button
               type="button"
-              onClick={() => setFlyTo({ ...CANARIAS, key: Date.now() })}
+              onClick={() =>
+                setFlyTo(inCanarias ? { peninsula: true, key: Date.now() } : { ...CANARIAS, key: Date.now() })
+              }
               className="inline-flex min-h-10 items-center rounded-full border border-rule-strong bg-card px-3.5 text-sm shadow-sm hover:border-ink"
             >
-              Canarias
+              {inCanarias ? "Península" : "Canarias"}
             </button>
           </div>
           {selected ? (
@@ -329,7 +334,7 @@ export function MapExplorer({ items: allItems }: { items: IndexItem[] }) {
                 <button
                   type="button"
                   onClick={() => setSheetOpen(false)}
-                  className="min-h-12 flex-1 bg-rust text-paper hover:bg-rust-deep"
+                  className="min-h-12 flex-1 rounded-full bg-rust text-paper hover:bg-rust-deep"
                 >
                   Ver {formatNumber(items.length)} en el mapa
                 </button>

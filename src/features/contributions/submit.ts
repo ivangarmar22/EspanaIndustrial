@@ -92,7 +92,7 @@ export async function submitContribution(fd: FormData, records: RecordOption[]):
     Nombre: input.contactName,
     Correo: input.contactEmail,
     Declaración:
-      "Declara ser autor del contenido o tener derecho a cederlo y acepta su publicación bajo CC BY-SA 4.0 si se incorpora al atlas.",
+      "Declara ser autor del contenido o tener derecho a cederlo; acepta publicar el texto bajo CC BY 4.0 y las fotografías bajo CC BY-SA 4.0 con su autoría. Consiente el tratamiento de sus datos según la política de privacidad.",
   };
 
   try {

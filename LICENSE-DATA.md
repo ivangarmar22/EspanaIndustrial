@@ -17,7 +17,7 @@ La licencia CC BY 4.0 se aplica a la selección, estructura y elaboración reali
 | Wikidata                                                                                  | CC0 1.0.                                                                                                                                                                                                                       |
 | **Fotografías de Wikimedia Commons**                                                      | **No se relicencian.** Cada imagen conserva su propia licencia (CC0, dominio público, CC BY o CC BY-SA), indicada junto a ella con su autor y enlace de origen.                                                                |
 | Cartografía base (OpenFreeMap, OpenMapTiles, OpenStreetMap)                               | Se muestra como servicio de mapas; sus datos (ODbL) no forman parte del catálogo (sí del conjunto ferroviario, ver abajo).                                                                                                     |
-| Contribuciones del público aprobadas                                                      | CC BY-SA 4.0, según aceptan quienes las envían.                                                                                                                                                                                |
+| Contribuciones del público aprobadas                                                      | Textos: CC BY 4.0; fotografías: CC BY-SA 4.0 con su autoría, según aceptan quienes las envían.                                                                                                                                 |
 
 ## Conjunto de datos ferroviario (ODbL)
 

@@ -126,7 +126,12 @@ export default async function RailPage() {
                 firme adaptado, señalización y, en muchos casos, túneles iluminados y antiguas estaciones reconvertidas
                 en albergues o cafeterías. El programa lo coordina la Fundación de los Ferrocarriles Españoles, que
                 publica el estado y las características de cada una en{" "}
-                <a href="https://www.viasverdes.com/" className="inline-flex items-center gap-1">
+                <a
+                  href="https://www.viasverdes.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1"
+                >
                   viasverdes.com <ExternalLink className="size-3.5" aria-hidden="true" />
                 </a>
                 .
@@ -184,16 +189,20 @@ export default async function RailPage() {
           </p>
           <p>
             Este conjunto de datos se publica bajo licencia{" "}
-            <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a> por derivar de OpenStreetMap (©
-            colaboradores de OpenStreetMap). Los datos de Wikidata son CC0. Si falta una estación o un dato es
-            incorrecto, lo más útil es corregirlo en Wikidata u OpenStreetMap; también puedes{" "}
+            <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="license noopener noreferrer">
+              ODbL 1.0
+            </a>{" "}
+            por derivar de OpenStreetMap (© colaboradores de OpenStreetMap). Los datos de Wikidata son CC0. Si falta una
+            estación o un dato es incorrecto, lo más útil es corregirlo en Wikidata u OpenStreetMap; también puedes{" "}
             <Link href="/colabora#proponer">avisarnos</Link>.
           </p>
           <ul className="mt-4 list-disc pl-5 text-sm">
             {rail.sources.map((s) => (
               <li key={s.id}>
-                <a href={s.url}>{s.name}</a> · {s.license} · consultado el{" "}
-                {new Date(s.fetchedAt).toLocaleDateString("es-ES", { dateStyle: "long" })}
+                <a href={s.url} target="_blank" rel="noopener noreferrer">
+                  {s.name}
+                </a>{" "}
+                · {s.license} · consultado el {new Date(s.fetchedAt).toLocaleDateString("es-ES", { dateStyle: "long" })}
               </li>
             ))}
           </ul>

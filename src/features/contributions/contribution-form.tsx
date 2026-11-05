@@ -285,8 +285,9 @@ export function ContributionForm({ records }: { records: RecordOption[] }) {
             aria-describedby={describe("acceptLicense")}
           />
           <span>
-            Declaro que el texto y, en su caso, las fotografías son míos o tengo derecho a cederlos, y acepto que se
-            publiquen bajo licencia CC BY-SA 4.0 si se incorporan al atlas.
+            Declaro que el texto y, en su caso, las fotografías son míos o tengo derecho a cederlos. Si se incorporan al
+            atlas, acepto que el texto se publique bajo licencia CC BY 4.0, como el resto del catálogo, y las
+            fotografías bajo CC BY-SA 4.0 con la autoría indicada.
           </span>
         </label>
         <FieldError id="acceptLicense-error" error={err.acceptLicense} />
@@ -299,7 +300,8 @@ export function ContributionForm({ records }: { records: RecordOption[] }) {
             aria-describedby={describe("acceptPrivacy")}
           />
           <span>
-            He leído la <Link href="/privacidad">política de privacidad</Link>.
+            He leído la <Link href="/privacidad">política de privacidad</Link> y consiento el tratamiento de los datos
+            de este formulario para gestionar mi propuesta.
           </span>
         </label>
         <FieldError id="acceptPrivacy-error" error={err.acceptPrivacy} />

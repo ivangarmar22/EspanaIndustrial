@@ -1,5 +1,7 @@
-# Builds the static site and publishes it on GitHub Pages
-# (https://ivangarmar22.github.io/EspanaIndustrial/) on every push to main.
+# Builds the static site and publishes it on GitHub Pages on every push to main.
+# Address: the repository variable SITE_URL (https://españaindustrial.es)
+# or, while it is unset, https://ivangarmar22.github.io/EspanaIndustrial/.
+# See docs/deployment/dominio.md.
 name: Pages
 
 on:
@@ -27,20 +29,36 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
-      # Commons thumbnails are not versioned: download them once and reuse them while the catalogue is unchanged.
+      # Commons photos are not versioned: download them (and their resized copies) once and reuse them.
       - uses: actions/cache@v6
         with:
           path: public/media
-          key: media-${{ hashFiles('data/catalog/catalog.json') }}
+          key: media-${{ hashFiles('data/catalog/catalog.json', 'src/lib/media.ts') }}
           restore-keys: media-
       - run: npm run data:media
       - uses: actions/configure-pages@v6
         id: pages
+      - name: Resolve the site address
+        id: site
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          PAGES_URL: ${{ steps.pages.outputs.base_url }}
+          PAGES_BASE: ${{ steps.pages.outputs.base_path }}
+        run: |
+          if [ -n "$SITE_URL" ]; then
+            echo "url=${SITE_URL%/}" >> "$GITHUB_OUTPUT"
+            echo "base=" >> "$GITHUB_OUTPUT"
+          else
+            echo "url=$PAGES_URL" >> "$GITHUB_OUTPUT"
+            echo "base=$PAGES_BASE" >> "$GITHUB_OUTPUT"
+          fi
       - run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
-          NEXT_PUBLIC_SITE_URL: ${{ steps.pages.outputs.base_url }}
+          NEXT_PUBLIC_SITE_URL: ${{ steps.site.outputs.url }}
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.site.outputs.base }}
           NEXT_PUBLIC_WEB3FORMS_KEY: ${{ vars.WEB3FORMS_KEY }}
+          NEXT_PUBLIC_OWNER_NAME: ${{ vars.OWNER_NAME }}
+          NEXT_PUBLIC_CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
           NEXT_PUBLIC_DONATE_PAYPAL: ${{ vars.DONATE_PAYPAL }}
           NEXT_PUBLIC_DONATE_BIZUM: ${{ vars.DONATE_BIZUM }}
           NEXT_PUBLIC_DONATE_KOFI: ${{ vars.DONATE_KOFI }}

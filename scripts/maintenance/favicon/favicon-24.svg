@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <!-- 24 px frame of src/app/favicon.ico (npm run maintenance:favicon). -->
+  <defs><linearGradient id="f" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#c45e2d"/><stop offset="1" stop-color="#8e3a19"/></linearGradient></defs>
+  <rect width="24" height="24" rx="5" fill="url(#f)"/>
+  <g fill="none" stroke="#fff8ef" stroke-linejoin="round">
+    <circle cx="11" cy="6" r="3" stroke-width="2"/>
+    <path d="M9 9 L6 20 M13 9 L16 20 M13.6 6.6 L19.5 20" stroke-width="2"/>
+    <path d="M7 14.5 H15" stroke-width="1"/>
+    <path d="M3 20 H21" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

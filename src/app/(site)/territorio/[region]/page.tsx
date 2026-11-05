@@ -57,15 +57,15 @@ export default async function RegionPage({ params }: PageProps<"/territorio/[reg
             <Link
               key={c.id}
               href={`/catalogo?categoria=${c.id}&comunidad=${region.slug}`}
-              className="inline-flex min-h-9 items-center gap-2 border border-rule-strong bg-card px-2.5 text-sm text-ink no-underline"
+              className="inline-flex min-h-10 items-center gap-2 rounded-full border border-rule-strong bg-card py-1 pr-3.5 pl-1.5 text-sm text-ink no-underline hover:border-ink"
             >
-              <CategoryGlyph family={c.id} /> {c.shortLabel}{" "}
+              <CategoryGlyph family={c.id} className="size-7 rounded-full text-xs" /> {c.shortLabel}{" "}
               <span className="font-mono text-xs text-iron">{formatNumber(n)}</span>
             </Link>
           ))}
           <Link
             href={`/mapa?comunidad=${region.slug}`}
-            className="inline-flex min-h-9 items-center bg-ink px-3 text-sm text-paper no-underline"
+            className="inline-flex min-h-10 items-center rounded-full bg-ink px-4 text-sm text-paper no-underline hover:bg-ink-soft"
           >
             Ver en el mapa
           </Link>
