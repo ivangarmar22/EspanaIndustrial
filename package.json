@@ -59,7 +59,7 @@
     "tailwindcss": "4.3.4",
     "tsx": "4.23.15",
     "typescript": "6.0.3",
-    "unpdf": "1.9.1",
+    "unpdf": "2.1.0",
     "vitest": "5.1.0"
   }
 }
